@@ -1,0 +1,51 @@
+name: Release translations
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate all CSVs
+        run: python scripts/validate.py translations/
+
+      - name: Export JSON (all strings)
+        run: python scripts/export_json.py --out translations.json
+
+      - name: Export JSON (translated only)
+        run: python scripts/export_json.py --out translations-translated.json --only-translated
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: translations
+          path: |
+            translations.json
+            translations-translated.json
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest translations
+          body: |
+            Auto-generated translation files.
+            - `translations.json` — all strings (source + target, including untranslated)
+            - `translations-translated.json` — translated strings only
+          files: |
+            translations.json
+            translations-translated.json
+          make_latest: true

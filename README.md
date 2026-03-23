@@ -1,162 +1,182 @@
 # Monster Hunter Frontier Translation
 
-A curated guide to translating Monster Hunter Frontier, a Japanese MMORPG shut down by Capcom in 2019.
-This project documents the tools, translatable content, and community efforts around MHF localization.
+A community-maintained translation of Monster Hunter Frontier — a Japanese MMORPG shut down by Capcom in 2019.
 
-## Tools
+Translation data lives directly in this repository as CSV files, one per game section. No server required.
 
-### Text Extraction & Reimport
+## Repository layout
 
-| Tool | Language | Description |
-|------|----------|-------------|
-| [FrontierTextHandler](https://github.com/Houmgaor/FrontierTextHandler) | Python | Full pipeline: decrypt, decompress, extract, edit, reimport, compress, encrypt. Handles all main game text files. |
-| [ReFrontier](https://github.com/Houmgaor/ReFrontier) | C# | Archive unpacking, batch decryption/decompression. Useful for non-text data and bulk processing. |
-| [MHFTextEditor](https://github.com/matthe815s-projects/MHFTextEditor) | C# | UI-based text editor for MHF game files. |
+```
+translations/
+  fr/                        ← French translations
+    dat/armors/head.csv
+    dat/items/name.csv
+    pac/skills/name.csv
+    ...                      (48 sections total, mirroring FrontierTextHandler xpaths)
+  en/                        ← English translations (contribute via PR)
+    ...
+scripts/
+  migrate.py                 ← split a monolithic Weblate CSV into per-section files
+  validate.py                ← check CSV format (run locally or in CI)
+  export_json.py             ← generate translations.json for downstream tools
+```
 
-### Dialogue & Quests
+Each CSV has three columns:
 
-| Tool | Language | Description |
-|------|----------|-------------|
-| [readDialogue.py](https://gist.github.com/stratic-dev/162f4e5ad1766aeb59eb5edf1c1fb288) | Python | Extract NPC dialogue from stage files. |
-| [writeDialogue.py](https://gist.github.com/stratic-dev/51e7927afc67612782e54ae87b4612b2) | Python | Reimport NPC dialogue into stage files. |
-| [MHFZ Quest Editor](https://github.com/Paxlord/PaxMHFZQuestEditor) | — | Server-side quest data editor. Designed for closed-loop use. |
+```
+location,source,target
+3328544,革兜,Casque en cuir
+3328560,軽い素材で作られた頭用装備。,Équipement de tête en matériaux légers.
+```
 
-### Chat & Real-Time Translation
+- **location** — integer byte offset in the game binary (from FrontierTextHandler)
+- **source** — original Japanese text (do not edit)
+- **target** — your translation (fill this in)
 
-| Tool | Language | Description |
-|------|----------|-------------|
-| [MHFTranslate](https://github.com/wroleader/MHFTranslate) | C# | Parses in-game chat logs and translates via Google Cloud Translation API. Abandoned, no API key provided. |
+## Contributing
 
-### Launchers with Localization Support
+### I want to translate strings
 
-| Tool | Language | Description |
-|------|----------|-------------|
-| [mhf-launcher](https://github.com/rockisch/mhf-launcher) | Rust | Custom launcher with built-in locale system (Fluent `.ftl` files). Supports adding new languages. |
-| [mhf-patch-server](https://github.com/rockisch/mhf-patch-server) | Rust | Patch distribution server for mhf-launcher. Can deliver translation file updates to players. |
+1. Fork this repository
+2. Open the CSV for the section you want to translate (e.g. `translations/fr/dat/items/name.csv`)
+3. Fill in the `target` column — leave it empty for strings you haven't translated yet
+4. Submit a pull request
 
-### Translation Platforms
+GitHub renders CSVs as a table, so reviewers can read your changes without any tooling.
 
-| Tool | Description |
-|------|-------------|
-| [Weblate](https://weblate.org/) | Open-source web translation platform. Can be self-hosted to manage translations collaboratively. |
+If your language directory doesn't exist yet, copy `translations/fr/` and rename it.
 
-## Translatable Content
+### I want to apply translations to my game files
 
-All game text uses Shift-JIS encoding. FrontierTextHandler extracts it to CSV (UTF-8) with columns: `location`, `source`, `target`.
+You need [FrontierTextHandler](https://github.com/Houmgaor/FrontierTextHandler) and your own copy of the game files.
 
-### mhfdat.bin — Main Game Data
+```bash
+# 1. Clone this repo
+git clone https://github.com/Houmgaor/MHFrontier-Translation
+cd MHFrontier-Translation
 
-| Category | XPath | Content |
-|----------|-------|---------|
-| Weapon names (melee) | `dat/weapons/melee/name` | Great Sword, Hammer, Long Sword, etc. |
-| Weapon descriptions (melee) | `dat/weapons/melee/description` | Melee weapon flavor text |
-| Weapon names (ranged) | `dat/weapons/ranged/name` | Bow, Bowgun, etc. |
-| Weapon descriptions (ranged) | `dat/weapons/ranged/description` | Ranged weapon flavor text |
-| Head armor | `dat/armors/head` | Helmet names |
-| Body armor | `dat/armors/body` | Chest armor names |
-| Arm armor | `dat/armors/arms` | Gauntlet names |
-| Waist armor | `dat/armors/waist` | Belt/fauld names |
-| Leg armor | `dat/armors/legs` | Greave names |
+# 2. Apply one section
+python path/to/FrontierTextHandler/main.py \
+    --csv-to-bin translations/fr/dat/items/name.csv \
+    path/to/mhfdat.bin \
+    --compress --encrypt
+
+# Or apply all sections using the pre-built release JSON
+#   → download translations-translated.json from Releases
+#   → FrontierTextHandler --merge-json translations-translated.json data/mhfdat.bin
+```
+
+### I want to migrate existing Weblate translations
+
+If you have a monolithic CSV from a previous Weblate export, run:
+
+```bash
+# 1. Extract all sections from your game files
+cd path/to/FrontierTextHandler
+python main.py --extract-all          # writes to output/
+
+# 2. Run the migration script
+cd path/to/MHFrontier-Translation
+python scripts/migrate.py \
+    --extracted-dir path/to/FrontierTextHandler/output \
+    --translated    path/to/mhfdat-all-fr.csv \
+    --lang fr
+```
+
+### Validate locally
+
+```bash
+python scripts/validate.py                     # validate all CSVs
+python scripts/validate.py translations/fr/    # one language
+python scripts/validate.py --changed-only      # only git-changed files (fast, good pre-commit)
+```
+
+### Export JSON for downstream tools
+
+```bash
+python scripts/export_json.py                  # → translations.json (all strings)
+python scripts/export_json.py --only-translated  # → translations.json (non-empty targets only)
+```
+
+The release workflow runs this automatically on every push to `main` and publishes the JSON to GitHub Releases.
+
+## Translatable content
+
+All game text uses Shift-JIS encoding internally. FrontierTextHandler handles encoding automatically.
+
+### mhfdat.bin — Main game data
+
+| Section | XPath | Content |
+|---------|-------|---------|
+| Head armor | `dat/armors/head` | Helmet names & descriptions |
+| Body armor | `dat/armors/body` | Chest armor |
+| Arm armor | `dat/armors/arms` | Gauntlets |
+| Waist armor | `dat/armors/waist` | Belts |
+| Leg armor | `dat/armors/legs` | Greaves |
+| Equipment descriptions | `dat/equipment/description` | Flavor text |
 | Item names | `dat/items/name` | Consumables, materials, key items |
-| Item descriptions | `dat/items/description` | Item effect and lore text |
+| Item descriptions | `dat/items/description` | Effect and lore |
 | Item sources | `dat/items/source` | Acquisition info |
 | Monster descriptions | `dat/monsters/description` | Monster lore |
-| Equipment descriptions | `dat/equipment/description` | General equipment flavor text |
-| Rank labels | `dat/ranks/label` | HR requirement labels |
-| Rank requirements | `dat/ranks/requirement` | Rank requirement descriptions |
+| Rank labels | `dat/ranks/label` | HR labels |
+| Rank requirements | `dat/ranks/requirement` | Requirement text |
 | Hunting Horn guide | `dat/hunting_horn/guide` | Song effect guide |
 | Hunting Horn tutorial | `dat/hunting_horn/tutorial` | Tutorial text |
+| Melee weapon names | `dat/weapons/melee/name` | GS, Hammer, LS, etc. |
+| Melee weapon descriptions | `dat/weapons/melee/description` | Flavor text |
+| Ranged weapon names | `dat/weapons/ranged/name` | Bow, Bowgun |
+| Ranged weapon descriptions | `dat/weapons/ranged/description` | Flavor text |
 
 ### mhfpac.bin — Skills
 
-| Category | XPath | Content |
-|----------|-------|---------|
+| Section | XPath | Content |
+|---------|-------|---------|
 | Skill names | `pac/skills/name` | Skill activation names |
-| Skill effects | `pac/skills/effect` | Skill effect descriptions |
-| Zenith skill effects | `pac/skills/effect_z` | Zenith-era skill descriptions |
-| Skill descriptions | `pac/skills/description` | Skill point descriptions |
-| UI text tables | `pac/text_14` to `pac/text_d0` | Menu labels, interface strings (20+ tables) |
+| Skill effects | `pac/skills/effect` | Effect descriptions |
+| Zenith skill effects | `pac/skills/effect_z` | Zenith-era descriptions |
+| Skill descriptions | `pac/skills/description` | Skill point text |
+| UI text tables | `pac/text_14` … `pac/text_d4` | Menus, interface strings |
 
 ### mhfinf.bin — Quests
 
-| Category | XPath | Content |
-|----------|-------|---------|
-| Quest info | `inf/quests` | Quest names, descriptions, objectives (8 fields per quest) |
+| Section | XPath | Content |
+|---------|-------|---------|
+| Quest data | `inf/quests` | Names, descriptions, objectives |
 
-### mhfjmp.bin — Fast Travel
+### mhfjmp.bin — Fast travel
 
-| Category | XPath | Content |
-|----------|-------|---------|
+| Section | XPath | Content |
+|---------|-------|---------|
 | Location titles | `jmp/menu/title` | Teleport point names |
 | Location descriptions | `jmp/menu/description` | Area descriptions |
-| Menu strings | `jmp/strings` | Navigation UI text |
+| Menu strings | `jmp/strings` | Navigation UI |
 
-### Other Formats
+## CI
 
-| Format | Flag | Content |
-|--------|------|---------|
-| FTXT files | `--ftxt` | Standalone text containers (magic `0x000B0000`) |
-| Quest binaries | `--quest` / `--quest-dir` | Individual quest `.bin` files |
-| NPC dialogue | `--npc` / `--npc-dir` | Stage dialogue files |
+| Workflow | Trigger | What it does |
+|----------|---------|--------------|
+| Validate | Every PR touching `translations/` | Checks CSV format and reports coverage |
+| Release | Every push to `main` | Validates all CSVs, exports JSON, publishes to Releases |
 
-## Quick Start
+## Community efforts
 
-### Extract text
+| Language | Project | Notes |
+|----------|---------|-------|
+| French | [Mogapédia](https://mogapedia.fandom.com/fr/) + [MezeLounge](https://mholdschool.com/viewtopic.php?t=71) | Primary contributors to this repo |
+| English | MHF English Patch | Distributed via [Rain server](https://discord.com/invite/rainserver) |
+| English | [MezeLounge EN](https://mholdschool.com/viewtopic.php?t=71) | Near-complete EN translation on their private server |
 
-```bash
-# Extract everything at once (auto-decrypts)
-cd FrontierTextHandler
-python main.py --extract-all
+*Know of another project? Open an issue.*
 
-# Or extract a specific category
-python main.py --xpath=dat/items/name
-```
+## Related tools
 
-### Edit translations
-
-Edit the generated CSV in `output/`. Fill in the `target` column with your translation.
-
-### Reimport into game files
-
-```bash
-# Produce a game-ready file
-python main.py --csv-to-bin output/dat-items-name.csv data/mhfdat.bin --compress --encrypt
-```
-
-Replace the original `mhfdat.bin` with the output.
-
-## Community Efforts
-
-*Know of a translation project? Open an issue or PR to add it here.*
-
-### Game Text Translation
-
-| Language | Project | Coverage | Notes |
-|----------|---------|----------|-------|
-| English | MHF English Patch | Menus, equipment names, item names | Distributed via [Rain server](https://discord.com/invite/rainserver) (~70K members). Does not cover NPC dialogue or tutorial. |
-| English | [MezeLounge](https://mholdschool.com/viewtopic.php?t=71) | Menus, equipment, quests | Private server with near-complete English translation. Also runs a Classic server (S1–Forward 5). |
-| English | [Leaps' MHFZ Guide](https://leaps29.github.io/MHFZ-Guide/) | Guides | Comprehensive gameplay guide for Rain server players. |
-| English | [MHFZ Ferias English](https://github.com/xl3lackout/MHFZ-Ferias-English-Project) | Game database/wiki | English translation of the [Ferias](http://ferias.life.coocan.jp/) Japanese info site. |
-| English | [MHFZ Info](https://github.com/stratic-dev/MHFZ-Info) | Game database/wiki | Fork of the Ferias English project. |
-| English | [Fist's English Guide](https://fist-mirror.github.io/guide/) | Guides | English info site and gameplay guides. |
-| English | [MHF Frontier Wiki](https://mhfo.fandom.com/) | Wiki | English Fandom wiki with translation notes. |
-| French | [Mogapédia](https://mogapedia.fandom.com/fr/) + [MezeLounge](https://mholdschool.com/viewtopic.php?t=71) | Game text | French translation effort in partnership between Mogapédia and MezeLounge. |
-| Korean | [MHF Korean Wiki](https://mhfkr.fandom.com/) | Wiki | Korean Fandom wiki with menu translations and guides. |
-
-### Official Localizations (Discontinued)
-
-| Language | Region | Notes |
-|----------|--------|-------|
-| Japanese | Japan (PC, PS3, PS Vita, Wii U, Xbox 360) | Original language. Service ended December 2019. |
-| Korean | South Korea | Service ended August 2011 (Season 7.0). |
-| Traditional Chinese | Taiwan, Macau | Service ended alongside JP servers. |
-
-## How to Contribute
-
-1. **Translate text**: Extract a category with FrontierTextHandler, translate the CSV, and submit a PR.
-2. **Document a project**: If you know of an active translation effort, open an issue to get it listed.
-3. **Improve tooling**: Contributions to FrontierTextHandler and ReFrontier are welcome.
+| Tool | Purpose |
+|------|---------|
+| [FrontierTextHandler](https://github.com/Houmgaor/FrontierTextHandler) | Extract, edit, and reimport game text (Python) |
+| [ReFrontier](https://github.com/Houmgaor/ReFrontier) | Archive unpacking and batch processing (C#) |
+| [mhf-iel](https://github.com/Houmgaor/mhf-iel) | Custom launcher enabling Wine/Linux support (Rust) |
 
 ## Disclaimer
 
-Monster Hunter Frontier and all associated game text are the property of Capcom Co., Ltd. This project is a non-commercial fan translation effort for game preservation purposes. No original game code is included. If Capcom requests removal, we will comply immediately.
+Monster Hunter Frontier and all associated game text are the property of Capcom Co., Ltd.
+This is a non-commercial fan project for preservation purposes. No original game binaries are included.

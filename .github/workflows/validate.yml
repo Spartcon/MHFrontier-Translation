@@ -1,0 +1,45 @@
+name: Validate translations
+
+on:
+  pull_request:
+    paths:
+      - "translations/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate changed CSVs
+        run: python scripts/validate.py --changed-only
+
+      - name: Show translation coverage
+        run: |
+          python - <<'EOF'
+          import csv, os
+
+          root = "translations"
+          for lang in sorted(os.listdir(root)):
+              lang_dir = os.path.join(root, lang)
+              if not os.path.isdir(lang_dir):
+                  continue
+              total, translated = 0, 0
+              for dirpath, _, files in os.walk(lang_dir):
+                  for f in files:
+                      if not f.endswith(".csv"):
+                          continue
+                      with open(os.path.join(dirpath, f), encoding="utf-8", newline="") as fh:
+                          reader = csv.DictReader(fh)
+                          for row in reader:
+                              total += 1
+                              if row.get("target", "").strip():
+                                  translated += 1
+              pct = f"{100*translated//total}%" if total else "n/a"
+              print(f"{lang}: {translated}/{total} strings ({pct})")
+          EOF
