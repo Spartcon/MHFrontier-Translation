@@ -44,11 +44,25 @@ jobs:
           body: |
             Auto-generated translation files, updated on every push to `main`.
 
-            - `translations.json` — all strings (source + target)
-            - `translations-translated.json` — translated strings only
+            - `translations.json` — all strings (source + target, 42 MB)
+            - `translations-translated.json` — translated strings only (small)
 
-            To apply translations to your game, use `scripts/build_bins.py` locally
-            with your own game files as the source binaries.
+            These files contain **only translated text** — no original game data.
+
+            ### Apply with mhf-outpost + FrontierTextHandler
+
+            ```bash
+            # 1. Download the JSON into your game directory
+            mhf-outpost translate --path ~/mhf --lang fr
+
+            # 2. Apply to your game files (requires FrontierTextHandler)
+            cd FrontierTextHandler
+            python main.py ~/mhf/translations-translated.json \
+              --apply-translations --lang fr --game-dir ~/mhf \
+              --compress --encrypt
+            ```
+
+            Or use `scripts/build_bins.py` locally for a full rebuild from CSVs.
           files: |
             translations.json
             translations-translated.json

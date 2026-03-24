@@ -6,14 +6,15 @@ Output format:
 {
   "fr": {
     "dat/armors/head": [
-      {"location": "3328544", "source": "革兜", "target": "Casque en cuir"},
+      {"location": "0x46e000@mhfdat-jp.bin", "source": "装備無し", "target": "Casque"},
       ...
     ],
     ...
   }
 }
 
-Only sections with at least one translated string are included.
+With --only-translated, only entries with a non-empty target are included.
+Sections with no qualifying entries are omitted entirely.
 
 Usage:
     python scripts/export_json.py --out translations.json
