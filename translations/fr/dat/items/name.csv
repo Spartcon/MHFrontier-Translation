@@ -1,1031 +1,1031 @@
 index,source,target
 0,−−−−−−,
-1,調合書①入門編,
-2,調合書②初級編,
-3,調合書③中級編,
-4,調合書④上級編,
-5,調合書⑤達人編,
-6,調合書Ｇ・錬金編,
+1,調合書①入門編,Tome de combos 1
+2,調合書②初級編,Tome de combos 2
+3,調合書③中級編,Tome de combos 3
+4,調合書④上級編,Tome de combos 4
+5,調合書⑤達人編,Tome de combos 5
+6,調合書Ｇ・錬金編, Tome de combos G
 7,回復薬,
-8,回復薬グレート,
-9,栄養剤,
-10,栄養剤グレート,
+8,回復薬グレート,Mega potion
+9,栄養剤,Nutriments
+10,栄養剤グレート,Mega nutriments
 11,解毒薬,
-12,活力剤,
-13,強走薬,
-14,強走薬グレート,
-15,鬼人薬,
-16,鬼人薬グレート,
-17,怪力の丸薬,
-18,硬化薬,
-19,硬化薬グレート,
-20,忍耐の丸薬,
-21,クーラードリンク,
-22,ホットドリンク,
-23,千里眼の薬,
-24,モンスターの体液,
-25,モンスターの濃汁,
-26,漢方薬,
-27,秘薬,
-28,いにしえの秘薬,
-29,増強剤,
-30,元気ドリンコ,
+12,活力剤,Immunisateur
+13,強走薬,Jus de vitalite
+14,強走薬グレート,Mega jus
+15,鬼人薬,Potion du demon
+16,鬼人薬グレート,Potion du demon+
+17,怪力の丸薬,Philtre du diable
+18,硬化薬,Potion de pierre
+19,硬化薬グレート,Potion de pierre+
+20,忍耐の丸薬,Philtre de pierre
+21,クーラードリンク,Boisson fraiche
+22,ホットドリンク,Boisson chaude
+23,千里眼の薬,Serum psy
+24,モンスターの体液,Fluide de monstre
+25,モンスターの濃汁,Bouillon de monstre
+26,漢方薬,Herbe medicinale
+27,秘薬,Potion secrete
+28,いにしえの秘薬,Potion ancestrale
+29,増強剤,Catalyseur
+30,元気ドリンコ,Boisson energisante
 31,（ダミー）,
-32,爆薬,
-33,生命の粉,
-34,生命の粉塵,
-35,力の護符,
-36,力の爪,
-37,守りの護符,
-38,守りの爪,
-39,捕獲用麻酔薬,
-40,生肉,
-41,調理肉,
-42,スパイシー生肉,
-43,クール生肉,
-44,毒生肉,
-45,シビレ生肉,
-46,眠り生肉,
-47,生焼け肉,
-48,こんがり肉,
-49,こんがり肉Ｇ,
-50,コゲ肉,
-51,ホットミート,
-52,ホットミートＧ,
-53,クーラーミート,
-54,クーラーミートＧ,
-55,解毒ミート,
-56,解毒ミートＧ,
-57,生焼け魚,
-58,こんがり魚,
-59,こんがり魚ドス,
-60,こんがり魚Ｇ,
-61,こんがり魚ドスＧ,
-62,コゲ魚,
+32,爆薬,Poudre a canon
+33,生命の粉,Cristaux de vie
+34,生命の粉塵,Poudre de vie
+35,力の護符,Talisman force
+36,力の爪,Griffe force
+37,守りの護符,Talisman acier
+38,守りの爪,Griffe acier
+39,捕獲用麻酔薬,Tranquillisant
+40,生肉,Viande crue
+41,調理肉,Viande cuite
+42,スパイシー生肉,Viande epicee
+43,クール生肉,Viande fraiche
+44,毒生肉,Viande empoisonnee
+45,シビレ生肉,Viande paralysante
+46,眠り生肉,Viande somnifere
+47,生焼け肉,Steak saignant
+48,こんがり肉,Steak a point
+49,こんがり肉Ｇ,Steak gourmet
+50,コゲ肉,Viande brulee
+51,ホットミート,Viande chaude
+52,ホットミートＧ,Viande chaude G
+53,クーラーミート,Viande froide
+54,クーラーミートＧ,Viande froide G
+55,解毒ミート,Viande antidote
+56,解毒ミートＧ,Viande antidote G
+57,生焼け魚,Poisson saignant
+58,こんがり魚,Poisson a point
+59,こんがり魚ドス,Poisson a point+
+60,こんがり魚Ｇ,Poisson gourmet
+61,こんがり魚ドスＧ,Poisson gourmet+
+62,コゲ魚,Poisson brule
 63,（ダミー）,
 64,ブーメラン,
-65,投げナイフ,
-66,毒投げナイフ,
-67,眠り投げナイフ,
-68,麻痺投げナイフ,
-69,捕獲用麻酔ナイフ,
-70,素材玉,
-71,ペイントボール,
-72,閃光玉,
-73,音爆弾,
-74,モンスターのフン,
-75,こやし玉,
-76,けむり玉,
-77,毒けむり玉,
-78,モドリ玉,
+65,投げナイフ,Cteau de lancer
+66,毒投げナイフ,Cteau poison
+67,眠り投げナイフ,Cteau sommeil
+68,麻痺投げナイフ,Cteau para
+69,捕獲用麻酔ナイフ,Cteau tranq
+70,素材玉,Comp. bombe
+71,ペイントボール,Marqueur
+72,閃光玉,Bombe flash
+73,音爆弾,Bombe sonique
+74,モンスターのフン,Merde
+75,こやし玉,Bombe a merde
+76,けむり玉,Fumigene
+77,毒けむり玉,Bombe poison
+78,モドリ玉,Transporteur
 79,消臭玉,
-80,捕獲用麻酔玉,
-81,クモの巣,
-82,ネット,
-83,トラップツール,
-84,落とし穴,
-85,シビレ罠,
-86,爆雷針,
+80,捕獲用麻酔玉,Bombe tranq
+81,クモの巣,Toile
+82,ネット,Filet
+83,トラップツール,Comp. piege
+84,落とし穴,Piege a fosse
+85,シビレ罠,Piege a choc
+86,爆雷針,Paratonnerre
 87,（ダミー）,
-88,タルの蓋,
-89,小タル,
-90,大タル,
-91,小タル爆弾,
-92,小タル爆弾Ｇ,
-93,大タル爆弾,
-94,大タル爆弾Ｇ,
-95,打上げタル爆弾,
-96,打上げタル爆弾Ｇ,
-97,対巨龍爆弾,
-98,イベント爆弾,
-99,カラの実,
-100,カラ骨【小】,
-101,カラ骨【大】,
-102,LV1 通常弾,
-103,LV2 通常弾,
-104,LV3 通常弾,
-105,LV1 貫通弾,
-106,LV2 貫通弾,
-107,LV3 貫通弾,
-108,LV1 散弾,
-109,LV2 散弾,
-110,LV3 散弾,
-111,LV1 徹甲榴弾,
-112,LV2 徹甲榴弾,
-113,LV3 徹甲榴弾,
-114,LV1 拡散弾,
-115,LV2 拡散弾,
-116,LV3 拡散弾,
-117,火炎弾,
-118,水冷弾,
-119,電撃弾,
-120,氷結弾,
-121,滅龍弾,
-122,LV1 回復弾,
-123,LV2 回復弾,
-124,LV1 毒弾,
-125,LV2 毒弾,
-126,LV1 麻痺弾,
-127,LV2 麻痺弾,
-128,LV1 睡眠弾,
-129,LV2 睡眠弾,
-130,捕獲用麻酔弾,
-131,ペイント弾,
-132,鬼人弾,
-133,硬化弾,
+88,タルの蓋,Couvercle baril
+89,小タル,Petit baril
+90,大タル,Grand baril
+91,小タル爆弾,Ptt bombe baril
+92,小タル爆弾Ｇ,Ptt bombe baril+
+93,大タル爆弾,Grd bombe baril
+94,大タル爆弾Ｇ,grd bombe baril+
+95,打上げタル爆弾,Bombe rebond.
+96,打上げタル爆弾Ｇ,Bombe rebond.+
+97,対巨龍爆弾,Bombe anti-drag.
+98,イベント爆弾,Bombe evenement.
+99,カラの実,Baie-coque
+100,カラ骨【小】,Coque d'os [P]
+101,カラ骨【大】,Coque d'os [G]
+102,LV1 通常弾,Normal Nv1
+103,LV2 通常弾,Normal Nv2
+104,LV3 通常弾,Normal Nv3
+105,LV1 貫通弾,Percant Nv1
+106,LV2 貫通弾,Percant Nv2
+107,LV3 貫通弾,Percant Nv3
+108,LV1 散弾,Plomb Nv1
+109,LV2 散弾,Plomb Nv2
+110,LV3 散弾,Plomb Nv3
+111,LV1 徹甲榴弾,Antiblind. Nv1
+112,LV2 徹甲榴弾,Antiblind. Nv2
+113,LV3 徹甲榴弾,Antiblind. Nv3
+114,LV1 拡散弾,Frag Nv1
+115,LV2 拡散弾,Frag Nv2
+116,LV3 拡散弾,Frag Nv3
+117,火炎弾,Mun. Feu
+118,水冷弾,Mun. Eau
+119,電撃弾,Mun. Foudre
+120,氷結弾,Mun. Glace
+121,滅龍弾,Mun. Dragon
+122,LV1 回復弾,Mun. Soin Nv1
+123,LV2 回復弾,Mun. Soin Nv2
+124,LV1 毒弾,Mun. Pois Nv1
+125,LV2 毒弾,Mun. Pois Nv2
+126,LV1 麻痺弾,Mun. Para Nv1
+127,LV2 麻痺弾,Mun. Para Nv2
+128,LV1 睡眠弾,Mun. Som Nv1
+129,LV2 睡眠弾,Mun. Som Nv2
+130,捕獲用麻酔弾,Mun. Tranq
+131,ペイント弾,Mun. Marq
+132,鬼人弾,Mun. Demon
+133,硬化弾,Mun. Pierre
 134,（ダミー）,
-135,ビン無し,
-136,空きビン,
-137,強撃ビン,
-138,毒ビン,
-139,麻痺ビン,
-140,睡眠ビン,
+135,ビン無し,Aucun enduit
+136,空きビン,Bouteille vide
+137,強撃ビン,Enduit Force
+138,毒ビン,Enduit Poison
+139,麻痺ビン,Enduit Para
+140,睡眠ビン,Enduit Sommeil
 141,（ダミー）,
-142,釣りバッタ,
-143,釣りミミズ,
-144,釣りホタル,
-145,釣りカエル,
-146,マグダンゴ,
-147,アロダンゴ,
-148,黄金ダンゴ,
-149,釣りフィーバエ,
-150,ボロピッケル,
-151,ピッケル,
-152,ピッケルグレート,
-153,ボロ虫あみ,
-154,虫あみ,
-155,虫あみグレート,
-156,肉焼きセット,
-157,高速肉焼きセット,
-158,男の肉焼きセット,
-159,女の肉焼きセット,
-160,猫の肉焼きセット,
-161,よろず焼きキット,
-162,よろず焼きセット,
-163,よろず焼き・肉,
-164,よろず焼き・肉,
-165,よろず焼き・肉,
-166,よろず焼き・肉,
-167,よろず焼き・肉,
-168,よろず焼き・魚,
-169,よろず焼き・魚,
+142,釣りバッタ,Criquet
+143,釣りミミズ,Ver 
+144,釣りホタル,Luciole
+145,釣りカエル,Grenouille
+146,マグダンゴ,Appat thon
+147,アロダンゴ,Appat arrowana
+148,黄金ダンゴ,Appat poisson d'or
+149,釣りフィーバエ,Mega-mouche
+150,ボロピッケル,Vieille pioche
+151,ピッケル,Pioche en fer
+152,ピッケルグレート,Mega pioche
+153,ボロ虫あみ,Vieux filinsecte
+154,虫あみ,Filinsecte
+155,虫あみグレート,Mega filinsecte
+156,肉焼きセット,Broche BBQ
+157,高速肉焼きセット,Broche BBQ rpd
+158,男の肉焼きセット,Broche BBQ Homme
+159,女の肉焼きセット,Broche BBQ Femme
+160,猫の肉焼きセット,Broche BBQ Felyne
+161,よろず焼きキット,Broche BBQ Universel
+162,よろず焼きセット,Kit BBQ Universel 
+163,よろず焼き・肉,Viande BBQ
+164,よろず焼き・肉,Viande BBQ
+165,よろず焼き・肉,Viande BBQ
+166,よろず焼き・肉,Viande BBQ
+167,よろず焼き・肉,Viande BBQ
+168,よろず焼き・魚,Poisson BBQ
+169,よろず焼き・魚,Poisson BBQ
 170,（ダミー）,
 171,（ダミー）,
-172,砥石,
-173,双眼鏡,
-174,もえないゴミ,
+172,砥石,Aiguisoir
+173,双眼鏡,Jumelles
+174,もえないゴミ,Dechet
 175,角笛,
-176,回復笛,
-177,解毒笛,
-178,鬼人笛,
-179,硬化笛,
-180,ハチミツ,
-181,太陽草,
-182,落陽草,
-183,薬草,
-184,げどく草,
-185,火薬草,
-186,ツタの葉,
-187,ネムリ草,
-188,ネンチャク草,
+176,回復笛,Flute de vie
+177,解毒笛,Flute antidote
+178,鬼人笛,Flute du demon
+179,硬化笛,Flute de pierre
+180,ハチミツ,Miel
+181,太陽草,Herbe du jour
+182,落陽草,Herbe du soir
+183,薬草,Herbe
+184,げどく草,Herbe antidote
+185,火薬草,Herbe de feu
+186,ツタの葉,Lierre
+187,ネムリ草,Herbe sommeil
+188,ネンチャク草,Plante a seve
 189,マタタビ,
-190,サボテンの花,
-191,百花サボテン,
-192,トウガラシ,
-193,特産キノコ,
-194,厳選キノコ,
-195,熟成キノコ,
-196,アオキノコ,
-197,ニトロダケ,
-198,マヒダケ,
-199,毒テングダケ,
-200,ドキドキノコ,
-201,マンドラゴラ,
-202,特産キノコキムチ,
-203,ゲキレツ毒テング,
-204,七色たんぽぽ,
-205,ペイントの実,
-206,怪力の種,
-207,忍耐の種,
-208,龍殺しの実,
-209,はじけクルミ,
-210,ハリの実,
-211,カクサンの実,
-212,かけた貝殻,
-213,黒真珠,
-214,陽光石,
-215,石ころ,
-216,鉄鉱石,
-217,大地の結晶,
-218,マカライト鉱石,
-219,ドラグライト鉱石,
-220,カブレライト鉱石,
-221,ユニオン鉱石,
-222,紅蓮石,
+190,サボテンの花,Fleur de cactus
+191,百花サボテン,Cactus a 100 fleurs
+192,トウガラシ,Piment fort
+193,特産キノコ,Champi special
+194,厳選キノコ,Champi parfait
+195,熟成キノコ,Champi ancien
+196,アオキノコ,Champi bleu
+197,ニトロダケ,Champinitro
+198,マヒダケ,Champipara
+199,毒テングダケ,Champi veneneux
+200,ドキドキノコ,Champexciteur
+201,マンドラゴラ,Mandragore
+202,特産キノコキムチ,Champi epice
+203,ゲキレツ毒テング,Trompette poison
+204,七色たんぽぽ,Dandelion prisme
+205,ペイントの実,Baie-peinture
+206,怪力の種,Graine de force
+207,忍耐の種,Graine de tenacite
+208,龍殺しの実,Baie draconique
+209,はじけクルミ,Frag-noix
+210,ハリの実,Baiguille
+211,カクサンの実,Bombaie
+212,かけた貝殻,Coquill. brise
+213,黒真珠,Perle noire
+214,陽光石,Pierre soleil
+215,石ころ,Pierre
+216,鉄鉱石,Minerai de fer
+217,大地の結晶,Cristal de terre
+218,マカライト鉱石,Machalite
+219,ドラグライト鉱石,Dragonite
+220,カブレライト鉱石,Carbalite
+221,ユニオン鉱石,Minerai union
+222,紅蓮石,Pierre de feu
 223,（ダミー）,
-224,燃石炭,
-225,ライトクリスタル,
-226,ノヴァクリスタル,
-227,抗菌石,
-228,氷結晶,
+224,燃石炭,Charbon
+225,ライトクリスタル,Cristal lumiere
+226,ノヴァクリスタル,Cristal nova
+227,抗菌石,Pierre antiseptique
+228,氷結晶,Cristal de glace
 229,（ダミー）,
 230,ドスビスカス,
-231,エールナッツ,
-232,アンバル鉱石,
-233,秘密のポーチ,
-234,キレアジ,
-235,サシミウオ,
-236,眠魚,
-237,ハリマグロ,
-238,はじけイワシ,
-239,カクサンデメキン,
-240,ハレツアロワナ,
-241,バクレツアロワナ,
-242,ドスキレアジ,
-243,ドス眠魚,
-244,ドスハリマグロ,
-245,ドスはじけイワシ,
-246,ドスアロワナ,
-247,大食いマグロ,
-248,ドス大食いマグロ,
-249,黄金魚,
-250,カジキマグロ,
-251,小金魚,
-252,白金魚,
-253,古代魚,
-254,女王エビ,
-255,虫の死骸,
-256,ヤマイモムシ,
-257,カクバッタ,
-258,ツチハチノコ,
-259,不死虫,
-260,にが虫,
-261,光蟲,
-262,雷光虫,
-263,王族カナブン,
-264,のりこねバッタ,
+231,エールナッツ,Noix fermentee
+232,アンバル鉱石,Minerai ambre
+233,秘密のポーチ,Poche secrete
+234,キレアジ,Poissaiguiseur
+235,サシミウオ,Sushipoisson
+236,眠魚,Somnipoisson
+237,ハリマグロ,Pointhon
+238,はじけイワシ,Poisson-grenade
+239,カクサンデメキン,Poisson-dynamite
+240,ハレツアロワナ,Arrowana eclat
+241,バクレツアロワナ,Arrowana bombe
+242,ドスキレアジ,G.poissaiguiseur
+243,ドス眠魚,G.somnipoisson
+244,ドスハリマグロ,G.pointhon
+245,ドスはじけイワシ,G.arrowana eclat
+246,ドスアロワナ,G.arrowana bombe
+247,大食いマグロ,Thon glouton
+248,ドス大食いマグロ,G.thon glouton
+249,黄金魚,Poisson d'or
+250,カジキマグロ,Lancethon
+251,小金魚,Poisson rouge
+252,白金魚,Poisson platine
+253,古代魚,Poisson ancien
+254,女王エビ,Crevette royale
+255,虫の死骸,Coque d'insecte
+256,ヤマイモムシ,Patatinsecte
+257,カクバッタ,Criquet
+258,ツチハチノコ,Larve-serpent
+259,不死虫,Insecte immortel
+260,にが虫,Amerinsecte
+261,光蟲,Flashinsecte
+262,雷光虫,Foudrinsecte
+263,王族カナブン,Scarabee royal
+264,のりこねバッタ,Colloptere
 265,（ダミー）,
-266,キラビートル,
-267,マレコガネ,
-268,ロイヤルカブト,
-269,ジャンゴーネギ,
-270,スライスサボテン,
-271,レアオニオン,
-272,シモフリトマト,
-273,オニマツタケ,
-274,ウォーミル麦,
-275,ミックスビーンズ,
-276,頑固パン,
-277,銀シャリ草,
-278,古代豆,
-279,ホワイトレバー,
-280,ポポノタン,
-281,フルベビ漬け,
-282,ガブリブロース,
-283,リュウノテール,
-284,オンプウオ,
-285,スネークサーモン,
-286,米虫,
-287,スパイスワーム,
-288,蜜トンボ,
+266,キラビートル,Scarabee tueur
+267,マレコガネ,Scarabee rare
+268,ロイヤルカブト,Rhino royal
+269,ジャンゴーネギ,Oignon vert
+270,スライスサボテン,Cactus en tranche
+271,レアオニオン,Oignon rare
+272,シモフリトマト,Tomate gel
+273,オニマツタケ,Champidemon
+274,ウォーミル麦,Ble et orge
+275,ミックスビーンズ,Grains melanges
+276,頑固パン,Pain dur
+277,銀シャリ草,Spartine argent
+278,古代豆,Haricot
+279,ホワイトレバー,Foie blanc
+280,ポポノタン,Langue Popo
+281,フルベビ漬け,Lrv Khezu vinaigre
+282,ガブリブロース,Jarret Remobra
+283,リュウノテール,Queue wyverne
+284,オンプウオ,Notes de poisson
+285,スネークサーモン,Saumon serpent
+286,米虫,Charancon riz
+287,スパイスワーム,Ver epice
+288,蜜トンボ,Libellule miel
 289,ドスヘラクレス,
-290,レッドオイル,
-291,パワーラード,
-292,長寿ジャム,
-293,ドライマーガリン,
-294,猛牛バター,
-295,ロイヤルチーズ,
-296,ホピ酒,
-297,ブレスワイン,
-298,黄金芋酒,
-299,モンスターエッグ,
-300,ブタせんべい,
+290,レッドオイル,Huile rouge
+291,パワーラード,Lard pouvoir
+292,長寿ジャム,Jambon ancien
+293,ドライマーガリン,Margarine seche
+294,猛牛バター,Beurre maitre
+295,ロイヤルチーズ,Fromage royal
+296,ホピ酒,Alcool saute
+297,ブレスワイン,Vin brasse
+298,黄金芋酒,Alcool dore
+299,モンスターエッグ,Oeuf de monstre
+300,ブタせんべい,Crackers Poogie
 301,（ダミー）,
-302,鳴き袋,
-303,毒袋,
-304,麻痺袋,
+302,鳴き袋,Poche hurlante
+303,毒袋,Poche de poison
+304,麻痺袋,Poche paralysie
 305,（ダミー）,
-306,睡眠袋,
+306,睡眠袋,Poche somnifere
 307,（ダミー）,
-308,火炎袋,
-309,電気袋,
-310,狂走エキス,
-311,アルビノエキス,
-312,竜骨【小】,
-313,竜骨【中】,
-314,竜骨【大】,
-315,堅竜骨,
-316,古龍骨,
-317,なぞの骨,
-318,なぞの頭骨,
-319,達人のドクロ,
-320,棒状の骨,
-321,大きな骨,
-322,竜の牙,
-323,竜の爪,
-324,竜玉,
-325,竜のナミダ,
-326,なわばりのフン,
-327,ヤド真珠,
-328,龍秘宝,
-329,朽ちた龍鱗,
-330,龍薬石,
-331,モスの苔皮,
-332,モスの頭,
-333,ファンゴの毛皮,
-334,ファンゴの頭,
-335,大猪の皮,
-336,大猪の硬い皮,
-337,ケルビの角,
-338,ケルビの皮,
-339,ガウシカの毛皮,
-340,ガウシカの角,
-341,ランポスの牙,
-342,ランポスの鱗,
-343,ランポスの上鱗,
-344,ランポスの皮,
-345,ドスランポスの皮,
-346,ドスランポスの爪,
-347,ランポスの尖爪,
-348,ドスランポスの頭,
-349,ランポスの白鱗,
-350,ランポスの白皮,
-351,ゲネポスの麻痺牙,
-352,ゲネポスの鱗,
-353,ゲネポスの上鱗,
-354,ゲネポスの皮,
-355,ドスゲネポスの皮,
-356,ドスゲネポスの頭,
-357,イーオスの毒牙,
-358,イーオスの鱗,
-359,イーオスの上鱗,
-360,イーオスの皮,
-361,ドスイーオスの皮,
-362,ドスイーオスの頭,
-363,怪鳥の鱗,
-364,怪鳥の甲殻,
-365,怪鳥の堅殻,
-366,怪鳥の耳,
-367,怪鳥の地獄耳,
-368,巨大なクチバシ,
-369,立派なクチバシ,
-370,怪鳥の翼膜,
-371,青怪鳥の鱗,
-372,青怪鳥の甲殻,
-373,青怪鳥の堅殻,
-374,ゴム質の皮,
-375,ゴム質の上皮,
-376,毒怪鳥の頭,
-377,ゴム質の紫皮,
-378,毒怪鳥の紫翼,
-379,魚竜のキモ,
-380,魚竜の牙,
-381,水竜の鱗,
-382,水竜の上鱗,
-383,水竜のヒレ,
-384,翠水竜の鱗,
-385,翠水竜のヒレ,
-386,砂竜の鱗,
-387,砂竜の上鱗,
-388,砂竜のヒレ,
-389,砂竜の上ビレ,
-390,砂竜の紫鱗,
-391,砂竜の桃ヒレ,
-392,雌火竜の鱗,
-393,雌火竜の上鱗,
-394,雌火竜の逆鱗,
-395,雌火竜の紅玉,
-396,雌火竜の甲殻,
-397,雌火竜の堅殻,
-398,雌火竜の棘,
-399,雌火竜の上棘,
-400,桜火竜の鱗,
-401,桜火竜の上鱗,
-402,桜火竜の甲殻,
-403,桜火竜の堅殻,
-404,金火竜の上鱗,
-405,金火竜の堅殻,
-406,火竜の翼爪,
-407,火竜の骨髄,
-408,火竜の鱗,
-409,火竜の上鱗,
-410,火竜の逆鱗,
-411,火竜の紅玉,
-412,火竜の甲殻,
-413,火竜の堅殻,
-414,火竜の尻尾,
-415,火竜の翼膜,
-416,火竜の翼,
-417,蒼火竜の鱗,
-418,蒼火竜の上鱗,
-419,蒼火竜の甲殻,
-420,蒼火竜の堅殻,
-421,蒼火竜の尻尾,
-422,蒼火竜の翼,
-423,銀火竜の上鱗,
-424,銀火竜の堅殻,
-425,銀火竜の尻尾,
-426,銀火竜の翼膜,
-427,銀火竜の翼,
-428,ブヨブヨした皮,
-429,真珠色の柔皮,
-430,アルビノの中落ち,
-431,アルビノの霜降り,
-432,魅惑色の柔皮,
-433,魅惑色の翼膜,
-434,岩竜の甲殻,
-435,岩竜の堅殻,
-436,岩竜の翼,
-437,鎧竜の骨髄,
-438,鎧竜の甲殻,
-439,鎧竜の堅殻,
-440,鎧竜の頭殻,
-441,黒鎧竜の甲殻,
-442,黒鎧竜の堅殻,
-443,黒鎧竜の頭殻,
-444,ねじれた角,
-445,上質なねじれた角,
-446,角竜の甲殻,
-447,角竜の堅殻,
-448,角竜の背甲,
-449,角竜の堅甲,
-450,角竜の尻尾,
-451,角竜の牙,
-452,黒巻き角,
-453,黒角竜の甲殻,
-454,黒角竜の背甲,
-455,黒角竜の尻尾,
-456,黒角竜の堅殻,
-457,女王虫の尻尾,
-458,ランゴスタの甲殻,
-459,ランゴスタの堅殻,
-460,ランゴスタの羽,
-461,ランゴスタの薄羽,
-462,カンタロスの甲殻,
-463,カンタロスの頭,
-464,カンタロスの羽,
-465,カンタロスの薄羽,
-466,エビの小殻,
-467,エビの大殻,
-468,エビの巨大殻,
-469,アメザリの甲殻,
-470,真紅の角,
-471,一角竜の甲殻,
-472,一角竜の背甲,
-473,モノブロスハート,
-474,白銀の角,
-475,白一角竜の甲殻,
-476,白一角竜の背甲,
-477,キリンの雷角,
-478,キリンの皮,
-479,キリンの上皮,
-480,キリンのたてがみ,
-481,キリンの雷尾,
-482,キリンの蒼角,
-483,老山龍の大爪,
-484,老山龍の角,
-485,老山龍の鱗,
-486,老山龍の紅玉,
-487,老山龍の甲殻,
-488,老山龍の堅殻,
-489,老山龍の蒼角,
-490,老山龍の蒼甲殻,
-491,黒龍の角,
-492,黒龍の鱗,
-493,黒龍の甲殻,
-494,黒龍の眼,
-495,黒龍の翼膜,
-496,黒龍の紅角,
-497,黒龍の紅鱗,
-498,黒龍の紅殻,
-499,黒龍の魔眼,
-500,黒龍の紅翼,
-501,祖龍の白鱗,
-502,祖龍の堅殻,
-503,祖龍の翼膜,
-504,祖龍の角,
-505,ベルキュロスの書,
-506,パリアプリアの書,
-507,とがった爪,
-508,雪獅子の牙,
-509,雪獅子の鋭牙,
-510,雪獅子の毛,
-511,雪獅子の剛毛,
-512,雪獅子の髭,
-513,雪獅子の尻尾,
-514,桃毛獣の毛,
-515,極彩色の毛,
-516,桃毛獣の爪,
-517,桃毛獣の牙,
-518,桃毛獣の剛毛,
-519,桃毛獣の尖爪,
+308,火炎袋,Poche de flamme
+309,電気袋,Poche electrique
+310,狂走エキス,Extrait sprint
+311,アルビノエキス,Extrait pale
+312,竜骨【小】,Os de monstre [P]
+313,竜骨【中】,Os de monstre [M]
+314,竜骨【大】,Os de monstre [G]
+315,堅竜骨,Os duros
+316,古龍骨,Os dragon ancien
+317,なぞの骨,Os mysterieux
+318,なぞの頭骨,Crane mysterieux
+319,達人のドクロ,Crane du maitre
+320,棒状の骨,Os finos
+321,大きな骨,Os jumbos
+322,竜の牙,Croc de wyverne
+323,竜の爪,Griffe de wyverne
+324,竜玉,Pierre de wyverne
+325,竜のナミダ,Larme de wyverne
+326,なわばりのフン,Merde territoriale
+327,ヤド真珠,Perle de crabe
+328,龍秘宝,Tresor de dragon
+329,朽ちた龍鱗,Eca. drag. pourrie
+330,龍薬石,Herbe dragon
+331,モスの苔皮,Peau Mosswine
+332,モスの頭,Tete Mosswine
+333,ファンゴの毛皮,Pelage Bullfango
+334,ファンゴの頭,Tete Bullfango
+335,大猪の皮,Peau Bullfango
+336,大猪の硬い皮,Peau Bullfango+
+337,ケルビの角,Corne Kelbi
+338,ケルビの皮,Peau Kelbi
+339,ガウシカの毛皮,Peau Anteka
+340,ガウシカの角,Bois Anteka
+341,ランポスの牙,Croc Velociprey
+342,ランポスの鱗,Ecaille Vprey
+343,ランポスの上鱗,Ecaille Vprey+
+344,ランポスの皮,Peau Velociprey
+345,ドスランポスの皮,Peau Veloci.
+346,ドスランポスの爪,Griffe Veloci.
+347,ランポスの尖爪,Griffe Veloci. +
+348,ドスランポスの頭,Tete Velocidrome
+349,ランポスの白鱗,Ecaille Giaprey
+350,ランポスの白皮,Peau Giaprey
+351,ゲネポスの麻痺牙,Croc Genprey
+352,ゲネポスの鱗,Ecaille Genprey
+353,ゲネポスの上鱗,Ecaille Genprey+
+354,ゲネポスの皮,Peau Genprey
+355,ドスゲネポスの皮,Croc Gendrome
+356,ドスゲネポスの頭,Crane Gendrome
+357,イーオスの毒牙,Croc Ioprey
+358,イーオスの鱗,Eca. Ioprey
+359,イーオスの上鱗,Ecaille Ioprey+
+360,イーオスの皮,Peau Ioprey
+361,ドスイーオスの皮,Peau Iodrome
+362,ドスイーオスの頭,Crane Iodrome
+363,怪鳥の鱗,Ecaille Kut-Ku
+364,怪鳥の甲殻,Carapace Kut-Ku
+365,怪鳥の堅殻,Cuirasse Kut-Ku
+366,怪鳥の耳,Oreille Kut-Ku
+367,怪鳥の地獄耳,Oreille Kut-Ku +
+368,巨大なクチバシ,Bec geant
+369,立派なクチバシ,Bec splendide
+370,怪鳥の翼膜,Palmure Kut-Ku
+371,青怪鳥の鱗,Eca. Kut-Ku B.
+372,青怪鳥の甲殻,Cara. Kut-Ku B.
+373,青怪鳥の堅殻,Cuir. Kut-Ku B.
+374,ゴム質の皮,Peau caoutchouc
+375,ゴム質の上皮,Peau caoutchouc+
+376,毒怪鳥の頭,Tete Gypceros
+377,ゴム質の紫皮,Peau Gypceros V.
+378,毒怪鳥の紫翼,Aile Gypceros V.
+379,魚竜のキモ,Foie aquatique
+380,魚竜の牙,Croc aquatique
+381,水竜の鱗,Eca. Plesioth
+382,水竜の上鱗,Eca. Plesioth+
+383,水竜のヒレ,Nage. Plesioth
+384,翠水竜の鱗,Eca. Ples V.
+385,翠水竜のヒレ,Nage. Ples V.
+386,砂竜の鱗,Eca. Cephalos
+387,砂竜の上鱗,Eca. Cephalos+
+388,砂竜のヒレ,Nage. Cephalos
+389,砂竜の上ビレ,Nage. Cephalos+
+390,砂竜の紫鱗,Ecaille corail 
+391,砂竜の桃ヒレ,Nageoire corail
+392,雌火竜の鱗,Eca. Rathian
+393,雌火竜の上鱗,Eca. Rathian+
+394,雌火竜の逆鱗,Plaque Rathian
+395,雌火竜の紅玉,Rubis Rathian
+396,雌火竜の甲殻,Cara. Rathian
+397,雌火竜の堅殻,Cuirasse Rathian
+398,雌火竜の棘,Aig. Rathian
+399,雌火竜の上棘,Aig. Rathian+
+400,桜火竜の鱗,Eca. Rathian S.
+401,桜火竜の上鱗,Eca. Rathian S.+
+402,桜火竜の甲殻,Cara. Rathian S.
+403,桜火竜の堅殻,Cuirasse Rathian S.
+404,金火竜の上鱗,Eca. Rathian Or+
+405,金火竜の堅殻,Cuirasse Rathian Or
+406,火竜の翼爪,Griffe Wyv. de feu
+407,火竜の骨髄,Moelle Wyv. de feu
+408,火竜の鱗,Eca. Rathalos
+409,火竜の上鱗,Eca. Rathalos+
+410,火竜の逆鱗,Plaque Rathalos
+411,火竜の紅玉,Rubis Rathalos
+412,火竜の甲殻,Cara. Rathalos
+413,火竜の堅殻,Cuirasse Rathalos
+414,火竜の尻尾,Queue Rathalos
+415,火竜の翼膜,Palmure Rathalos
+416,火竜の翼,Aile Rathalos
+417,蒼火竜の鱗,Eca. Rathalos A.
+418,蒼火竜の上鱗,Eca. Rathalos A.+
+419,蒼火竜の甲殻,Cara. Rathalos A.
+420,蒼火竜の堅殻,Cuirasse Rathalos A.
+421,蒼火竜の尻尾,Queue Rathalos A.
+422,蒼火竜の翼,Aile Rathalos A.+
+423,銀火竜の上鱗,Eca. Rath Argent+
+424,銀火竜の堅殻,Cuirasse Rath Argent
+425,銀火竜の尻尾,Queue Rath Argent
+426,銀火竜の翼膜,Palmure Rath Argent
+427,銀火竜の翼,Aile Rath Argent
+428,ブヨブヨした皮,Peau flasque 
+429,真珠色の柔皮,Peau de perle
+430,アルビノの中落ち,Os pale
+431,アルビノの霜降り,Steak pale
+432,魅惑色の柔皮,Cuir elegant
+433,魅惑色の翼膜,Palmure elegante
+434,岩竜の甲殻,Cara. Basarios
+435,岩竜の堅殻,Cuirasse Basarios
+436,岩竜の翼,Aile Basarios
+437,鎧竜の骨髄,Moelle Gravios
+438,鎧竜の甲殻,Cara. Gravios
+439,鎧竜の堅殻,Cuirasse Gravios
+440,鎧竜の頭殻,Crane Gravios
+441,黒鎧竜の甲殻,Cara. Gravios N.
+442,黒鎧竜の堅殻,Cuirasse Gravios N.
+443,黒鎧竜の頭殻,Crane Gravios N.
+444,ねじれた角,Corne tordue
+445,上質なねじれた角,Corne majestueuse
+446,角竜の甲殻,Cara. Diablos
+447,角竜の堅殻,Cuirasse Diablos
+448,角竜の背甲,Vertebre Diablos
+449,角竜の堅甲,Thorax Diablos
+450,角竜の尻尾,Queue Diablos
+451,角竜の牙,Croc Blos
+452,黒巻き角,Corne tordue noire
+453,黒角竜の甲殻,Cara. Diablos N.
+454,黒角竜の背甲,Vertebre Diablos N.
+455,黒角竜の尻尾,Queue Diablos N.
+456,黒角竜の堅殻,Cuirasse Diablos N.
+457,女王虫の尻尾,Abdomen Vespoid
+458,ランゴスタの甲殻,Carapace Vespoid
+459,ランゴスタの堅殻,Cuirasse Vespoid
+460,ランゴスタの羽,Aile Vespoid
+461,ランゴスタの薄羽,Aile int. Vespoic
+462,カンタロスの甲殻,Cara. Hornetaur
+463,カンタロスの頭,Tete Hornetaur
+464,カンタロスの羽,Aile Hornetaur
+465,カンタロスの薄羽,Aile int Hornetaur
+466,エビの小殻,Cara. homard [P]
+467,エビの大殻,Cara. homard [G]
+468,エビの巨大殻,Cara. homard [G+]
+469,アメザリの甲殻,Cara. homard [G++]
+470,真紅の角,Corne sanglante
+471,一角竜の甲殻,Carapace Mono
+472,一角竜の背甲,Vertebre Mono
+473,モノブロスハート,Coeur Monoblos
+474,白銀の角,Corne Mono B.
+475,白一角竜の甲殻,Carapace Mono B.
+476,白一角竜の背甲,Vertebre Mono B.
+477,キリンの雷角,Corne Kirin
+478,キリンの皮,Peau Kirin
+479,キリンの上皮,Peau Kirin+
+480,キリンのたてがみ,Criniere Kirin
+481,キリンの雷尾,Queue elec Kirin
+482,キリンの蒼角,Corne azure Kirin
+483,老山龍の大爪,Griffe Lao-Shan
+484,老山龍の角,Corne Lao-Shan
+485,老山龍の鱗,Eca. Lao-Shan
+486,老山龍の紅玉,Rubis Lao-Shan
+487,老山龍の甲殻,Cara. Lao-Shan
+488,老山龍の堅殻,Cuirasse Lao-Shan
+489,老山龍の蒼角,Corne Lao-Shan C.
+490,老山龍の蒼甲殻,Cara Lao-Shan C.
+491,黒龍の角,Corne Fatalis
+492,黒龍の鱗,Eca. Fatalis
+493,黒龍の甲殻,Cara. Fatalis
+494,黒龍の眼,Oeil Fatalis
+495,黒龍の翼膜,Palmure Fatalis
+496,黒龍の紅角,Corne Fatalis P. 
+497,黒龍の紅鱗,Eca. Fatalis P.
+498,黒龍の紅殻,Cara. Fatalis P.
+499,黒龍の魔眼,Oeil Demonia. Fata
+500,黒龍の紅翼,Aile Fatalis P.
+501,祖龍の白鱗,Eca. Fatalis B.
+502,祖龍の堅殻,Cara. Fatalis B.
+503,祖龍の翼膜,Palmure Fatalis B.
+504,祖龍の角,Corne Fatalis B.
+505,ベルキュロスの書,Infos Belliculos
+506,パリアプリアの書,Infos Pariapuria
+507,とがった爪,Griffe aceree
+508,雪獅子の牙,Croc Blangonga
+509,雪獅子の鋭牙,Croc Blangonga +
+510,雪獅子の毛,Pelage Blangonga
+511,雪獅子の剛毛,Pelage Blang. +
+512,雪獅子の髭,Moustache Blang.
+513,雪獅子の尻尾,Queue Blangonga
+514,桃毛獣の毛,Peau Congalala
+515,極彩色の毛,Peau vibrante
+516,桃毛獣の爪,Griffe Congalala
+517,桃毛獣の牙,Croc Congalala
+518,桃毛獣の剛毛,Peau Congalala+
+519,桃毛獣の尖爪,Griffe Cong. +
 520,（ダミー）,
-521,金獅子の尖角,
-522,金獅子の鋭牙,
-523,金獅子の黒毛,
-524,金獅子の尖爪,
-525,金獅子の尻尾,
-526,黄金の毛,
-527,ザザミソ,
-528,竜頭殻,
-529,盾蟹の小殻,
-530,盾蟹の甲殻,
-531,盾蟹の爪,
-532,盾蟹の堅殻,
-533,盾蟹の尖爪,
+521,金獅子の尖角,Corne Rajang
+522,金獅子の鋭牙,Croc Rajang
+523,金獅子の黒毛,Peau noire Raj.
+524,金獅子の尖爪,Griffe Rajang
+525,金獅子の尻尾,Queue Rajang
+526,黄金の毛,Peau d'Or Rajang
+527,ザザミソ,Cerveau Carapaceon
+528,竜頭殻,Cara. Crane Wyv.
+529,盾蟹の小殻,Coquille Hermi.
+530,盾蟹の甲殻,Carapace Hermi.
+531,盾蟹の爪,Griffe Hermitaur
+532,盾蟹の堅殻,Cuirasse Hermi.
+533,盾蟹の尖爪,Griffe Hermi.+
 534,（ダミー）,
-535,鎌蟹の小殻,
-536,鎌蟹の甲殻,
-537,鎌蟹の堅殻,
-538,鎌蟹の脚,
-539,鎌蟹の鋏,
-540,鎌蟹の爪,
-541,鎌蟹の尖爪,
+535,鎌蟹の小殻,Coquille Ceana.
+536,鎌蟹の甲殻,Carapace Ceana.
+537,鎌蟹の堅殻,Cuirasse Ceana.
+538,鎌蟹の脚,Jambe Ceanataur
+539,鎌蟹の鋏,Pince Ceanataur
+540,鎌蟹の爪,Griffe Ceana.
+541,鎌蟹の尖爪,Griffe Ceana. +
 542,（ダミー）,
-543,砦蟹の甲殻,
-544,砦蟹の背甲,
-545,砦蟹の鋏,
-546,砦蟹の尖爪,
+543,砦蟹の甲殻,Cara. Gaoren
+544,砦蟹の背甲,Vertebre Gaoren
+545,砦蟹の鋏,Pince Gaoren
+546,砦蟹の尖爪,Griffe Gaoren
 547,（ダミー）,
-548,鋼龍の甲殻,
-549,鋼龍の堅殻,
-550,鋼の龍鱗,
-551,鋼龍の翼膜,
-552,鋼龍の角,
-553,鋼龍の尻尾,
-554,鋼龍の爪,
-555,鋼龍の尖爪,
-556,鋼龍の宝玉,
-557,錆びた甲殻,
-558,朽ちた龍翼,
-559,錆びた龍翼,
-560,霞龍の皮,
-561,霞龍の上皮,
-562,霞龍の角,
-563,霞龍の尖角,
-564,霞龍の爪,
-565,霞龍の翼膜,
-566,霞龍の尻尾,
-567,霞龍の宝玉,
+548,鋼龍の甲殻,Cara. Daora
+549,鋼龍の堅殻,Cuirasse Daora
+550,鋼の龍鱗,Eca. Daora
+551,鋼龍の翼膜,Palmure Daora
+552,鋼龍の角,Corne Daora
+553,鋼龍の尻尾,Queue Daora
+554,鋼龍の爪,Griffe Daora
+555,鋼龍の尖爪,Griffe Daora+
+556,鋼龍の宝玉,Joyau Daora
+557,錆びた甲殻,Cara. Daora R.
+558,朽ちた龍翼,Palmure Daora R.
+559,錆びた龍翼,Palmure Daora R.+
+560,霞龍の皮,Peau Chameleos
+561,霞龍の上皮,Peau Chameleos+
+562,霞龍の角,Corne Chameleos
+563,霞龍の尖角,Corne Chameleos+
+564,霞龍の爪,Griffe Chameleos
+565,霞龍の翼膜,Palmure Chameleos
+566,霞龍の尻尾,Queue Chameleos
+567,霞龍の宝玉,Joyau Chameleos
 568,（ダミー）,
-569,炎の龍鱗,
-570,炎龍の爪,
-571,炎龍の塵粉,
-572,炎龍の宝玉,
-573,古龍の血,
-574,獄炎の龍鱗,
-575,炎妃龍の甲殻,
-576,炎妃龍のたてがみ,
-577,炎妃龍の翼膜,
-578,炎妃龍の尻尾,
-579,炎妃龍の角,
+569,炎の龍鱗,Ecaille drag feu
+570,炎龍の爪,Griffe drag feu
+571,炎龍の塵粉,Poudre drag feu
+572,炎龍の宝玉,Joyau drag feu
+573,古龍の血,Sang drag ancien
+574,獄炎の龍鱗,Ecaille dra feu+
+575,炎妃龍の甲殻,Carapace Luna
+576,炎妃龍のたてがみ,Criniere Luna
+577,炎妃龍の翼膜,Palmure Luna
+578,炎妃龍の尻尾,Queue Luna
+579,炎妃龍の角,Corne Luna
 580,（ダミー）,
-581,炎王龍の甲殻,
-582,炎王龍の堅殻,
-583,炎王龍のたてがみ,
-584,炎王龍の翼膜,
-585,炎王龍の尻尾,
-586,炎王龍の角,
-587,炎王龍の尖角,
-588,浮岳龍のヒレ,
-589,浮岳龍の皮,
-590,浮岳龍の体液,
-591,龍苔,
-592,龍木,
+581,炎王龍の甲殻,Cara. Teostra
+582,炎王龍の堅殻,Cuirasse Teostra
+583,炎王龍のたてがみ,Criniere Teostra
+584,炎王龍の翼膜,Palmure Teostra
+585,炎王龍の尻尾,Queue Teostra
+586,炎王龍の角,Corne Teostra
+587,炎王龍の尖角,Corne Teostra+
+588,浮岳龍のヒレ,Nage. Yama
+589,浮岳龍の皮,Peau Yama
+590,浮岳龍の体液,Fluide Yama
+591,龍苔,Bois Dragon
+592,龍木,Mousse Dragon
 593,（ダミー）,
-594,蛇竜の皮,
-595,蛇竜の上皮,
-596,縞模様の皮,
-597,蛇竜の頭,
-598,黒狼鳥の鱗,
-599,黒狼鳥の甲殻,
-600,黒狼鳥の耳,
-601,尖ったクチバシ,
-602,黒狼鳥の翼,
-603,黒狼鳥の尻尾,
-604,黒狼鳥のたてがみ,
-605,落し物の傘,
-606,村長の古い剣Ｆ,
-607,石像の拳,
-608,折れた撃龍槍,
-609,豪腕の鎖Ｆ,
-610,おまけ報酬,
-611,さびた塊,
-612,さびた板状の塊,
-613,さびた大きな塊,
-614,さびた小さな塊,
-615,さびた棒状の塊,
-616,太古の塊,
-617,太古の板状の塊,
-618,太古の大きな塊,
-619,太古の小さな塊,
-620,太古の棒状の塊,
-621,収納上手・技の書,
-622,収納上手・力の書,
-623,改築上手・匠の技,
-624,改築上手・銭の技,
-625,獣人種の書,
-626,チャチャブーの書,
-627,甲虫種の書,
-628,大雷光虫の書,
-629,草食種の書,
-630,鳥竜種の書,
-631,イャンガルルガの書,
-632,飛竜種の書【上巻】,
-633,飛竜種の書【下巻】,
-634,リオレウスの書,
-635,モノブロスの書,
-636,魚竜種の書,
-637,甲殻種の書【上巻】,
-638,甲殻種の書【下巻】,
-639,シェンガオレンの書,
-640,牙獣種の書,
-641,ドドブランゴの書,
-642,ラージャンの書,
-643,キリンの書,
-644,クシャルダオラの書,
-645,オオナズチの書,
-646,ナナ・テスカトリの書,
-647,テオ・テスカトルの書,
-648,ラオシャンロンの書,
-649,ヤマツカミの書,
-650,ミラボレアスの書,
-651,アクラ・ヴァシムの書,
+594,蛇竜の皮,Peau Remobra
+595,蛇竜の上皮,Peau Remobra+
+596,縞模様の皮,Peau tigree
+597,蛇竜の頭,Crane Remobra
+598,黒狼鳥の鱗,Eca. Garuga
+599,黒狼鳥の甲殻,Cara. Garuga
+600,黒狼鳥の耳,Oreille Garuga
+601,尖ったクチバシ,Bec affute
+602,黒狼鳥の翼,Aile Garuga
+603,黒狼鳥の尻尾,Queue Garuga
+604,黒狼鳥のたてがみ,Criniere Garuga
+605,落し物の傘,Parapluie perdu
+606,村長の古い剣Ｆ,Epee royale F
+607,石像の拳,Poing de pierre
+608,折れた撃龍槍,Fragment Epieu
+609,豪腕の鎖Ｆ,Chaine bras F
+610,おまけ報酬,Paiement extra
+611,さびた塊,Pierre rouille
+612,さびた板状の塊,P. rouille plate
+613,さびた大きな塊,P. rouille [G]
+614,さびた小さな塊,P. rouille [P]
+615,さびた棒状の塊,Barre rouille
+616,太古の塊,Pierre antique
+617,太古の板状の塊,P. antique plate
+618,太古の大きな塊,P. antique [G]
+619,太古の小さな塊,P. antique [P]
+620,太古の棒状の塊,Barre antique
+621,収納上手・技の書,Rangement Expert
+622,収納上手・力の書,Rangement Maitre
+623,改築上手・匠の技,Ext. Maison 1
+624,改築上手・銭の技,Ext. Maison 2
+625,獣人種の書,Infos Lyniens
+626,チャチャブーの書,Infos Shakalaka
+627,甲虫種の書,Infos Neopterons
+628,大雷光虫の書,Infos Grd foudrinsecte
+629,草食種の書,Infos Herbivores
+630,鳥竜種の書,Infos Wyvernes aviaires
+631,イャンガルルガの書,Infos Yian Garuga
+632,飛竜種の書【上巻】,Infos Wyvernes volantes 1
+633,飛竜種の書【下巻】,Infos Wyvernes volantes 2
+634,リオレウスの書,Infos Rathalos
+635,モノブロスの書,Infos Monoblos
+636,魚竜種の書,Infos Wyverne aquatiques
+637,甲殻種の書【上巻】,Infos Carapaceons 1
+638,甲殻種の書【下巻】,Infos Carapaceons 2
+639,シェンガオレンの書,Infos Shen Gaoren
+640,牙獣種の書,Infos Wyvernes a croc
+641,ドドブランゴの書,Infos Blangonga
+642,ラージャンの書,Infos Rajang
+643,キリンの書,Infos Kirin
+644,クシャルダオラの書,Infos Kushala
+645,オオナズチの書,Infos Chameleos
+646,ナナ・テスカトリの書,Infos Lunastra
+647,テオ・テスカトルの書,Infos Teostra
+648,ラオシャンロンの書,Infos Lao-Shan
+649,ヤマツカミの書,Infos Yama Tsukami
+650,ミラボレアスの書,Infos Fatalis
+651,アクラ・ヴァシムの書,Infos Akura Vashimu
 652,（ダミー）,
 653,（ダミー）,
 654,（ダミー）,
-655,銀のたまご,
-656,金のたまご,
-657,地図,
-658,応急薬,
+655,銀のたまご,Oeuf d'argent
+656,金のたまご,Oeuf d'or
+657,地図,Carte
+658,応急薬,Premiers soins
 659,携帯食料,
-660,携帯肉焼きセット,
-661,携帯砥石,
-662,携帯シビレ罠,
-663,支給専用閃光玉,
-664,支給専用秘薬,
-665,支給専用落とし穴,
-666,支給用大タル爆弾,
-667,バリスタの弾,
-668,大砲の弾,
-669,ワイバーン,
-670,飛竜の卵,
-671,草食竜の卵,
-672,肉食竜の卵,
-673,灰水晶の原石,
-674,白水晶の原石,
-675,火薬岩,
-676,フルフルベビー,
-677,フルベビアイス,
-678,ギルドフラッグ,
-679,街の残飯,
-680,奇天烈フード,
-681,巨龍フード,
-682,強龍フード,
-683,龍フード,
-684,龍フード・極み,
-685,紅い龍フード,
-686,翠の龍フード,
-687,蒼い龍フード,
-688,弾撃笛,
-689,突撃笛,
-690,尾撃笛,
-691,必撃笛,
-692,特撃笛,
-693,怒り笛,
-694,逆鱗笛,
-695,撃龍槍の鍵,
-696,闘技会チケット,
+660,携帯肉焼きセット,Broche BBQ X
+661,携帯砥石,Mini-aiguisoir
+662,携帯シビレ罠,Piege electrochoc X
+663,支給専用閃光玉,Bombe flash X
+664,支給専用秘薬,Potion secrete X
+665,支給専用落とし穴,Piege a fosse X
+666,支給用大タル爆弾,Grd bombe baril X
+667,バリスタの弾,Mun. pour baliste
+668,大砲の弾,Mun. pour canon
+669,ワイバーン,Wyverne
+670,飛竜の卵,Oeuf de wyverne
+671,草食竜の卵,Oeuf d'herbivore
+672,肉食竜の卵,Oeuf de carnivore
+673,灰水晶の原石,Cristal de cendre
+674,白水晶の原石,Quartz
+675,火薬岩,Pierre explosive
+676,フルフルベビー,Bebe Khezu
+677,フルベビアイス,Bebe Khezu glace
+678,ギルドフラッグ,Drapeau de Guilde
+679,街の残飯,Vestiges cite
+680,奇天烈フード,Repas de qualite
+681,巨龍フード,Repas ferme G
+682,強龍フード,Repas drake G
+683,龍フード,Repas drake
+684,龍フード・極み,Repas drake EX
+685,紅い龍フード,Repas drake R
+686,翠の龍フード,Repas drake V
+687,蒼い龍フード,Repas drake B
+688,弾撃笛,Flute tir
+689,突撃笛,Flute assaut
+690,尾撃笛,Flute queue
+691,必撃笛,Flute mortelle
+692,特撃笛,Flute speciale
+693,怒り笛,Flute rage
+694,逆鱗笛,Flute fureur
+695,撃龍槍の鍵,Clef Dragonator
+696,闘技会チケット,Ticket Concours
 697,（ダミー）,
 698,睡眠けむり玉,
 699,鎮静玉,
 700,回復玉,
 701,魂を宿す唄,
 702,精霊へ歌う唄,
-703,生命に捧ぐ唄,
-704,始まりの唄,
-705,狩猟笛の楽譜,
-706,古の狩猟笛の楽譜,
-707,シロオビコイン,
-708,クロオビコイン,
-709,タツジンコイン,
-710,鳥竜のコイン,
-711,飛竜のコイン,
-712,魚竜のコイン,
-713,牙獣のコイン,
-714,甲殻のコイン,
-715,古龍のコイン,
-716,永遠のコイン,
-717,豪華なコイン,
-718,堅実なコイン,
-719,ギルドコイン,
-720,秘境へのコンパス,
-721,秘境への地図,
-722,秘境への５つ道具,
+703,生命に捧ぐ唄,Musique de vie
+704,始まりの唄,Musique origines
+705,狩猟笛の楽譜,Infos Corne de Chasse
+706,古の狩猟笛の楽譜,Infos Corne de Ch. antique
+707,シロオビコイン,Piece Ceint. Blanche
+708,クロオビコイン,Piece Ceint. Noire
+709,タツジンコイン,Piece Expert
+710,鳥竜のコイン,Piece Wyverne aviaire
+711,飛竜のコイン,Piece Wyverne volante
+712,魚竜のコイン,Piece Aquatique
+713,牙獣のコイン,Piece Pelagus
+714,甲殻のコイン,Piece Carapaceon
+715,古龍のコイン,Piece Dragon ancien
+716,永遠のコイン,Piece eternelle
+717,豪華なコイン,Piece luxueuse
+718,堅実なコイン,Piece solide
+719,ギルドコイン,Piece Guilde
+720,秘境へのコンパス,Boussole mystere
+721,秘境への地図,Carte mystere
+722,秘境への５つ道具,Outils mystere
 723,秘境セット,
-724,終焉の書,
-725,伝説の書,
-726,古龍の書,
-727,祖龍の書,
-728,古塔の断章・前編,
-729,古塔の断章・中編,
-730,古塔の断章・後編,
-731,古塔の書,
-732,古びたツボの口,
-733,古びたツボの胴,
-734,古びたツボの底,
-735,古代のツボ,
-736,星鉄,
-737,メインセイル,
-738,メインマスト,
-739,戦友の証,
-740,戦友の絆,
-741,教官の注文書,
-742,たまご券,
-743,宝石券,
-744,勇気の証,
-745,肉球のハンコ,
-746,ギルドチケット,
-747,焼き肉券,
-748,一流ハンターの証,
-749,大剣チケット,
-750,ハンマーチケット,
-751,ランスチケット,
-752,片手剣チケット,
-753,ガンナーチケット,
-754,肉球のスタンプ,
+724,終焉の書,Livre perdu
+725,伝説の書,Livre legende
+726,古龍の書,Livre Dra Ancien
+727,祖龍の書,Livre Dra Blanc
+728,古塔の断章・前編,Frag tour debut
+729,古塔の断章・中編,Frag tour milieu
+730,古塔の断章・後編,Frag tour fin
+731,古塔の書,Livre Vieille Tour
+732,古びたツボの口,Vieux pot sommet
+733,古びたツボの胴,Vieux pot centre
+734,古びたツボの底,Vieux pot base
+735,古代のツボ,Vieux pot
+736,星鉄,Etoile de fer
+737,メインセイル,Voile principale
+738,メインマスト,Mat principal
+739,戦友の証,Preuve camarade
+740,戦友の絆,Preuve lien
+741,教官の注文書,Preuve instructeur
+742,たまご券,Tck oeuf
+743,宝石券,Tck joyaux
+744,勇気の証,Mention speciale
+745,肉球のハンコ,Sceau empreinte
+746,ギルドチケット,Tck Bronze Guilde
+747,焼き肉券,Tck Cuisine
+748,一流ハンターの証,Tck Chef
+749,大剣チケット,Tck GS
+750,ハンマーチケット,Tck Marteau
+751,ランスチケット,Tck Lance
+752,片手剣チケット,Tck SnS
+753,ガンナーチケット,Tck Artilleur
+754,肉球のスタンプ,Tampon Empreinte
 755,ＦチケットＣＴ１,
 756,ＦチケットＣＴ２,
 757,ＦチケットＣＴ３,
 758,ＦチケットＣＴ４,
-759,マカ漬けの壷,
-760,マカ漬けの壷・緑,
-761,マカ漬けの壷・緑,
-762,マカ漬けの壷・緑,
-763,マカ漬けの壷・緑,
-764,マカ漬けの壷・緑,
-765,マカ漬けの壷・緑,
-766,マカ漬けの壷・緑,
-767,マカ漬けの壷・緑,
-768,マカ漬けの壷・緑,
-769,マカ漬けの壷・緑,
-770,マカ漬けの壷・緑,
-771,マカ漬けの壷・緑,
-772,マカ漬けの壷・緑,
-773,マカ漬けの壷・緑,
-774,マカ漬けの壷・赤,
-775,マカ漬けの壷・赤,
-776,マカ漬けの壷・赤,
-777,マカ漬けの壷・赤,
-778,マカ漬けの壷・黄,
-779,マカ漬けの壷・黄,
-780,マカ漬けの壷・黄,
-781,マカ漬けの壷・黄,
-782,マカ漬けの壷・青,
-783,マカ漬けの壷・黄,
-784,マカ漬けの壷・黄,
-785,マカ漬けの壷・黄,
-786,マカ漬けの壷・黄,
-787,マカ漬けの壷・黄,
-788,マカ漬けの壷・黄,
-789,マカ漬けの壷・黄,
-790,マカ漬けの壷・黄,
-791,マカ漬けの壷・黄,
-792,マカ漬けの壷・黄,
-793,マカ漬けの壷・黄,
-794,水光原珠,
-795,陽翔原珠,
-796,修羅原珠,
-797,瑠璃原珠,
-798,翠緑珠,
-799,耐麻痺珠,
-800,耐眠珠,
-801,絶眠珠,
-802,耐絶珠,
-803,抗毒珠,
-804,抗力珠,
-805,抗菌珠,
-806,雪玉珠,
-807,強腰珠,
-808,美声珠,
-809,涼風珠,
-810,温風珠,
-811,文鎮珠,
-812,旅人珠,
-813,元気珠,
-814,体力珠,
-815,治癒珠,
-816,回復珠,
-817,腕力珠,
-818,属攻珠,
-819,守護珠,
-820,鉄壁珠,
-821,天盾珠,
-822,強精珠,
-823,満腹珠,
-824,食漢珠,
-825,気短珠,
-826,斬鉄珠,
-827,匠珠,
-828,達人珠,
-829,力投珠,
-830,軽足珠,
-831,博士珠,
-832,弾製珠,
-833,秘術珠,
-834,装填珠,
-835,弾穴珠,
-836,抑反珠,
-837,針穴珠,
-838,強弾珠,
-839,貫通珠,
-840,散弾珠,
-841,加弾珠,
-842,加貫珠,
-843,加散珠,
-844,加榴珠,
-845,加拡珠,
-846,研磨珠,
+759,マカ漬けの壷,Pot Mocha
+760,マカ漬けの壷・緑,Mocha vert
+761,マカ漬けの壷・緑,Mocha vert
+762,マカ漬けの壷・緑,Mocha vert
+763,マカ漬けの壷・緑,Mocha vert
+764,マカ漬けの壷・緑,Mocha vert
+765,マカ漬けの壷・緑,Mocha vert
+766,マカ漬けの壷・緑,Mocha vert
+767,マカ漬けの壷・緑,Mocha vert
+768,マカ漬けの壷・緑,Mocha vert
+769,マカ漬けの壷・緑,Mocha vert
+770,マカ漬けの壷・緑,Mocha vert
+771,マカ漬けの壷・緑,Mocha vert
+772,マカ漬けの壷・緑,Mocha vert
+773,マカ漬けの壷・緑,Mocha vert
+774,マカ漬けの壷・赤,Mocha rouge
+775,マカ漬けの壷・赤,Mocha rouge
+776,マカ漬けの壷・赤,Mocha rouge
+777,マカ漬けの壷・赤,Mocha rouge
+778,マカ漬けの壷・黄,Mocha jaune
+779,マカ漬けの壷・黄,Mocha jaune
+780,マカ漬けの壷・黄,Mocha jaune
+781,マカ漬けの壷・黄,Mocha jaune
+782,マカ漬けの壷・青,Mocha bleu
+783,マカ漬けの壷・黄,Mocha jaune
+784,マカ漬けの壷・黄,Mocha jaune
+785,マカ漬けの壷・黄,Mocha jaune
+786,マカ漬けの壷・黄,Mocha jaune
+787,マカ漬けの壷・黄,Mocha jaune
+788,マカ漬けの壷・黄,Mocha jaune
+789,マカ漬けの壷・黄,Mocha jaune
+790,マカ漬けの壷・黄,Mocha jaune
+791,マカ漬けの壷・黄,Mocha jaune
+792,マカ漬けの壷・黄,Mocha jaune
+793,マカ漬けの壷・黄,Mocha jaune
+794,水光原珠,Joy. reflet aqua
+795,陽翔原珠,J.fleche solaire
+796,修羅原珠,Joyau de sang
+797,瑠璃原珠,Joyau Lazurite
+798,翠緑珠,Joyau vert
+799,耐麻痺珠,J. paralysie 1
+800,耐眠珠,J. sommeil 1
+801,絶眠珠,J. sommeil 2
+802,耐絶珠,J. volonte 1
+803,抗毒珠,J. poison 1
+804,抗力珠,J. deodorant 1
+805,抗菌珠,J. deodorant 2
+806,雪玉珠,J. anti-neige
+807,強腰珠,J. seisme
+808,美声珠,J. voix
+809,涼風珠,J. chaleur 1
+810,温風珠,J. froid 1
+811,文鎮珠,J. anti-vent 1
+812,旅人珠,J. terrain
+813,元気珠,J. vie 1
+814,体力珠,J. vie 2
+815,治癒珠,J. restaurer
+816,回復珠,J. recuperer 1
+817,腕力珠,J. attaque 1
+818,属攻珠,J. affliction
+819,守護珠,J. defense 1
+820,鉄壁珠,J. garde 1
+821,天盾珠,J. auto-garde
+822,強精珠,J. vigueur
+823,満腹珠,J. appetit
+824,食漢珠,J. gastronome
+825,気短珠,J. repas
+826,斬鉄珠,J. dexterite 1
+827,匠珠,J. artisan
+828,達人珠,J. expert 1
+829,力投珠,J. lancer 1
+830,軽足珠,J. evasion 1
+831,博士珠,J. inventeur
+832,弾製珠,J. artificier
+833,秘術珠,J. alchimie
+834,装填珠,J. fusilier
+835,弾穴珠,J. armurier
+836,抑反珠,J. tirailleur 1
+837,針穴珠,J. deviation
+838,強弾珠,J. normal G
+839,貫通珠,J. percant G
+840,散弾珠,J. plomb G
+841,加弾珠,J. normal 1
+842,加貫珠,J. percant 1
+843,加散珠,J. plomb 1
+844,加榴珠,J. frag 1
+845,加拡珠,J. antiblind. 1
+846,研磨珠,J. aiguiseur
 847,銃器珠,
-848,美食珠,
-849,防音珠,
-850,友愛珠,
-851,持続珠,
-852,快足珠,
-853,耐性珠,
-854,火炎珠,
-855,流水珠,
-856,氷珠,
-857,雷光珠,
-858,破龍珠,
-859,百手珠,
-860,千手珠,
-861,早手珠,
-862,皮剥珠,
-863,祝珠,
-864,祝福珠,
-865,天力珠,
-866,宝珠,
-867,鍵珠,
-868,釣力珠,
-869,鋭眼珠,
-870,透眼珠,
-871,忍脚珠,
-872,危機珠,
-873,巨獣珠,
-874,抗麻痺珠,
-875,抗絶珠,
-876,覚醒珠,
-877,断毒珠,
-878,冷風珠,
-879,暖風珠,
-880,重塊珠,
-881,覇力珠,
-882,快復珠,
-883,怪力珠,
-884,防御珠,
-885,斬空珠,
-886,仙人珠,
-887,神足珠,
-888,反動珠,
-889,増弾珠,
-890,増貫珠,
-891,増散珠,
-892,増榴珠,
-893,増拡珠,
-894,爆師珠,
-895,大砲珠,
-896,友情珠,
-897,恒久珠,
-898,快速珠,
-899,万耐珠,
-900,紅蓮珠,
-901,爆水珠,
-902,氷河珠,
-903,雷鳴珠,
-904,滅龍珠,
-905,万手珠,
-906,速手珠,
-907,獣剥珠,
-908,報珠,
-909,千里珠,
-910,剛力珠,
-911,剛体珠,
-912,天壁珠,
-913,音無珠,
-914,天耐珠,
-915,獄炎珠,
-916,水鬼珠,
-917,永氷珠,
-918,雷神珠,
-919,龍王珠,
-920,万里珠,
-921,獄炎石,
-922,虹色鉱石,
-923,春夜鯉,
-924,セッチャクロアリ,
-925,虹色コガネ,
-926,オオツノアゲハ,
-927,オオナナホシ,
-928,奇面族のお宝,
-929,奇面王の遺産,
-930,ギアノスの鱗,
-931,ギアノスの上鱗,
-932,ギアノスの皮,
-933,ドスギアノスの皮,
-934,ドスギアノスの爪,
-935,ギアノスの尖爪,
-936,ドスギアノスの頭,
-937,禍禍しい布,
-938,Ｃ２Ｄのカケラ,
-939,万年霜,
-940,鋼龍石,
+848,美食珠,J. cuisine
+849,防音珠,J. ouie
+850,友愛珠,J. soutien 1
+851,持続珠,J. objets 1
+852,快足珠,J. transport 1
+853,耐性珠,J. omni-res. 2
+854,火炎珠,J. ignifuge 1
+855,流水珠,J. etanche 1
+856,氷珠,J. antigel 1
+857,雷光珠,J. isolant 1
+858,破龍珠,J. draconien 1
+859,百手珠,J. collecteur 1
+860,千手珠,J. collecteur 2
+861,早手珠,J. chapardeur
+862,皮剥珠,J. depecage
+863,祝珠,J. lubie 1
+864,祝福珠,J. lubie 2
+865,天力珠,J. benediction
+866,宝珠,J. destin 1
+867,鍵珠,J. anti-vol
+868,釣力珠,J. peche
+869,鋭眼珠,J. carte
+870,透眼珠,J. lucidite 1
+871,忍脚珠,J. furtivite
+872,危機珠,J. adrenaline
+873,巨獣珠,J. monstre
+874,抗麻痺珠,J. paralysie 2
+875,抗絶珠,J. volonte 2
+876,覚醒珠,J. volonte 3
+877,断毒珠,J. poison 2
+878,冷風珠,J. chaleur 2
+879,暖風珠,J. froid 2
+880,重塊珠,J. anti-vent 2
+881,覇力珠,J. vie 3
+882,快復珠,J. recuperer 2
+883,怪力珠,J. attaque 2
+884,防御珠,J. defense 3
+885,斬空珠,J. dexterite 2
+886,仙人珠,J. expert 2
+887,神足珠,J. evasion 2
+888,反動珠,J. tirailleur 2
+889,増弾珠,J. normal 2
+890,増貫珠,J. percant 2
+891,増散珠,J. plomb 2
+892,増榴珠,J. frag 2
+893,増拡珠,J. antiblind. 2
+894,爆師珠,J. bombe
+895,大砲珠,J. artilleur
+896,友情珠,J. soutien 2
+897,恒久珠,J. objets 2
+898,快速珠,J. transport 2
+899,万耐珠,J. omni-res. 2
+900,紅蓮珠,J. ignifuge 2
+901,爆水珠,J. etanche 2
+902,氷河珠,J. antigel 2
+903,雷鳴珠,J. isolant 2
+904,滅龍珠,J. draconien 2
+905,万手珠,J. collecteur 3
+906,速手珠,J. chapardeur 1
+907,獣剥珠,J. depecage 2
+908,報珠,J. destin 2
+909,千里珠,J. lucidite 2
+910,剛力珠,J. atk galerie
+911,剛体珠,J. def galerie
+912,天壁珠,J. garde 2
+913,音無珠,J. ouie
+914,天耐珠,J. omni-res. 3
+915,獄炎珠,J. ignifuge 3
+916,水鬼珠,J. etanche 3
+917,永氷珠,J. antigel 3
+918,雷神珠,J. isolant 3
+919,龍王珠,J. draconien 3
+920,万里珠,J. lucidite 3
+921,獄炎石,Pierre-lave
+922,虹色鉱石,Fucium
+923,春夜鯉,Carpe printemps
+924,セッチャクロアリ,Charpentinsecte
+925,虹色コガネ,Prisminsecte
+926,オオツノアゲハ,Papillon cornu
+927,オオナナホシ,Libellule cornue
+928,奇面族のお宝,Tresor Shakalala
+929,奇面王の遺産,Heritage Shaka
+930,ギアノスの鱗,Eca. Giaprey
+931,ギアノスの上鱗,Eca. Giaprey+
+932,ギアノスの皮,Peau Giaprey
+933,ドスギアノスの皮,Peau Giadrome
+934,ドスギアノスの爪,Griffe Giadrome
+935,ギアノスの尖爪,Griffe Dure Giadrome
+936,ドスギアノスの頭,Tete Giadrome
+937,禍禍しい布,Tissu sombre
+938,Ｃ２Ｄのカケラ,Fragment C2D
+939,万年霜,Vieille creme
+940,鋼龍石,Eca. Drgn fossile
 941,アミノタイト,
-942,ヌメリンギ,
-943,トリモチケムシ,
-944,ソゲキス,
+942,ヌメリンギ,Champi collant
+943,トリモチケムシ,Chenille gluante
+944,ソゲキス,Poisson archer
 945,クレンザイト,
-946,家具チケット,
-947,家具チケットＧ,
-948,雷光エキス,
-949,混沌茸,
-950,猛毒袋,
-951,爆炎袋,
-952,電撃袋,
-953,上竜骨,
-954,獣骨,
-955,堅牢な骨,
-956,ネコ毛の紅玉,
-957,大猪の牙,
-958,上質な毛皮,
-959,ギアノスの上皮,
-960,ランポスの上皮,
-961,ゲネポスの上皮,
-962,ドスゲネポスの尾,
-963,イーオスの上皮,
-964,怪鳥の上鱗,
-965,青怪鳥の上鱗,
-966,ブランゴの毛,
-967,ブランゴの剛毛,
-968,コンガの毛,
-969,コンガの剛毛,
-970,水竜の上ビレ,
-971,翠水竜の上鱗,
-972,翠水竜の上ビレ,
-973,火竜の体液,
-974,火竜の延髄,
-975,岩竜の涙,
-976,鎧竜の延髄,
-977,黒角竜の堅甲,
-978,カンタロスの堅殻,
-979,老山龍の上鱗,
-980,砦蟹の堅殻,
-981,砦蟹の堅甲,
-982,炎龍の翼膜,
-983,神龍苔,
-984,神龍木,
-985,轟竜の鱗,
-986,轟竜の上鱗,
-987,轟竜の甲殻,
-988,轟竜の堅殻,
-989,轟竜の尻尾,
-990,轟竜の爪,
-991,轟竜の尖爪,
-992,轟竜の牙,
-993,轟竜の鋭牙,
-994,轟竜の頭殻,
-995,覇竜の上鱗,
-996,覇竜の堅殻,
-997,覇竜の尻尾,
-998,覇竜の剛爪,
-999,覇竜の大牙,
-1000,覇竜の大棘,
-1001,眠鳥の橙毛,
-1002,眠鳥の爪,
-1003,七色尾羽根,
-1004,眠鳥のクチバシ,
-1005,眠鳥の胃石,
-1006,眠鳥の上橙毛,
-1007,眠鳥の牙ハシ,
-1008,眠鳥の尖爪,
-1009,眠鳥の稀胃石,
-1010,眠鳥の蒼毛,
-1011,眠鳥の上蒼毛,
-1012,溶岩竜の鱗,
-1013,溶岩竜の甲殻,
-1014,溶岩竜の牙,
-1015,溶岩竜のヒレ,
-1016,溶岩竜の上鱗,
-1017,溶岩竜の堅殻,
-1018,溶岩竜の鋭牙,
-1019,溶岩竜の上ビレ,
+946,家具チケット,Tck Fourniture
+947,家具チケットＧ,Tck Fourniture+
+948,雷光エキス,Extrait lumineux
+949,混沌茸,Champi chaos
+950,猛毒袋,Sac de toxine
+951,爆炎袋,Sac infernal
+952,電撃袋,Sac de foudre
+953,上竜骨,Os de monstre+
+954,獣骨,Os de brute
+955,堅牢な骨,Os resistos
+956,ネコ毛の紅玉,Rubis Felyne
+957,大猪の牙,Defense Bulldrome
+958,上質な毛皮,Pelage de qualite
+959,ギアノスの上皮,Peau Giaprey+
+960,ランポスの上皮,Peau Velociprey+
+961,ゲネポスの上皮,Peau Genprey+
+962,ドスゲネポスの尾,Queue Gendrome
+963,イーオスの上皮,Peau Ioprey+
+964,怪鳥の上鱗,Eca. Kut-Ku+
+965,青怪鳥の上鱗,Eca. Kut-Ku B.+
+966,ブランゴの毛,Peau Blango
+967,ブランゴの剛毛,Peau Blango+ 
+968,コンガの毛,Peau Conga 
+969,コンガの剛毛,Peau Conga+
+970,水竜の上ビレ,Nage. Plesioth+
+971,翠水竜の上鱗,Eca. Ples V.+
+972,翠水竜の上ビレ,Nage. Ples V.+
+973,火竜の体液,Fluide Wyv. de Feu
+974,火竜の延髄,Trc Cele Wyv. de Feu
+975,岩竜の涙,Larmes Basarios
+976,鎧竜の延髄,Cerveau Gravios
+977,黒角竜の堅甲,Thorax Diablos N.
+978,カンタロスの堅殻,Cuirasse Hornetaur
+979,老山龍の上鱗,Eca. Lao-Shan+
+980,砦蟹の堅殻,Cara. lourde Gaoren
+981,砦蟹の堅甲,Cuirasse Gaoren
+982,炎龍の翼膜,Palmure Teostra
+983,神龍苔,Mousse-dragon
+984,神龍木,Bois-dragon
+985,轟竜の鱗,Eca. Tigrex
+986,轟竜の上鱗,Eca. Tigrex+
+987,轟竜の甲殻,Cara. Tigrex
+988,轟竜の堅殻,Cuirasse Tigrex
+989,轟竜の尻尾,Queue Tigrex
+990,轟竜の爪,Griffe Tigrex
+991,轟竜の尖爪,Griffe Tigrex+
+992,轟竜の牙,Croc Tigrex
+993,轟竜の鋭牙,Croc Tigrex+
+994,轟竜の頭殻,Crane Tigrex
+995,覇竜の上鱗,Eca. Akantor
+996,覇竜の堅殻,Cuirasse Akantor
+997,覇竜の尻尾,Queue Akantor
+998,覇竜の剛爪,Griffe Akantor
+999,覇竜の大牙,Croc Akantor
+1000,覇竜の大棘,Pointe Akantor
+1001,眠鳥の橙毛,Pelage Hypnoc
+1002,眠鳥の爪,Griffe Hypnoc
+1003,七色尾羽根,Plume prisme
+1004,眠鳥のクチバシ,Bec Hypnoc
+1005,眠鳥の胃石,Bezoard Hypnoc
+1006,眠鳥の上橙毛,Pelage Hypnoc+
+1007,眠鳥の牙ハシ,Croc Hypnoc
+1008,眠鳥の尖爪,Griffe Hypnoc+
+1009,眠鳥の稀胃石,Bezoard Hypnoc+
+1010,眠鳥の蒼毛,Pelage Hypnoc B.
+1011,眠鳥の上蒼毛,Pelage Hypnoc B.+
+1012,溶岩竜の鱗,Eca. Lavasioth
+1013,溶岩竜の甲殻,Cara. Lavasioth
+1014,溶岩竜の牙,Croc Lavasioth
+1015,溶岩竜のヒレ,Nage. Lavasioth
+1016,溶岩竜の上鱗,Eca. Lavasioth+
+1017,溶岩竜の堅殻,Cuir. Lavasioth
+1018,溶岩竜の鋭牙,Croc Lavasioth+
+1019,溶岩竜の上ビレ,Nage. Lavasioth+
 1020,友情の絆,
-1021,Ｎメダル・銅,
-1022,Ｎメダル・銀,
-1023,Ｎメダル・金,
-1024,ネオジムメモ,
-1025,メルクリメモ,
-1026,猟団チケット,
+1021,Ｎメダル・銅,Medaille N・Cuivre
+1022,Ｎメダル・銀,Medaille N・Argent
+1023,Ｎメダル・金,Medaille N・Or
+1024,ネオジムメモ,Notes Neodyme
+1025,メルクリメモ,Notes Mercure
+1026,猟団チケット,Tck Guilde
 1027,黒貨,
 1028,白の丈夫な布地,
 1029,なりきりパーツ,
@@ -1036,43 +1036,43 @@ index,source,target
 1034,青の布地,
 1035,桃の布地,
 1036,追加依頼達成証,
-1037,紅溶岩竜の甲殻,
-1038,紅溶岩竜の牙,
-1039,紅溶岩竜のヒレ,
-1040,紅溶岩竜の堅殻,
-1041,紅溶岩竜の鋭牙,
-1042,紅溶岩竜の上ビレ,
-1043,ピンクチケット,
-1044,クリスマスカード,
-1045,お年玉【子】,
-1046,棘竜の上鱗,
-1047,棘竜の堅殻,
-1048,棘竜の上棘,
-1049,棘竜の頭殻,
-1050,棘竜の尻尾,
-1051,棘竜の紅玉,
-1052,棘竜の尖角,
-1053,棘茶竜の上鱗,
-1054,棘茶竜の堅殻,
-1055,棘茶竜の上棘,
-1056,棘茶竜の頭殻,
-1057,棘茶竜の尻尾,
-1058,棘茶竜の紅玉,
-1059,棘茶竜の尖角,
-1060,棘茶竜の重酸,
-1061,尾晶蠍の堅殻,
-1062,尾晶蠍の尖爪,
-1063,尾晶蠍の大顎,
-1064,尾晶蠍の輝晶石,
-1065,尾晶蠍の靭尾,
-1066,尾晶蠍の体液,
-1067,尾晶蠍の黄色体液,
-1068,尾晶蠍の蒼色体液,
-1069,尾晶蠍の紅色体液,
-1070,スタミナ飲料Ｎ,
-1071,眠鳥の上白毛,
-1072,銀色尾羽根,
-1073,眠鳥の白牙ハシ,
+1037,紅溶岩竜の甲殻,Cara. Lava R.
+1038,紅溶岩竜の牙,Croc Lava R.
+1039,紅溶岩竜のヒレ,Nage. Lava R.
+1040,紅溶岩竜の堅殻,Cuirasse Lava R.
+1041,紅溶岩竜の鋭牙,Croc Lava R.+
+1042,紅溶岩竜の上ビレ,Nage. Lava R.+
+1043,ピンクチケット,Tck Rose
+1044,クリスマスカード,Carte Noel
+1045,お年玉【子】,Lettre Rouge (Enfant)
+1046,棘竜の上鱗,Eca. Espinas
+1047,棘竜の堅殻,Cuirasse Espinas
+1048,棘竜の上棘,Pointe Espinas
+1049,棘竜の頭殻,Crane Espinas
+1050,棘竜の尻尾,Queue Espinas
+1051,棘竜の紅玉,Rubis Espinas
+1052,棘竜の尖角,Corne Espinas
+1053,棘茶竜の上鱗,Eca. Espi de feu
+1054,棘茶竜の堅殻,Cuirasse Espi de feu
+1055,棘茶竜の上棘,Pointe Espi de feu
+1056,棘茶竜の頭殻,Crane Espi de feu
+1057,棘茶竜の尻尾,Queue Espi de feu
+1058,棘茶竜の紅玉,Rubis Espi de feu
+1059,棘茶竜の尖角,Corne Espi de feu
+1060,棘茶竜の重酸,Acide Espi de feu
+1061,尾晶蠍の堅殻,Cuirasse Vashi
+1062,尾晶蠍の尖爪,Griffe Vashi
+1063,尾晶蠍の大顎,Machoire Vashi
+1064,尾晶蠍の輝晶石,Cristal Vashi
+1065,尾晶蠍の靭尾,Queue dure Vashi
+1066,尾晶蠍の体液,Sang blanc Vashi
+1067,尾晶蠍の黄色体液,Sang jaune Vashi
+1068,尾晶蠍の蒼色体液,Sang bleu Vashi
+1069,尾晶蠍の紅色体液,Sang rouge Vashi
+1070,スタミナ飲料Ｎ,Boisson Endu N
+1071,眠鳥の上白毛,Pelage Hypnoc B.
+1072,銀色尾羽根,Plume d'argent
+1073,眠鳥の白牙ハシ,Croc Hypnoc B.
 1074,虫除け器の生産券,
 1075,ポルタ輝石【赤】,
 1076,ポルタ輝石【青】,
@@ -1081,25 +1081,25 @@ index,source,target
 1079,ポルタ輝石【透】,
 1080,ポルタ輝石【紫】,
 1081,ポルタ輝石【虹】,
-1082,感謝の証,
-1083,戯曲の生産券,
+1082,感謝の証,Merci
+1083,戯曲の生産券,Tck Drama
 1084,Ｓエッジの生産券,
-1085,古の建材,
-1086,記念の証,
-1087,結晶のカケラ,
-1088,甲殻種の晶石,
-1089,甲殻種の上晶石,
-1090,甲殻種の秘晶石,
-1091,達成の証,
-1092,父への憧憬,
-1093,息子への思い,
-1094,親子の絆,
-1095,初代の心,
-1096,無頼の魂,
-1097,番長の証,
-1098,Ｎメダル・黒,
-1099,Ｎメダル・白,
-1100,Ｎメダル・灰,
+1085,古の建材,Vieux Mat. Construction
+1086,記念の証,Preuve memoire
+1087,結晶のカケラ,Morc. de cristal
+1088,甲殻種の晶石,Cristal carap.
+1089,甲殻種の上晶石,Cristal carap. +
+1090,甲殻種の秘晶石,Cristal carap.++
+1091,達成の証,Preuve succes
+1092,父への憧憬,Espoir d'un Pere
+1093,息子への思い,Amour du Fils
+1094,親子の絆,Devoir Famillial
+1095,初代の心,Premier COeur
+1096,無頼の魂,Ame Non Sollicitee
+1097,番長の証,Preuve Bancho
+1098,Ｎメダル・黒,Medaille N・Noir
+1099,Ｎメダル・白,Medaille N・Blanc
+1100,Ｎメダル・灰,Medaille N・Gris
 1101,匠の根性,
 1102,匠の心,
 1103,匠の意地,
@@ -1168,44 +1168,44 @@ index,source,target
 1166,教官珠賕,
 1167,教官珠賙,
 1168,教官珠𧶠,
-1169,カム・オルガロンの書,
-1170,ノノ・オルガロンの書,
-1171,デュラガウアの書,
-1172,グレンゼブルの書,
-1173,ルコディオラの書,
-1174,ゴゴモアの書,
-1175,タイクンザムザの書,
-1176,アビオルグの書,
-1177,クアルセプスの書,
-1178,オディバトラスの書,
-1179,凍海獣の書,
-1180,ファルノックの書,
-1181,ヒュジキキの書,
-1182,ミドガロンの書,
-1183,ギアオルグの書,
-1184,アノルパティスの書,
-1185,シャンティエンの書,
-1186,レビディオラの書,
-1187,ディスフィロアの書,
-1188,ゴウガルフの書,
-1189,バルラガルの書,
-1190,ゼルレウスの書,
-1191,メラギナスの書,
-1192,フォロクルルの書,
-1193,ディオレックスの書,
-1194,イナガミの書,
-1195,ガルバダオラの書,
-1196,ポボルバルムの書,
-1197,ヴァルサブロスの書,
-1198,ハルドメルグの書,
-1199,グレアドモスの書,
-1200,太極の印書,
+1169,カム・オルガロンの書,Infos Kamu Orugaron
+1170,ノノ・オルガロンの書,Infos Nono Orugaron
+1171,デュラガウアの書,Infos Dyuragaua
+1172,グレンゼブルの書,Infos Gurenzebul
+1173,ルコディオラの書,Infos Rukodiora
+1174,ゴゴモアの書,Infos Gogomoa
+1175,タイクンザムザの書,Infos Taikun Zamuza
+1176,アビオルグの書,Infos Abiogladius
+1177,クアルセプスの書,Infos Kuaru
+1178,オディバトラスの書,Infos Odibatoras
+1179,凍海獣の書,Infos Mer Polaire
+1180,ファルノックの書,Infos Farunokku
+1181,ヒュジキキの書,Infos Hyuji
+1182,ミドガロンの書,Infos Midogaron
+1183,ギアオルグの書,Infos Agiogladius
+1184,アノルパティスの書,Infos Anorupatisu
+1185,シャンティエンの書,Infos Shantien
+1186,レビディオラの書,Infos Rebidiora
+1187,ディスフィロアの書,Infos Disufiora
+1188,ゴウガルフの書,Infos Gougarf
+1189,バルラガルの書,Infos Barlagual
+1190,ゼルレウスの書,Infos Zeltalos
+1191,メラギナスの書,Infos Melginas
+1192,フォロクルルの書,Infos Forokull
+1193,ディオレックスの書,Infos Diorex
+1194,イナガミの書,Infos Inagami
+1195,ガルバダオラの書,Infos Garuba Daora
+1196,ポボルバルムの書,Infos Porumtor
+1197,ヴァルサブロスの書,Infos Valsablos
+1198,ハルドメルグの書,Infos Harudomerugu
+1199,グレアドモスの書,Infos Gureadios
+1200,太極の印書,Tampon Tai Chi
 1201,ダミー,
 1202,ダミー,
 1203,ダミー,
 1204,ダミー,
 1205,ダミー,
-1206,白導師之書,
+1206,白導師之書,Livre Scolaire B.
 1207,ダミー,
 1208,ダミー,
 1209,ダミー,
@@ -1213,252 +1213,252 @@ index,source,target
 1211,ダミー,
 1212,新たな開拓者の印,
 1213,先人たる狩人の印,
-1214,親愛なる仲間の証,
-1215,幻獣討伐の証,
-1216,鋼龍討伐の証,
-1217,灰晶蠍の堅殻,
-1218,灰晶蠍の尖爪,
-1219,灰晶蠍の大顎,
-1220,灰晶蠍の輝晶石,
-1221,灰晶蠍の靭尾,
-1222,灰晶蠍の体液,
-1223,灰晶蠍の黄色体液,
-1224,灰晶蠍の蒼色体液,
-1225,灰晶蠍の紅色体液,
-1226,灰晶蠍の血晶石,
-1227,Ｎの塊,
-1228,思い出のかけら,
-1229,誰かの王冠,
-1230,珠剣【氷】生産券,
-1231,珠剣【火】生産券,
-1232,秘刀【雷】生産券,
-1233,１周年生産券・頭,
-1234,１周年生産券・胴,
-1235,１周年生産券・腕,
-1236,１周年生産券・腰,
-1237,１周年生産券・脚,
-1238,撃龍鎚の報告書,
-1239,奇面王の悪戯,
-1240,兵器設計書,
-1241,茶の布地,
-1242,投げタル爆弾,
-1243,大タル爆弾Ｇ２,
-1244,獣人の宝,
-1245,獣人の上宝,
-1246,獣人の秘宝,
-1247,獣人の紅玉,
-1248,獣人の上紅玉,
-1249,獣人の秘紅玉,
-1250,草食種の角,
-1251,草食種の堅角,
-1252,草食種の重角,
-1253,草食種の皮,
-1254,草食種の上皮,
-1255,草食種の特上皮,
-1256,草食種の骨,
-1257,草食種の堅骨,
-1258,草食種の重骨,
-1259,草食種の蹄,
-1260,草食種の堅蹄,
-1261,草食種の重蹄,
-1262,草食種の殻,
-1263,草食種の堅殻,
-1264,草食種の重殻,
-1265,草食種の牙,
-1266,草食種の堅牙,
-1267,草食種の重牙,
-1268,牙獣種の毛皮,
-1269,牙獣種の上毛皮,
-1270,牙獣種の厚毛皮,
-1271,牙獣種の牙,
-1272,牙獣種の鋭牙,
-1273,牙獣種の重牙,
-1274,牙獣種の爪,
-1275,牙獣種の尖爪,
-1276,牙獣種の剛爪,
-1277,牙獣種の尾,
-1278,牙獣種の靭尾,
-1279,牙獣種の剛尾,
-1280,甲虫種の殻,
-1281,甲虫種の堅殻,
-1282,甲虫種の重殻,
-1283,甲虫種の針,
-1284,甲虫種の鋭針,
-1285,甲虫種の凶針,
-1286,甲虫種の液,
-1287,甲虫種の濃液,
-1288,甲虫種の特濃液,
-1289,甲殻種の殻,
-1290,甲殻種の堅殻,
-1291,甲殻種の重殻,
-1292,甲殻種の鋏,
-1293,甲殻種の尖鋏,
-1294,甲殻種の剛鋏,
-1295,甲殻種の刃,
-1296,甲殻種の鋭刃,
-1297,甲殻種の凶刃,
-1298,飛竜種の殻,
-1299,飛竜種の堅殻,
-1300,飛竜種の重殻,
-1301,飛竜種の牙,
-1302,飛竜種の鋭牙,
-1303,飛竜種の重牙,
-1304,飛竜種の爪,
-1305,飛竜種の尖爪,
-1306,飛竜種の剛爪,
-1307,飛竜種の骨,
-1308,飛竜種の堅骨,
-1309,飛竜種の重骨,
-1310,飛竜種の皮,
-1311,飛竜種の上皮,
-1312,飛竜種の特上皮,
-1313,飛竜種の翼,
-1314,飛竜種の上翼,
-1315,飛竜種の剛翼,
-1316,飛竜種の尾,
-1317,飛竜種の靭尾,
-1318,飛竜種の剛尾,
-1319,飛竜種の棘,
-1320,飛竜種の上棘,
-1321,飛竜種の秘棘,
-1322,飛竜種の角,
-1323,飛竜種の尖角,
-1324,飛竜種の剛角,
-1325,飛竜種の鱗,
-1326,飛竜種の上鱗,
-1327,飛竜種の厚鱗,
-1328,飛竜種の血,
-1329,飛竜種の濃血,
-1330,飛竜種の特濃血,
-1331,飛竜種の珠,
-1332,飛竜種の上珠,
-1333,飛竜種の秘珠,
-1334,飛竜種の頭,
-1335,飛竜種の堅頭,
-1336,飛竜種の重頭,
-1337,飛竜種の髄,
-1338,飛竜種の上髄,
-1339,飛竜種の真髄,
-1340,飛竜種の肝,
-1341,飛竜種の上肝,
-1342,飛竜種の真肝,
-1343,飛竜種の顎,
-1344,飛竜種の堅顎,
-1345,飛竜種の重顎,
-1346,飛竜種の涙,
-1347,飛竜種の上涙,
-1348,飛竜種の秘涙,
-1349,飛竜種の液,
-1350,飛竜種の濃液,
-1351,飛竜種の特濃液,
-1352,魚竜種の鱗,
-1353,魚竜種の上鱗,
-1354,魚竜種の厚鱗,
-1355,魚竜種のヒレ,
-1356,魚竜種の上ビレ,
-1357,魚竜種の特上ビレ,
-1358,魚竜種の血,
-1359,魚竜種の濃血,
-1360,魚竜種の特濃血,
-1361,魚竜種の牙,
-1362,魚竜種の鋭牙,
-1363,魚竜種の重牙,
-1364,魚竜種のエラ,
-1365,魚竜種の上エラ,
-1366,魚竜種の特上エラ,
-1367,鳥竜種の殻,
-1368,鳥竜種の堅殻,
-1369,鳥竜種の重殻,
-1370,鳥竜種の皮,
-1371,鳥竜種の上皮,
-1372,鳥竜種の特上皮,
-1373,鳥竜種の鱗貤,
-1374,鳥竜種の鱗賖,
-1375,鳥竜種の鱗賕,
-1376,鳥竜種の牙,
-1377,鳥竜種の鋭牙,
-1378,鳥竜種の重牙,
-1379,鳥竜種の爪,
-1380,鳥竜種の尖爪,
-1381,鳥竜種の剛爪,
-1382,鳥竜種の骨,
-1383,鳥竜種の堅骨,
-1384,鳥竜種の重骨,
-1385,鳥竜種の石,
-1386,鳥竜種の上石,
-1387,鳥竜種の秘石,
-1388,鳥竜種の嘴,
-1389,鳥竜種の鋭嘴,
-1390,鳥竜種の凶嘴,
-1391,鳥竜種の毛,
-1392,鳥竜種の上毛,
-1393,鳥竜種の特上毛,
-1394,鳥竜種の尾,
-1395,鳥竜種の靭尾,
-1396,鳥竜種の剛尾,
-1397,鳥竜種の頭貤,
-1398,鳥竜種の頭賖,
-1399,鳥竜種の頭賕,
-1400,古龍種の殻,
-1401,古龍種の堅殻,
-1402,古龍種の重殻,
-1403,古龍種の毛,
-1404,古龍種の上毛,
-1405,古龍種の特上毛,
-1406,古龍種の皮,
-1407,古龍種の上皮,
-1408,古龍種の特上皮,
-1409,古龍種の爪,
-1410,古龍種の尖爪,
-1411,古龍種の剛爪,
-1412,古龍種の尾,
-1413,古龍種の靭尾,
-1414,古龍種の剛尾,
-1415,古龍種の血,
-1416,古龍種の濃血,
-1417,古龍種の特濃血,
-1418,古龍種の翼,
-1419,古龍種の上翼,
-1420,古龍種の剛翼,
-1421,古龍種の角,
-1422,古龍種の尖角,
-1423,古龍種の剛角,
-1424,古龍種の鱗,
-1425,古龍種の上鱗,
-1426,古龍種の厚鱗,
-1427,黒龍の角貤,
-1428,黒龍の角賖,
-1429,黒龍の角賕,
-1430,黒龍の翼貤,
-1431,黒龍の翼賖,
-1432,黒龍の翼賕,
-1433,黒龍の鱗貤,
-1434,黒龍の鱗賖,
-1435,黒龍の鱗賕,
-1436,発電袋,
-1437,発火袋,
-1438,貯水袋,
-1439,氷冷袋,
-1440,催眠袋,
-1441,激毒袋,
-1442,強麻痺袋,
-1443,モンスターの油,
-1444,モンスターの上油,
-1445,モンスターの極油,
-1446,捕獲保証書,
-1447,部位破壊保証書,
-1448,玉のかけら,
-1449,大鎧玉,
-1450,超鎧玉,
-1451,極鎧玉,
-1452,センショク草・赤,
-1453,センショク草・青,
-1454,センショク草・黄,
-1455,センショク草・緑,
-1456,センショク草・紫,
-1457,センショク草・黒,
-1458,センショク草・白,
-1459,センショク草・虹,
+1214,親愛なる仲間の証,Lettre d'un ami
+1215,幻獣討伐の証,Preuve Kirin
+1216,鋼龍討伐の証,Preuve Kushala
+1217,灰晶蠍の堅殻,Cuirasse Jebia
+1218,灰晶蠍の尖爪,Griffe Jebia
+1219,灰晶蠍の大顎,Machoire Jebia
+1220,灰晶蠍の輝晶石,Queue crist Jebia
+1221,灰晶蠍の靭尾,Queue Jebia
+1222,灰晶蠍の体液,Sang blanc Jebia
+1223,灰晶蠍の黄色体液,Sang jaune Jebia
+1224,灰晶蠍の蒼色体液,Sang bleu Jebia
+1225,灰晶蠍の紅色体液,Sang rouge Jebia
+1226,灰晶蠍の血晶石,Sang crist Jebia
+1227,Ｎの塊,Jeton Netcafe
+1228,思い出のかけら,Frag. de Memoire
+1229,誰かの王冠,Couronne perdue
+1230,珠剣【氷】生産券,Tck Epee Perle I
+1231,珠剣【火】生産券,Tck Epee Perle F
+1232,秘刀【雷】生産券,Tck Epee Secrete T
+1233,１周年生産券・頭,Tck Tete 1er Anniv.
+1234,１周年生産券・胴,Tck Torse 1er Anniv.
+1235,１周年生産券・腕,Tck Bras 1er Anniv.
+1236,１周年生産券・腰,Tck Tass. 1er Anniv.
+1237,１周年生産券・脚,Tck Jambes 1er Anniv.
+1238,撃龍鎚の報告書,Tck Marteau Wyverne
+1239,奇面王の悪戯,Malice du Roi
+1240,兵器設計書,Doc Design Arme
+1241,茶の布地,Fabrique Marron
+1242,投げタル爆弾,Bombe Projectile
+1243,大タル爆弾Ｇ２,Grd Bombe Baril G2
+1244,獣人の宝,Tresor lynien
+1245,獣人の上宝,Tresor lynien +
+1246,獣人の秘宝,Tresor lynien ++
+1247,獣人の紅玉,Rubis lynien
+1248,獣人の上紅玉,Rubis lynien +
+1249,獣人の秘紅玉,Rubis lynien ++
+1250,草食種の角,Corne herbivore
+1251,草食種の堅角,Corne herbi. +
+1252,草食種の重角,Corne herbi. ++
+1253,草食種の皮,Pelage herbi.
+1254,草食種の上皮,Pelage herbi. +
+1255,草食種の特上皮,Pelage herbi. ++
+1256,草食種の骨,Os herbivore
+1257,草食種の堅骨,Os herbivore +
+1258,草食種の重骨,Os herbivore ++
+1259,草食種の蹄,Sabot herbi.
+1260,草食種の堅蹄,Sabot herbi. +
+1261,草食種の重蹄,Sabot herbi. ++
+1262,草食種の殻,Carapace herbi.
+1263,草食種の堅殻,Cuirasse herbi.
+1264,草食種の重殻,Cortex herbi.
+1265,草食種の牙,Croc herbivore
+1266,草食種の堅牙,Croc herbivore +
+1267,草食種の重牙,Croc herbivore++
+1268,牙獣種の毛皮,Peau pelagus
+1269,牙獣種の上毛皮,Peau pelagus +
+1270,牙獣種の厚毛皮,Peau pelagus ++
+1271,牙獣種の牙,Croc pelagus
+1272,牙獣種の鋭牙,Croc pelagus +
+1273,牙獣種の重牙,Croc pelagus ++
+1274,牙獣種の爪,Griffe pelagus
+1275,牙獣種の尖爪,Griffe pelagus +
+1276,牙獣種の剛爪,Griffe pelagus++
+1277,牙獣種の尾,Queue pelagus
+1278,牙獣種の靭尾,Queue pelagus +
+1279,牙獣種の剛尾,Queue pelagus ++
+1280,甲虫種の殻,Carapace neopt.
+1281,甲虫種の堅殻,Cuirasse neopt.
+1282,甲虫種の重殻,Cortex neopt.
+1283,甲虫種の針,Dard neopteron
+1284,甲虫種の鋭針,Dard neopteron +
+1285,甲虫種の凶針,Dard neopteron++
+1286,甲虫種の液,Fluide neopteron
+1287,甲虫種の濃液,Fluide neopt. +
+1288,甲虫種の特濃液,Fluide neopt. ++
+1289,甲殻種の殻,Carapace carap.
+1290,甲殻種の堅殻,Cuirasse carap.
+1291,甲殻種の重殻,Cortex carap.
+1292,甲殻種の鋏,Pince carap.
+1293,甲殻種の尖鋏,Pince carap. +
+1294,甲殻種の剛鋏,Pince carap. ++
+1295,甲殻種の刃,Lame carapaceon
+1296,甲殻種の鋭刃,Lame carap. +
+1297,甲殻種の凶刃,Lame carap. +
+1298,飛竜種の殻,Carapace volant
+1299,飛竜種の堅殻,Cuirasse volant
+1300,飛竜種の重殻,Cortex volant
+1301,飛竜種の牙,Croc volant
+1302,飛竜種の鋭牙,Croc volant +
+1303,飛竜種の重牙,Croc volant ++
+1304,飛竜種の爪,Griffe volant
+1305,飛竜種の尖爪,Griffe volant +
+1306,飛竜種の剛爪,Serre volant
+1307,飛竜種の骨,Os volant
+1308,飛竜種の堅骨,Os volant +
+1309,飛竜種の重骨,Os solide volant
+1310,飛竜種の皮,Peau volant
+1311,飛竜種の上皮,Peau volant +
+1312,飛竜種の特上皮,Peau volant ++
+1313,飛竜種の翼,Aile volant
+1314,飛竜種の上翼,Aile volant +
+1315,飛竜種の剛翼,Aile volant ++
+1316,飛竜種の尾,Queue volant
+1317,飛竜種の靭尾,Queue volant +
+1318,飛竜種の剛尾,Queue volant ++
+1319,飛竜種の棘,Pointe volant
+1320,飛竜種の上棘,Pointe volant +
+1321,飛竜種の秘棘,Pointe volant ++
+1322,飛竜種の角,Corne volant
+1323,飛竜種の尖角,Corne volant +
+1324,飛竜種の剛角,Corne volant ++
+1325,飛竜種の鱗,Ecaille volant
+1326,飛竜種の上鱗,Ecaille volant +
+1327,飛竜種の厚鱗,Ecaille volant++
+1328,飛竜種の血,Sang volant
+1329,飛竜種の濃血,Sang volant +
+1330,飛竜種の特濃血,Sang volant ++
+1331,飛竜種の珠,Perle volant
+1332,飛竜種の上珠,Perle volant +
+1333,飛竜種の秘珠,Perle volant ++
+1334,飛竜種の頭,Crane volant
+1335,飛竜種の堅頭,Crane volant +
+1336,飛竜種の重頭,Crane volant ++
+1337,飛竜種の髄,Moelle volant
+1338,飛竜種の上髄,Moelle volant +
+1339,飛竜種の真髄,Moelle volant ++
+1340,飛竜種の肝,Foie volant
+1341,飛竜種の上肝,Foie volant +
+1342,飛竜種の真肝,Foie volant ++
+1343,飛竜種の顎,Machoire volant
+1344,飛竜種の堅顎,Machoire volant+
+1345,飛竜種の重顎,Machoire vol. ++
+1346,飛竜種の涙,Larme volant
+1347,飛竜種の上涙,Larme volant +
+1348,飛竜種の秘涙,Larme volant ++
+1349,飛竜種の液,Fluide volant
+1350,飛竜種の濃液,Fluide volant +
+1351,飛竜種の特濃液,Fluide volant ++
+1352,魚竜種の鱗,Ecaille aqua
+1353,魚竜種の上鱗,Ecaille aqua +
+1354,魚竜種の厚鱗,Ecaille aqua ++
+1355,魚竜種のヒレ,Nageoire aqua
+1356,魚竜種の上ビレ,Nageoire aqua +
+1357,魚竜種の特上ビレ,Nageoire aqua ++
+1358,魚竜種の血,Sang aqua
+1359,魚竜種の濃血,Sang aqua +
+1360,魚竜種の特濃血,Sang aqua ++
+1361,魚竜種の牙,Croc aqua
+1362,魚竜種の鋭牙,Croc aqua +
+1363,魚竜種の重牙,Croc aqua ++
+1364,魚竜種のエラ,Branchie aqua
+1365,魚竜種の上エラ,Branchie aqua +
+1366,魚竜種の特上エラ,Branchie aqua ++
+1367,鳥竜種の殻,Carapace aviaire
+1368,鳥竜種の堅殻,Cuirasse aviaire
+1369,鳥竜種の重殻,Cortex aviaire
+1370,鳥竜種の皮,Peau aviaire
+1371,鳥竜種の上皮,Peau aviaire +
+1372,鳥竜種の特上皮,Peau aviaire ++
+1373,鳥竜種の鱗貤,Ecaille aviaire
+1374,鳥竜種の鱗賖,Ecaille avi. +
+1375,鳥竜種の鱗賕,Ecaille avi. ++
+1376,鳥竜種の牙,Croc aviaire
+1377,鳥竜種の鋭牙,Croc aviaire +
+1378,鳥竜種の重牙,Croc aviaire ++
+1379,鳥竜種の爪,Griffe aviaire
+1380,鳥竜種の尖爪,Griffe aviaire +
+1381,鳥竜種の剛爪,Griffe aviaire++
+1382,鳥竜種の骨,Os aviaire
+1383,鳥竜種の堅骨,Os aviaire +
+1384,鳥竜種の重骨,Os aviaire ++
+1385,鳥竜種の石,Gemme aviaire
+1386,鳥竜種の上石,Gemme aviaire +
+1387,鳥竜種の秘石,Gemme aviaire ++
+1388,鳥竜種の嘴,Bec aviaire
+1389,鳥竜種の鋭嘴,Bec aviaire +
+1390,鳥竜種の凶嘴,Bec aviaire ++
+1391,鳥竜種の毛,Fourrure aviaire
+1392,鳥竜種の上毛,Fourrure avi. +
+1393,鳥竜種の特上毛,Fourrure avi. ++
+1394,鳥竜種の尾,Queue aviaire
+1395,鳥竜種の靭尾,Queue aviaire +
+1396,鳥竜種の剛尾,Queue aviaire ++
+1397,鳥竜種の頭貤,Crane aviaire
+1398,鳥竜種の頭賖,Crane aviaire +
+1399,鳥竜種の頭賕,Crane aviaire ++
+1400,古龍種の殻,Carapace ancien
+1401,古龍種の堅殻,Cuirasse ancien
+1402,古龍種の重殻,Cortex ancien
+1403,古龍種の毛,Fourrure ancien
+1404,古龍種の上毛,Fourrure anc. +
+1405,古龍種の特上毛,Fourrure anc. ++
+1406,古龍種の皮,Peau ancien
+1407,古龍種の上皮,Peau ancien +
+1408,古龍種の特上皮,Peau ancien ++
+1409,古龍種の爪,Griffe ancien
+1410,古龍種の尖爪,Griffe ancien +
+1411,古龍種の剛爪,Griffe ancien ++
+1412,古龍種の尾,Queue ancien
+1413,古龍種の靭尾,Queue ancien +
+1414,古龍種の剛尾,Queue ancien ++
+1415,古龍種の血,Sang ancien
+1416,古龍種の濃血,Sang ancien +
+1417,古龍種の特濃血,Sang ancien ++
+1418,古龍種の翼,Aile ancien
+1419,古龍種の上翼,Aile ancien +
+1420,古龍種の剛翼,Aile ancien ++
+1421,古龍種の角,Corne ancien
+1422,古龍種の尖角,Corne ancien +
+1423,古龍種の剛角,Corne ancien ++
+1424,古龍種の鱗,Ecaille ancien
+1425,古龍種の上鱗,Ecaille ancien +
+1426,古龍種の厚鱗,Ecaille ancien ++
+1427,黒龍の角貤,Corne noire
+1428,黒龍の角賖,Corne noire ++
+1429,黒龍の角賕,Corne noire ++
+1430,黒龍の翼貤,Aile noire
+1431,黒龍の翼賖,Aile noire +
+1432,黒龍の翼賕,Aile noire ++
+1433,黒龍の鱗貤,Ecaille noire 
+1434,黒龍の鱗賖,Ecaille noire +
+1435,黒龍の鱗賕,Ecaille noire ++
+1436,発電袋,Poche d'eclair
+1437,発火袋,Poche d'enfer
+1438,貯水袋,Poche torrent
+1439,氷冷袋,Poche de gel
+1440,催眠袋,Poche de coma
+1441,激毒袋,Poche toxine
+1442,強麻痺袋,Poche omnipl.
+1443,モンスターの油,Huile monstre
+1444,モンスターの上油,Huile monstre +
+1445,モンスターの極油,Huile monstre ++
+1446,捕獲保証書,Preuve capture
+1447,部位破壊保証書,Preuve brisage
+1448,玉のかけら,Piece de jade
+1449,大鎧玉,Gemme armure [P]
+1450,超鎧玉,Gemme armure [M]
+1451,極鎧玉,Gemme armure [G]
+1452,センショク草・赤,Colorant rouge
+1453,センショク草・青,Colorant bleu
+1454,センショク草・黄,Colorant jaune
+1455,センショク草・緑,Colorant vert
+1456,センショク草・紫,Colorant violet
+1457,センショク草・黒,Colorant noir
+1458,センショク草・白,Colorant blanc
+1459,センショク草・虹,Colorant prisme
 1460,水晶ランス生産券,
 1461,Ｐヘッド生産券,
 1462,Ｐメイル生産券,
@@ -1470,40 +1470,40 @@ index,source,target
 1468,ギルドチェック,
 1469,大きな塊【紅】,
 1470,小さな塊【紅】,
-1471,ポルタチケット虹,
-1472,ポルタチケット桜,
-1473,ポルタチケット赤,
-1474,ポルタチケット青,
-1475,ポルタチケット黄,
-1476,ポルタチケット緑,
-1477,ポルタチケット橙,
-1478,ポルタチケット紫,
-1479,ポルタチケット白,
-1480,ポルタチケット黒,
-1481,乙女の心【体】,
-1482,乙女の心【避】,
-1483,乙女の心【気】,
-1484,投げペイント爆弾,
+1471,ポルタチケット虹,Cheque (60k)
+1472,ポルタチケット桜,Cheque (50k)
+1473,ポルタチケット赤,Cheque (40k)
+1474,ポルタチケット青,Cheque (30k)
+1475,ポルタチケット黄,Cheque (20k)
+1476,ポルタチケット緑,Cheque (10k)
+1477,ポルタチケット橙,Cheque (5k)
+1478,ポルタチケット紫,Cheque (1k)
+1479,ポルタチケット白,Cheque (1z)
+1480,ポルタチケット黒,Cheque (1z)
+1481,乙女の心【体】,Coeur de Vierge (HP)
+1482,乙女の心【避】,Coeur de Vierge (Esq)
+1483,乙女の心【気】,Coeur de Vierge (Endu)
+1484,投げペイント爆弾,Marqueur
 1485,投げ睡眠爆弾,
 1486,ブーメランＧ,
 1487,銀のゆでたまご,
 1488,金のゆでたまご,
-1489,怯まずの実,
-1490,石ころＧ,
-1491,温冷ドリンク,
-1492,投げ雷爆弾,
-1493,投げ氷爆弾,
-1494,雷撃タル爆弾,
-1495,毒撃タル爆弾,
-1496,氷撃タル爆弾,
-1497,睡眠タル爆弾,
-1498,麻痺タル爆弾,
-1499,横打ちタル爆弾,
-1500,砥石Ｇ,
-1501,高速砥石,
-1502,使い捨て耳栓,
-1503,使い捨て高級耳栓,
-1504,【旧】落とし穴爆弾,
+1489,怯まずの実,Fruit Nerf d'Acier
+1490,石ころＧ,Pierre G
+1491,温冷ドリンク,Boisson chaud/froid
+1492,投げ雷爆弾,P.Bombe Foudre
+1493,投げ氷爆弾,P.Bombe Glace
+1494,雷撃タル爆弾,G.Bombe Foudre
+1495,毒撃タル爆弾,G.Bombe Poison
+1496,氷撃タル爆弾,G.Bombe Glace
+1497,睡眠タル爆弾,G.Bombe Som
+1498,麻痺タル爆弾,G.Bombe Para
+1499,横打ちタル爆弾,Bombe Roulade
+1500,砥石Ｇ,Aiguisoir G
+1501,高速砥石,Aiguisoir rapide
+1502,使い捨て耳栓,Bouchon d'oreille
+1503,使い捨て高級耳栓,Bouchon d'oreille de qual.
+1504,【旧】落とし穴爆弾,[Vieux] Bombe a fosse
 1505,暖かな粉塵,
 1506,涼やかな粉塵,
 1507,解毒の粉塵,
@@ -1536,7 +1536,7 @@ index,source,target
 1534,七夕の生産券,
 1535,Ｎヘッドの生産券,
 1536,ガンランス冷却剤,
-1537,戦闘復帰玉,
+1537,戦闘復帰玉,Procheporteur
 1538,火耐性ドリンク,
 1539,水耐性ドリンク,
 1540,氷耐性ドリンク,
@@ -1552,7 +1552,7 @@ index,source,target
 1550,ラスタ笛【復帰】,
 1551,ラスタ笛【吸着】,
 1552,プーギー笛【賢明】,
-1553,練気ドリンク,
+1553,練気ドリンク,Boisson spirituelle
 1554,活力剤Ｇ,
 1555,キャラバン輝石,
 1556,キャラバン宝玉,
@@ -1609,10 +1609,10 @@ index,source,target
 1607,ダミー,
 1608,ダミー,
 1609,ダミー,
-1610,クエスト達成証,
-1611,ギルドスタンプ,
-1612,ＶＳ．チケット,
-1613,超激運の御守り,
+1610,クエスト達成証,Tck Quete Complete
+1611,ギルドスタンプ,Tampon Guilde
+1612,ＶＳ．チケット,Tck VS.
+1613,超激運の御守り,Talisman Super Chance
 1614,Ｄレイピア生産券,
 1615,Ｗレイピア生産券,
 1616,ソリッド生産券,
@@ -1629,9 +1629,9 @@ index,source,target
 1627,ぱらチケット貤,
 1628,ぱらチケット賖,
 1629,ぱらチケット賕,
-1630,ＨＬ生産券,
-1631,ＥＸ生産券,
-1632,ＣＡ生産券,
+1630,ＨＬ生産券,Tck HL
+1631,ＥＸ生産券,Tck EX
+1632,ＣＡ生産券,Tck CA
 1633,ウナペルチケット,
 1634,赤ねこの記憶・温,
 1635,赤ねこの記憶・寒,
@@ -1640,7 +1640,7 @@ index,source,target
 1638,シトゥルゥコイン,
 1639,魚拓【小】,
 1640,魚拓【大】,
-1641,太公望の証,
+1641,太公望の証,Preuve d'ambition
 1642,お年玉【丑】,
 1643,帯電した棘,
 1644,ＢＰ生産券【１】,
@@ -1651,42 +1651,42 @@ index,source,target
 1649,ＢＰ生産券【６】,
 1650,ＢＰ生産券【７】,
 1651,ＢＰ生産券【８】,
-1652,岩塩,
-1653,ベリル鉱石,
-1654,アモナイト鉱石,
-1655,雷管石,
-1656,風紋石,
-1657,緋夕石,
-1658,燐蛍石,
-1659,サンショウナギ,
+1652,岩塩,Sel de roche
+1653,ベリル鉱石,Beryl
+1654,アモナイト鉱石,Ammonite
+1655,雷管石,Pierre foudre
+1656,風紋石,Pierre vent
+1657,緋夕石,Pierre matinale
+1658,燐蛍石,Pierre luciole
+1659,サンショウナギ,Anguille poivre
 1660,オカサンゴ,
-1661,ハッパの実,
-1662,剛種チケット,
-1663,炎王龍討伐の証,
-1664,舞雷竜討伐の証,
-1665,舞雷竜の堅殻,
-1666,舞雷竜の上鱗,
-1667,舞雷竜の靭尾,
-1668,舞雷竜の尖鉤爪,
-1669,舞雷竜の尖角,
-1670,舞雷竜の上翼,
-1671,舞雷竜の雷液,
-1672,舞雷竜の骨髄,
-1673,舞雷竜の絶縁脂,
-1674,舞雷竜のたてがみ,
-1675,舞雷竜の帯電鱗,
-1676,舞雷竜の紫玉,
-1677,極上レシピ,
-1678,アタリドリンク,
-1679,マイトレ得々券,
-1680,根性入れニャおし,
-1681,乙女の願い【体】,
-1682,乙女の願い【避】,
-1683,乙女の願い【気】,
-1684,乙女の全て,
-1685,会心の砥石,
+1661,ハッパの実,Fruit happa
+1662,剛種チケット,Tck Gou
+1663,炎王龍討伐の証,Preuve Teostra
+1664,舞雷竜討伐の証,Preuve Belli
+1665,舞雷竜の堅殻,Cuirasse Belli
+1666,舞雷竜の上鱗,Eca. Belli
+1667,舞雷竜の靭尾,Queue Belli
+1668,舞雷竜の尖鉤爪,Griffe Belli
+1669,舞雷竜の尖角,Corne Belli
+1670,舞雷竜の上翼,Aile Belli
+1671,舞雷竜の雷液,Fluide Belli
+1672,舞雷竜の骨髄,Moelle Belli
+1673,舞雷竜の絶縁脂,Fourrure Belli
+1674,舞雷竜のたてがみ,Criniere Belli
+1675,舞雷竜の帯電鱗,Eca. Charge Belli
+1676,舞雷竜の紫玉,Joyau Belli
+1677,極上レシピ,Meilleure recette
+1678,アタリドリンク,Boisson vitale
+1679,マイトレ得々券,Tck Ferme
+1680,根性入れニャおし,Jeton Perk
+1681,乙女の願い【体】,Voeux des Vierges (HP)
+1682,乙女の願い【避】,Voeux des Vierges (Esq)
+1683,乙女の願い【気】,Voeux des Vierges (Endu)
+1684,乙女の全て,Voeux des Trois Filles
+1685,会心の砥石,Aiguisoir expert
 1686,鷹の目ドリンク,
-1687,瞬歩の実,
+1687,瞬歩の実,Fruit de deplacement
 1688,メゼコイン・竜姫,
 1689,メゼコイン・龍帝,
 1690,メゼコイン・鋭剣,
@@ -1792,15 +1792,15 @@ index,source,target
 1790,ピッケルＧ改,
 1791,虫あみＧ改,
 1792,ニトロ薬,
-1793,霞龍討伐の証,
-1794,呑竜討伐の証,
-1795,呑竜の皮,
-1796,呑竜の牙,
-1797,呑竜の酸液,
-1798,呑竜の血,
-1799,呑竜のヒレ,
-1800,呑竜の軟骨,
-1801,呑竜のキモ,
+1793,霞龍討伐の証,Preuve Chameleos
+1794,呑竜討伐の証,Preuve Paria
+1795,呑竜の皮,Peau Pariapuria
+1796,呑竜の牙,Croc Pariapuria
+1797,呑竜の酸液,Acide Pariapuria
+1798,呑竜の血,Sang Pariapuria
+1799,呑竜のヒレ,Nageoire Paria
+1800,呑竜の軟骨,Os Pariapuria
+1801,呑竜のキモ,Foie Parapuria
 1802,キャラバン銅鋼石,
 1803,キャラバン銀鋼石,
 1804,キャラバン金鋼石,
@@ -1865,40 +1865,40 @@ index,source,target
 1863,ポルタ焼き,
 1864,ポルタアイス,
 1865,ポルタケ,
-1866,老山龍討伐の証,
-1867,砦蟹討伐の証,
-1868,棘白竜の上鱗,
-1869,棘白竜の堅殻,
-1870,棘白竜の上棘,
-1871,棘白竜の頭殻,
-1872,棘白竜の尻尾,
-1873,棘白竜の紅玉,
-1874,棘白竜の尖角,
-1875,棘白竜の火石,
-1876,響狼の鋭爪,
-1877,響狼の剛毛,
-1878,響狼の鋭牙,
-1879,響狼のたてがみ,
-1880,響狼の上棘,
-1881,響狼の背棘,
-1882,響狼の血,
-1883,響狼の紅玉,
-1884,真紅の毛,
-1885,炎妃龍討伐の証,
-1886,排熱弾,
-1887,爆撃剣晶,
-1888,強撃剣晶,
-1889,猛毒剣晶,
-1890,麻痺剣晶,
-1891,睡眠剣晶,
-1892,火炎剣晶,
-1893,水激剣晶,
-1894,雷神剣晶,
-1895,氷結剣晶,
-1896,龍王剣晶,
-1897,大激運の御守り,
-1898,響狼討伐の証,
-1899,剥ぎ取りの極意,
+1866,老山龍討伐の証,Preuve Lao Shan
+1867,砦蟹討伐の証,Preuve Shen Gaoren
+1868,棘白竜の上鱗,Eca. Espinas B.
+1869,棘白竜の堅殻,Cuirasse Espinas B.
+1870,棘白竜の上棘,Pointe Espinas B.
+1871,棘白竜の頭殻,Crane Espinas B.
+1872,棘白竜の尻尾,Queue Espinas B.
+1873,棘白竜の紅玉,Rubis Espinas B.
+1874,棘白竜の尖角,Corne Espinas B.
+1875,棘白竜の火石,Silex Espinas B.
+1876,響狼の鋭爪,Griffe Orugaron
+1877,響狼の剛毛,Pelage Orugaron
+1878,響狼の鋭牙,Croc Orugaron
+1879,響狼のたてがみ,Criniere Oru.
+1880,響狼の上棘,Pointe Orugaron
+1881,響狼の背棘,Pointe Orugaron+
+1882,響狼の血,Sang Orugaron
+1883,響狼の紅玉,Rubis Orugaron
+1884,真紅の毛, Poils cramoisis
+1885,炎妃龍討伐の証,Preuve Lunastra
+1886,排熱弾,Bombe chaude
+1887,爆撃剣晶,Cristaux explo
+1888,強撃剣晶,Cristaux de force
+1889,猛毒剣晶,Cristaux poison
+1890,麻痺剣晶,Cristaux paralysie
+1891,睡眠剣晶,Cristaux sommeil
+1892,火炎剣晶,Cristaux feu
+1893,水激剣晶,Cristaux eau
+1894,雷神剣晶,Cristaux foudre
+1895,氷結剣晶,Cristaux glace
+1896,龍王剣晶,Cristaux dragon
+1897,大激運の御守り,Grand talisman chance
+1898,響狼討伐の証,Preuve Orugaron
+1899,剥ぎ取りの極意,Talisman de depecage
 1900,絆の証,
 1901,報酬チップ・赤,
 1902,報酬チップ・青,
@@ -2040,7 +2040,7 @@ index,source,target
 2038,ラスタメダル,
 2039,キャラバンメダル,
 2040,剣晶無し,
-2041,応急薬グレート,
+2041,応急薬グレート,Mega potion X
 2042,支給用怯まずの実,
 2043,携帯ブーメランＧ,
 2044,支給用石ころＧ,
@@ -2145,19 +2145,19 @@ index,source,target
 2143,堅牢な蛇皮,
 2144,感謝の証補助券,
 2145,お年玉【寅】,
-2146,大巌竜の血,
-2147,大巌竜の紅玉,
-2148,大巌竜の皮,
-2149,大巌竜の鱗,
-2150,大巌竜の翼,
-2151,大巌竜の髄,
-2152,大巌竜の角,
-2153,大巌竜の牙,
-2154,大巌竜の尾,
-2155,大巌竜の棘,
-2156,撃玉,
-2157,上撃玉,
-2158,秘撃玉,
+2146,大巌竜の血,Sang Raviente
+2147,大巌竜の紅玉,Gemme Raviente
+2148,大巌竜の皮,Peau Raviente
+2149,大巌竜の鱗,Ecaille Raviente
+2150,大巌竜の翼,Aile Raviente
+2151,大巌竜の髄,Moelle Raviente
+2152,大巌竜の角,Corne Raviente
+2153,大巌竜の牙,Croc Raviente
+2154,大巌竜の尾,Queue Raviente
+2155,大巌竜の棘,Pointe Raviente
+2156,撃玉,Gemme Pouvoir
+2157,上撃玉,Gemme Pouvoir Moy
+2158,秘撃玉,Gemme Pouvoir Secrete
 2159,タノポポの葉,
 2160,代用草,
 2161,シロゴマキノコ,
@@ -2206,10 +2206,10 @@ index,source,target
 2204,古びた柄杓,
 2205,細長い棒,
 2206,太い組紐,
-2207,浮岳龍討伐の証,
-2208,古龍種の牙,
-2209,古龍種の珠,
-2210,年間特典生産券,
+2207,浮岳龍討伐の証,Preuve Tsukami
+2208,古龍種の牙,Croc ancien
+2209,古龍種の珠,Fluide ancien
+2210,年間特典生産券,Tck Abo Annuel
 2211,ダミー,
 2212,打撃ビン,
 2213,匠カフＰＡ１,
@@ -2644,89 +2644,89 @@ index,source,target
 2642,朽ちた皮,
 2643,鎧竜の尾骨,
 2644,武具職人の極意,
-2645,氷狐竜の鱗,
-2646,氷狐竜の甲殻,
-2647,氷狐竜の爪,
-2648,氷狐竜の角,
-2649,氷狐竜の尾,
-2650,氷狐竜の棘,
-2651,氷狐竜の上鱗,
-2652,氷狐竜の堅殻,
-2653,氷狐竜の鋭爪,
-2654,氷狐竜の尖角,
-2655,氷狐竜の靱尾,
-2656,氷狐竜の上棘,
-2657,氷狐竜討伐の証,
-2658,新人の証,
-2659,片手剣魂・序,
-2660,片手剣魂・中,
-2661,片手剣魂・極,
-2662,片手剣魂・天,
-2663,双剣魂・序,
-2664,双剣魂・中,
-2665,双剣魂・極,
-2666,双剣魂・天,
-2667,大剣魂・序,
-2668,大剣魂・中,
-2669,大剣魂・極,
-2670,大剣魂・天,
-2671,太刀魂・序,
-2672,太刀魂・中,
-2673,太刀魂・極,
-2674,太刀魂・天,
-2675,ハンマー魂・序,
-2676,ハンマー魂・中,
-2677,ハンマー魂・極,
-2678,ハンマー魂・天,
-2679,狩猟笛魂・序,
-2680,狩猟笛魂・中,
-2681,狩猟笛魂・極,
-2682,狩猟笛魂・天,
-2683,ランス魂・序,
-2684,ランス魂・中,
-2685,ランス魂・極,
-2686,ランス魂・天,
-2687,ガンランス魂・序,
-2688,ガンランス魂・中,
-2689,ガンランス魂・極,
-2690,ガンランス魂・天,
-2691,Ｈボウガン魂・序,
-2692,Ｈボウガン魂・中,
-2693,Ｈボウガン魂・極,
-2694,Ｈボウガン魂・天,
-2695,Ｌボウガン魂・序,
-2696,Ｌボウガン魂・中,
-2697,Ｌボウガン魂・極,
-2698,Ｌボウガン魂・天,
-2699,弓魂・序,
-2700,弓魂・中,
-2701,弓魂・極,
-2702,弓魂・天,
-2703,逞しいクチバシ,
-2704,猛々しいクチバシ,
-2705,神々しいクチバシ,
-2706,桃毛獣の蛮爪,
-2707,桃毛獣の抉爪,
-2708,桃毛獣の裂爪,
-2709,溶岩竜の旋ビレ,
-2710,溶岩竜の刃ビレ,
-2711,溶岩竜の凄ビレ,
-2712,プニプニした柔皮,
-2713,純白の柔皮,
-2714,アルビノの腹かみ,
-2715,火竜の禍鱗,
-2716,火竜の獄鱗,
-2717,火竜の皇鱗,
-2718,雌火竜の鋼殻,
-2719,雌火竜の麗殻,
-2720,雌火竜の艶殻,
-2721,凄くねじれた角,
-2722,凶悪なねじれた角,
-2723,極上のねじれた角,
-2724,雪獅子の砕牙,
-2725,雪獅子の穿牙,
-2726,雪獅子の妖牙,
-2727,ＨＣチケット,
+2645,氷狐竜の鱗,Eca. Dyuragaua
+2646,氷狐竜の甲殻,Cara. Dyuragaua
+2647,氷狐竜の爪,Griffe Dyuragaua
+2648,氷狐竜の角,Corne Dyuragaua
+2649,氷狐竜の尾,Queue Dyuragaua
+2650,氷狐竜の棘,Pointe Dyuragaua
+2651,氷狐竜の上鱗,Eca. Dyuragaua+
+2652,氷狐竜の堅殻,Cuirasse Dyuragaua
+2653,氷狐竜の鋭爪,Griffe Dyuragaua+
+2654,氷狐竜の尖角,Corne Dyuragaua+
+2655,氷狐竜の靱尾,Queue Dyuragaua+
+2656,氷狐竜の上棘,Pointe Dyuragaua+
+2657,氷狐竜討伐の証,Preuve Dyuragaua
+2658,新人の証,Preuve Debutant
+2659,片手剣魂・序,Ame SnS (Faible)
+2660,片手剣魂・中,Ame SnS (Moy)
+2661,片手剣魂・極,Ame SnS (Eleve)
+2662,片手剣魂・天,Ame SnS (Parfait)
+2663,双剣魂・序,Ame DS (Faible)
+2664,双剣魂・中,Ame DS (Moy)
+2665,双剣魂・極,Ame DS (Eleve)
+2666,双剣魂・天,Ame DS (Parfait)
+2667,大剣魂・序,Ame GS (Faible)
+2668,大剣魂・中,Ame GS (Moy)
+2669,大剣魂・極,Ame GS (Eleve)
+2670,大剣魂・天,Ame GS (Parfait)
+2671,太刀魂・序,Ame LS (Faible)
+2672,太刀魂・中,Ame LS (Moy)
+2673,太刀魂・極,Ame LS (Eleve)
+2674,太刀魂・天,Ame LS (Parfait)
+2675,ハンマー魂・序,Ame Marteau (Faible)
+2676,ハンマー魂・中,Ame Marteau (Moy)
+2677,ハンマー魂・極,Ame Marteau (Eleve)
+2678,ハンマー魂・天,Ame Marteau (Parfait)
+2679,狩猟笛魂・序,Ame HH (Faible)
+2680,狩猟笛魂・中,Ame HH (Moy)
+2681,狩猟笛魂・極,Ame HH (Eleve)
+2682,狩猟笛魂・天,Ame HH (Parfait)
+2683,ランス魂・序,Ame Lance (Faible)
+2684,ランス魂・中,Ame Lance (Moy)
+2685,ランス魂・極,Ame Lance (Eleve)
+2686,ランス魂・天,Ame Lance (Parfait)
+2687,ガンランス魂・序,Ame GL (Faible)
+2688,ガンランス魂・中,Ame GL (Moy)
+2689,ガンランス魂・極,Ame GL (Eleve)
+2690,ガンランス魂・天,Ame GL (Parfait)
+2691,Ｈボウガン魂・序,Ame HBG (Faible)
+2692,Ｈボウガン魂・中,Ame HBG (Moy)
+2693,Ｈボウガン魂・極,Ame HBG (Eleve)
+2694,Ｈボウガン魂・天,Ame HBG (Parfait)
+2695,Ｌボウガン魂・序,Ame LBG (Faible)
+2696,Ｌボウガン魂・中,Ame LBG (Moy)
+2697,Ｌボウガン魂・極,Ame LBG (Eleve)
+2698,Ｌボウガン魂・天,Ame LBG (Parfait)
+2699,弓魂・序,Ame Arc (Faible)
+2700,弓魂・中,Ame Arc (Moy)
+2701,弓魂・極,Ame Arc (Eleve)
+2702,弓魂・天,Ame Arc (Parfait)
+2703,逞しいクチバシ,Bec puissant
+2704,猛々しいクチバシ,Bec feroce
+2705,神々しいクチバシ,Bec divin
+2706,桃毛獣の蛮爪,Griffe carnage Conga
+2707,桃毛獣の抉爪,Griffe choix Conga
+2708,桃毛獣の裂爪,Griffe rouge Conga
+2709,溶岩竜の旋ビレ,Nage. rota Lava
+2710,溶岩竜の刃ビレ,Nage. lame Lava
+2711,溶岩竜の凄ビレ,Nage. tyra Lava 
+2712,プニプニした柔皮,Peau pateuse Khezu
+2713,純白の柔皮,Peau fantome Khezu
+2714,アルビノの腹かみ,Ventre ivoire Khezu
+2715,火竜の禍鱗,Eca. calamite Los
+2716,火竜の獄鱗,Eca. emprisonnnee Los
+2717,火竜の皇鱗,Eca. imperiale Los
+2718,雌火竜の鋼殻,Cara. acier Rathian
+2719,雌火竜の麗殻,Cara. radiant Rathian
+2720,雌火竜の艶殻,Cara. brillante Rathian
+2721,凄くねじれた角,Grande corne tordue
+2722,凶悪なねじれた角,Corne tordue nefaste
+2723,極上のねじれた角,Corne tordue exquise
+2724,雪獅子の砕牙,Croc broyant Blango
+2725,雪獅子の穿牙,Croc percant Blango
+2726,雪獅子の妖牙,Croc mystique Blango
+2727,ＨＣチケット,Tck HC
 2728,研ぎ師カフＰＡ１,
 2729,装填カフＰＡ１,
 2730,風圧カフＰＡ１,
@@ -2953,16 +2953,16 @@ index,source,target
 2951,石板の欠片【中】,
 2952,石板の欠片【下】,
 2953,完成した石板,
-2954,冥雷竜の堅殻,
-2955,冥雷竜の上鱗,
-2956,冥雷竜の靭尾,
-2957,冥雷竜の尖鉤爪,
-2958,冥雷竜の尖角,
-2959,冥雷竜の上翼,
-2960,冥雷竜の骨髄,
-2961,冥雷竜のたてがみ,
-2962,冥雷竜の鉛玉,
-2963,冥雷竜討伐の証,
+2954,冥雷竜の堅殻,Carapace Drak.
+2955,冥雷竜の上鱗,Ecaille Drakulos
+2956,冥雷竜の靭尾,Queue Drakulos
+2957,冥雷竜の尖鉤爪,Croc Drakulos
+2958,冥雷竜の尖角,Pointe Drakulos
+2959,冥雷竜の上翼,Aile Drakulos
+2960,冥雷竜の骨髄,Moelle Drakulos
+2961,冥雷竜のたてがみ,Criniere Drak.
+2962,冥雷竜の鉛玉,Gemme Drakulos
+2963,冥雷竜討伐の証,Preuve Drakulos
 2964,スティフＩ生産券,
 2965,グレーヴＩ生産券,
 2966,マンモスＳ生産券,
@@ -3536,50 +3536,50 @@ index,source,target
 3534,ダミー,
 3535,棘茶竜の豪棘,
 3536,ダミー,
-3537,蛮竜の鱗,
-3538,蛮竜の腹皮,
-3539,蛮竜の爪,
-3540,蛮竜の角,
-3541,蛮竜の翼,
-3542,蛮竜の尾,
-3543,蛮竜の棘,
-3544,蛮竜の上鱗,
-3545,蛮竜の上皮,
-3546,蛮竜の尖爪,
-3547,蛮竜の尖角,
-3548,蛮竜の上翼,
-3549,蛮竜の靭尾,
-3550,蛮竜の上棘,
-3551,蛮竜討伐の証,
+3537,蛮竜の鱗,Ecaille Guren
+3538,蛮竜の腹皮,Peau Guren
+3539,蛮竜の爪,Griffe Guren
+3540,蛮竜の角,Corne Guren
+3541,蛮竜の翼,Aile Guren
+3542,蛮竜の尾,Queue Guren
+3543,蛮竜の棘,Pointe Guren
+3544,蛮竜の上鱗,Ecaille Guren+
+3545,蛮竜の上皮,Cuirasse Guren
+3546,蛮竜の尖爪,Griffe Guren+
+3547,蛮竜の尖角,Corne Guren+
+3548,蛮竜の上翼,Aile Guren+
+3549,蛮竜の靭尾,Queue Guren+
+3550,蛮竜の上棘,Pointe Guren+
+3551,蛮竜討伐の証,Preuve Guren
 3552,演習珠貤,
 3553,演習珠賖,
 3554,演習珠賕,
 3555,演習珠賙,
-3556,チャバネイワムシ,
-3557,タカネキチョウ,
-3558,タルバッタ,
-3559,ミドヤマオサムシ,
-3560,ヒメコンガチョウ,
-3561,孤鉄石,
-3562,山水晶,
-3563,あめ葉,
-3564,イワヒメ草,
-3565,夢見草の花,
-3566,アルプス草,
-3567,ヤマカラシ草,
-3568,ポルタクッキー,
-3569,ポルタチョコ,
-3570,ポルタキャンディ,
-3571,古龍種の顎,
-3572,古龍種の膜,
+3556,チャバネイワムシ,Chrysomele feuille
+3557,タカネキチョウ,Papillon racine
+3558,タルバッタ,Criquet baril
+3559,ミドヤマオサムシ,Scarabee joyau
+3560,ヒメコンガチョウ,Papillon peche
+3561,孤鉄石,Pierre arc
+3562,山水晶,Cristal montagne
+3563,あめ葉,Feuille impregnee
+3564,イワヒメ草,Princesse des roc
+3565,夢見草の花,Herbe de reve
+3566,アルプス草,Herbe alpine
+3567,ヤマカラシ草,Herbe moutarde
+3568,ポルタクッキー,Cookie Porta
+3569,ポルタチョコ,Choco Porta
+3570,ポルタキャンディ,Bonbon Porta
+3571,古龍種の顎,Machoire ancien
+3572,古龍種の膜,Membrane ancien
 3573,コウザンダケ,
-3574,コンサバ,
-3575,ブルックの角,
-3576,ブルックの毛皮,
-3577,ブルックの頭,
-3578,エルペの角,
-3579,エルペの毛皮,
-3580,エルペの蹄,
+3574,コンサバ,Chinchard escroc
+3575,ブルックの角,Corne Buruku
+3576,ブルックの毛皮,Peau Buruku
+3577,ブルックの頭,Tete Buruku
+3578,エルペの角,Corne Erupe
+3579,エルペの毛皮,Peau Erupe
+3580,エルペの蹄,Sabot Erupe
 3581,演習珠𧶠,
 3582,妖しげなコイン,
 3583,微かに光るコイン,
@@ -3650,11 +3650,11 @@ index,source,target
 3648,ハンターの本・白,
 3649,ハンターの本・桜,
 3650,ハンターの本・紫,
-3651,ハーフチケット赤,
-3652,ハーフチケット青,
-3653,ハーフチケット白,
-3654,ハーフチケット桜,
-3655,ハーフチケット紫,
+3651,ハーフチケット赤,Demi Tck Rouge
+3652,ハーフチケット青,Demi Tck Bleu
+3653,ハーフチケット白,Demi Tck Blanc
+3654,ハーフチケット桜,Demi Tck Rose
+3655,ハーフチケット紫,Demi Tck Violet
 3656,ハンターバッグ赤,
 3657,ハンターバッグ青,
 3658,ハンターバッグ白,
@@ -3736,8 +3736,8 @@ index,source,target
 3734,一角竜の硬殻,
 3735,蒼火竜の禍鱗,
 3736,蒼火竜の獄鱗,
-3737,古龍種の舌,
-3738,古龍種の腱,
+3737,古龍種の舌,Langue ancien
+3738,古龍種の腱,Tendon ancien
 3739,連射カフＰＡ４,
 3740,根性カフＰＡ１,
 3741,根性カフＰＡ２,
@@ -3971,37 +3971,37 @@ index,source,target
 3969,モドレ玉,
 3970,ポイント減笛,
 3971,豊穣のコイン,
-3972,超絶の証貤,
-3973,超絶の証賖,
-3974,超絶の証賕,
-3975,超絶の証賙,
-3976,超絶の証𧶠,
-3977,超絶の証賰,
-3978,超絶の証賱,
-3979,超絶の証𧸐,
-3980,超絶の証贉,
-3981,超絶の証贎,
+3972,超絶の証貤,Preuve Transc. 1
+3973,超絶の証賖,Preuve Transc. 2
+3974,超絶の証賕,Preuve Transc. 3
+3975,超絶の証賙,Preuve Transc. 4
+3976,超絶の証𧶠,Preuve Transc. 5
+3977,超絶の証賰,Preuve Transc. 6
+3978,超絶の証賱,Preuve Transc. 7
+3979,超絶の証𧸐,Preuve Transc. 8
+3980,超絶の証贉,Preuve Transc. 9
+3981,超絶の証贎,Preuve Trans. 10
 3982,モルデノＰ生産券,
 3983,ステンオＲ生産券,
-3984,極龍の鱗,
-3985,極龍の爪,
-3986,極龍の角,
-3987,極龍の翼,
-3988,極龍の尾,
-3989,極龍の黒曜玉,
-3990,極龍の電鱗,
-3991,極龍の鋭爪,
-3992,極龍の曜角,
-3993,極龍の雷膜,
-3994,極龍の靭尾,
-3995,古龍種の稀玉,
-3996,極龍討伐の証,
+3984,極龍の鱗,Ecaille Ruko
+3985,極龍の爪,Griffe Ruko
+3986,極龍の角,Corne Ruko
+3987,極龍の翼,Aile Ruko
+3988,極龍の尾,Queue Ruko
+3989,極龍の黒曜玉,Gemme Ruko
+3990,極龍の電鱗,Ecaille Ruko+
+3991,極龍の鋭爪,Griffe Ruko+
+3992,極龍の曜角,Corne Ruko+
+3993,極龍の雷膜,Aile Ruko+
+3994,極龍の靭尾,Queue Ruko+
+3995,古龍種の稀玉,Joyau ancien
+3996,極龍討伐の証,Preuve Rukodiora
 3997,ファミ通チケット,
 3998,肉球のメダル,
 3999,カルド鉱石【白】,
 4000,カルド鉱石【朱】,
 4001,カルド鉱石【黄】,
-4002,王者の証,
+4002,王者の証,Preuve royale
 4003,燃えたぎる黒殻,
 4004,煮えたぎる紅殻,
 4005,竜水門の鍵,
@@ -4332,24 +4332,24 @@ index,source,target
 4330,深紅色の柔皮,
 4331,眠鳥の純蒼毛,
 4332,眠鳥の輝蒼毛,
-4333,飛竜の卵…？,
-4334,草食竜の卵…？,
-4335,肉食竜の卵…？,
-4336,ノーマルな図面１,
-4337,ノーマルな図面２,
-4338,ミニチュアな図面,
+4333,飛竜の卵…？,Oeuf wyverne...?
+4334,草食竜の卵…？,Oeuf herbivore...?
+4335,肉食竜の卵…？,Oeuf carnivore...?
+4336,ノーマルな図面１,Schema nid
+4337,ノーマルな図面２,Schema etang
+4338,ミニチュアな図面,Schema miniature
 4339,ダミー３８,
-4340,グークの涙,
-4341,グークの羽根,
-4342,水玉の型紙,
-4343,ガンマンの型紙,
+4340,グークの涙,Larme Gook
+4341,グークの羽根,Plume Gook
+4342,水玉の型紙,Plan point polka
+4343,ガンマンの型紙,Plan tireur
 4344,ダミー３９,
-4345,スイマーの型紙,
-4346,フルーツ鞄の型紙,
-4347,パーティの型紙,
-4348,ぼろぼろの図面,
-4349,よれよれの図面,
-4350,グークの思い出,
+4345,スイマーの型紙,Plan natation
+4346,フルーツ鞄の型紙,Plan sac fruit
+4347,パーティの型紙,Plan fete
+4348,ぼろぼろの図面,Dessin lambeaux
+4349,よれよれの図面,Dessin douteux
+4350,グークの思い出,Souvenir Gook
 4351,飛竜種の逆鱗,
 4352,飛竜種の稀玉,
 4353,超高級耳栓の実,
@@ -4370,7 +4370,7 @@ index,source,target
 4368,カルド鉱石【砂】,
 4369,カルド鉱石【梅】,
 4370,カルド鉱石【煤】,
-4371,覇者の証,
+4371,覇者の証,Preuve conquerant
 4372,ＴＰ５生産券・１,
 4373,ＴＰ５生産券・２,
 4374,ＴＰ５生産券・３,
@@ -4398,8 +4398,8 @@ index,source,target
 4396,信号弾,
 4397,間欠泉爆弾,
 4398,大巌竜の紅血,
-4399,古龍種の骨,
-4400,極龍の黒石,
+4399,古龍種の骨,Os ancien
+4400,極龍の黒石,Pierre Ruko
 4401,４４０１ダミー,
 4402,４４０２ダミー,
 4403,４４０３ダミー,
@@ -4484,15 +4484,15 @@ index,source,target
 4482,ハンターカード黄,
 4483,ハンターカード水,
 4484,ハンターカード橙,
-4485,飛竜の黒鱗,
-4486,飛竜の艶膜,
-4487,飛竜の艶牙,
-4488,飛竜の黒顎,
-4489,飛竜の艶爪,
-4490,飛竜の黒翼,
-4491,飛竜の艶髄,
-4492,飛竜の黒尾,
-4493,飛竜の艶棘,
+4485,飛竜の黒鱗,Ecaille Unknown
+4486,飛竜の艶膜,Membrane Unknown
+4487,飛竜の艶牙,Croc Unknown
+4488,飛竜の黒顎,Machoire Unknown
+4489,飛竜の艶爪,Griffe Unknown
+4490,飛竜の黒翼,Aile Unknown
+4491,飛竜の艶髄,Moelle Unknown
+4492,飛竜の黒尾,Queue Unknown
+4493,飛竜の艶棘,Pointe Unknown
 4494,聴保カフ賖ＰＡ１,
 4495,聴保カフ賖ＰＡ２,
 4496,聴保カフ賖ＰＡ３,
@@ -4716,18 +4716,18 @@ index,source,target
 4714,攻撃系統【不利】,
 4715,攻撃系統【有利】,
 4716,通常属性【有利】,
-4717,モチモチの実,
-4718,トキメキノコ,
-4719,ベニヒメチョウ,
-4720,カチコチ虫,
-4721,ドワスレ草,
-4722,グークのがらくた,
-4723,グークのお守り,
-4724,オリオールの飯,
-4725,ヨセヨセアロワナ,
-4726,カムカムの実,
-4727,ヒラメキノコ,
-4728,オモワレ草,
+4717,モチモチの実,Fruit Mochi
+4718,トキメキノコ,Champicoeur
+4719,ベニヒメチョウ,Papillon rose
+4720,カチコチ虫,Insecte diamant
+4721,ドワスレ草,Herbe oubliable
+4722,グークのがらくた,Dechet Gook
+4723,グークのお守り,Amulette Gook
+4724,オリオールの飯,Riz Orioru
+4725,ヨセヨセアロワナ,Arowana fin
+4726,カムカムの実,Fruit Kamu
+4727,ヒラメキノコ,Fruit flotteur
+4728,オモワレ草,Herbe ecrasee
 4729,ギアスタッズ,
 4730,ギアレザー,
 4731,ギアクレスト,
@@ -4755,25 +4755,25 @@ index,source,target
 4753,マーキングボール,
 4754,ヒエヒエドリンク,
 4755,ピリピリドリンク,
-4756,ウスアジ,
-4757,ヒレナガウオ,
-4758,ハラグロ,
-4759,香来草,
-4760,ゆびきり草,
-4761,うぶ毛草,
-4762,きれいな貝殻,
-4763,やわらかな貝殻,
-4764,めずらしい貝殻,
-4765,ペリカン鉱石,
-4766,黒輝石,
-4767,パルサント鉱石,
-4768,クワバッタ,
-4769,ツリカネムシ,
-4770,イソハムシ,
-4771,勇猛なる角,
-4772,香りの樹の枝,
-4773,可愛い果実,
-4774,氷雪樹の新芽,
+4756,ウスアジ,Chinchard rouge
+4757,ヒレナガウオ,Poisson longue queue
+4758,ハラグロ,Poisson ventre noir
+4759,香来草,Plante fragrante
+4760,ゆびきり草,Plante rosee
+4761,うぶ毛草,Plante poilue
+4762,きれいな貝殻,Coquillage joli
+4763,やわらかな貝殻,Coquillage doux
+4764,めずらしい貝殻,Coquillage rare
+4765,ペリカン鉱石,Minerai pelican
+4766,黒輝石,Pyroxene noir
+4767,パルサント鉱石,Minerai pare
+4768,クワバッタ,Criquet-cerf
+4769,ツリカネムシ,Insecte jacinthe
+4770,イソハムシ,Insecte calmar
+4771,勇猛なる角,Corne vaillante
+4772,香りの樹の枝,Branche fragrante
+4773,可愛い果実,Fruit charmant
+4774,氷雪樹の新芽,Branche gelee
 4775,カルド鉱石【鴇】,
 4776,カルド鉱石【宍】,
 4777,カルド鉱石【鳶】,
@@ -4936,12 +4936,12 @@ index,source,target
 4934,４４０６ダミー,
 4935,格段にねじれた角,
 4936,極度にねじれた角,
-4937,ホルク羽根【無】,
-4938,ホルク羽根【火】,
-4939,ホルク羽根【水】,
-4940,ホルク羽根【氷】,
-4941,ホルク羽根【雷】,
-4942,ホルク羽根【龍】,
+4937,ホルク羽根【無】,Plume Halk [Raw]
+4938,ホルク羽根【火】,Plume Halk [Feu]
+4939,ホルク羽根【水】,Plume Halk [Eau]
+4940,ホルク羽根【氷】,Plume Halk [Glc]
+4941,ホルク羽根【雷】,Plume Halk [Fdr]
+4942,ホルク羽根【龍】,Plume Halk [Drg]
 4943,本気飲料【会心】,
 4944,ハンターの型紙,
 4945,タキシードの型紙,
@@ -4949,7 +4949,7 @@ index,source,target
 4947,コックの型紙,
 4948,ラブリーな図面,
 4949,砦の図面,
-4950,やせやせフード,
+4950,やせやせフード,Repas Yase Yase
 4951,まるまるフード,
 4952,元気のみなもと,
 4953,本気飲料【火】,
@@ -4957,20 +4957,20 @@ index,source,target
 4955,本気飲料【氷】,
 4956,本気飲料【雷】,
 4957,本気飲料【龍】,
-4958,跳緋獣の毛,
-4959,跳緋獣の牙,
-4960,跳緋獣の爪,
-4961,跳緋獣の角,
-4962,跳緋獣の尾,
-4963,ココモアの毛,
-4964,跳緋獣の上毛,
-4965,跳緋獣の鋭牙,
-4966,跳緋獣の尖爪,
-4967,跳緋獣の鋭角,
-4968,跳緋獣の上尾,
-4969,ココモアの柔毛,
-4970,跳緋獣討伐の証,
-4971,牙獣種の燦角,
+4958,跳緋獣の毛,Fourrure Gogomoa
+4959,跳緋獣の牙,Croc Gogomoa
+4960,跳緋獣の爪,Griffe Gogomoa
+4961,跳緋獣の角,Corne Gogomoa
+4962,跳緋獣の尾,Queue Gogomoa
+4963,ココモアの毛,Fourrure Kokomoa
+4964,跳緋獣の上毛,Fourrure Gogo. +
+4965,跳緋獣の鋭牙,Croc Gogomoa+
+4966,跳緋獣の尖爪,Griffe Gogomoa+
+4967,跳緋獣の鋭角,Corne Gogomoa+
+4968,跳緋獣の上尾,Queue Gogomoa+
+4969,ココモアの柔毛,Fourrure Koko. +
+4970,跳緋獣討伐の証,Preuve Gogomoa
+4971,牙獣種の燦角,Corne pelagus
 4972,回避カフ賖ＰＡ３,
 4973,眠剣カフ賖ＰＡ１,
 4974,痺剣カフ賖ＰＡ１,
@@ -5099,37 +5099,37 @@ index,source,target
 5097,錬金カフ賖ＳＣ５,
 5098,捕獲カフ賖ＳＣ５,
 5099,自防カフ賖ＳＣ５,
-5100,腕力珠Ｇ,
-5101,気短珠Ｇ,
-5102,研磨珠Ｇ,
-5103,集中珠,
-5104,絆珠,
-5105,捕獲珠,
-5106,受身珠,
-5107,笛吹珠,
-5108,罠師珠,
-5109,交渉珠,
+5100,腕力珠Ｇ,Attaque G
+5101,気短珠Ｇ,Repas G
+5102,研磨珠Ｇ,Aiguiseur G
+5103,集中珠,J. charge
+5104,絆珠,J. lien
+5105,捕獲珠,J. capture
+5106,受身珠,J. passif
+5107,笛吹珠,J. maestro
+5108,罠師珠,J. piege
+5109,交渉珠,J. pression
 5110,鶴喉原珠,
 5111,猫眼原珠,
 5112,亀甲原珠,
-5113,古龍種の髄,
-5114,投げナイフＧ,
-5115,ナイフキット,
+5113,古龍種の髄,Moelle ancien
+5114,投げナイフＧ,Cteau lancer G
+5115,ナイフキット,Kit couteau
 5116,強酸弾,
 5117,火酸弾,
 5118,水酸弾,
 5119,雷酸弾,
 5120,氷酸弾,
 5121,龍酸弾,
-5122,火耐性の実,
-5123,水耐性の実,
-5124,龍耐性の実,
-5125,スタミナの実,
-5126,属性攻撃の実,
-5127,攻防の粉塵,
-5128,獰竜２頭討伐の証,
+5122,火耐性の実,Fruit Res. Feu
+5123,水耐性の実,Fruit Res. Eau
+5124,龍耐性の実,Fruit Res. Drag
+5125,スタミナの実,Fruit Athletique
+5126,属性攻撃の実,Fruit Att. Elem
+5127,攻防の粉塵,Poudre de Force
+5128,獰竜２頭討伐の証,Preuve duo Abio
 5129,状態回復の粉塵,
-5130,飛竜種の宝玉,
+5130,飛竜種の宝玉,Joyau volant
 5131,丈夫な風箱,
 5132,鳴りやまぬ音叉,
 5133,リベッツＬ生産券,
@@ -5288,54 +5288,54 @@ index,source,target
 5286,ぴかぴかなもの,
 5287,ふわふわなもの,
 5288,さらさらなもの,
-5289,菌堅石,
-5290,闇鉄鋼,
-5291,菌晶鉄石,
-5292,石灰石,
+5289,菌堅石,Mycelium
+5290,闇鉄鋼,Acier noir
+5291,菌晶鉄石,Cristal mycete
+5292,石灰石,Argile
 5293,攻撃中止弾,
-5294,ホルク笛【鬼人】,
-5295,ホルク笛【硬化】,
-5296,コナマキダケ,
-5297,多殻蟹の岩殻,
-5298,多殻蟹の岩爪,
-5299,多殻蟹の朱殻,
-5300,多殻蟹の朱爪,
-5301,多殻蟹の巨槌,
-5302,多殻蟹の堅殻,
-5303,多殻蟹の尖爪,
-5304,多殻蟹の薄殻,
-5305,多殻蟹の薄爪,
-5306,多殻蟹の鋭槍,
-5307,甲殻種の宝玉,
-5308,多殻蟹討伐の証,
-5309,獰竜の鱗,
-5310,獰竜の骨,
-5311,獰竜の皮,
-5312,獰竜の牙,
-5313,獰竜の刃尾,
-5314,獰竜の角,
-5315,獰竜の血,
-5316,獰竜の上鱗,
-5317,獰竜の上骨,
-5318,獰竜の上皮,
-5319,獰竜の穿牙,
-5320,獰竜の上刃尾,
-5321,獰竜の尖角,
-5322,獰竜の熱血,
-5323,獣竜種の鱗,
-5324,獣竜種の上鱗,
-5325,獣竜種の厚鱗,
-5326,獣竜種の角,
-5327,獣竜種の尖角,
-5328,獣竜種の剛角,
-5329,獣竜種の牙,
-5330,獣竜種の堅牙,
-5331,獣竜種の重牙,
-5332,獣竜種の尾,
-5333,獣竜種の靭尾,
-5334,獣竜種の剛尾,
-5335,獰竜討伐の証,
-5336,獣竜種の燃血,
+5294,ホルク笛【鬼人】,Sifflet Halk [Atk]
+5295,ホルク笛【硬化】,Sifflet Halk [Def]
+5296,コナマキダケ,Champi Zamu
+5297,多殻蟹の岩殻,Cara. verte Zamu
+5298,多殻蟹の岩爪,Grif. verte Zamu
+5299,多殻蟹の朱殻,Cara. orange Zamu
+5300,多殻蟹の朱爪,Grif. orange Zamu
+5301,多殻蟹の巨槌,Marteau Zamu
+5302,多殻蟹の堅殻,Cuirasse Zamu
+5303,多殻蟹の尖爪,Griffe Zamu+
+5304,多殻蟹の薄殻,Cara. elec. Zamu
+5305,多殻蟹の薄爪,Grif. elec. Zamu
+5306,多殻蟹の鋭槍,Foreuse Zamu
+5307,甲殻種の宝玉,Joyau Carapaceon
+5308,多殻蟹討伐の証,Preuve Zamuza
+5309,獰竜の鱗,Eca. Abio
+5310,獰竜の骨,Os Abio
+5311,獰竜の皮,Peau Abio
+5312,獰竜の牙,Croc Abio
+5313,獰竜の刃尾,Queue Abio
+5314,獰竜の角,Corne Abio
+5315,獰竜の血,Sang Abio
+5316,獰竜の上鱗,Eca. Abio+
+5317,獰竜の上骨,Os Abio+
+5318,獰竜の上皮,Peau Abio+
+5319,獰竜の穿牙,Croc Abio+
+5320,獰竜の上刃尾,Queue Abio+
+5321,獰竜の尖角,Corne Abio+
+5322,獰竜の熱血,Sang Abio+
+5323,獣竜種の鱗,Ecaille brute
+5324,獣竜種の上鱗,Ecaille brute +
+5325,獣竜種の厚鱗,Ecaille brute ++
+5326,獣竜種の角,Corne brute
+5327,獣竜種の尖角,Corne brute +
+5328,獣竜種の剛角,Corne brute ++
+5329,獣竜種の牙,Croc brute
+5330,獣竜種の堅牙,Croc brute +
+5331,獣竜種の重牙,Croc brute ++
+5332,獣竜種の尾,Queue brute
+5333,獣竜種の靭尾,Queue brute +
+5334,獣竜種の剛尾,Queue brute ++
+5335,獰竜討伐の証,Preuve Abio
+5336,獣竜種の燃血,Sang brute
 5337,クローニＰ生産券,
 5338,アハバーＰ生産券,
 5339,カフの素・象牙,
@@ -5348,22 +5348,22 @@ index,source,target
 5346,武具職人魂【和】,
 5347,武具職人魂【幸】,
 5348,武具職人魂【奇】,
-5349,ヴォル人形【水】,
-5350,ヴォル人形【赤】,
-5351,ヴォル人形【白】,
-5352,ヴォル人形【緑】,
-5353,ヴォル人形【紫】,
-5354,未熟な黒甲殻,
+5349,ヴォル人形【水】,Poupee Lavasioth [Aqua]
+5350,ヴォル人形【赤】,Poupee Lavasioth [Rouge]
+5351,ヴォル人形【白】,Poupee Lavasioth [Blanc]
+5352,ヴォル人形【緑】,Poupee Lavasioth [Vert]
+5353,ヴォル人形【紫】,Poupee Lavasioth [Violet]
+5354,未熟な黒甲殻,Moules Immature
 5355,重厚な黒堅殻,
 5356,出土した黒重殻,
-5357,レッドツール,
-5358,グリーンツール,
-5359,ブルーツール,
-5360,パープルツール,
-5361,スカイツール,
-5362,オレンジツール,
-5363,ピンクツール,
-5364,ブラックツール,
+5357,レッドツール,Outils Rouge
+5358,グリーンツール,Outils Vert
+5359,ブルーツール,Outils Bleu
+5360,パープルツール,Outils Violet
+5361,スカイツール,Outils Celeste
+5362,オレンジツール,Outils Orange
+5363,ピンクツール,Outils Rose
+5364,ブラックツール,Outils Noir
 5365,比類なき仲間の証,
 5366,比類なき仲間の力,
 5367,比類なき仲間の印,
@@ -5371,9 +5371,9 @@ index,source,target
 5369,流動石,
 5370,男心と秋の空,
 5371,くろいとげとげ,
-5372,鈍く光る巨大骨,
+5372,鈍く光る巨大骨,Grand Os scintillant
 5373,兵器設計書α,
-5374,夜陰の墨,
+5374,夜陰の墨,Ancre Lunaire
 5375,祭典の響想・甲,
 5376,祭典の響想・乙,
 5377,祭典の響想・丙,
@@ -5382,22 +5382,22 @@ index,source,target
 5380,道化の心得,
 5381,紫純結晶,
 5382,道化の極意,
-5383,ＨＣ肉球のメダル,
-5384,秘伝の証【序】,
-5385,秘伝の証【破】,
-5386,秘伝の証【急】,
-5387,秘伝の導き,
-5388,きらきらなかけら,
-5389,ぴかぴかなかけら,
-5390,ふわふわなかけら,
-5391,さらさらなかけら,
-5392,ギルドへの推薦状,
+5383,ＨＣ肉球のメダル,Medaille Emp. HC
+5384,秘伝の証【序】,Preuve Secrete (Bas)
+5385,秘伝の証【破】,Preuve Secrete (Myn)
+5386,秘伝の証【急】,Preuve Secrete (Haut)
+5387,秘伝の導き,Guide Secret
+5388,きらきらなかけら,Piece scintillantes
+5389,ぴかぴかなかけら,Piece Brillante
+5390,ふわふわなかけら,Piece Peluche
+5391,さらさらなかけら,Piece Fluide
+5392,ギルドへの推薦状,Tck PRC (4k)
 5393,ダミー５３９３,
 5394,ダミー５３９４,
-5395,貴族の型紙,
-5396,ひよっこの型紙,
-5397,ライダーの型紙,
-5398,ガーデンの図面,
+5395,貴族の型紙,Note de Noble
+5396,ひよっこの型紙,Note Fletrie
+5397,ライダーの型紙,Dessins d'Engin
+5398,ガーデンの図面,Jardin Dessine
 5399,からくりの図面,
 5400,回速ＵＰの粉塵,
 5401,鉄黒原珠,
@@ -5420,12 +5420,12 @@ index,source,target
 5418,加散珠Ｇ,
 5419,無精珠Ｇ,
 5420,虚弱珠Ｇ,
-5421,炎王龍の灼翼,
-5422,呑竜の爛石,
-5423,冥雷竜の焦鱗,
-5424,投剣珠,
-5425,慰労珠,
-5426,対防珠,
+5421,炎王龍の灼翼,Aile sup. Teo
+5422,呑竜の爛石,Roc sup. Paria
+5423,冥雷竜の焦鱗,Eca. sup. Drak
+5424,投剣珠,J. couteau
+5425,慰労珠,J. soigneux
+5426,対防珠,J. pretorien
 5427,武捌カフ賖ＰＡ１,
 5428,武捌カフ賖ＰＡ２,
 5429,属攻カフ賖ＰＡ１,
@@ -5658,16 +5658,16 @@ index,source,target
 5656,Ｎツィータ生産券,
 5657,Ｓファナレ生産券,
 5658,Ｎファナレ生産券,
-5659,ガウス生産券頭,
-5660,ガウス生産券胴,
-5661,ガウス生産券腕,
-5662,ガウス生産券腰,
-5663,ガウス生産券脚,
-5664,ウェーバ生産券頭,
-5665,ウェーバ生産券胴,
-5666,ウェーバ生産券腕,
-5667,ウェーバ生産券腰,
-5668,ウェーバ生産券脚,
+5659,ガウス生産券頭,2012 Kit 1 Tete
+5660,ガウス生産券胴,2012 Kit 1 Torse
+5661,ガウス生産券腕,2012 Kit 1 Bras
+5662,ガウス生産券腰,2012 Kit 1 Tassette
+5663,ガウス生産券脚,2012 Kit 1 Jambes
+5664,ウェーバ生産券頭,2012 Kit 2 Tete
+5665,ウェーバ生産券胴,2012 Kit 2 Torse
+5666,ウェーバ生産券腕,2012 Kit 2 Bras
+5667,ウェーバ生産券腰,2012 Kit 2 Tassette
+5668,ウェーバ生産券脚,2012 Kit 2 Jambes
 5669,Ｇバート生産券頭,
 5670,Ｇバート生産券胴,
 5671,Ｇバート生産券腕,
@@ -5725,80 +5725,80 @@ index,source,target
 5723,支給Ｇの釣り餌,
 5724,支給Ｇの虫あみ,
 5725,支給Ｇのグローブ,
-5726,牙獣種の棘,
-5727,蛮竜の荒角,
-5728,蛮竜の猛角,
-5729,蛮竜の暴角,
-5730,錆びた重翼,
-5731,錆びた鉛翼,
-5732,錆びた剛翼,
+5726,牙獣種の棘,Pointe pelagus
+5727,蛮竜の荒角,Corne Rugueuse Guren
+5728,蛮竜の猛角,Corne Feroce Guren
+5729,蛮竜の暴角,Corne Violente Guren
+5730,錆びた重翼,Aile Lourde Rouille
+5731,錆びた鉛翼,Aile Lourde Rouille+
+5732,錆びた剛翼,Aile Lourde Rouille++
 5733,演習珠賰,
-5734,棘茶竜の瘴棘,
+5734,棘茶竜の瘴棘,Pic Espinas Miasmatique
 5735,蒼火竜の皇鱗,
 5736,桜火竜の艶殻,
-5737,眠鳥の晃胃石,
-5738,晶竜の鱗,
-5739,晶竜の爪,
-5740,晶竜の堅皮,
-5741,晶竜の鉱鱗,
-5742,晶竜の魅玻璃,
-5743,海竜種の鱗,
-5744,海竜種の上鱗,
-5745,海竜種の厚鱗,
-5746,海竜種の皮,
-5747,海竜種の上皮,
-5748,海竜種の特上皮,
-5749,海竜種の菫玉,
-5750,晶竜討伐の証,
+5737,眠鳥の晃胃石,Bezoard Ppre Hyp
+5738,晶竜の鱗,Ecaille Kuaru
+5739,晶竜の爪,Griffe Kuaru
+5740,晶竜の堅皮,Peau Kuaru
+5741,晶竜の鉱鱗,Eclat Kuaru
+5742,晶竜の魅玻璃,Cris flash Kuaru
+5743,海竜種の鱗,Ecaille levia.
+5744,海竜種の上鱗,Ecaille levia. +
+5745,海竜種の厚鱗,Ecaille levia. ++
+5746,海竜種の皮,Peau leviathan
+5747,海竜種の上皮,Peau leviathan +
+5748,海竜種の特上皮,Peau leviathan++
+5749,海竜種の菫玉,Gemme leviathan
+5750,晶竜討伐の証,Preuve Kuaru
 5751,お菓子な図面,
 5752,わんぱくの型紙,
-5753,メモリアルの型紙,
-5754,お祭りの型紙,
-5755,ミッション達成証,
-5756,跳緋獣の毛玉,
-5757,ぎらぎらなもの,
-5758,もさもさなもの,
-5759,ちりちりなもの,
-5760,ごわごわなもの,
-5761,入門者特別袋,
-5762,ホルク玉【毒】,
-5763,千年米,
-5764,銀レバー,
-5765,トロフグ,
-5766,リュウフィレ肉,
-5767,七色レタス,
-5768,クイーンパセリ,
-5769,ゴーニャチーズ,
-5770,ダンスパイス,
-5771,ホルクの呼び声,
-5772,特別防具生産券,
-5773,飛竜の赤眼,
+5753,メモリアルの型紙,Note Memoire
+5754,お祭りの型紙,Note Festi
+5755,ミッション達成証,Tck Missions
+5756,跳緋獣の毛玉,Boule Poilue Gogo
+5757,ぎらぎらなもの,Chose Brillante
+5758,もさもさなもの,Chose Poilu
+5759,ちりちりなもの,Chose Granuleuse
+5760,ごわごわなもの,Chose Brute
+5761,入門者特別袋,Sac Special d'Intro
+5762,ホルク玉【毒】,Balle Halk [Psn]
+5763,千年米,Riz millenaire
+5764,銀レバー,Foie argente
+5765,トロフグ,Thon-globe
+5766,リュウフィレ肉,Tranche de wyverne
+5767,七色レタス,Salade arc-en-ciel
+5768,クイーンパセリ,Persil royal
+5769,ゴーニャチーズ,Fromage amer
+5770,ダンスパイス,Epice dansante
+5771,ホルクの呼び声,Appel Halk
+5772,特別防具生産券,Tck Armure Speciale
+5773,飛竜の赤眼,Oeil sang Unknown
 5774,ダミー５７７４,
 5775,ダミー５７７５,
-5776,奇種狩猟書・白,
-5777,奇種狩猟書・赤,
-5778,奇種狩猟書・緑,
-5779,奇種狩猟書・青,
-5780,奇種狩猟書・黄,
-5781,奇種狩猟書・紫,
-5782,奇種狩猟書・水,
-5783,奇種狩猟書・橙,
-5784,奇種狩猟書・桃,
-5785,奇種狩猟書・灰,
-5786,奇種貢献晶・赤,
-5787,奇種貢献晶・黄,
-5788,奇種貢献晶・青,
-5789,奇種貢献晶・灰,
-5790,奇種貢献晶・紫,
-5791,調合の霊薬,
+5776,奇種狩猟書・白,Preuve HC・(Blanc)
+5777,奇種狩猟書・赤,Preuve HC・(Rouge)
+5778,奇種狩猟書・緑,Preuve HC・(Vert)
+5779,奇種狩猟書・青,Preuve HC・(Bleu)
+5780,奇種狩猟書・黄,Preuve HC・(Jaune)
+5781,奇種狩猟書・紫,Preuve HC・(Violet)
+5782,奇種狩猟書・水,Preuve HC・(Cyan)
+5783,奇種狩猟書・橙,Preuve HC・(Orange)
+5784,奇種狩猟書・桃,Preuve HC・(Peche)
+5785,奇種狩猟書・灰,Preuve HC・(Gris)
+5786,奇種貢献晶・赤,Crystal HC・(Rouge)
+5787,奇種貢献晶・黄,Crystal HC・(Jaune)
+5788,奇種貢献晶・青,Crystal HC・(Bleu)
+5789,奇種貢献晶・灰,Crystal HC・(Gris)
+5790,奇種貢献晶・紫,Crystal HC・(Violet)
+5791,調合の霊薬,Boisson Combo
 5792,ダミー５７９２,
-5793,強走千里の粉塵,
-5794,高級劇薬,
-5795,雷耐性の実,
-5796,氷耐性の実,
-5797,風圧の実,
-5798,回避性能の実,
-5799,気絶無効の実,
+5793,強走千里の粉塵,Poudre Clairvoyante
+5794,高級劇薬,Potion du Sacrifice
+5795,雷耐性の実,Fruit Res. Foudre
+5796,氷耐性の実,Fruit Res. Glace
+5797,風圧の実,Fruit Res. Vent
+5798,回避性能の実,Fruit d'Invu
+5799,気絶無効の実,Fruit Crane d'Acier
 5800,抑反珠ＳＰ・改,
 5801,抑反珠ＳＰ・真,
 5802,腕力珠ＳＰ・改,
@@ -5843,11 +5843,11 @@ index,source,target
 5841,堅守珠ＳＰ,
 5842,堅守珠ＳＰ・改,
 5843,堅守珠ＳＰ・真,
-5844,ホルク玉【麻痺】,
-5845,ホルク玉【睡眠】,
-5846,ホルク玉【斬】,
-5847,ホルク玉【爆】,
-5848,ホルク玉【小爆】,
+5844,ホルク玉【麻痺】,Balle Halk [Par]
+5845,ホルク玉【睡眠】,Balle Halk [Som]
+5846,ホルク玉【斬】,Balle Halk [Trn]
+5847,ホルク玉【爆】,Balle Halk [Exp]
+5848,ホルク玉【小爆】,Balle Halk [ExpP]
 5849,慰労珠Ｇ,
 5850,気力珠Ｇ,
 5851,龍王珠Ｇ,
@@ -6009,8 +6009,8 @@ index,source,target
 6007,柳茶原珠,
 6008,花色原珠,
 6009,萌黄原珠,
-6010,荒天晶竜討伐の証,
-6011,晶竜２頭討伐の証,
+6010,荒天晶竜討伐の証,Preuve Kuaru X
+6011,晶竜２頭討伐の証,Preuve duo Kuaru
 6012,韋駄天の証【金】,
 6013,韋駄天の証【銀】,
 6014,韋駄天の証【銅】,
@@ -6031,7 +6031,7 @@ index,source,target
 6029,超硬エッジ,
 6030,チャームギア,
 6031,ソニックギア,
-6032,練達の書【絶版】,
+6032,練達の書【絶版】,Livre Sofistique 6
 6033,かいしょう讃歌,
 6034,黒獣の毛皮,
 6035,永久氷牙,
@@ -6112,8 +6112,8 @@ index,source,target
 6110,マウント生産券,
 6111,グランデ生産券,
 6112,ラヴィア生産券,
-6113,飛竜の砕爪,
-6114,鮮烈なる滾血,
+6113,飛竜の砕爪,Griffe sup. Unknown
+6114,鮮烈なる滾血,Sang supreme
 6115,ダミー６１１５,
 6116,ドラグーン生産券,
 6117,Ｌバースト生産券,
@@ -6139,44 +6139,44 @@ index,source,target
 6137,雄黄原珠,
 6138,蘭茶原珠,
 6139,若緑原珠,
-6140,弩岩竜の甲殻,
-6141,弩岩竜の重鱗,
-6142,弩岩竜の巨顎,
-6143,弩岩竜の怒角,
-6144,弩岩竜の黒爪,
-6145,弩岩竜の真棘,
-6146,弩岩竜撃退の証,
-6147,弩岩竜討伐の証,
-6148,弩岩竜の崩鱗,
-6149,跳緋獣の緋毛,
-6150,跳緋獣の猛毛,
-6151,跳緋獣の剛毛,
-6152,舞雷竜の雷鱗,
-6153,舞雷竜の燐鱗,
+6140,弩岩竜の甲殻,Cara. Odi
+6141,弩岩竜の重鱗,Eca. Odi
+6142,弩岩竜の巨顎,Machoire Odi
+6143,弩岩竜の怒角,Corne Odi
+6144,弩岩竜の黒爪,Griffe Odi
+6145,弩岩竜の真棘,Pointe Odi
+6146,弩岩竜撃退の証,Preuve Odi battu
+6147,弩岩竜討伐の証,Preuve Odi tue
+6148,弩岩竜の崩鱗,Eca. sup. Odi
+6149,跳緋獣の緋毛,Four. Ecarlate Gogo
+6150,跳緋獣の猛毛,Four. Feroce Gogo
+6151,跳緋獣の剛毛,Four. Gogomoa++
+6152,舞雷竜の雷鱗,Belli Eca. Foudre
+6153,舞雷竜の燐鱗,Belli Eca. Phosfore
 6154,麗々しいクチバシ,
-6155,深紅色の腹かみ,
+6155,深紅色の腹かみ,PoilVentrPourprKhezu
 6156,激甚にねじれた角,
-6157,奇種貢献晶・白,
-6158,奇種貢献晶・緑,
-6159,奇種貢献晶・水,
-6160,奇種貢献晶・橙,
-6161,奇種貢献晶・桃,
-6162,奇種貢献晶・銀,
-6163,奇種貢献晶・金,
-6164,ミズキの紹介状,
+6157,奇種貢献晶・白,Crystal HC (Blanc)
+6158,奇種貢献晶・緑,Crystal HC (Vert)
+6159,奇種貢献晶・水,Crystal HC (Cyan)
+6160,奇種貢献晶・橙,Crystal HC (Orange)
+6161,奇種貢献晶・桃,Crystal HC (Peche)
+6162,奇種貢献晶・銀,Crystal HC (Argent)
+6163,奇種貢献晶・金,Crystal HC (Or)
+6164,ミズキの紹介状,Tck PRC (800)
 6165,薄味グークエキス,
 6166,旨味グークエキス,
 6167,濃厚グークエキス,
-6168,火属性攻撃の実,
-6169,水属性攻撃の実,
-6170,氷属性攻撃の実,
-6171,雷属性攻撃の実,
-6172,龍属性攻撃の実,
+6168,火属性攻撃の実,Fruit Res. Feu
+6169,水属性攻撃の実,Fruit Res. Eau
+6170,氷属性攻撃の実,Fruit Res. Glace
+6171,雷属性攻撃の実,Fruit Res. Foudre
+6172,龍属性攻撃の実,Fruit Res. Dragon
 6173,耐震の実,
 6174,怯まずの粉塵,
-6175,ギルドへのお手紙,
-6176,ギルド特別推薦状,
-6177,モンスターな図面,
+6175,ギルドへのお手紙,Tck PRC (10k)
+6176,ギルド特別推薦状,Tck PRC (20k)
+6177,モンスターな図面,Dessin de Monstre
 6178,大きな耳の型紙,
 6179,立派な耳の型紙,
 6180,とがった耳の型紙,
@@ -6390,7 +6390,7 @@ index,source,target
 6388,対防カフ賖ＳＣ３,
 6389,対防カフ賖ＳＣ４,
 6390,対防カフ賖ＳＣ５,
-6391,甲殻種の皇液,
+6391,甲殻種の皇液,Huile carapaceon
 6392,親方ネコの大好物,
 6393,演習珠賱,
 6394,フォートＣ生産券,
@@ -6430,12 +6430,12 @@ index,source,target
 6428,クロース生産券腕,
 6429,クロース生産券腰,
 6430,クロース生産券脚,
-6431,黄金魚竜の鱗,
-6432,黄金魚竜の箔鱗,
-6433,白銀魚竜の鱗,
-6434,白銀魚竜の鏡鱗,
-6435,魚竜種の錬牙,
-6436,魚竜種の豪ビレ,
+6431,黄金魚竜の鱗,Eca. Lava d'Or
+6432,黄金魚竜の箔鱗,Eca. Lava d'Or+
+6433,白銀魚竜の鱗,Eca. Lava d'Arg
+6434,白銀魚竜の鏡鱗,Eca. Lava d'Arg+
+6435,魚竜種の錬牙,Croc sp aqua
+6436,魚竜種の豪ビレ,Nageoire sp aqua
 6437,金銀魚竜の乱殻,
 6438,グロリア生産券頭,
 6439,グロリア生産券胴,
@@ -6492,33 +6492,33 @@ index,source,target
 6490,凍った果物・橙,
 6491,凍った果物・桃,
 6492,まんまるフルーツ,
-6493,モノデビ剣珠Ｇ,
-6494,モノデビ剣珠GF,
-6495,モノデビ剣珠GX1,
-6496,モノデビ剣珠GX2,
-6497,モノデビ剣珠GX3,
-6498,モノデビ剣珠GX4,
-6499,モノデビ剣珠GX5,
-6500,モノデビ射珠Ｇ,
-6501,モノデビ射珠GF,
-6502,モノデビ射珠GX1,
-6503,モノデビ射珠GX2,
-6504,モノデビ射珠GX3,
-6505,モノデビ射珠GX4,
-6506,モノデビ射珠GX5,
-6507,アース剣珠Ｇ,
-6508,アース剣珠GF,
-6509,アース剣珠GX1,
-6510,アース剣珠GX2,
-6511,アース剣珠GX3,
-6512,アース剣珠GX4,
-6513,アース剣珠GX5,
-6514,アース射珠Ｇ,
-6515,アース射珠GF,
-6516,アース射珠GX1,
-6517,アース射珠GX2,
-6518,アース射珠GX3,
-6519,アース射珠GX4,
+6493,モノデビ剣珠Ｇ,Mono B EP G
+6494,モノデビ剣珠GF,Mono B EP GF
+6495,モノデビ剣珠GX1,Mono B EP GX1
+6496,モノデビ剣珠GX2,Mono B EP GX2
+6497,モノデビ剣珠GX3,Mono B EP GX3
+6498,モノデビ剣珠GX4,Mono B EP GX4
+6499,モノデビ剣珠GX5,Mono B EP GX5
+6500,モノデビ射珠Ｇ,Mono B AR G
+6501,モノデビ射珠GF,Mono B AR GF
+6502,モノデビ射珠GX1,Mono B AR GX1
+6503,モノデビ射珠GX2,Mono B AR GX2
+6504,モノデビ射珠GX3,Mono B AR GX3
+6505,モノデビ射珠GX4,Mono B AR GX4
+6506,モノデビ射珠GX5,Mono B AR GX5
+6507,アース剣珠Ｇ,Diab N EP G
+6508,アース剣珠GF,Diab N EP GF
+6509,アース剣珠GX1,Diab N EP GX1
+6510,アース剣珠GX2,Diab N EP GX2
+6511,アース剣珠GX3,Diab N EP GX3
+6512,アース剣珠GX4,Diab N EP GX4
+6513,アース剣珠GX5,Diab N EP GX5
+6514,アース射珠Ｇ,Diab N AR G
+6515,アース射珠GF,Diab N AR GF
+6516,アース射珠GX1,Diab N AR GX1
+6517,アース射珠GX2,Diab N AR GX2
+6518,アース射珠GX3,Diab N AR GX3
+6519,アース射珠GX4,Diab N AR GX4
 6520,ダミー６５２０,
 6521,ダミー６５２１,
 6522,ダミー６５２２,
@@ -6532,27 +6532,27 @@ index,source,target
 6530,ダミー６５３０,
 6531,ダミー６５３１,
 6532,アース射珠GX5,
-6533,ヤマクライの書,
-6534,ガスラバズラの書,
-6535,ジンオウガの書,
-6536,クスバミの書,
-6537,イビルジョーの書,
-6538,ブラキディオスの書,
-6539,ベリオロスの書,
-6540,トリドクレスの書,
-6541,トア・テスカトラの書,
-6542,ウラガンキンの書,
-6543,グァンゾルムの書,
-6544,ナルガクルガの書,
-6545,ヴォージャンの書,
-6546,ゼナセリスの書,
-6547,ゴア・マガラの書,
-6548,ケオアルボルの書,
-6549,シャガルマガラの書,
-6550,エルゼリオンの書,
-6551,アマツマガツチの書,
-6552,セルレギオスの書,
-6553,ボガバドルムの書,
+6533,ヤマクライの書,Infos Yama Kurai
+6534,ガスラバズラの書,Infos Gasurabazura
+6535,ジンオウガの書,Infos Zinogre
+6536,クスバミの書,Infos Kusubami
+6537,イビルジョーの書,Infos Deviljho
+6538,ブラキディオスの書,Infos Brachydios
+6539,ベリオロスの書,Infos Barioth
+6540,トリドクレスの書,Infos Torid
+6541,トア・テスカトラの書,Infos Toa
+6542,ウラガンキンの書,Infos Uragaan
+6543,グァンゾルムの書,Infos Guanzorumu
+6544,ナルガクルガの書,Infos Nargacuga
+6545,ヴォージャンの書,Infos Voljang
+6546,ゼナセリスの書,Infos Zenarisu
+6547,ゴア・マガラの書,Infos Gore Magala
+6548,ケオアルボルの書,Infos Keoaruboru
+6549,シャガルマガラの書,Infos Shagaru Magala
+6550,エルゼリオンの書,Infos Eruzerion
+6551,アマツマガツチの書,Infos Amatsu
+6552,セルレギオスの書,Infos Seregios
+6553,ボガバドルムの書,Infos Bogabadolm
 6554,ダミー６５５４,
 6555,ダミー６５５５,
 6556,ダミー６５５６,
@@ -6599,237 +6599,237 @@ index,source,target
 6597,ダミー６５９７,
 6598,ダミー６５９８,
 6599,ダミー６５９９,
-6600,黒色七実,
-6601,コロの実,
-6602,チャコチャの種,
-6603,コナゴナの種,
-6604,バリカタの実,
-6605,艶色香実,
+6600,黒色七実,Nanami noir
+6601,コロの実,Fruit coro
+6602,チャコチャの種,Graine the rouge
+6603,コナゴナの種,Graine fragile
+6604,バリカタの実,Fruit diamant
+6605,艶色香実,Fruit brillant
 6606,錫石,
-6607,方鉛鉱,
-6608,玲水晶,
-6609,トリロザイト,
-6610,煌石,
-6611,オムニス晶石,
-6612,タロウ虫,
-6613,カゲロウトンボ,
-6614,フタゴホタル,
-6615,クキモドキ,
-6616,ヒシカメバッタ,
-6617,コブクミツムシ,
-6618,陽だまり草,
-6619,露草,
-6620,なぞの輝く塊,
-6621,サンマンギョ,
-6622,コシツウオ,
-6623,紅氷花,
-6624,雪蛍,
-6625,氷石,
-6626,青海石,
-6627,白雪茸,
-6628,万年茸,
-6629,イーモンサーモン,
-6630,イカリオオマグロ,
-6631,永久氷塊,
-6632,石鹸石,
-6633,特殊なキノコ,
-6634,幻の後光花,
-6635,竜の虹色ナミダ,
-6636,硬質なフン,
-6637,稀色大真珠,
-6638,拘束用捕獲弾,
-6639,剛護珠,
-6640,Ｇ級・怒剛珠,
-6641,Ｇ級・護閃珠,
+6607,方鉛鉱,Galene
+6608,玲水晶,Cristal luisant
+6609,トリロザイト,Minerai triple
+6610,煌石,Minerai brillant
+6611,オムニス晶石,Omnicristal
+6612,タロウ虫,Punaise suif
+6613,カゲロウトンボ,Libellule soleil
+6614,フタゴホタル,Libellule double
+6615,クキモドキ,Phasme plante
+6616,ヒシカメバッタ,Sauterelle brune
+6617,コブクミツムシ,Bombyx brun
+6618,陽だまり草,Herbe soleil
+6619,露草,Herbe araignee
+6620,なぞの輝く塊,Mystere brillant
+6621,サンマンギョ,Poisson bavard
+6622,コシツウオ,Poisson tetu
+6623,紅氷花,Fleur gel rouge
+6624,雪蛍,Luciole neige
+6625,氷石,Pierre gelee
+6626,青海石,Aigue-marine
+6627,白雪茸,Champineige
+6628,万年茸,Champimillenaire
+6629,イーモンサーモン,Saumon extreme
+6630,イカリオオマグロ,Thon-marteau
+6631,永久氷塊,Glacon eternel
+6632,石鹸石,Pierre savon
+6633,特殊なキノコ,Champi unique
+6634,幻の後光花,Fleur illusion
+6635,竜の虹色ナミダ,Larmes prisme
+6636,硬質なフン,Musc bestial
+6637,稀色大真珠,Perle pure
+6638,拘束用捕獲弾,Harpon
+6639,剛護珠,J. attaque 3
+6640,Ｇ級・怒剛珠,G Rage・Attaque
+6641,Ｇ級・護閃珠,G Rage・Berserk
 6642,ダミー6642,
-6643,怪鳥の優骨,
-6644,禍禍しいクチバシ,
-6645,怪鳥の妖耳,
-6646,盾蟹の優殻,
-6647,盾蟹の壁爪,
-6648,盾蟹の触角,
-6649,凍海獣の骨,
-6650,凍海獣の爪,
-6651,雄々しき豪牙,
-6652,凍海獣の氷涙,
-6653,凍海獣の尻尾,
-6654,凍海獣の厚皮,
-6655,優玉,
-6656,毒怪鳥の偉皮,
-6657,爆走エキス,
-6658,毒怪鳥の純輝石,
-6659,桃毛獣の偉毛,
-6660,鮮麗な毛,
-6661,桃毛獣の狂爪,
-6662,傾雷鳥の爪,
-6663,傾雷鳥の乾毛,
-6664,蛍色尾羽根,
-6665,傾雷鳥の帯電毛,
-6666,傾雷鳥のクチバシ,
-6667,傾雷鳥の尻尾,
-6668,偉玉,
-6669,岩竜の華殻,
-6670,岩竜の豪翼,
-6671,岩竜の頭,
-6672,雌火竜の華鱗,
-6673,雌火竜の貫棘,
-6674,雌火竜の兇逆鱗,
-6675,鎌蟹の華殻,
-6676,鎌蟹の猟鋏,
-6677,鎌蟹の純刃,
-6678,針纏竜の毛皮,
-6679,針纏竜の牙,
-6680,針纏竜の棘,
-6681,針纏竜の紅針,
-6682,針纏竜の尻尾,
-6683,針纏竜の角,
-6684,華玉,
-6685,火竜の壮鱗,
-6686,火竜の秘髄,
-6687,火竜の血色珠,
-6688,雪獅子の壮毛,
-6689,雪獅子の鍛尾,
-6690,雪獅子の長髭,
-6691,雪獅子の鉄牙,
-6692,真珠色の壮皮,
-6693,アルビノの極上液,
-6694,蒼白の柔皮,
-6695,鎧竜の至骨,
-6696,鎧竜の心髄,
-6697,鎧竜の胸殻,
-6698,爆狼の毛,
-6699,爆狼の牙,
-6700,爆狼の強腱,
-6701,爆狼の燃爪,
-6702,爆狼のたてがみ,
-6703,爆狼の真棘,
-6704,壮玉,
-6705,棘竜の仙殻,
-6706,棘竜の剣棘,
-6707,棘竜の濃緑殻,
-6708,溶岩竜の仙鱗,
-6709,溶岩竜の熱牙,
-6710,溶岩竜の鉱殻,
-6711,呑竜の至皮,
-6712,呑竜の硬骨,
-6713,呑竜の粘液,
-6714,轟竜の至鱗,
-6715,轟竜の飛膜,
-6716,轟竜の研牙,
-6717,氷獰竜の鱗,
-6718,氷獰竜の皮,
-6719,氷獰竜の暴角,
-6720,氷獰竜の零血,
-6721,氷獰竜の猛牙,
-6722,氷獰竜の雹纏尾,
-6723,至玉,
-6724,金獅子の仙牙,
-6725,純金毛,
-6726,金獅子の戦血,
-6727,金獅子の仙角,
-6728,尾晶蠍の絶結晶,
-6729,尾晶蠍の完爪,
-6730,尾晶蠍の原液,
-6731,尾晶蠍の絶尾,
-6732,黒狼鳥の絶殻,
-6733,黒狼鳥の大翼,
-6734,黒狼鳥の鉤爪,
-6735,蛮竜の絶殻,
-6736,蛮竜の怒角,
-6737,蛮竜の練尾,
-6738,蛮竜の絶棘,
-6739,氷狐竜の絶鱗,
-6740,氷狐竜の凛殻,
-6741,氷狐竜の冴棘,
-6742,暴鋸竜の牙,
-6743,暴鋸竜の甲殻,
-6744,暴鋸竜の鋸角,
-6745,暴鋸竜の冷眼,
-6746,暴鋸竜の尻尾,
-6747,暴鋸竜の翼膜,
-6748,絶玉,
-6749,烈火袋,
-6750,水泡袋,
-6751,雷撃袋,
-6752,凍結袋,
-6753,疫毒袋,
-6754,虚麻痺袋,
-6755,爆睡袋,
-6756,竜尾,
-6757,竜翼,
-6758,上竜尾,
-6759,上竜翼,
-6760,黒狐竜の鱗,
-6761,黒狐竜の甲殻,
-6762,黒狐竜の流結晶,
-6763,黒狐竜の変血,
-6764,黒狐竜の角,
-6765,黒狐竜の棘,
-6766,雷極龍の鱗,
-6767,雷極龍の甲殻,
-6768,雷極龍の輝雷膜,
-6769,磁雷石,
-6770,雷極龍の角,
-6771,雷極龍の尾,
-6772,雷極龍の翼,
-6773,天翔龍の鱗,
-6774,天翔龍の甲殻,
-6775,天翔龍の霊毛,
-6776,天翔龍の翡翠晶,
-6777,天翔龍の角,
-6778,天翔龍の翼,
-6779,天翔龍の爪,
-6780,熾凍龍の炎鱗,
-6781,熾凍龍の氷鱗,
-6782,熾凍龍の炎爪,
-6783,熾凍龍の氷角,
-6784,熾凍龍の対玉,
-6785,熾凍龍の翼,
-6786,熾凍龍の尻尾,
+6643,怪鳥の優骨,Os Kut-Ku
+6644,禍禍しいクチバシ,Bec geant Kut-Ku
+6645,怪鳥の妖耳,Oreille Kut-Ku G
+6646,盾蟹の優殻,Bouclier Hermi
+6647,盾蟹の壁爪,Cisaille Hermi
+6648,盾蟹の触角,Capteur Hermi
+6649,凍海獣の骨,Os Pokaradon
+6650,凍海獣の爪,Griffe Pokaradon
+6651,雄々しき豪牙,Defense Poka
+6652,凍海獣の氷涙,Larmes gel Poka
+6653,凍海獣の尻尾,Queue Pokaradon
+6654,凍海獣の厚皮,Peau Pokaradon
+6655,優玉,Gemme RG1
+6656,毒怪鳥の偉皮,Caoutchouc dur
+6657,爆走エキス,Fluide continu
+6658,毒怪鳥の純輝石,Gemme Gypceros
+6659,桃毛獣の偉毛,Poils fins Conga
+6660,鮮麗な毛,Fourrure prisee
+6661,桃毛獣の狂爪,Serre Congalala
+6662,傾雷鳥の爪,Griffe Farnocc
+6663,傾雷鳥の乾毛,Peau Farnocc
+6664,蛍色尾羽根,Queue prisme Far
+6665,傾雷鳥の帯電毛,Peau elec Far
+6666,傾雷鳥のクチバシ,Bec Farnocc
+6667,傾雷鳥の尻尾,Queue Farnocc
+6668,偉玉,Gemme RG2
+6669,岩竜の華殻,Cortex Basarios
+6670,岩竜の豪翼,Aileroc Basarios
+6671,岩竜の頭,Tete Basarios
+6672,雌火竜の華鱗,Eclat Rathian
+6673,雌火竜の貫棘,Pic Rathian
+6674,雌火竜の兇逆鱗,Plaque Rathian G
+6675,鎌蟹の華殻,Cortex Ceana
+6676,鎌蟹の猟鋏,Cisaille Ceana
+6677,鎌蟹の純刃,Faux Ceana
+6678,針纏竜の毛皮,Fourrure Hyuji
+6679,針纏竜の牙,Croc Hyuji
+6680,針纏竜の棘,Pointe Hyuji
+6681,針纏竜の紅針,Dard rouge Hyuji
+6682,針纏竜の尻尾,Queue Hyuji
+6683,針纏竜の角,Corne Hyuji
+6684,華玉,Gemme RG3
+6685,火竜の壮鱗,Eclat Rathalos
+6686,火竜の秘髄,Moelle Ratha G
+6687,火竜の血色珠,Sang prisme Ratha
+6688,雪獅子の壮毛,Cuir Blango
+6689,雪獅子の鍛尾,Fouet Blango
+6690,雪獅子の長髭,Barbe Blango
+6691,雪獅子の鉄牙,Croc gel Blango
+6692,真珠色の壮皮,Cuir Khezu
+6693,アルビノの極上液,Extrait albinos
+6694,蒼白の柔皮,Peau pale
+6695,鎧竜の至骨,Os Gravios
+6696,鎧竜の心髄,Foie Gravios
+6697,鎧竜の胸殻,Blindage Gravios
+6698,爆狼の毛,Fourrure Mido
+6699,爆狼の牙,Croc Mido
+6700,爆狼の強腱,Tendon Mido
+6701,爆狼の燃爪,Griffe Mido
+6702,爆狼のたてがみ,Criniere Mido
+6703,爆狼の真棘,Pointe Mido
+6704,壮玉,Gemme RG4
+6705,棘竜の仙殻,Pic Espinas
+6706,棘竜の剣棘,Epine Espinas
+6707,棘竜の濃緑殻,Cortex Espinas
+6708,溶岩竜の仙鱗,Eclat Lavasioth
+6709,溶岩竜の熱牙,Croc lrd Lava
+6710,溶岩竜の鉱殻,Lave Lavasioth
+6711,呑竜の至皮,Cuir Pariapuria
+6712,呑竜の硬骨,Os Pariapuria +
+6713,呑竜の粘液,Mucus Pariapuria
+6714,轟竜の至鱗,Eclat Tigrex
+6715,轟竜の飛膜,Membrane Tigrex
+6716,轟竜の研牙,Croc lrd Tigrex
+6717,氷獰竜の鱗,Ecaille Agio
+6718,氷獰竜の皮,Peau Agio
+6719,氷獰竜の暴角,Corne Agio
+6720,氷獰竜の零血,Sang Agio
+6721,氷獰竜の猛牙,Croc Agio
+6722,氷獰竜の雹纏尾,Queue Agio
+6723,至玉,Gemme RG5
+6724,金獅子の仙牙,Croc lrd Rajang
+6725,純金毛,Peau doree pure
+6726,金獅子の戦血,Sang Rajang
+6727,金獅子の仙角,Vouge Rajang
+6728,尾晶蠍の絶結晶,Quartz Vashimu
+6729,尾晶蠍の完爪,Serre Vashimu
+6730,尾晶蠍の原液,Fluide Vashimu
+6731,尾晶蠍の絶尾,Fouet Vashimu
+6732,黒狼鳥の絶殻,Jambe Garuga
+6733,黒狼鳥の大翼,Aile Garuga G
+6734,黒狼鳥の鉤爪,Serre Garuga
+6735,蛮竜の絶殻,Cortex Guren
+6736,蛮竜の怒角,Vouge Guren
+6737,蛮竜の練尾,Fouet Guren
+6738,蛮竜の絶棘,Pic Guren
+6739,氷狐竜の絶鱗,Eclat Dyuragaua
+6740,氷狐竜の凛殻,Cortex Dyuragaua
+6741,氷狐竜の冴棘,Pic Dyuragaua
+6742,暴鋸竜の牙,Croc Anolpatis
+6743,暴鋸竜の甲殻,Carapace Anol
+6744,暴鋸竜の鋸角,Corne Anolpatis
+6745,暴鋸竜の冷眼,Oeil Anolpatis
+6746,暴鋸竜の尻尾,Queue Anolpatis
+6747,暴鋸竜の翼膜,Membrane Anol
+6748,絶玉,Gemme RG7
+6749,烈火袋,Poche fournaise
+6750,水泡袋,Poche tsunami
+6751,雷撃袋,Poche ouragan
+6752,凍結袋,Poche permafrost
+6753,疫毒袋,Poche miasme
+6754,虚麻痺袋,Poche meduse
+6755,爆睡袋,Poche morphee
+6756,竜尾,Queue wyverne
+6757,竜翼,Aile wyverne
+6758,上竜尾,Queue wyverne +
+6759,上竜翼,Aile wyverne +
+6760,黒狐竜の鱗,Ecaille Mi Ru
+6761,黒狐竜の甲殻,Carapace Mi Ru
+6762,黒狐竜の流結晶,Cristal Mi Ru
+6763,黒狐竜の変血,Sang Mi Ru
+6764,黒狐竜の角,Corne Mi Ru
+6765,黒狐竜の棘,Point Mi Ru
+6766,雷極龍の鱗,Ecaille Rebi
+6767,雷極龍の甲殻,Carapace Rebi
+6768,雷極龍の輝雷膜,Membrane Rebi
+6769,磁雷石,Pierre magnetique
+6770,雷極龍の角,Corne Rebidiora
+6771,雷極龍の尾,Queue Rebidiora
+6772,雷極龍の翼,Aile Rebidiora
+6773,天翔龍の鱗,Ecaille Shantien
+6774,天翔龍の甲殻,Carapace Shantien
+6775,天翔龍の霊毛,Peau Shantien
+6776,天翔龍の翡翠晶,Cristal Shantien
+6777,天翔龍の角,Corne Shantien
+6778,天翔龍の翼,Aile Shantien
+6779,天翔龍の爪,Griffe Shantien
+6780,熾凍龍の炎鱗,Eclat feu Disu
+6781,熾凍龍の氷鱗,Eclat glace Disu
+6782,熾凍龍の炎爪,Griffe feu Disu
+6783,熾凍龍の氷角,Corne glace Disu
+6784,熾凍龍の対玉,Joyau Disufiroa
+6785,熾凍龍の翼,Aile Disufiroa
+6786,熾凍龍の尻尾,Queue Disufiroa
 6787,物まね指南・双賖,
 6788,物まね指南・鎚賖,
 6789,物まね指南・笛賖,
 6790,物まね指南・槍賖,
 6791,ダミー6791,
 6792,ダミー6792,
-6793,竜骨【特】,
-6794,霜降り肉,
-6795,艶やかな皮,
-6796,草食種の鮮殻,
-6797,獣骨【特】,
-6798,逆立つ豪毛,
-6799,野獣の血,
-6800,重厚な竜皮,
-6801,飛竜種の腕,
-6802,飛竜種の舌,
-6803,魚竜種の良ビレ,
-6804,魚竜種の良牙,
-6805,魚竜種の良鱗,
-6806,甲虫種の刃殻,
-6807,甲虫種の毒針,
-6808,甲虫種の香油,
-6809,極秘の宝袋,
-6810,綺麗なガラクタ,
-6811,獣人の爆薬,
-6812,ギザギザした牙,
-6813,荒々しい鱗,
-6814,鳥竜種の細爪,
-6815,甲殻種の小脚,
-6816,赤真珠,
-6817,強固な甲羅,
-6818,ポカラの牙,
-6819,ポカラの皮,
-6820,凍海獣の獣脂,
-6821,ペッパーバグ,
-6822,アブラフグ,
-6823,クラブマンティス,
-6824,キノコ吟醸酒,
-6825,ゲンコツ米,
-6826,まんまる卵,
-6827,子持ちナマコ,
-6828,ゴールドエキス,
-6829,プレデターハニー,
-6830,なぞの光る欠片,
+6793,竜骨【特】,Os monstre [spe]
+6794,霜降り肉,Viande marbree
+6795,艶やかな皮,Peau luisante
+6796,草食種の鮮殻,Cortex herbi.
+6797,獣骨【特】,Os de brute G
+6798,逆立つ豪毛,Pelage de reve
+6799,野獣の血,Sang bestial
+6800,重厚な竜皮,Peau brute
+6801,飛竜種の腕,Bras volant
+6802,飛竜種の舌,Langue volant
+6803,魚竜種の良ビレ,Nageoire aqua G
+6804,魚竜種の良牙,Croc aqua G
+6805,魚竜種の良鱗,Ecaille aqua G
+6806,甲虫種の刃殻,Lame neopteron
+6807,甲虫種の毒針,Dard neopt. G
+6808,甲虫種の香油,Huile neopteron
+6809,極秘の宝袋,Tresor lynien G
+6810,綺麗なガラクタ,Belle camelote
+6811,獣人の爆薬,Explosif Shaka
+6812,ギザギザした牙,Croc difforme
+6813,荒々しい鱗,Ecaille rude
+6814,鳥竜種の細爪,Serre aviaire
+6815,甲殻種の小脚,Jambe carapaceon
+6816,赤真珠,Perle rouge
+6817,強固な甲羅,Cortex de crabe
+6818,ポカラの牙,Croc Pokara
+6819,ポカラの皮,Peau Pokara
+6820,凍海獣の獣脂,Larmes Pokara
+6821,ペッパーバグ,Insecte poivre
+6822,アブラフグ,Poisson-globe gras
+6823,クラブマンティス,Mante a faux
+6824,キノコ吟醸酒,Sake shiitake
+6825,ゲンコツ米,Riz poignant
+6826,まんまる卵,Oeuf rond
+6827,子持ちナマコ,Concombre vortex
+6828,ゴールドエキス,Extrait dore
+6829,プレデターハニー,Miel predateur
+6830,なぞの光る欠片,Pieces mystere
 6831,ＧＷチケット,
 6832,ＧＷ装飾品引換券,
 6833,ＧＷくじ引き券,
@@ -6876,19 +6876,19 @@ index,source,target
 6874,ダミー6674,
 6875,ダミー6675,
 6876,ダミー6676,
-6877,恐暴竜の黒鱗,
-6878,恐暴竜の黒皮,
-6879,恐暴竜の大牙,
-6880,恐暴竜の鉤爪,
-6881,恐暴竜の頭殻,
-6882,恐暴竜の尻尾,
-6883,恐暴竜の宝玉,
-6884,恐暴竜の厚黒鱗,
-6885,恐暴竜の厚黒皮,
-6886,恐暴竜の重牙,
-6887,恐暴竜の剛鉤爪,
-6888,恐暴竜の重尾,
-6889,恐暴竜の滅鱗,
+6877,恐暴竜の黒鱗,Ecaille Deviljho
+6878,恐暴竜の黒皮,Peau Deviljho
+6879,恐暴竜の大牙,Croc Deviljho
+6880,恐暴竜の鉤爪,Griffe Deviljho
+6881,恐暴竜の頭殻,Scalp Deviljho
+6882,恐暴竜の尻尾,Queue Deviljho
+6883,恐暴竜の宝玉,Gemme Deviljho
+6884,恐暴竜の厚黒鱗,Eclat Deviljho
+6885,恐暴竜の厚黒皮,Manteau Deviljho
+6886,恐暴竜の重牙,Croc lourd Jho
+6887,恐暴竜の剛鉤爪,Dechireur Jho
+6888,恐暴竜の重尾,Fleau Deviljho
+6889,恐暴竜の滅鱗,Crochet Deviljho
 6890,ダミー６８９０,
 6891,ダミー６８９１,
 6892,ホープ剣珠Ｇ,
@@ -6984,33 +6984,33 @@ index,source,target
 6982,ダミー６９８２,
 6983,ダミー６９８３,
 6984,特別交換券,
-6985,Ｇ強化券,
-6986,方薬,
-6987,怪鳥の優鱗,
-6988,盾蟹の優鋏,
-6989,毒怪鳥の偉爪,
-6990,桃毛獣の偉爪,
-6991,岩竜の華涙,
-6992,雌火竜の華殻,
-6993,鎌蟹の華脚,
-6994,雪獅子の壮牙,
-6995,真珠色の壮翼膜,
-6996,鎧竜の至殻,
-6997,火竜の壮殻,
-6998,棘竜の仙鱗,
-6999,溶岩竜の仙ビレ,
-7000,呑竜の至牙,
-7001,轟竜の至爪,
-7002,金獅子の仙毛,
-7003,黒狼鳥の絶鱗,
-7004,氷狐竜の絶爪,
-7005,尾晶蠍の絶殻,
-7006,蛮竜の絶鱗,
-7007,Ｇ級武器キット,
-7008,Ｇ級防具キット,
+6985,Ｇ強化券,Ticket G
+6986,方薬,Phytotherapie
+6987,怪鳥の優鱗,Eclat Kut-Ku
+6988,盾蟹の優鋏,Ciseau Hermi
+6989,毒怪鳥の偉爪,Serre Gypceros
+6990,桃毛獣の偉爪,Faux Conga
+6991,岩竜の華涙,Geode Basarios
+6992,雌火竜の華殻,Cortex Rathian
+6993,鎌蟹の華脚,Femur Ceanataur
+6994,雪獅子の壮牙,Croc lrd Blango
+6995,真珠色の壮翼膜,Membrane Khezu
+6996,鎧竜の至殻,Cortex Gravios
+6997,火竜の壮殻,Cortex Rathalos
+6998,棘竜の仙鱗,Eclat Espinas
+6999,溶岩竜の仙ビレ,Nag. raf. Lava
+7000,呑竜の至牙,Croc lrd Paria
+7001,轟竜の至爪,Serre Tigrex
+7002,金獅子の仙毛,Armure Rajang
+7003,黒狼鳥の絶鱗,Eclat Garuga
+7004,氷狐竜の絶爪,Serre Dyuragaua
+7005,尾晶蠍の絶殻,Cortex Vashimu
+7006,蛮竜の絶鱗,Eclat Guren
+7007,Ｇ級武器キット,Kit arme G
+7008,Ｇ級防具キット,Kit armure G
 7009,覇種迎撃戦貢献証,
-7010,祭典の紋章,
-7011,祭典の熱気,
+7010,祭典の紋章,Embleme festif
+7011,祭典の熱気,Gemme festive
 7012,シビシビの実,
 7013,黒艶石,
 7014,丈夫な猛禽の羽毛,
@@ -7122,22 +7122,22 @@ index,source,target
 7120,熟練者の証・腕,
 7121,熟練者の証・腰,
 7122,熟練者の証・脚,
-7123,ポルタカード紫,
+7123,ポルタカード紫,Cheque G [1k]
 7124,肌触りの良い布,
 7125,薄色の染料,
 7126,傷ついた鱗,
-7127,微咲花,
-7128,クラーレアム鉱石,
-7129,ワイヤーワーム,
-7130,ひび割れた牙,
-7131,ひび割れた骨,
-7132,ひび割れた爪,
-7133,いびつな牙,
-7134,いびつな骨,
-7135,いびつな爪,
-7136,かけた牙,
-7137,かけた骨,
-7138,かけた爪,
+7127,微咲花,Fleur eclosion
+7128,クラーレアム鉱石,Minerai saint
+7129,ワイヤーワーム,Ver fil
+7130,ひび割れた牙,Croc craque
+7131,ひび割れた骨,Os craque
+7132,ひび割れた爪,Griffe craquee
+7133,いびつな牙,Croc ebreche
+7134,いびつな骨,Os ebreche
+7135,いびつな爪,Griffe ebrechee
+7136,かけた牙,Croc casse
+7137,かけた骨,Os casse
+7138,かけた爪,Griffe cassee
 7139,覇種迎撃貢献証赤,
 7140,覇種迎撃貢献証青,
 7141,覇種迎撃貢献証黄,
@@ -7160,7 +7160,7 @@ index,source,target
 7158,ギルド補助券緑𧶠,
 7159,東光の書,
 7160,西光の書,
-7161,仙玉,
+7161,仙玉,Gemme RG6
 7162,Ｂエッジ生産券,
 7163,Ｔアンガー生産券,
 7164,Ｄギア生産券,
@@ -7182,7 +7182,7 @@ index,source,target
 7180,アルドル生産券黒,
 7181,アルドル生産券紫,
 7182,ポルトＬ生産券鉛,
-7183,シジル補助券,
+7183,シジル補助券,Tck Sigil
 7184,ポルトＬ生産券赤,
 7185,ポルトＬ生産券黄,
 7186,ポルトＬ生産券白,
@@ -7223,7 +7223,7 @@ index,source,target
 7221,イクサガ生産券Ａ,
 7222,イクサガ生産券Ｂ,
 7223,萌芽の鉱石,
-7224,キャラバンの珍品,
+7224,キャラバンの珍品,Tresor Caravane
 7225,攻撃カフＰＡ１,
 7226,達人カフＰＡ１,
 7227,食事カフＰＡ２,
@@ -7232,7 +7232,7 @@ index,source,target
 7230,ダミー７２３０,
 7231,エインＡ生産券,
 7232,ルロウスイセン,
-7233,天照石,
+7233,天照石,Minerai celeste
 7234,片手剣綬・序,
 7235,片手剣綬・中,
 7236,片手剣綬・極,
@@ -7266,46 +7266,46 @@ index,source,target
 7264,弓綬・序,
 7265,弓綬・中,
 7266,弓綬・極,
-7267,極征貢献証,
-7268,碧武玉,
-7269,蒼武玉,
-7270,紅武玉,
-7271,黄武玉,
+7267,極征貢献証,Preuve Cqt ultime
+7268,碧武玉,Pierre brave V.
+7269,蒼武玉,Pierre brave B.
+7270,紅武玉,Pierre brave R.
+7271,黄武玉,Pierre brave J.
 7272,IMトーメン生産券,
 7273,ラビナFU生産券,
 7274,感謝の証賰,
-7275,磁力を持つ柔毛,
-7276,緊急依頼達成証,
+7275,磁力を持つ柔毛,Fourrure aimant
+7276,緊急依頼達成証,Preuve urgent
 7277,しずめ玉,
 7278,ふりだしチケット,
 7279,極征推薦状【白】,
 7280,極征推薦状【紫】,
 7281,極征推薦状【橙】,
 7282,シジル用触媒,
-7283,怪鳥の鳴管,
-7284,盾蟹の鎧殻,
-7285,桃毛獣の磨牙,
-7286,毒怪鳥の尻尾,
-7287,岩竜の毒殻,
-7288,鎌蟹の刀爪,
-7289,伸縮する柔皮,
-7290,轟竜の虎皮,
-7291,呑石,
-7292,焔鉱石,
-7293,溶岩竜の乱牙,
-7294,棘竜の毒棘,
-7295,金獅子の沸血,
-7296,蛮竜の豪棘,
-7297,氷狐竜の筆尾,
-7298,黒狼鳥の裂殻,
-7299,闘獣の剛腕,
-7300,闘獣討伐の証,
-7301,赤闘獣の紅毛,
-7302,青闘獣の藍毛,
-7303,闘獣の髄,
-7304,闘獣の尾,
-7305,闘獣のたてがみ,
-7306,極鉄,
+7283,怪鳥の鳴管,Gorge aviaire
+7284,盾蟹の鎧殻,Armure Hermitaur
+7285,桃毛獣の磨牙,Croc lrd Conga
+7286,毒怪鳥の尻尾,Fouet Gypceros
+7287,岩竜の毒殻,Cortex tox Basa
+7288,鎌蟹の刀爪,Katana Ceanataur
+7289,伸縮する柔皮,Peau elastique
+7290,轟竜の虎皮,Cuir Tigrex
+7291,呑石,Pierre Paria
+7292,焔鉱石,Basalte Gravios
+7293,溶岩竜の乱牙,Croc fier Lava
+7294,棘竜の毒棘,Dard Espinas
+7295,金獅子の沸血,Sang bouillant
+7296,蛮竜の豪棘,Pic rage Guren
+7297,氷狐竜の筆尾,Fouet Dyuragaua
+7298,黒狼鳥の裂殻,Cortex Garuga
+7299,闘獣の剛腕,Bras Gougarf
+7300,闘獣討伐の証,Preuve Gougarf
+7301,赤闘獣の紅毛,Fourrure Lolo
+7302,青闘獣の藍毛,Fourrure Ray
+7303,闘獣の髄,Moelle Gougarf
+7304,闘獣の尾,Queue Gougarf
+7305,闘獣のたてがみ,Criniere Gougarf
+7306,極鉄,Fer magnetique
 7307,赤闘獣の純白毛,
 7308,青闘獣の漆黒毛,
 7309,闘獣の厚皮,
@@ -7478,14 +7478,14 @@ index,source,target
 7476,★６解放記念硬貨,
 7477,★７解放記念硬貨,
 7478,高みへの導き,
-7479,輝累石,
-7480,絢累石,
+7479,輝累石,Pierre Radiante d'Armure
+7480,絢累石,Pierre d'Armure Komono
 7481,ダミー７４８１,
 7482,ダミー７４８２,
 7483,ダミー７４８３,
 7484,ダミー７４８４,
 7485,なごみ草,
-7486,傷だらけの宝石,
+7486,傷だらけの宝石,Gemme rayee
 7487,ナッツＧ生産券,
 7488,チョコＧ生産券,
 7489,クッキーＧ生産券,
@@ -8031,28 +8031,28 @@ index,source,target
 8029,青魂の実,
 8030,尻上がりの実,
 8031,安寧の霊薬,
-8032,功猟のメダル,
-8033,気短の護符【青】,
-8034,気短の護符【紅】,
-8035,気短の護符【黄】,
-8036,気短の護符【白】,
-8037,気短の護符【玄】,
-8038,集術の護符【青】,
-8039,集術の護符【紅】,
-8040,集術の護符【黄】,
-8041,集術の護符【白】,
-8042,集術の護符【玄】,
-8043,活源の護符【青】,
-8044,活源の護符【紅】,
-8045,活源の護符【黄】,
-8046,活源の護符【白】,
-8047,活源の護符【玄】,
-8048,精胆の護符【青】,
-8049,精胆の護符【紅】,
-8050,精胆の護符【黄】,
-8051,精胆の護符【白】,
-8052,精胆の護符【玄】,
-8053,狩人の護符【珠】,
+8032,功猟のメダル,Medaille chasse
+8033,気短の護符【青】,Impatience 【5s】
+8034,気短の護符【紅】,Impatience 【10s】
+8035,気短の護符【黄】,Impatience 【20s】
+8036,気短の護符【白】,Impatience 【30s】
+8037,気短の護符【玄】,Impatience 【40s】
+8038,集術の護符【青】,Recolte 【Min+1】
+8039,集術の護符【紅】,Recolte 【Min+2】
+8040,集術の護符【黄】,Recolte 【Min+3】
+8041,集術の護符【白】,Recolte 【Max+1】
+8042,集術の護符【玄】,Recolte 【Max+2】
+8043,活源の護符【青】,Vie 【+10】
+8044,活源の護符【紅】,Vie 【+20】
+8045,活源の護符【黄】,Vie 【+30】
+8046,活源の護符【白】,Vie 【+40】
+8047,活源の護符【玄】,Vie 【+50】
+8048,精胆の護符【青】,Endurance 【+10】
+8049,精胆の護符【紅】,Endurance 【+20】
+8050,精胆の護符【黄】,Endurance 【+30】
+8051,精胆の護符【白】,Endurance 【+40】
+8052,精胆の護符【玄】,Endurance 【+50】
+8053,狩人の護符【珠】,Amu bicolore
 8054,護符Ｅ【２】,
 8055,護符Ｅ【３】,
 8056,護符Ｅ【４】,
@@ -8068,15 +8068,15 @@ index,source,target
 8066,氷刃剣晶,
 8067,龍帝剣晶,
 8068,ギルド貢献証,
-8069,天籟の祈珠,
+8069,天籟の祈珠,Gemme musicale
 8070,フカフカケーキ,
 8071,濃厚花蜜ジャム,
 8072,ポカポカハニー茶,
 8073,小さな花の種,
 8074,採集生活な図面,
-8075,尾晶蠍の毒毛,
-8076,尾晶蠍の光結晶,
-8077,尾晶蠍の濃汁,
+8075,尾晶蠍の毒毛,Poils tox Akura
+8076,尾晶蠍の光結晶,Gemme Akura
+8077,尾晶蠍の濃汁,Fluide Akura
 8078,黒鎧竜の赤髄,
 8079,黒鎧竜の炎髄,
 8080,黒鎧竜の熔髄,
@@ -8085,96 +8085,96 @@ index,source,target
 8083,砂竜の藍鱗,
 8084,砂竜の荒鱗,
 8085,砂竜の逆鱗,
-8086,金火竜の逆鱗,
-8087,金火竜の紅玉,
-8088,ドスランポスの袋,
-8089,水竜の泡玉,
-8090,舞雷竜の涙石,
-8091,喰血竜の混水袋,
-8092,ドスランポスの鱗,
-8093,ドスランポスの牙,
-8094,ランポスのトサカ,
-8095,ドスランポスの骨,
-8096,ドスゲネポスの鱗,
-8097,ドスゲネポスの牙,
-8098,ゲネポスのトサカ,
-8099,ドスゲネポスの爪,
-8100,ドスイーオスの鱗,
-8101,ドスイーオスの骨,
-8102,イーオスのトサカ,
-8103,ドスイーオスの牙,
-8104,水竜の壮牙,
-8105,水竜の壮ビレ,
-8106,エビの巨大鋏,
-8107,水竜の翼膜,
-8108,角竜の壮殻,
-8109,角竜の壮牙,
-8110,超・ねじれた角,
-8111,ねじれた双角,
-8112,舞雷竜の至殻,
-8113,舞雷竜の至鱗,
-8114,舞雷竜の延髄,
-8115,舞雷竜の鳴角,
-8116,砂竜の偉牙,
-8117,砂竜の偉鱗,
-8118,砂竜の桜ビレ,
-8119,砂竜の瑠鱗,
-8120,黒鎧竜の仙殻,
-8121,黒鎧竜の仙骨,
-8122,黒鎧竜の岩殻,
-8123,黒鎧竜の翼,
-8124,金火竜の絶鱗,
-8125,金火竜の絶殻,
-8126,金火竜の貫棘,
-8127,金火竜の兇逆鱗,
-8128,黒龍の邪殻,
-8129,黒龍の狂角,
-8130,黒龍の邪翼,
-8131,黒龍の霊眼,
-8132,黒龍の珠,
-8133,黒龍の宝玉,
-8134,輝界竜の烈鱗,
-8135,輝界竜の烈殻,
-8136,輝界竜の骨髄,
-8137,輝界竜の蒼玉,
-8138,輝界竜の剣尾,
-8139,輝界竜の鈍角,
-8140,輝界竜の光翼,
-8141,輝界竜の襲爪,
-8142,輝界竜の鱗,
-8143,輝界竜の甲殻,
-8144,輝界竜の体液,
-8145,輝界竜の逆鱗,
-8146,輝界竜の尻尾,
-8147,輝界竜の角,
-8148,輝界竜の翼爪,
-8149,輝界竜の爪,
-8150,喰血竜の白皮,
-8151,喰血竜の紫鱗,
-8152,喰血竜の濃液,
-8153,喰血竜の血腺,
-8154,喰血竜の靭尾,
-8155,喰血竜の細触手,
-8156,喰血竜の紅ヒレ,
-8157,喰血竜の触舌,
-8158,喰血竜の紅トサカ,
-8159,喰血竜の濃血袋,
-8160,喰血竜の強麻痺袋,
-8161,喰血竜の激毒袋,
-8162,喰血竜の皮,
-8163,喰血竜の鱗,
-8164,喰血竜の体液,
-8165,喰血竜の血,
-8166,喰血竜の尾,
-8167,喰血竜の触手,
-8168,喰血竜のヒレ,
-8169,喰血竜の舌,
-8170,喰血竜のトサカ,
-8171,喰血竜の血袋,
-8172,喰血竜の麻痺袋,
-8173,喰血竜の毒袋,
-8174,喰血竜討伐の証,
-8175,輝界竜討伐の証,
+8086,金火竜の逆鱗,Plaque Rath or
+8087,金火竜の紅玉,Rubis Rath or
+8088,ドスランポスの袋,Sac Velocidrome
+8089,水竜の泡玉,Gemme Plesioth
+8090,舞雷竜の涙石,Larmes Belli
+8091,喰血竜の混水袋,Sac fluide Barl
+8092,ドスランポスの鱗,Ecaille Veloci
+8093,ドスランポスの牙,Croc Velocidrome
+8094,ランポスのトサカ,Crete Veloci
+8095,ドスランポスの骨,Os Velocidrome
+8096,ドスゲネポスの鱗,Ecaille Gendrome
+8097,ドスゲネポスの牙,Croc Gendrome
+8098,ゲネポスのトサカ,Crete Gendrome
+8099,ドスゲネポスの爪,Griffe Gendrome
+8100,ドスイーオスの鱗,Ecaille Iodrome
+8101,ドスイーオスの骨,Os Iodrome
+8102,イーオスのトサカ,Crete Iodrome
+8103,ドスイーオスの牙,Croc Iodrome
+8104,水竜の壮牙,Croc lrd Plesi
+8105,水竜の壮ビレ,Nag. raf. Plesi
+8106,エビの巨大鋏,Cortex homard
+8107,水竜の翼膜,Membrane Plesi
+8108,角竜の壮殻,Cortex Diablos
+8109,角竜の壮牙,Croc lrd Diablos
+8110,超・ねじれた角,Corne vrillee
+8111,ねじれた双角,Corne torsadee
+8112,舞雷竜の至殻,Cortex Belli
+8113,舞雷竜の至鱗,Eclat Belli
+8114,舞雷竜の延髄,Medulla Belli
+8115,舞雷竜の鳴角,Vouge Belli
+8116,砂竜の偉牙,Croc lrd Cepha
+8117,砂竜の偉鱗,Eclat Cepha
+8118,砂竜の桜ビレ,Nag. raf. Cepha
+8119,砂竜の瑠鱗,Eclat poli Cepha
+8120,黒鎧竜の仙殻,Cortex Gravios N
+8121,黒鎧竜の仙骨,Os Gravios N
+8122,黒鎧竜の岩殻,Blindage Grav N
+8123,黒鎧竜の翼,Aile Gravios N
+8124,金火竜の絶鱗,Eclat Rath or
+8125,金火竜の絶殻,Cortex Rath or
+8126,金火竜の貫棘,Pic Rath or
+8127,金火竜の兇逆鱗,Plaque Rath or G
+8128,黒龍の邪殻,Cortex Fatalis
+8129,黒龍の狂角,Vouge Fatalis
+8130,黒龍の邪翼,Aile Fatalis
+8131,黒龍の霊眼,Oeil Fatalis G
+8132,黒龍の珠,Sphere Fatalis
+8133,黒龍の宝玉,Joyau Fatalis
+8134,輝界竜の烈鱗,Eclat Zeltalos
+8135,輝界竜の烈殻,Cortex Zeltalos
+8136,輝界竜の骨髄,Moelle Zeltalos
+8137,輝界竜の蒼玉,Saphir Zeltalos
+8138,輝界竜の剣尾,Fouet Zeltalos
+8139,輝界竜の鈍角,Vouge Zeltalos
+8140,輝界竜の光翼,Aile Zeltalos
+8141,輝界竜の襲爪,Serre Zeltalos
+8142,輝界竜の鱗,Ecaille Zeltalos
+8143,輝界竜の甲殻,Peau Zeltalos
+8144,輝界竜の体液,Fluide Zelralos
+8145,輝界竜の逆鱗,Plaque Zeltalos
+8146,輝界竜の尻尾,Queue Zeltalos
+8147,輝界竜の角,Corne Zeltalos
+8148,輝界竜の翼爪,Serre Zeltalos
+8149,輝界竜の爪,Griffe Zeltalos
+8150,喰血竜の白皮,Cuir Barl
+8151,喰血竜の紫鱗,Eclat Barl
+8152,喰血竜の濃液,Fluide Barl
+8153,喰血竜の血腺,Poche sang Barl
+8154,喰血竜の靭尾,Fouet Barl
+8155,喰血竜の細触手,Tentacules Barl
+8156,喰血竜の紅ヒレ,Nag. prisme Barl
+8157,喰血竜の触舌,Langue fine Barl
+8158,喰血竜の紅トサカ,Crete Barl
+8159,喰血竜の濃血袋,Sac sang Barl
+8160,喰血竜の強麻痺袋,Sac para Barl
+8161,喰血竜の激毒袋,Sac poison Barl
+8162,喰血竜の皮,Peau Barl
+8163,喰血竜の鱗,Ecaille Barl
+8164,喰血竜の体液,Liquide Barl
+8165,喰血竜の血,Sang Barl
+8166,喰血竜の尾,Queue Barl
+8167,喰血竜の触手,Tentacule Barl
+8168,喰血竜のヒレ,Nageoire Barl
+8169,喰血竜の舌,Langue Barl
+8170,喰血竜のトサカ,Meche Barl
+8171,喰血竜の血袋,Sac sang Barl
+8172,喰血竜の麻痺袋,Sac para Barl
+8173,喰血竜の毒袋,Sac poison Barl
+8174,喰血竜討伐の証,Preuve Barl
+8175,輝界竜討伐の証,Preuve Zel
 8176,祈樹の葉,
 8177,祈樹の枝,
 8178,祈樹の種,
@@ -8762,16 +8762,16 @@ index,source,target
 8760,ディール射珠GX3,
 8761,ディール射珠GX4,
 8762,ディール射珠GX5,
-8763,火攻珠,
-8764,水攻珠,
-8765,雷攻珠,
-8766,氷攻珠,
-8767,龍攻珠,
-8768,火剣珠,
-8769,水剣珠,
-8770,雷剣珠,
-8771,氷剣珠,
-8772,龍剣珠,
+8763,火攻珠,J. feu
+8764,水攻珠,J. eau
+8765,雷攻珠,J. foudre
+8766,氷攻珠,J. glace
+8767,龍攻珠,J. dragon
+8768,火剣珠,J. C. feu
+8769,水剣珠,J. C. eau
+8770,雷剣珠,J. C. foudre
+8771,氷剣珠,J. C. glace
+8772,龍剣珠,J. C. dragon
 8773,剣術珠Ｇ,
 8774,集研珠Ｇ,
 8775,耐状態珠Ｇ,
@@ -8845,21 +8845,21 @@ index,source,target
 8843,Ｂガルド生産券,
 8844,Ｐフィアロ生産券,
 8845,Ｐバイソー生産券,
-8846,黒穿竜の鱗,
-8847,黒穿竜の甲殻,
-8848,黒穿竜の棘,
-8849,黒穿竜の影玉,
-8850,黒穿竜の尾棘,
-8851,黒穿竜の角,
-8852,黒穿竜の体液,
-8853,黒穿竜の烈鱗,
-8854,黒穿竜の烈殻,
-8855,黒穿竜の鋭棘,
-8856,黒穿竜の暗玉,
-8857,黒穿竜の尻尾,
-8858,黒穿竜の巻角,
-8859,黒穿竜の鮮血,
-8860,黒穿竜討伐の証,
+8846,黒穿竜の鱗,Ecaille Melginas
+8847,黒穿竜の甲殻,Carapace Mel
+8848,黒穿竜の棘,Pointe Melginas
+8849,黒穿竜の影玉,Gemme Melginas
+8850,黒穿竜の尾棘,Pointe queue Mel
+8851,黒穿竜の角,Corne Melginas
+8852,黒穿竜の体液,Fluide Melginas
+8853,黒穿竜の烈鱗,Ecaille Mel +
+8854,黒穿竜の烈殻,Cuirasse Mel
+8855,黒穿竜の鋭棘,Pointe Melginas+
+8856,黒穿竜の暗玉,Joyau Melginas
+8857,黒穿竜の尻尾,Queue Melginas
+8858,黒穿竜の巻角,Corne Melginas+
+8859,黒穿竜の鮮血,Sang Melginas
+8860,黒穿竜討伐の証,Preuve Melginas
 8861,Ｐゼスカル生産券,
 8862,Ｆゼスカル生産券,
 8863,Ｄゼスカル生産券,
@@ -8915,25 +8915,25 @@ index,source,target
 8913,ヒストリ生産券腕,
 8914,ヒストリ生産券腰,
 8915,ヒストリ生産券脚,
-8916,花鋼石,
-8917,タマムシ玉,
-8918,カラメルコガネ,
+8916,花鋼石,Granit
+8917,タマムシ玉,Pierre luisante
+8918,カラメルコガネ,Scarabee caramel
 8919,クサダンゴ,
-8920,タイホウカズラ,
+8920,タイホウカズラ,Kadsura ecarlate
 8921,キヌシメジ,
-8922,カタビラウオ,
-8923,琥珀石,
-8924,グラレス鉱石,
-8925,アタルカ純鉱石,
-8926,クロブチアゲハ,
-8927,クスミノムシ,
-8928,オオアゴバチ,
-8929,モグリバッタ,
-8930,バタフライリリィ,
-8931,ねじまき草,
-8932,鋼綿花,
-8933,トロマッシュ,
-8934,ケンランニシキ,
+8922,カタビラウオ,Demi-bec
+8923,琥珀石,Ambre
+8924,グラレス鉱石,Pierre grasse
+8925,アタルカ純鉱石,Minerai atarka
+8926,クロブチアゲハ,Machaon noir
+8927,クスミノムシ,Kusumino
+8928,オオアゴバチ,Guepe geante
+8929,モグリバッタ,Criquet moguri
+8930,バタフライリリィ,Lys papillon
+8931,ねじまき草,Herbe spiralee
+8932,鋼綿花,Coton d'acier
+8933,トロマッシュ,Pulpe de toro
+8934,ケンランニシキ,Koi majestueuse
 8935,パローネの英知,
 8936,キャラバン月箱,
 8937,感謝のキモチ・東,
@@ -9024,70 +9024,70 @@ index,source,target
 9022,穿龍棍綬・序,
 9023,穿龍棍綬・中,
 9024,穿龍棍綬・極,
-9025,響狼の仙牙,
-9026,響狼の仙毛,
-9027,響狼の凍棘,
-9028,響狼の堅氷玉,
-9029,響狼の凍牙,
-9030,響狼の華牙,
-9031,響狼の華毛,
-9032,響狼の氷棘,
-9033,響狼の豪氷玉,
-9034,響狼の凍氷毛,
-9035,凍った狼血,
-9036,大猪の優皮,
-9037,大猪の優毛,
-9038,大猪の頭,
-9039,大猪の重骨,
-9040,大猪の破牙,
-9041,華鳳鳥の爪,
-9042,華鳳鳥の羽毛,
-9043,華鳳鳥の体液,
-9044,華鳳鳥の彩毛,
-9045,華鳳鳥の嘴,
-9046,華鳳鳥の尾毛,
-9047,華鳳鳥の翼膜,
-9048,華鳳鳥の蜜,
-9049,華鳳鳥の鋭爪,
-9050,華鳳鳥の上毛,
-9051,華鳳鳥の濃液,
-9052,華鳳鳥の虹毛,
-9053,華鳳鳥の曲嘴,
-9054,華鳳鳥の尻尾,
-9055,華鳳鳥の翼,
-9056,華鳳鳥の上蜜,
-9057,華鳳鳥の喉袋,
-9058,華鳳鳥討伐の証,
-9059,雷轟竜の鱗,
-9060,雷轟竜の甲殻,
-9061,雷轟竜の骨髄,
-9062,雷轟竜の高電殻,
-9063,雷轟竜の頭殻,
-9064,雷轟竜の腕殻,
-9065,雷轟竜の尾殻,
-9066,雷轟竜の烈鱗,
-9067,雷轟竜の烈殻,
-9068,雷轟竜の延髄,
-9069,雷轟竜の藍玉,
-9070,雷轟竜の鋭牙,
-9071,雷轟竜の剛腕,
-9072,雷轟竜の尻尾,
-9073,雷轟竜討伐の証,
-9074,銀火竜の逆鱗,
-9075,銀火竜の絶殻,
-9076,銀火竜の絶鱗,
-9077,銀火竜の秘髄,
-9078,銀火竜の血色珠,
-9079,銀火竜の紅玉,
-9080,灰晶蠍の蝕毛,
-9081,灰晶蠍の紅結晶,
-9082,灰晶蠍の絶殻,
-9083,灰晶蠍の原液,
-9084,灰晶蠍の完爪,
-9085,灰晶蠍の絶結晶,
-9086,灰晶蠍の絶尾,
-9087,灰晶蠍の血塊,
-9088,灰晶蠍の濃汁,
+9025,響狼の仙牙,Croc lrd Kamu
+9026,響狼の仙毛,Cuir Kamu
+9027,響狼の凍棘,Pic Kamu
+9028,響狼の堅氷玉,Gemme Kamu
+9029,響狼の凍牙,Crocgel Orugaron
+9030,響狼の華牙,Croc lrd Nono
+9031,響狼の華毛,Cuir Nono
+9032,響狼の氷棘,Pic Nono
+9033,響狼の豪氷玉,Gemme Nono
+9034,響狼の凍氷毛,Poils Orugaron
+9035,凍った狼血,Sang glacial
+9036,大猪の優皮,Pelage Bulldrome
+9037,大猪の優毛,Cuir Bulldrome
+9038,大猪の頭,Tete Bulldrome
+9039,大猪の重骨,Os Bulldrome
+9040,大猪の破牙,Croc Bulldrome
+9041,華鳳鳥の爪,Griffe Forokull
+9042,華鳳鳥の羽毛,Fourrure Foro
+9043,華鳳鳥の体液,Fluide Forokull
+9044,華鳳鳥の彩毛,Poil colore Foro
+9045,華鳳鳥の嘴,Bec Forokull
+9046,華鳳鳥の尾毛,Plume queue Foro
+9047,華鳳鳥の翼膜,Membrane Foro
+9048,華鳳鳥の蜜,Miel Forokull
+9049,華鳳鳥の鋭爪,Serre Forokull
+9050,華鳳鳥の上毛,Pelage Forokull
+9051,華鳳鳥の濃液,Liquide Foro
+9052,華鳳鳥の虹毛,Poil prisme Foro
+9053,華鳳鳥の曲嘴,Bec courbe Foro
+9054,華鳳鳥の尻尾,Queue Forokull
+9055,華鳳鳥の翼,Aile Forokull
+9056,華鳳鳥の上蜜,Nectar Forokull
+9057,華鳳鳥の喉袋,Gosier Forokull
+9058,華鳳鳥討伐の証,Preuve Forokull
+9059,雷轟竜の鱗,Ecaille Diorex
+9060,雷轟竜の甲殻,Carapace Diorex
+9061,雷轟竜の骨髄,Moelle Diorex
+9062,雷轟竜の高電殻,Cara foudre Dio
+9063,雷轟竜の頭殻,Roche crane Dio
+9064,雷轟竜の腕殻,Roche griffe Dio
+9065,雷轟竜の尾殻,Roche queue Dio
+9066,雷轟竜の烈鱗,Ecaille Diorex +
+9067,雷轟竜の烈殻,Cuirasse Diorex
+9068,雷轟竜の延髄,Medulla Diorex
+9069,雷轟竜の藍玉,Gemme Diorex
+9070,雷轟竜の鋭牙,Croc Diorex
+9071,雷轟竜の剛腕,Bras Diorex
+9072,雷轟竜の尻尾,Queue Diorex
+9073,雷轟竜討伐の証,Preuve Diorex
+9074,銀火竜の逆鱗,Rage Rath arg
+9075,銀火竜の絶殻,Cara. Rath arg
+9076,銀火竜の絶鱗,Ecaille Rath arg
+9077,銀火竜の秘髄,Fluide Rath arg
+9078,銀火竜の血色珠,Joyau Rath arg
+9079,銀火竜の紅玉,Rubis Rath arg
+9080,灰晶蠍の蝕毛,Poils Jebia
+9081,灰晶蠍の紅結晶,Cris. sang Jebia
+9082,灰晶蠍の絶殻,Cuirasse Jebia
+9083,灰晶蠍の原液,Fluide pur Jebia
+9084,灰晶蠍の完爪,Pince Jebia
+9085,灰晶蠍の絶結晶,Cristal Jebia
+9086,灰晶蠍の絶尾,Queue Jebia
+9087,灰晶蠍の血塊,Caillot Jebia
+9088,灰晶蠍の濃汁,Sang epais Jebia
 9089,火竜の宝鱗,
 9090,ラオウトＤ生産券,
 9091,ルペルスＤ生産券,
@@ -9343,7 +9343,7 @@ index,source,target
 9341,コムラダ射珠GX3,
 9342,コムラダ射珠GX4,
 9343,コムラダ射珠GX5,
-9344,祈樹の鳴石,
+9344,祈樹の鳴石,Minerai des 3 Prieres
 9345,Ｃクレスト生産券,
 9346,Ｎタヴロス生産券,
 9347,Ｇグライラ生産券,
@@ -9584,62 +9584,62 @@ index,source,target
 9582,マツリノアカシ,
 9583,月光砂,
 9584,峰魂草,
-9585,雅翁龍討伐の証,
-9586,金塵龍討伐の証,
+9585,雅翁龍討伐の証,Preuve Inagami
+9586,金塵龍討伐の証,Preuve Garuba
 9587,ゴム質の最上紫皮,
 9588,ゴム質の極上紫皮,
-9589,毒怪鳥の紫石頭,
-9590,毒怪鳥の緑尾,
-9591,毒怪鳥の華爪,
-9592,毒怪鳥の華皮,
-9593,毒怪鳥の純紫輝石,
-9594,棘白竜の豪棘,
-9595,棘白竜の毒棘,
-9596,棘白竜の絶鱗,
-9597,棘白竜の絶殻,
-9598,棘白竜の剣棘,
-9599,棘白竜の濃白殻,
-9600,棘白竜の炎石,
-9601,一角竜の豪殻,
-9602,一角竜の偉殻,
-9603,一角竜の偉甲,
-9604,深紅の角,
-9605,深紅の豪角,
-9606,一角竜の硬牙,
-9607,変成する柔皮,
-9608,魅惑色の壮翼膜,
-9609,魅惑色の壮皮,
-9610,濃紅の柔皮,
-9611,眠鳥の白金紅毛,
-9612,眠鳥の優橙毛,
-9613,眠鳥の優爪,
-9614,眠鳥の豪嘴,
-9615,眠鳥の重胃石,
-9616,金塵龍の鱗,
-9617,金塵龍の甲殻,
-9618,金塵龍の爪,
-9619,金塵龍の黄玉,
-9620,金塵龍の角,
-9621,金塵龍の尻尾,
-9622,金塵龍の翼膜,
-9623,金塵龍の烈鱗,
-9624,金塵龍の烈殻,
-9625,金塵龍の玻璃爪,
-9626,金塵龍の陽玉,
-9627,金塵龍の透輝角,
-9628,金塵龍の水晶尾,
-9629,金塵龍の黄金翼,
-9630,雅翁龍の皮,
-9631,雅翁龍の毛,
-9632,雅翁龍の鱗,
-9633,雅翁龍の腱,
-9634,雅翁龍の髄,
-9635,雅翁龍の尻尾,
-9636,雅翁龍の堅皮,
-9637,雅翁龍の艶毛,
-9638,雅翁龍の頑鱗,
-9639,雅翁龍の頑腱,
-9640,雅翁龍の頑髄,
+9589,毒怪鳥の紫石頭,Tete Gypceros V
+9590,毒怪鳥の緑尾,Fouet Gypceros V
+9591,毒怪鳥の華爪,Serre Gypceros V
+9592,毒怪鳥の華皮,Cuir Gypceros V
+9593,毒怪鳥の純紫輝石,Cristal violet
+9594,棘白竜の豪棘,Pic Espinas Bl
+9595,棘白竜の毒棘,Dard Espinas Bl
+9596,棘白竜の絶鱗,Eclat Espi Bl
+9597,棘白竜の絶殻,Cortex Espi Bl
+9598,棘白竜の剣棘,Epine Espi Bl
+9599,棘白竜の濃白殻,Armure Espi Bl
+9600,棘白竜の炎石,Mante Espi Bl
+9601,一角竜の豪殻,Cortex Monoblos
+9602,一角竜の偉殻,Cort brave Mono
+9603,一角竜の偉甲,Armure Monoblos
+9604,深紅の角,Corne cramoisie
+9605,深紅の豪角,Corne vermillon
+9606,一角竜の硬牙,Croc lrd Mono
+9607,変成する柔皮,Peau malleable
+9608,魅惑色の壮翼膜,Aile Khezu R
+9609,魅惑色の壮皮,Cuir Khezu R
+9610,濃紅の柔皮,Cuir vermillon
+9611,眠鳥の白金紅毛,Plume cramoisie
+9612,眠鳥の優橙毛,Plumage Hypnoc
+9613,眠鳥の優爪,Serre Hypnoc
+9614,眠鳥の豪嘴,Bec fin Hypnoc
+9615,眠鳥の重胃石,Gemme Hypnoc
+9616,金塵龍の鱗,Ecaille Garuba
+9617,金塵龍の甲殻,Carapace Garuba
+9618,金塵龍の爪,Griffe Garuba
+9619,金塵龍の黄玉,Gemme Garuba
+9620,金塵龍の角,Corne Garuba
+9621,金塵龍の尻尾,Queue Garuba
+9622,金塵龍の翼膜,Membrane Garuba
+9623,金塵龍の烈鱗,Ecaille Garuba +
+9624,金塵龍の烈殻,Cuirasse Garuba
+9625,金塵龍の玻璃爪,Griffe Garuba +
+9626,金塵龍の陽玉,Joyau Garuba
+9627,金塵龍の透輝角,Corne Garuba +
+9628,金塵龍の水晶尾,Queue Garuba +
+9629,金塵龍の黄金翼,Aile Garuba +
+9630,雅翁龍の皮,Peau Inagami
+9631,雅翁龍の毛,Fourrure Inagami
+9632,雅翁龍の鱗,Ecaille Inagami
+9633,雅翁龍の腱,Tendon Inagami
+9634,雅翁龍の髄,Moelle Inagami
+9635,雅翁龍の尻尾,Queue Inagami
+9636,雅翁龍の堅皮,Peau Inagami +
+9637,雅翁龍の艶毛,Pelage Inagami
+9638,雅翁龍の頑鱗,Ecaille Inagami+
+9639,雅翁龍の頑腱,Tendon Inagami +
+9640,雅翁龍の頑髄,Medulla Inagami
 9641,雅翁龍の仁鱗,
 9642,雅翁龍の誘引尾,
 9643,ハンターパス・赤,
@@ -9721,12 +9721,12 @@ index,source,target
 9719,属性強化薬【全】,
 9720,極征・体力の薬,
 9721,極征・精力の薬,
-9722,グイグイダンベル,
-9723,ポスポスグローブ,
-9724,ブンブンステッキ,
-9725,クンクンアロマ,
-9726,スヤスヤまくら,
-9727,ビヨーンベルト,
+9722,グイグイダンベル,Haltere giggi
+9723,ポスポスグローブ,Gants popo
+9724,ブンブンステッキ,Baton boumboum
+9725,クンクンアロマ,Encens fort
+9726,スヤスヤまくら,Oreiller doux
+9727,ビヨーンベルト,Ceinture virile
 9728,トレジャー隊の宝,
 9729,絡まった猫毛玉,
 9730,三傘キノコ,
@@ -9770,7 +9770,7 @@ index,source,target
 9768,星型夜石,
 9769,ミズナシバナ,
 9770,フルエルバナ,
-9771,うずまき貝殻,
+9771,うずまき貝殻,Coquill. spirale
 9772,シズク貝,
 9773,黒点花,
 9774,仮面草,
@@ -10576,22 +10576,22 @@ index,source,target
 10574,ネコの耐状珠Ｐ,
 10575,ネコの笛吹珠Ｐ,
 10576,ダミー10576,
-10577,創音竜討伐の証,
-10578,創音竜の皮,
-10579,創音竜の体液,
-10580,創音竜の骨髄,
-10581,創音竜の鳴管,
-10582,巨大貝の破片,
-10583,創音竜の歯,
-10584,創音竜の翼膜,
-10585,創音竜の厚皮,
-10586,創音竜の潤液,
-10587,創音竜の秘髄,
-10588,創音竜の喉,
-10589,巨大貝の殻,
-10590,創音竜の歯列,
-10591,創音竜の翼,
-10592,創音竜の発音袋,
+10577,創音竜討伐の証,Preuve Porumtor
+10578,創音竜の皮,Peau Porumtor
+10579,創音竜の体液,Fluide Porumtor
+10580,創音竜の骨髄,Moelle Porumtor
+10581,創音竜の鳴管,Tube Porumtor
+10582,巨大貝の破片,Palourde geante
+10583,創音竜の歯,Croc Porumtor
+10584,創音竜の翼膜,Membrane Porum
+10585,創音竜の厚皮,Peau Porumtor +
+10586,創音竜の潤液,Fluide Porumtor +
+10587,創音竜の秘髄,Medulla Porumtor
+10588,創音竜の喉,Gorge Porumtor
+10589,巨大貝の殻,Balane Porumtor
+10590,創音竜の歯列,Dent Porumtor
+10591,創音竜の翼,Aile Porumtor
+10592,創音竜の発音袋,Sac vocal Porum
 10593,ストラ生産券,
 10594,リウラ生産券,
 10595,ラルシャ生産券,
@@ -10636,30 +10636,30 @@ index,source,target
 10634,マンサナ生産券,
 10635,ファータ生産券,
 10636,フルール生産券,
-10637,炎妃龍の絶鱗,
-10638,炎妃龍の絶殻,
-10639,炎妃龍の貴翼,
-10640,炎妃龍の冠鬣,
-10641,幻の龍秘宝,
+10637,炎妃龍の絶鱗,Eclat Lunastra
+10638,炎妃龍の絶殻,Cortex Lunastra
+10639,炎妃龍の貴翼,Aile Lunastra
+10640,炎妃龍の冠鬣,Couronne Luna
+10641,幻の龍秘宝,Trsr fantomatique
 10642,炎妃龍の美牙,
 10643,炎妃龍の妖牙,
 10644,炎妃龍の宝牙,
-10645,晶竜の仙鱗,
-10646,晶竜の仙皮,
-10647,晶竜の玉髄,
-10648,晶竜の紫群青玻璃,
-10649,晶竜の縞瑪瑙,
-10650,晶竜の虹瑪瑙,
-10651,晶竜の両錐水晶,
-10652,蒼火竜の至殻,
-10653,蒼火竜の至鱗,
-10654,蒼火竜の秘髄,
-10655,蒼火竜の血色珠,
-10656,蒼火竜の栄鱗,
-10657,桜火竜の壮殻,
-10658,桜火竜の壮鱗,
-10659,桜火竜の貫棘,
-10660,桜火竜の兇逆鱗,
+10645,晶竜の仙鱗,Eclat Kuaru
+10646,晶竜の仙皮,Cuir Kuaru
+10647,晶竜の玉髄,Joyau Kuaru
+10648,晶竜の紫群青玻璃,Cristal solaire
+10649,晶竜の縞瑪瑙,Cristal ebreche
+10650,晶竜の虹瑪瑙,Cristal prisme
+10651,晶竜の両錐水晶,Diamant Kuaru
+10652,蒼火竜の至殻,Cortex Rath azur
+10653,蒼火竜の至鱗,Eclat Rath azur
+10654,蒼火竜の秘髄,Moelle Rath azur
+10655,蒼火竜の血色珠,Gemme sang azur
+10656,蒼火竜の栄鱗,Eclat fier azur
+10657,桜火竜の壮殻,Cortex Rath rose
+10658,桜火竜の壮鱗,Eclat Rath rose
+10659,桜火竜の貫棘,Plaque Rath rose
+10660,桜火竜の兇逆鱗,Cortex sakura
 10661,桜火竜の朧殻,
 10662,リースティ生産券,
 10663,デルスール生産券,
@@ -10899,13 +10899,13 @@ index,source,target
 10897,ハート射珠GX3,
 10898,ハート射珠GX4,
 10899,ハート射珠GX5,
-10900,狩猟珠,
-10901,奉仕珠,
-10902,救援珠,
-10903,耐酔珠,
-10904,耐晶珠,
-10905,耐磁珠,
-10906,警戒珠,
+10900,狩猟珠,J. chasse
+10901,奉仕珠,J. eleveur
+10902,救援珠,J. confiance
+10903,耐酔珠,J. ivresse
+10904,耐晶珠,J. cristal
+10905,耐磁珠,J. magnetisme
+10906,警戒珠,J. pied leger
 10907,銃士珠Ｇ,
 10908,状耐珠Ｇ,
 10909,Ｇ属撃カフＳＡ１,
@@ -11182,30 +11182,30 @@ index,source,target
 11180,アステリ生産券腕,
 11181,アステリ生産券腰,
 11182,アステリ生産券脚,
-11183,炎角竜の甲殻,
-11184,炎角竜の牙,
-11185,炎角竜の血,
-11186,炎角竜の朱玉,
-11187,炎角竜の尻尾,
-11188,炎角竜の角,
-11189,炎角竜の烈殻,
-11190,炎角竜の烈牙,
-11191,炎角竜の灼血,
-11192,炎角竜の緋玉,
-11193,炎角竜の焔獄尾,
-11194,炎角竜の双角,
-11195,灼熱サボテン,
+11183,炎角竜の甲殻,Carapace Vasura
+11184,炎角竜の牙,Croc Vasura
+11185,炎角竜の血,Sang Vasura
+11186,炎角竜の朱玉,Gemme Vasura
+11187,炎角竜の尻尾,Queue Vasura
+11188,炎角竜の角,Corne Vasura
+11189,炎角竜の烈殻,Cuirasse Vasura
+11190,炎角竜の烈牙,Croc Vasura +
+11191,炎角竜の灼血,Sang Vasura +
+11192,炎角竜の緋玉,Joyau Vasura
+11193,炎角竜の焔獄尾,Queue Vasura +
+11194,炎角竜の双角,Corne Vasura +
+11195,灼熱サボテン,Cactus brulant
 11196,砂魂草,
 11197,谷魂草,
-11198,跳緋獣の華毛,
-11199,跳緋獣の華爪,
-11200,跳緋獣の闘牙,
-11201,跳緋獣の峻烈角,
-11202,跳緋獣の絨尾,
-11203,ココモアの良質毛,
-11204,跳緋獣の猩血毛,
+11198,跳緋獣の華毛,Pelage Gogomoa
+11199,跳緋獣の華爪,Serre Gogomoa
+11200,跳緋獣の闘牙,Croc lrd Gogomoa
+11201,跳緋獣の峻烈角,Vouge Gogomoa
+11202,跳緋獣の絨尾,Fouet Gogomoa
+11203,ココモアの良質毛,Pelage Kokomoa
+11204,跳緋獣の猩血毛,Usure Gogomoa
 11205,カフの素Ｇ・紫黒,
-11206,炎角竜討伐の証,
+11206,炎角竜討伐の証,Preuve Vasura
 11207,ギルド瘴炎紋章,
 11208,鬼嘆鉄,
 11209,清雅な白布,
@@ -11254,29 +11254,29 @@ index,source,target
 11252,パローネ織・別珍,
 11253,パローネ織・更紗,
 11254,パローネ織・錦紗,
-11255,覇竜の絶鱗,
-11256,覇竜の絶殻,
-11257,覇竜の剛髄,
-11258,覇竜の断裂爪,
-11259,覇竜の滅棘,
-11260,蒼眠鳥の優毛,
-11261,蒼眠鳥の優爪,
-11262,蒼眠鳥の豪嘴,
-11263,蒼眠鳥の照胃石,
-11264,蒼眠鳥の鮮烈蒼毛,
-11265,極征龍水晶,
-11266,ゲネポスの鮮鱗,
-11267,ゲネポスの最上皮,
-11268,ゲネポスの長爪,
-11269,ドスゲネポスの袋,
-11270,翠水竜の壮牙,
-11271,翠水竜の壮ビレ,
-11272,エビの湾曲鋏,
-11273,翠水竜の翼膜,
+11255,覇竜の絶鱗,Eclat Akantor
+11256,覇竜の絶殻,Cortex Akantor
+11257,覇竜の剛髄,Medulla Akantor
+11258,覇竜の断裂爪,Dechireur Akantor
+11259,覇竜の滅棘,Pic Akantor
+11260,蒼眠鳥の優毛,Plume Hypnoc S
+11261,蒼眠鳥の優爪,Serre Hypnoc S
+11262,蒼眠鳥の豪嘴,Bec fin Hypnoc S
+11263,蒼眠鳥の照胃石,Gemme Hypnoc S
+11264,蒼眠鳥の鮮烈蒼毛,Plume arc-en-ciel
+11265,極征龍水晶,Cristal conquete
+11266,ゲネポスの鮮鱗,Eclat Gendrome
+11267,ゲネポスの最上皮,Cuir Gendrome
+11268,ゲネポスの長爪,Serre Gendrome
+11269,ドスゲネポスの袋,Poche Gendrome
+11270,翠水竜の壮牙,Croc lrd Plesi V
+11271,翠水竜の壮ビレ,Nag. raf Plesi V
+11272,エビの湾曲鋏,Crevette courbe
+11273,翠水竜の翼膜,Membrane Plesi V
 11274,翠水竜の旋ビレ,
 11275,翠水竜の刃ビレ,
 11276,翠水竜の凄ビレ,
-11277,翠水竜の泡玉,
+11277,翠水竜の泡玉,Gemme Plesi V
 11278,物まね指南・片貤,
 11279,物まね指南・刀貤,
 11280,物まね指南・重貤,
@@ -11315,41 +11315,41 @@ index,source,target
 11313,マナイト生産券,
 11314,スピルネ生産券,
 11315,始淵の黎玉,
-11316,水砦竜の甲殻,
-11317,水砦竜の皮,
-11318,水砦竜の苔,
-11319,水砦竜の水袋,
-11320,水砦竜の翼膜,
-11321,水砦竜の尻尾,
-11322,水砦竜の管,
-11323,水砦竜の始殻,
-11324,水砦竜の始皮,
-11325,水砦竜の稀少苔,
-11326,水砦竜の浄水袋,
-11327,水砦竜の潤翼,
-11328,水砦竜の苔群尾,
-11329,水砦竜の柔管,
+11316,水砦竜の甲殻,Carapace Gramoss
+11317,水砦竜の皮,Peau Gramoss
+11318,水砦竜の苔,Mousse Gramoss
+11319,水砦竜の水袋,Sac eau Gramoss
+11320,水砦竜の翼膜,Membrane Gramoss
+11321,水砦竜の尻尾,Queue Gramoss
+11322,水砦竜の管,Tube Gramoss
+11323,水砦竜の始殻,Cuirasse Gramoss
+11324,水砦竜の始皮,Peau Gramoss +
+11325,水砦竜の稀少苔,Mousse Gramoss +
+11326,水砦竜の浄水袋,Filtre Gramoss
+11327,水砦竜の潤翼,Aile Gramoss
+11328,水砦竜の苔群尾,Queue Gramoss +
+11329,水砦竜の柔管,Tube Gramoss +
 11330,ヴァリエ生産券,
 11331,ルイーツ生産券,
 11332,レイアルマ生産券,
 11333,カンピ生産券,
 11334,ヴィンチ生産券,
 11335,ウィクトル生産券,
-11336,司銀龍の鱗,
-11337,司銀龍の甲殻,
-11338,司銀龍の爪,
-11339,司銀龍の翼,
-11340,司銀龍の角,
-11341,司銀龍の流玉,
-11342,司銀龍の尻尾,
-11343,司銀龍の鋭鱗,
-11344,司銀龍の鋭殻,
-11345,司銀龍の鋭爪,
-11346,司銀龍の重刃翼,
-11347,司銀龍の重刃角,
-11348,司銀龍の激流玉,
-11349,司銀龍の重刃尾,
-11350,司銀龍の操核,
+11336,司銀龍の鱗,Ecaille Harudo
+11337,司銀龍の甲殻,Carapace Harudo
+11338,司銀龍の爪,Griffe Harudo
+11339,司銀龍の翼,Aile Harudo
+11340,司銀龍の角,Corne Harudo
+11341,司銀龍の流玉,Gemme Harudo
+11342,司銀龍の尻尾,Queue Harudo
+11343,司銀龍の鋭鱗,Ecaille Harudo +
+11344,司銀龍の鋭殻,Carapace Harudo+
+11345,司銀龍の鋭爪,Griffe Harudo +
+11346,司銀龍の重刃翼,Aile Harudo +
+11347,司銀龍の重刃角,Corne Harudo +
+11348,司銀龍の激流玉,Joyau Harudo
+11349,司銀龍の重刃尾,Queue Harudo +
+11350,司銀龍の操核,Coeur Harudo
 11351,純白の花片,
 11352,夜空の紡毛糸,
 11353,花柄ハチマキ,
@@ -11378,8 +11378,8 @@ index,source,target
 11376,ノーブレス生産券,
 11377,ヴァリアＴ生産券,
 11378,エッセＳＣ生産券,
-11379,司銀龍討伐の証,
-11380,水砦竜討伐の証,
+11379,司銀龍討伐の証,Preuve Harudo
+11380,水砦竜討伐の証,Preuve Gramoss
 11381,古猟の儀書・緋,
 11382,古猟の儀書・蒼,
 11383,古猟の儀書・暗,
@@ -11389,7 +11389,7 @@ index,source,target
 11387,猫目石【翠】,
 11388,壮襲砂鉄,
 11389,鮮烈な赤布,
-11390,忘砂の貝殻,
+11390,忘砂の貝殻,Coquill. jeune
 11391,尊い心,
 11392,流麗な金属片,
 11393,プライムチケット,
@@ -11705,39 +11705,39 @@ index,source,target
 11703,超・ねじれた黒角,
 11704,ねじれた黒双角,
 11705,派手にねじれた角,
-11706,白一角竜の偉殻,
-11707,白一角竜の偉甲,
-11708,灰純白の角,
-11709,灰純白の豪角,
-11710,白一角竜の硬牙,
+11706,白一角竜の偉殻,Cortex Mono B
+11707,白一角竜の偉甲,Armure Mono B
+11708,灰純白の角,Corne grisatre
+11709,灰純白の豪角,Corne grise pure
+11710,白一角竜の硬牙,Croc lrd Mono B
 11711,白一角竜の硬殻,
 11712,白一角竜の豪殻,
 11713,先行狩猟チケット,
 11714,始淵の黎血,
-11715,浮峰龍の皮,
-11716,浮峰龍の毛,
-11717,汚れた金歯,
-11718,浮峰龍の消化液,
-11719,龍蔓,
-11720,謎の種殻,
-11721,浮峰龍の始皮,
-11722,浮峰龍の始毛,
-11723,輝く純金歯,
-11724,浮峰龍の胃袋,
-11725,神龍蔓,
-11726,神龍木の種,
-11727,浮峰龍討伐の証,
+11715,浮峰龍の皮,Peau Kurai
+11716,浮峰龍の毛,Fourrure Kurai
+11717,汚れた金歯,Dent doree sale
+11718,浮峰龍の消化液,Acide Kurai
+11719,龍蔓,Liane dragon
+11720,謎の種殻,Graine mystere
+11721,浮峰龍の始皮,Peau Kurai +
+11722,浮峰龍の始毛,Fourrure Kurai +
+11723,輝く純金歯,Dent doree
+11724,浮峰龍の胃袋,Estomac Kurai
+11725,神龍蔓,Liane divine
+11726,神龍木の種,Graine divine
+11727,浮峰龍討伐の証,Preuve Kurai
 11728,ダミー11728,
-11729,獰竜の至鱗,
-11730,獰竜の至皮,
-11731,獰竜の暴角,
-11732,獰竜の餓湧血,
-11733,獰竜の乱刃尾,
-11734,獰竜の猛牙,
-11735,獰竜の凶骨,
-11736,獰竜の猛骨,
-11737,獰竜の剛骨,
-11738,獰竜の熱骨,
+11729,獰竜の至鱗,Eca Supr Abio
+11730,獰竜の至皮,Peau Supr Abio
+11731,獰竜の暴角,Corne Viol Abio
+11732,獰竜の餓湧血,Sang Afam Abio
+11733,獰竜の乱刃尾,Sang Bouil Abio
+11734,獰竜の猛牙,Croc Feroce Abio
+11735,獰竜の凶骨,Os Demonia Abio
+11736,獰竜の猛骨,Os Feroce Abio
+11737,獰竜の剛骨,Os Solide Abio
+11738,獰竜の熱骨,Os Chaud Abio
 11739,月光卵,
 11740,奇面王の帽子,
 11741,気高き白毛,
@@ -11750,24 +11750,24 @@ index,source,target
 11748,雲魂草,
 11749,潮魂草,
 11750,峠魂草,
-11751,白磁石,
-11752,絹鉱石,
-11753,オオホネコロガシ,
-11754,シロサカブト,
-11755,沙蜜草,
-11756,セツナビジン,
-11757,ムジマス,
-11758,マーブル鉱石,
-11759,煌砂岩,
-11760,純白鉱,
-11761,ホワイトワーム,
-11762,イッスンムシ,
-11763,タワラサボテン,
-11764,永命花,
-11765,透流草,
-11766,ヤマクズシダケ,
-11767,マンリキクワガタ,
-11768,ハコイリナマズ,
+11751,白磁石,Aimant blanc
+11752,絹鉱石,Minerai soyeux
+11753,オオホネコロガシ,Scarabouse
+11754,シロサカブト,Sakabuto blanc
+11755,沙蜜草,Herbe mielleuse
+11756,セツナビジン,Beaute ephemere
+11757,ムジマス,Truite muji
+11758,マーブル鉱石,Pierre marbree
+11759,煌砂岩,Gres etincelant
+11760,純白鉱,Minerai pur
+11761,ホワイトワーム,Ver blanc
+11762,イッスンムシ,Ver court
+11763,タワラサボテン,Cactus tawara
+11764,永命花,Fleur eternelle
+11765,透流草,Herbe fine
+11766,ヤマクズシダケ,Champiroche
+11767,マンリキクワガタ,Lucane manlyki
+11768,ハコイリナマズ,Poisson-chat
 11769,ネコ珠の素・梅,
 11770,ネコ珠の素・杏,
 11771,ネコ珠の素・菫,
@@ -11787,23 +11787,23 @@ index,source,target
 11785,物まね指南・弩貤,
 11786,物まね指南・剣貤,
 11787,物まね指南・棍貤,
-11788,怒貌竜の皮,
-11789,怒貌竜の鱗,
-11790,怒貌竜のヒレ,
-11791,怒貌竜の熱血,
-11792,怒貌竜の腕皮,
-11793,怒貌竜の毒歯,
-11794,怒貌竜の棘尾,
-11795,怒貌竜の厚皮,
-11796,怒貌竜の厚鱗,
-11797,怒貌竜の激ビレ,
-11798,怒貌竜の膨熱血,
-11799,怒貌竜の豪腕皮,
-11800,怒貌竜の猛毒歯,
-11801,怒貌竜の大棘尾,
-11802,怒貌竜の海肺,
-11803,怒貌竜討伐の証,
-11804,シルティ生産券,
+11788,怒貌竜の皮,Peau Gasura
+11789,怒貌竜の鱗,Ecaille Gasura
+11790,怒貌竜のヒレ,Nageoire Gasura
+11791,怒貌竜の熱血,Sang Gasura
+11792,怒貌竜の腕皮,Bras Gasura
+11793,怒貌竜の毒歯,Croc Gasura
+11794,怒貌竜の棘尾,Queue Gasura
+11795,怒貌竜の厚皮,Peau Gasura +
+11796,怒貌竜の厚鱗,Ecaille Gasura +
+11797,怒貌竜の激ビレ,Nageoire Gasura+
+11798,怒貌竜の膨熱血,Sang Gasura +
+11799,怒貌竜の豪腕皮,Bras Gasura +
+11800,怒貌竜の猛毒歯,Croc Gasura +
+11801,怒貌竜の大棘尾,Queue Gasura +
+11802,怒貌竜の海肺,Poumon Gasura
+11803,怒貌竜討伐の証,Preuve Gasura
+11804,シルティ生産券,Tck Shiruti
 11805,ネコの貢献珠,
 11806,ネコの採取珠,
 11807,ネコの探検珠,
@@ -11979,8 +11979,8 @@ index,source,target
 11977,ネコ激睡突・極珠,
 11978,ネコ激睡巨・極珠,
 11979,ネコ攻睡爆・極珠,
-11980,遷悠玉,
-11981,遷悠骨,
+11980,遷悠玉,Gemme Exotique
+11981,遷悠骨,Os Exotique
 11982,アイリュー生産券,
 11983,砲モロコシ生産券,
 11984,ガイアスプ生産券,
@@ -11998,21 +11998,21 @@ index,source,target
 11996,Ｐライフル生産券,
 11997,Ｐナイフ生産券,
 11998,Ｃソード生産券,
-11999,雷狼竜の堅殻,
-12000,雷狼竜の高電毛,
-12001,雷狼竜の尖爪,
-12002,雷狼竜の高電殻,
-12003,超電雷光虫,
-12004,雷狼竜の碧玉,
-12005,雷狼竜の尻尾,
-12006,雷狼竜の尖角,
-12007,雷狼竜の重殻,
-12008,雷狼竜の雷電毛,
-12009,雷狼竜の剛爪,
-12010,雷狼竜の雷電殻,
-12011,雷狼竜の天玉,
-12012,雷狼竜の靭尾,
-12013,雷狼竜の剛角,
+11999,雷狼竜の堅殻,Cuirasse Zinogre
+12000,雷狼竜の高電毛,Pelage Zinogre+
+12001,雷狼竜の尖爪,Griffe Zinogre+
+12002,雷狼竜の高電殻,Carap elect Zin
+12003,超電雷光虫,Fulgurinsecte
+12004,雷狼竜の碧玉,Jaspe Zinogre
+12005,雷狼竜の尻尾,Queue Zinogre
+12006,雷狼竜の尖角,Corne Zinogre
+12007,雷狼竜の重殻,Cortex Zino
+12008,雷狼竜の雷電毛,Fourr elect Zin
+12009,雷狼竜の剛爪,Serre Zinogre
+12010,雷狼竜の雷電殻,Carap volt Zin
+12011,雷狼竜の天玉,Celemeraude Zin
+12012,雷狼竜の靭尾,Fouet Zinogre
+12013,雷狼竜の剛角,Vouge Zinogre
 12014,封印された秘文書,
 12015,縛られた秘文書,
 12016,清められた秘文書,
@@ -12054,8 +12054,8 @@ index,source,target
 12052,欠けた金属片,
 12053,手のひらネジ,
 12054,泥まみれのボール,
-12055,チクチク貝殻,
-12056,穴だらけの貝殻,
+12055,チクチク貝殻,Coquill. epineux
+12056,穴だらけの貝殻,Coquill. perce
 12057,潮香る釣り糸,
 12058,潮香る網,
 12059,潮香る金具,
@@ -12303,33 +12303,33 @@ index,source,target
 12301,Ｇ血気カフＰＣ３,
 12302,Ｇ血気カフＰＣ４,
 12303,ＮＥＲＶ極秘資料,
-12304,重撃玉,
-12305,真撃玉,
-12306,天撃玉,
-12307,棘茶竜の毒棘,
-12308,棘茶竜の絶鱗,
-12309,棘茶竜の絶殻,
-12310,棘茶竜の剣棘,
-12311,棘茶竜の濃茶殻,
-12312,照雷鳥の甲殻,
-12313,照雷鳥の毛,
-12314,照雷鳥の爪,
-12315,照雷鳥の蒼玉,
-12316,照雷鳥の羽角片,
-12317,照雷鳥の翼殻,
-12318,照雷鳥の尾殻,
-12319,照雷鳥の堅殻,
-12320,照雷鳥の純白毛,
-12321,照雷鳥の鋭爪,
-12322,照雷鳥の瑠璃玉,
-12323,照雷鳥の羽角,
-12324,照雷鳥の堅翼殻,
-12325,照雷鳥の尻尾,
-12326,照雷鳥の体液,
-12327,紅溶岩竜の仙ビレ,
-12328,紅溶岩竜の仙鱗,
-12329,紅溶岩竜の赤熱牙,
-12330,紅溶岩竜の溶鉱殻,
+12304,重撃玉,Gemme pouvoir lourde
+12305,真撃玉,Gemme pouvoir vraie
+12306,天撃玉,Gemme pouvoir divine
+12307,棘茶竜の毒棘,Pic tox Espi B
+12308,棘茶竜の絶鱗,Eclat Espi B
+12309,棘茶竜の絶殻,Cortex Espi B
+12310,棘茶竜の剣棘,Fouet Espi.
+12311,棘茶竜の濃茶殻,Cortex brun Espi
+12312,照雷鳥の甲殻,Carapace Torid
+12313,照雷鳥の毛,Fourrure Torid
+12314,照雷鳥の爪,Griffe Torid
+12315,照雷鳥の蒼玉,Gemme Torid
+12316,照雷鳥の羽角片,Plumecorne Torid
+12317,照雷鳥の翼殻,Aile Toridcless
+12318,照雷鳥の尾殻,Queue Torid
+12319,照雷鳥の堅殻,Cuirasse Torid
+12320,照雷鳥の純白毛,Fourrure Torid +
+12321,照雷鳥の鋭爪,Griffe Torid +
+12322,照雷鳥の瑠璃玉,Gemme Torid
+12323,照雷鳥の羽角,Plumecorne Tori+
+12324,照雷鳥の堅翼殻,Aile Torid+
+12325,照雷鳥の尻尾,Queue Torid +
+12326,照雷鳥の体液,Fluide Torid +
+12327,紅溶岩竜の仙ビレ,Nag. raf. Lava R
+12328,紅溶岩竜の仙鱗,Eclat Lava R
+12329,紅溶岩竜の赤熱牙,Croc lrd Lava R
+12330,紅溶岩竜の溶鉱殻,Lave Lava R
 12331,紅溶岩竜の旋ビレ,
 12332,紅溶岩竜の刃ビレ,
 12333,紅溶岩竜の凄ビレ,
@@ -12354,34 +12354,34 @@ index,source,target
 12352,白いネクタイ,
 12353,白いチョーカー,
 12354,ダミー12354,
-12355,照雷鳥討伐の証,
+12355,照雷鳥討伐の証,Preuve Torid
 12356,ダミー１２３５６,
 12357,ダミー１２３５７,
 12358,ダミー１２３５８,
 12359,武器習熟状,
 12360,ポルタブラウニー,
 12361,ポルタマシュマロ,
-12362,氷牙竜の堅殻,
-12363,氷牙竜の凍結袋,
-12364,氷牙竜の上毛皮,
-12365,氷牙竜の凍玉,
-12366,琥珀色の鋭牙,
-12367,氷牙竜の棘,
-12368,氷牙竜の尻尾,
-12369,氷牙竜の鋭爪,
-12370,氷牙竜の重殻,
-12371,瞬間凍結袋,
-12372,氷牙竜の厚毛皮,
-12373,氷牙竜の天玉,
-12374,琥珀色の重牙,
-12375,氷牙竜の靭尾,
-12376,氷牙竜の剛爪,
-12377,蒼白眠鳥の至毛,
-12378,蒼白眠鳥の至爪,
-12379,蒼白眠鳥の豪嘴,
-12380,蒼白眠鳥の透胃石,
-12381,眠鳥の白銀毛,
-12382,蒼白眠鳥の鮮白毛,
+12362,氷牙竜の堅殻,Cuirasse Barioth
+12363,氷牙竜の凍結袋,Poche de givre
+12364,氷牙竜の上毛皮,Peau Barioth +
+12365,氷牙竜の凍玉,Gemme Barioth
+12366,琥珀色の鋭牙,Defenses ambre
+12367,氷牙竜の棘,Pointe Barioth
+12368,氷牙竜の尻尾,Queue Barioth +
+12369,氷牙竜の鋭爪,Griffe Barioth +
+12370,氷牙竜の重殻,Cortex Barioth
+12371,瞬間凍結袋,Poche cryogene
+12372,氷牙竜の厚毛皮,Fourrure Barioth
+12373,氷牙竜の天玉,Joyau Barioth
+12374,琥珀色の重牙,Def. ambre ldes
+12375,氷牙竜の靭尾,Fouet Barioth
+12376,氷牙竜の剛爪,Serre Barioth
+12377,蒼白眠鳥の至毛,Plume Hypnoc B
+12378,蒼白眠鳥の至爪,Serre Hypnoc B
+12379,蒼白眠鳥の豪嘴,Bec fin Hypnoc B
+12380,蒼白眠鳥の透胃石,Gemme hypnoc B
+12381,眠鳥の白銀毛,Plume d'argent
+12382,蒼白眠鳥の鮮白毛,Plume blanc pur
 12383,ダミー12383,
 12384,ダミー12384,
 12385,ダミー12385,
@@ -12401,20 +12401,20 @@ index,source,target
 12399,ダミー１２３９９,
 12400,アニバクエスト券,
 12401,遷悠殻,
-12402,砕竜の堅殻,
-12403,砕竜の黒曜甲,
-12404,なぞの粘菌,
-12405,砕竜の頭殻,
-12406,砕竜の尻尾,
-12407,砕竜の剛拳,
-12408,砕竜の宝玉,
-12409,砕竜の重殻,
-12410,砕竜の重黒曜甲,
-12411,光る粘菌,
-12412,砕竜の重頭殻,
-12413,砕竜の靭尾,
-12414,砕竜の剛鉄拳,
-12415,砕竜の天殻,
+12402,砕竜の堅殻,Cuirasse Brach
+12403,砕竜の黒曜甲,Coquebene Brach
+12404,なぞの粘菌,Poisse etrange
+12405,砕竜の頭殻,Scalp Brach
+12406,砕竜の尻尾,Queue Brach
+12407,砕竜の剛拳,Broyeur Brach
+12408,砕竜の宝玉,Gemme Brach
+12409,砕竜の重殻,Cortex Brach
+12410,砕竜の重黒曜甲,Coquebene Brach+
+12411,光る粘菌,Poisse luisante
+12412,砕竜の重頭殻,Scalp Brach +
+12413,砕竜の靭尾,Queue Brach +
+12414,砕竜の剛鉄拳,Broyeur Brach +
+12415,砕竜の天殻,Pallium Brach
 12416,リコ・ノ生産券,
 12417,リコ・ド生産券,
 12418,リコ・ト生産券,
@@ -12459,16 +12459,16 @@ index,source,target
 12457,思い出のコイン,
 12458,忘却のコイン,
 12459,鮮烈なコイン,
-12460,大巌竜の深黒皮,
-12461,大巌竜の深黒鱗,
-12462,大巌竜の深黒血,
-12463,大巌竜の輝結晶,
-12464,大巌竜の深黒角,
-12465,大巌竜の深黒翼,
-12466,大巌竜の深黒尾,
-12467,大巌竜の深黒牙,
-12468,大巌竜の秘髄,
-12469,大巌竜の深黒棘,
+12460,大巌竜の深黒皮,Cuir Raviente B
+12461,大巌竜の深黒鱗,Eclat Raviente B
+12462,大巌竜の深黒血,Sang Raviente B
+12463,大巌竜の輝結晶,Cristal berserk
+12464,大巌竜の深黒角,Corne Raviente B
+12465,大巌竜の深黒翼,Aile Raviente B
+12466,大巌竜の深黒尾,Queue Raviente B
+12467,大巌竜の深黒牙,Croc Raviente B
+12468,大巌竜の秘髄,Medulla Raviente
+12469,大巌竜の深黒棘,Pic Raviente B
 12470,ヴォルガ生産券,
 12471,Ｗイーター生産券,
 12472,タチウオ生産券,
@@ -12807,55 +12807,55 @@ index,source,target
 12805,物まね指南・銃賖,
 12806,物まね指南・剣賖,
 12807,物まね指南・棍賖,
-12808,弩岩竜の絶殻,
-12809,弩岩竜の絶鱗,
-12810,弩岩竜の剛顎,
-12811,弩岩竜の剛棘,
-12812,弩岩竜の憤角,
-12813,弩岩竜の滅黒爪,
-12814,弩岩竜の大頑甲,
-12815,弩岩竜の巨厳甲,
-12816,冥雷竜の仙殻,
-12817,冥雷竜の仙鱗,
-12818,冥雷竜の黄昏鉛玉,
-12819,冥雷竜の黒焦髄,
-12820,冥雷竜の滅鉤爪,
-12821,青怪鳥の偉鱗,
-12822,青怪鳥の偉殻,
-12823,忌々しいクチバシ,
-12824,青怪鳥の妖耳,
-12825,青怪鳥の鳴管,
-12826,凍王龍の氷鱗,
-12827,凍王龍の甲殻,
-12828,凍王龍の毛,
-12829,凍王龍の斑玉,
-12830,凍王龍の角,
-12831,凍王龍の翼,
-12832,凍王龍の尻尾,
-12833,凍王龍の始氷鱗,
-12834,凍王龍の始殻,
-12835,凍王龍の氷白毛,
-12836,凍王龍の稀宝玉,
-12837,凍王龍の蒼鋭角,
-12838,凍王龍の剛翼,
-12839,凍王龍の靭尾,
+12808,弩岩竜の絶殻,Cortex Odi
+12809,弩岩竜の絶鱗,Eclat Odibatoras
+12810,弩岩竜の剛顎,Menton Odi
+12811,弩岩竜の剛棘,Pic Odibatoras
+12812,弩岩竜の憤角,Vouge Odibatoras
+12813,弩岩竜の滅黒爪,Broyeur Odi
+12814,弩岩竜の大頑甲,Grand cortex Odi
+12815,弩岩竜の巨厳甲,Cortex geant Odi
+12816,冥雷竜の仙殻,Cortex Drakulos
+12817,冥雷竜の仙鱗,Eclat Drakulos
+12818,冥雷竜の黄昏鉛玉,Crepuscule Drak
+12819,冥雷竜の黒焦髄,Sang noir Drak
+12820,冥雷竜の滅鉤爪,Serre Drak
+12821,青怪鳥の偉鱗,Eclat Kut-Ku B
+12822,青怪鳥の偉殻,Cortex Kut-Ku B
+12823,忌々しいクチバシ,Bec choquant
+12824,青怪鳥の妖耳,Orei. Kut-Ku B G
+12825,青怪鳥の鳴管,Gorge Kut-Ku B
+12826,凍王龍の氷鱗,Ecaille Tekastra
+12827,凍王龍の甲殻,Carapace Teka
+12828,凍王龍の毛,Fourrure Teka
+12829,凍王龍の斑玉,Gemme Tekastra
+12830,凍王龍の角,Corne Tekastra
+12831,凍王龍の翼,Aile Tekastra
+12832,凍王龍の尻尾,Queue Tekastra
+12833,凍王龍の始氷鱗,Ecaille Teka+
+12834,凍王龍の始殻,Cuirasse Teka
+12835,凍王龍の氷白毛,Fourrure Teka+
+12836,凍王龍の稀宝玉,Saphir Tekastra
+12837,凍王龍の蒼鋭角,Corne Tekastra+
+12838,凍王龍の剛翼,Aile Tekastra+
+12839,凍王龍の靭尾,Queue Tekastra+
 12840,パラリル生産券,
 12841,デシルト生産券,
-12842,爆鎚竜の上鱗,
-12843,爆鎚竜の堅殻,
-12844,爆鎚竜の耐熱殻,
-12845,爆鎚竜の顎,
-12846,爆鎚竜の骨髄,
-12847,爆鎚竜の紅玉,
-12848,爆鎚竜の厚鱗,
-12849,爆鎚竜の重殻,
-12850,爆鎚竜の重耐熱殻,
-12851,爆鎚竜の重顎,
-12852,爆鎚竜の天殻,
+12842,爆鎚竜の上鱗,Ecaille Uragaan
+12843,爆鎚竜の堅殻,Carapace Uragaan
+12844,爆鎚竜の耐熱殻,Scutum Uragaan
+12845,爆鎚竜の顎,Machoire Uragaan
+12846,爆鎚竜の骨髄,Moelle Uragaan
+12847,爆鎚竜の紅玉,Gemme Uragaan
+12848,爆鎚竜の厚鱗,Ecaille Uragaan+
+12849,爆鎚竜の重殻,Cuirasse Uragaan
+12850,爆鎚竜の重耐熱殻,Scutum Uragaan+
+12851,爆鎚竜の重顎,Machoire Ura+
+12852,爆鎚竜の天殻,Pallium Uragaan
 12853,ガガチュ生産券,
 12854,甘露石,
 12855,夜香水,
-12856,凍王龍討伐の証,
+12856,凍王龍討伐の証,Preuve Tekastra
 12857,闇猫団シール・赤,
 12858,闇猫団シール・青,
 12859,闇猫団シール・桃,
@@ -12877,7 +12877,7 @@ index,source,target
 12875,ミネスト生産券,
 12876,石竹原珠,
 12877,若葉原珠,
-12878,耐凍珠,
+12878,耐凍珠,J. gel
 12879,集業珠Ｇ,
 12880,採走珠Ｇ,
 12881,千代生産券頭,
@@ -12899,29 +12899,29 @@ index,source,target
 12897,回避距離の石,
 12898,移動速度の石貤,
 12899,移動速度の石賖,
-12900,鋼の厚龍鱗,
-12901,鋼龍の重殻,
-12902,鋼龍の剛爪,
-12903,鋼龍の大宝玉,
-12904,鋼龍の剛角,
-12905,鋼龍の剛翼,
-12906,鋼龍の靭尾,
-12907,鋼龍の狂殻,
-12908,ウチケシの実,
-12909,霞龍の特上皮,
-12910,霞龍の剛翼,
-12911,霞龍の剛爪,
-12912,霞龍の大宝玉,
-12913,霞龍の剛角,
-12914,霞龍の靭尾,
-12915,霞龍の極艶皮,
-12916,炎王龍の重殻,
-12917,獄炎の厚龍鱗,
-12918,炎王龍の剛角,
-12919,炎王龍の靭尾,
-12920,炎王龍の剛爪,
-12921,炎王龍の大宝玉,
-12922,炎王龍の獄角,
+12900,鋼の厚龍鱗,Eclat Kushala
+12901,鋼龍の重殻,Cortex Kushala
+12902,鋼龍の剛爪,Serre Kushala
+12903,鋼龍の大宝玉,Joyau Kushala
+12904,鋼龍の剛角,Vouge Kushala
+12905,鋼龍の剛翼,Egide Kushala
+12906,鋼龍の靭尾,Fouet Kushala
+12907,鋼龍の狂殻,Rage Kushala
+12908,ウチケシの実,Baie-soin
+12909,霞龍の特上皮,Cuir Chameleos
+12910,霞龍の剛翼,Egide Chameleos
+12911,霞龍の剛爪,Serre Chameleos
+12912,霞龍の大宝玉,Joyau Chameleos
+12913,霞龍の剛角,Vouge Chameleos
+12914,霞龍の靭尾,Fouet Chameleos
+12915,霞龍の極艶皮,Lueur Chameleos
+12916,炎王龍の重殻,Cortex Teostra
+12917,獄炎の厚龍鱗,Eclat Teostra
+12918,炎王龍の剛角,Vouge Teostra
+12919,炎王龍の靭尾,Fouet Teostra
+12920,炎王龍の剛爪,Serre Teostra
+12921,炎王龍の大宝玉,Joyau Teostra
+12922,炎王龍の獄角,Prison Teostra
 12923,ドラギュ剣珠Ｇ,
 12924,ドラギュ剣珠GF,
 12925,ドラギュ剣珠GX1,
@@ -13038,32 +13038,32 @@ index,source,target
 13036,ＦＧ５生産券・３,
 13037,ＦＧ５生産券・４,
 13038,ＦＧ５生産券・５,
-13039,迅竜の上鱗,
-13040,迅竜の上黒毛,
-13041,迅竜の尻尾,
-13042,迅竜の尾棘,
-13043,迅竜の鋭刃翼,
-13044,迅竜の鋭牙,
-13045,迅竜の延髄,
-13046,迅竜の厚鱗,
-13047,迅竜の豪黒毛,
-13048,迅竜の靭尾,
-13049,迅竜の重尾棘,
-13050,迅竜の剛刃翼,
-13051,迅竜の重牙,
-13052,迅竜の天鱗,
-13053,水柿原珠,
-13054,木蘭原珠,
-13055,花葉原珠,
+13039,迅竜の上鱗,Ecaille Narga
+13040,迅竜の上黒毛,Fourrure Narga
+13041,迅竜の尻尾,Queue Narga
+13042,迅竜の尾棘,Poinqueue Narga
+13043,迅竜の鋭刃翼,Rasoir Narga
+13044,迅竜の鋭牙,Croc Narga
+13045,迅竜の延髄,Moelle Narga
+13046,迅竜の厚鱗,Ecaille Narga+
+13047,迅竜の豪黒毛,Fourrure Narga+
+13048,迅竜の靭尾,Queue Narga+
+13049,迅竜の重尾棘,Poinqueue Narga+
+13050,迅竜の剛刃翼,Rasoir Narga+
+13051,迅竜の重牙,Croc Narga+
+13052,迅竜の天鱗,Medulla Narga
+13053,水柿原珠,Joyau kaki
+13054,木蘭原珠,Joyau magnolia
+13055,花葉原珠,Joyau mosaique
 13056,１００００ペリカ,
-13057,鎧玉,
-13058,上鎧玉,
-13059,尖鎧玉,
-13060,堅鎧玉,
-13061,重鎧玉,
-13062,真鎧玉,
-13063,剛鎧玉,
-13064,天鎧玉,
+13057,鎧玉,Sphere d'armure
+13058,上鎧玉,Sphere d'armure+
+13059,尖鎧玉,Sph. armure avc
+13060,堅鎧玉,Sph. armure dure
+13061,重鎧玉,Sph. armure lrde
+13062,真鎧玉,Sph. armure pure
+13063,剛鎧玉,Sph. armure royl
+13064,天鎧玉,Sph. armure ciel
 13065,剣捌珠Ｇ,
 13066,弾装珠Ｇ,
 13067,避剣珠Ｇ,
@@ -13086,14 +13086,14 @@ index,source,target
 13084,黒のオーブ,
 13085,黄のオーブ,
 13086,ダミー１３０８６,
-13087,帝征龍の鱗,
-13088,帝征龍の皮,
-13089,帝征龍の血,
-13090,帝征龍の紅玉,
-13091,帝征龍の爪,
-13092,帝征龍の翼,
-13093,帝征龍の尻尾,
-13094,帝征龍の秘髄,
+13087,帝征龍の鱗,Ecaille Guan
+13088,帝征龍の皮,Peau Guanzorum
+13089,帝征龍の血,Sang Guanzorum
+13090,帝征龍の紅玉,Gemme Guanzorum
+13091,帝征龍の爪,Griffe Guanzorum
+13092,帝征龍の翼,Aile Guanzorum
+13093,帝征龍の尻尾,Queue Guanzorum
+13094,帝征龍の秘髄,Moelle Guanzorum
 13095,Ｇ閃転カフＰＡ１,
 13096,Ｇ閃転カフＰＡ２,
 13097,Ｇ巧撃カフＰＡ１,
@@ -13174,7 +13174,7 @@ index,source,target
 13172,Ｇ適応カフＰＣ６,
 13173,Ｇ適応カフＰＣ７,
 13174,Ｇ適応カフＰＣ８,
-13175,帝征龍撃退の証,
+13175,帝征龍撃退の証,Preuve Guanzorumu
 13176,謎の錬金石,
 13177,アーベン生産券,
 13178,ケラヴノ生産券,
@@ -13318,7 +13318,7 @@ index,source,target
 13316,Ｇ級・護痛珠,
 13317,Ｇ級・剛属珠,
 13318,Ｇ級・剛寵珠,
-13319,護耐珠,
+13319,護耐珠,J. attaque 4
 13320,Ｇ級・閃耐珠,
 13321,Ｇ級・剛耐珠,
 13322,特殊な花かご,
@@ -13329,36 +13329,36 @@ index,source,target
 13327,Ｓフレア生産券貤,
 13328,Ｓフレア生産券賖,
 13329,Ｓフレア生産券賕,
-13330,紅蓮獅子討伐の証,
-13331,キリンの絶皮,
-13332,キリンの絶尾,
-13333,キリンの剛腱,
-13334,キリンの白銀鬣,
-13335,キリンの白銀角,
-13336,極龍の絶鱗,
-13337,極龍の絶殻,
-13338,極龍の強磁角,
-13339,極龍の磁翼膜,
-13340,極龍の磁束尾,
-13341,極龍の虹黒曜玉,
-13342,極龍の朱棘,
-13343,極龍の朱爪,
-13344,極龍の朱角,
-13345,極龍の朱翼膜,
-13346,紅蓮獅子の殻,
-13347,紅蓮獅子の牙,
-13348,紅蓮獅子の熱皮,
-13349,獄卒の血,
-13350,紅蓮獅子の角,
-13351,紅蓮獅子の着火石,
-13352,紅蓮獅子の尾,
-13353,紅蓮獅子の始殻,
-13354,紅蓮獅子の始牙,
-13355,紅蓮獅子の厚熱皮,
-13356,獄卒の炎血,
-13357,紅蓮獅子の重角,
-13358,紅蓮獅子の重火石,
-13359,紅蓮獅子の重尾,
+13330,紅蓮獅子討伐の証,Preuve Voljang
+13331,キリンの絶皮,Cuir Kirin
+13332,キリンの絶尾,Fouet Kirin
+13333,キリンの剛腱,Tendon Kirin
+13334,キリンの白銀鬣,Crin Kirin
+13335,キリンの白銀角,Vouge Kirin
+13336,極龍の絶鱗,Eclat Rukodiora
+13337,極龍の絶殻,Cortex Rukodiora
+13338,極龍の強磁角,Vouge Rukodiora
+13339,極龍の磁翼膜,Membrane Ruko
+13340,極龍の磁束尾,Fouet Rukodiora
+13341,極龍の虹黒曜玉,Joyau Rukodiora
+13342,極龍の朱棘,Pic Rukodiora
+13343,極龍の朱爪,Serre rouge Ruko
+13344,極龍の朱角,Vouge rouge Ruko
+13345,極龍の朱翼膜,Membrane Ruko +
+13346,紅蓮獅子の殻,Carapace Voljang
+13347,紅蓮獅子の牙,Croc Voljang
+13348,紅蓮獅子の熱皮,Peau Rajang
+13349,獄卒の血,Sang Voljang
+13350,紅蓮獅子の角,Corne Voljang
+13351,紅蓮獅子の着火石,Silex Voljang
+13352,紅蓮獅子の尾,Queue Voljang
+13353,紅蓮獅子の始殻,Cuirasse Voljang
+13354,紅蓮獅子の始牙,Croc Voljang +
+13355,紅蓮獅子の厚熱皮,Peau Voljang +
+13356,獄卒の炎血,Sang Voljang +
+13357,紅蓮獅子の重角,Corne Voljang+
+13358,紅蓮獅子の重火石,Silex Voljang+
+13359,紅蓮獅子の重尾,Queue Voljang+
 13360,ＮＫ１生産券・１,
 13361,ＮＫ１生産券・２,
 13362,ＮＫ１生産券・３,
@@ -13374,21 +13374,21 @@ index,source,target
 13372,ダミー１３３７２,
 13373,ダミー１３３７３,
 13374,ダミー１３３７４,
-13375,獄狼竜の堅殻,
-13376,獄狼竜の龍毛,
-13377,獄狼竜の尖爪,
-13378,獄狼竜の龍殻,
-13379,蝕龍蟲,
-13380,獄狼竜の昏玉,
-13381,獄狼竜の尻尾,
-13382,獄狼竜の尖角,
-13383,獄狼竜の重殻,
-13384,獄狼竜の滅龍毛,
-13385,獄狼竜の剛爪,
-13386,獄狼竜の滅龍殻,
-13387,獄狼竜の天玉,
-13388,獄狼竜の靭尾,
-13389,獄狼竜の剛角,
+13375,獄狼竜の堅殻,Cuirasse stygien
+13376,獄狼竜の龍毛,Dracopeau styg
+13377,獄狼竜の尖爪,Griffe stygien
+13378,獄狼竜の龍殻,Coque stygien
+13379,蝕龍蟲,Ins. dracophage
+13380,獄狼竜の昏玉,Penombre stygien
+13381,獄狼竜の尻尾,Queue stygien
+13382,獄狼竜の尖角,Corne stygien
+13383,獄狼竜の重殻,Cortex stygien
+13384,獄狼竜の滅龍毛,Criniere stygien
+13385,獄狼竜の剛爪,Serre stygien
+13386,獄狼竜の滅龍殻,Sternum stygien
+13387,獄狼竜の天玉,Celemeraude styg
+13388,獄狼竜の靭尾,Fouet stygien
+13389,獄狼竜の剛角,Vouge stygien
 13390,エンジンキー,
 13391,吸血鬼の血液,
 13392,グーネコ生産券,
@@ -13614,13 +13614,13 @@ index,source,target
 13612,備蓄氷酸弾,
 13613,備蓄龍酸弾,
 13614,ダミー１３６１４,
-13615,裂水竜の鋭鱗,
-13616,裂水竜の鋭殻,
-13617,裂水竜の秘髄,
-13618,裂水竜の黒鋼玉,
-13619,裂水竜の剛垂刃,
-13620,裂水竜の靭尾,
-13621,裂水竜の紅鋼玉,
+13615,裂水竜の鋭鱗,Ecaille Zenase
+13616,裂水竜の鋭殻,Cuirasse Zenase
+13617,裂水竜の秘髄,Moelle Zenase
+13618,裂水竜の黒鋼玉,Gemme Zenase
+13619,裂水竜の剛垂刃,Lame Zenase
+13620,裂水竜の靭尾,Queue Zenase
+13621,裂水竜の紅鋼玉,Rubis Zenase
 13622,ダミー１３６２２,
 13623,ダミー１３６２３,
 13624,エヴネコ生産券,
@@ -13749,22 +13749,22 @@ index,source,target
 13747,アルビノの極上頭,
 13748,アルビノの極剛頭,
 13749,アルビノの極絶頭,
-13750,黒蝕竜の上鱗,
-13751,黒蝕竜の堅殻,
-13752,黒蝕竜の鋭惨爪,
-13753,黒蝕竜の上暗翼,
-13754,黒蝕竜の闇玉,
-13755,黒蝕竜の逆鱗,
-13756,黒蝕竜の尻尾,
-13757,黒蝕竜の尖触角,
-13758,穢れた竜鱗,
-13759,黒蝕竜の厚鱗,
-13760,黒蝕竜の重殻,
-13761,黒蝕竜の剛惨爪,
-13762,黒蝕竜の暗黒翼,
-13763,黒蝕竜の天鱗,
-13764,黒蝕竜の靭尾,
-13765,黒蝕竜の剛触角,
+13750,黒蝕竜の上鱗,Ecaille Gore
+13751,黒蝕竜の堅殻,Cuirasse Gore
+13752,黒蝕竜の鋭惨爪,Dechireur Gore
+13753,黒蝕竜の上暗翼,Aile Gore
+13754,黒蝕竜の闇玉,Gemme nuit Gore
+13755,黒蝕竜の逆鱗,Plaque Gore
+13756,黒蝕竜の尻尾,Queue Gore
+13757,黒蝕竜の尖触角,Antenne Gore
+13758,穢れた竜鱗,Ecaille maculee
+13759,黒蝕竜の厚鱗,Eclat Gore
+13760,黒蝕竜の重殻,Cortex Gore
+13761,黒蝕竜の剛惨爪,Broyeur Gore
+13762,黒蝕竜の暗黒翼,Eclipse Gore
+13763,黒蝕竜の天鱗,Mante Gore
+13764,黒蝕竜の靭尾,Fouet Gore
+13765,黒蝕竜の剛触角,Capteur Gore
 13766,火竜の熱殻,
 13767,火竜の熱鱗,
 13768,火竜の灼爪,
@@ -13788,7 +13788,7 @@ index,source,target
 13786,ソリテュー生産券,
 13787,プレット生産券,
 13788,ネキュロ生産券,
-13789,開拓者の証,
+13789,開拓者の証,Preuve pionnier
 13790,サクフィ生産券,
 13791,アスモ生産券,
 13792,ディオス生産券,
@@ -14054,14 +14054,14 @@ index,source,target
 14052,尾晶蠍の極上尾,
 14053,尾晶蠍の極剛尾,
 14054,尾晶蠍の極絶尾,
-14055,焔嶽龍の厚炭皮,
-14056,焔嶽龍の大堅骨,
-14057,焔嶽龍の高熱液,
-14058,焔嶽龍の大焔玉,
-14059,焔嶽龍の超重尾,
-14060,焔嶽龍の放熱角,
-14061,焔嶽龍の大鈍爪,
-14062,焔嶽龍の異形殻,
+14055,焔嶽龍の厚炭皮,Cuir Keoaru
+14056,焔嶽龍の大堅骨,Os Keoaru
+14057,焔嶽龍の高熱液,Fluide Keoaru
+14058,焔嶽龍の大焔玉,Joyau Keoaru
+14059,焔嶽龍の超重尾,Fouet Keoaru
+14060,焔嶽龍の放熱角,Vouge Keoaru
+14061,焔嶽龍の大鈍爪,Serre Keoaru
+14062,焔嶽龍の異形殻,Cortex Keoaru
 14063,Ｌラスタ同行券,
 14064,収納上手・極の書,
 14065,ＩＣソード生産券,
@@ -14210,22 +14210,22 @@ index,source,target
 14208,備蓄雷爆撃弾,
 14209,備蓄氷爆撃弾,
 14210,備蓄龍爆撃弾,
-14211,天廻龍の上鱗,
-14212,天廻龍の堅殻,
-14213,天廻龍の鋭浄爪,
-14214,天廻龍の上虹翼,
-14215,天廻龍の光玉,
-14216,天廻龍の逆鱗,
-14217,天廻龍の尻尾,
-14218,天廻龍の尖角,
-14219,純白の龍鱗,
-14220,天廻龍の厚鱗,
-14221,天廻龍の重殻,
-14222,天廻龍の剛浄爪,
-14223,天廻龍の光虹翼,
-14224,天廻龍の天鱗,
-14225,天廻龍の靭尾,
-14226,天廻龍の剛角,
+14211,天廻龍の上鱗,Ecaille Shagaru
+14212,天廻龍の堅殻,Cuirasse Shagaru
+14213,天廻龍の鋭浄爪,Caresse Shagaru
+14214,天廻龍の上虹翼,Aile prisme Shag
+14215,天廻龍の光玉,Gemme phos. Shag
+14216,天廻龍の逆鱗,Plaque Shagaru
+14217,天廻龍の尻尾,Queue Shagaru
+14218,天廻龍の尖角,Corne Shagaru
+14219,純白の龍鱗,Ecaille pure
+14220,天廻龍の厚鱗,Eclat Shagaru
+14221,天廻龍の重殻,Cortex Shagaru
+14222,天廻龍の剛浄爪,Purifieur Shag
+14223,天廻龍の光虹翼,Ailette Shagaru
+14224,天廻龍の天鱗,Mante Shagaru
+14225,天廻龍の靭尾,Fouet Shagaru
+14226,天廻龍の剛角,Vouge Shagaru
 14227,桃のクリスタル,
 14228,緑のクリスタル,
 14229,紫のクリスタル,
@@ -14355,15 +14355,15 @@ index,source,target
 14353,黄金翼生産券,
 14354,クロエの恥じらい,
 14355,紅竜蒼竜の大魂魄,
-14356,灼零龍の鋭鱗,
-14357,灼零龍のたてがみ,
-14358,灼零龍の双靭袋,
-14359,灼零玉,
-14360,灼零龍の灼爪,
-14361,灼零龍の零爪,
-14362,灼零龍の燃角,
-14363,灼零龍の凍角,
-14364,灼零龍の尻尾,
+14356,灼零龍の鋭鱗,Eclat Elzelion
+14357,灼零龍のたてがみ,Criniere Elze
+14358,灼零龍の双靭袋,Sac duo Elzelion
+14359,灼零玉,Joyau Elzelion
+14360,灼零龍の灼爪,Serre feu Elze
+14361,灼零龍の零爪,Serre glace Elze
+14362,灼零龍の燃角,Vouge feu Elze
+14363,灼零龍の凍角,Vouge glace Elze
+14364,灼零龍の尻尾,Queue Elzelion
 14365,10周年チケット,
 14366,10周年交換券,
 14367,10周年武器生産券,
@@ -14639,9 +14639,9 @@ index,source,target
 14637,血気強化の印,
 14638,ロウタマ解放券Ｄ,
 14639,狩煉の印,
-14640,力の護爪,
-14641,守りの護爪,
-14642,狩人の護爪,
+14640,力の護爪,Serre force
+14641,守りの護爪,Serre acier
+14642,狩人の護爪,Serre chasseur
 14643,焔嶽解放券Ｄ,
 14644,緋嶽解放券Ｄ,
 14645,フロガダ解放券Ｄ,
@@ -14709,22 +14709,22 @@ index,source,target
 14707,アニ2014生産券Ｄ,
 14708,カイラ生産券Ｄ,
 14709,フォンセ解放券Ｄ,
-14710,嵐龍の堅殻,
-14711,嵐龍の胸殻,
-14712,嵐龍の鋭爪,
-14713,嵐龍の飛膜,
-14714,嵐気胞,
-14715,天空の龍玉,
-14716,嵐龍の尻尾,
-14717,嵐龍の角,
-14718,嵐龍の重殻,
-14719,嵐龍の重胸殻,
-14720,嵐龍の剛爪,
-14721,嵐龍の厚飛膜,
-14722,嵐気胞塊,
-14723,天空の龍神玉,
-14724,嵐龍の凄尾,
-14725,嵐龍の剛角,
+14710,嵐龍の堅殻,Cuirasse Amatsu
+14711,嵐龍の胸殻,Plexus Amatsu
+14712,嵐龍の鋭爪,Griffe Amatsu
+14713,嵐龍の飛膜,Palmure Amatsu
+14714,嵐気胞,Vesicule tempete
+14715,天空の龍玉,Gemme-dragon ciel
+14716,嵐龍の尻尾,Queue Amatsu
+14717,嵐龍の角,Corne Amatsu
+14718,嵐龍の重殻,Cortex Amatsu
+14719,嵐龍の重胸殻,Scutum Amatsu
+14720,嵐龍の剛爪,Serre Amatsu
+14721,嵐龍の厚飛膜,Membrane Amatsu
+14722,嵐気胞塊,Vesicule temp. +
+14723,天空の龍神玉,Sphere-dragon ciel
+14724,嵐龍の凄尾,Fouet Amatsu
+14725,嵐龍の剛角,Vouge Amatsu
 14726,雅翁龍の頑厚皮,
 14727,雅翁龍の頑強鱗,
 14728,雅翁龍の頑太骨,
@@ -15045,20 +15045,20 @@ index,source,target
 15043,極上の柏葉,
 15044,ポルタアンコ,
 15045,感謝の証贎,
-15046,千刃竜の鋭刃鱗,
-15047,千刃竜の飛刃,
-15048,千刃竜の刻爪,
-15049,千刃竜の尖翼爪,
-15050,千刃竜の反逆鱗,
-15051,千刃竜の槍尾,
-15052,千刃竜の伐刀角,
-15053,千刃竜の斬刃鱗,
-15054,千刃竜の破刃,
-15055,千刃竜の閃裂爪,
-15056,千刃竜の斬翼爪,
-15057,千刃竜の鏡玉,
-15058,千刃竜の絶槍尾,
-15059,千刃竜の断刀角,
+15046,千刃竜の鋭刃鱗,Trancheur Sere
+15047,千刃竜の飛刃,Aerolame Sere
+15048,千刃竜の刻爪,Depeceur Sere
+15049,千刃竜の尖翼爪,Broyeur Sere
+15050,千刃竜の反逆鱗,Ecraseur Sere
+15051,千刃竜の槍尾,Empaleur Sere
+15052,千刃竜の伐刀角,Ecarteleur Sere
+15053,千刃竜の斬刃鱗,Trancheur Sere +
+15054,千刃竜の破刃,Aerolame Sere +
+15055,千刃竜の閃裂爪,Depeceur Sere +
+15056,千刃竜の斬翼爪,Broyeur Sere +
+15057,千刃竜の鏡玉,Ecraseur Sere +
+15058,千刃竜の絶槍尾,Empaleur Sere +
+15059,千刃竜の断刀角,Ecarteleur Sere+
 15060,ハーゼ生産券Ｄ,
 15061,ルヴナン生産券Ｄ,
 15062,ウイング生産券,
@@ -16535,15 +16535,15 @@ index,source,target
 16533,シャンル解放券Ｄ,
 16534,ファンル解放券Ｄ,
 16535,ミュンル解放券Ｄ,
-16536,ダミー１６５３６,
-16537,ダミー１６５３７,
-16538,ダミー１６５３８,
-16539,ダミー１６５３９,
-16540,ダミー１６５４０,
-16541,ダミー１６５４１,
-16542,ダミー１６５４２,
-16543,ダミー１６５４３,
-16544,ダミー１６５４４,
+16536,ダミー１６５３６,Loterie des amours
+16537,ダミー１６５３７,Loterie d'Avril
+16538,ダミー１６５３８,Loterie Printaniere
+16539,ダミー１６５３９,Ticket Ete
+16540,ダミー１６５４０,Ticket Automne
+16541,ダミー１６５４１,Ticket Anniversaire
+16542,ダミー１６５４２,Ticket Horrifique
+16543,ダミー１６５４３,Ticket Noel
+16544,ダミー１６５４４,Ticket Nouvel An
 16545,ダミー１６５４５,
 16546,ダミー１６５４６,
 16547,ダミー１６５４７,
