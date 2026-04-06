@@ -51,6 +51,27 @@ GitHub renders CSVs as a table, so reviewers can read your changes without any t
 
 If your language directory doesn't exist yet, copy `translations/fr/` and rename it.
 
+#### A note on the Japanese source column
+
+The `source` column contains the original Japanese strings extracted from the
+game binary. **Do not edit it** — translators rely on it as the canonical
+reference, and the import tooling matches rows by `location`, not by source.
+
+These strings are Capcom's, but hosting them here is consistent with
+established community practice (`Frontier-Translation-Weblate`,
+`FrontierTextHandler`, `Erupe`, and Weblate-based fan translations of many
+other JP games all do the same). Capcom's MH-related enforcement has
+historically targeted ROMs, asset rips, and server emulators — never
+translation source strings — and MHF was officially shut down in 2019, so the
+preservation use case is well-grounded. Item names, skill names, and UI
+labels are essentially zero risk.
+
+The only category where some discretion is warranted is **bulk scenario
+scripts, NPC monologues, and quest dialogue**, where the creative-content
+argument has more weight. Even there it is fine to commit translations; just
+avoid pasting huge raw blocks into public issues or PR descriptions where
+they would be indexed without context.
+
 ### I want to apply translations to my game files
 
 You need [FrontierTextHandler](https://github.com/Houmgaor/FrontierTextHandler) and your own copy of the game files.
