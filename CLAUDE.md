@@ -15,6 +15,9 @@ Per-section CSV translations of Monster Hunter Frontier text, organized as
 pointer table (FTH `--with-index` output). Indexes are stable across
 upstream string-length changes that used to shift raw byte offsets.
 
+**Required FTH version: ≥ 1.5.0** (`--with-index` and the index-aware
+importer landed in 1.5.0). Earlier releases will reject these CSVs.
+
 The legacy `location,source,target` format (with `0xHEX@file.bin` keys) was
 retired in April 2026. Importing an index-keyed CSV with FTH **requires
 `--xpath`** so the importer can resolve indexes against the live pointer

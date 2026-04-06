@@ -89,7 +89,7 @@ they would be indexed without context.
 
 ### I want to apply translations to my game files
 
-You need [FrontierTextHandler](https://github.com/Houmgaor/FrontierTextHandler) and your own copy of the game files.
+You need [FrontierTextHandler](https://github.com/Houmgaor/FrontierTextHandler) **≥ 1.5.0** (the index-keyed CSV format requires `--with-index` support) and your own copy of the game files.
 
 ```bash
 # 1. Clone this repo

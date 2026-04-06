@@ -55,7 +55,7 @@ jobs:
             # 1. Download the JSON into your game directory
             mhf-outpost translate --path ~/mhf --lang fr
 
-            # 2. Apply to your game files (requires FrontierTextHandler)
+            # 2. Apply to your game files (requires FrontierTextHandler ≥ 1.5.0)
             cd FrontierTextHandler
             python main.py ~/mhf/translations-translated.json \
               --apply-translations --lang fr --game-dir ~/mhf \
