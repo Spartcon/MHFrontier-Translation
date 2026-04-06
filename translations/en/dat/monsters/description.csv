@@ -1,5 +1,5 @@
-location,source,target
-0x16aac20@mhfdat-jp.bin,"体毛は白く、外見はネコに似ている。
+index,source,target
+0,"体毛は白く、外見はネコに似ている。
 性格は温和だが危害を加えようもの
 なら執拗に反撃してくる。
 人語をある程度理解するため
@@ -15,7 +15,7 @@ society and co-exist with
 humans and wyvernians.
 They are naturally attracted to
 Felvine and follow it anywhere."
-0x16aac24@mhfdat-jp.bin,"ネコに似た獣人族。黒毛が特徴。
+1,"ネコに似た獣人族。黒毛が特徴。
 手癖が悪く人間などから物を盗み、
 自分達の集落に持ち帰ってしまう。
 集落に戻る前に倒すか、集落を探せば
@@ -32,7 +32,7 @@ dens. If you can find their dens
 however, you may be able to recover 
 your items. Like Felynes, they are
 obssessed with Felvine."
-0x16aac28@mhfdat-jp.bin,"小型の獣人族が花畑で確認された。
+2,"小型の獣人族が花畑で確認された。
 調査によると彼らは温厚な性格で、
 普段は釣りや採集をしているが、
 他のモンスターとの縄張り争いが
@@ -49,7 +49,7 @@ they've been observed working together
 to defeat said monster. The Guild
 has received reports that Uruki will
 seemingly assist hunters as well."
-0x16aac2c@mhfdat-jp.bin,"人に似た四肢を持ち、常にマスクを
+3,"人に似た四肢を持ち、常にマスクを
 かぶっている小型のモンスター。
 擬態が大の得意。
 熟練したハンターであっても、
@@ -65,7 +65,7 @@ usually too late! Both
 aggressive and highly social they
  are lead by a King Shakalaka
  identified by a larger mask."
-0x16aac30@mhfdat-jp.bin,"突然変異で巨大化した蜂の様な虫。
+4,"突然変異で巨大化した蜂の様な虫。
 腹部に、マヒ性の毒針を持つ。
 物理的なダメージに弱く、
 素材としての形状を保ったまま、
@@ -78,7 +78,7 @@ any usable materials left after
 dispatching one. It has been
 reported however that using poison
 on them yields better results."
-0x16aac34@mhfdat-jp.bin,"ランゴスタに比べ外殻が発達した虫。
+5,"ランゴスタに比べ外殻が発達した虫。
 物理的なダメージに弱いため、
 素材としての形状を保ったまま
 しとめるには、徐々に体力を奪う
@@ -93,7 +93,7 @@ are easily destroyed by most
 weapons. It is reported that
 they are extremely susceptible
 to poisons."
-0x16aac38@mhfdat-jp.bin,"衝撃が加わると放電するという雷光虫。
+6,"衝撃が加わると放電するという雷光虫。
 武器の素材や生活用品などに幅広く
 用いられ馴染みが深いが、
 その雷光虫が、古龍の体内で異常な
@@ -108,7 +108,7 @@ as thier former hosts
 their electric attacks are
 deadly. Despite this, they
 have many uses in crafting."
-0x16aac3c@mhfdat-jp.bin,"シカのような草食モンスター。
+7,"シカのような草食モンスター。
 臆病ですぐ逃げてしまうため、
 その角は貴重である。
 食用として狩られる事も多く、固く
@@ -123,7 +123,7 @@ said horns is with a blunt
 weapon. During the evening
 or inclement weather, they
 will retreat into caves."
-0x16aac40@mhfdat-jp.bin,"名の由来通り、体にはコケやキノコ
+8,"名の由来通り、体にはコケやキノコ
 などの菌類が繁殖しているブタ。
 大好物のキノコを探して徘徊し、彼ら
 が鼻を鳴らしてる場所ではキノコが
@@ -138,7 +138,7 @@ Their meat is also a
 famous delicacy. Normally
 docile towards hunters
 they will charge if provoked!"
-0x16aac44@mhfdat-jp.bin,"雪山に生息する草食モンスター。
+9,"雪山に生息する草食モンスター。
 巨大な角を持ち、普段はおとなしいが
 危害を加えられると、その角を
 振り立てて攻撃してくる。
@@ -153,7 +153,7 @@ by the Guild as are
 their antlers. They can be
 located in snowy areas
 regardless of the season."
-0x16aac48@mhfdat-jp.bin,"反り返った巨大な牙が特徴の草食
+10,"反り返った巨大な牙が特徴の草食
 モンスター。
 群れで生活しており、群れ内の子供を
 守る際には非常に勇敢になる。
@@ -166,7 +166,7 @@ normally quite gentle, but
 will use their massive
 tusks to defend their young.
 Their tongues are a delicacy."
-0x16aac4c@mhfdat-jp.bin,"主に食用とされる草食のモンスター。
+11,"主に食用とされる草食のモンスター。
 気弱でおとなしく、危険を察知すると
 逃げ出すが、群れの中には反撃をして
 くるモノもいる。
@@ -179,7 +179,7 @@ and are popular pack animals.
 Very adaptable, they are also raised
 for their nutritious meat. They
 are wary of Large Monsters."
-0x16aac50@mhfdat-jp.bin,"食料となりえるモンスター。
+12,"食料となりえるモンスター。
 ただし外殻は硬く、アプトノスよりも
 攻撃的なため、簡単にはその肉には
 ありつけない。
@@ -194,7 +194,7 @@ to their territorial nature.
 They are especially violent
 towards any hunter who
 would steal their eggs."
-0x16aac54@mhfdat-jp.bin,"非常に温厚でおとなしい
+13,"非常に温厚でおとなしい
 高地に住む草食のモンスター。
 仲間意識が強く、群れの仲間に
 危害を加えられると団結して
@@ -209,7 +209,7 @@ they will attack as a
 group if threatened. It is
 reported that they are
 often shepherded by a Gurenzeburu."
-0x16aac58@mhfdat-jp.bin,"高地に住む草食モンスター。
+14,"高地に住む草食モンスター。
 好奇心旺盛で人なつっこく
 遊んでやると非常に喜ぶ。
 珍しいものをなんでも口に入れてしまう
@@ -226,7 +226,7 @@ to live in steep, rocky
 enviroments. During harsh
 weather, or if threatened
 they will quickly flee to safety."
-0x16aac5c@mhfdat-jp.bin,"青い鱗が特徴の小型の肉食
+15,"青い鱗が特徴の小型の肉食
 モンスター。集団で狩りを行う。
 幅広い地域に生息するが、
 寒冷期にはあまり見かけなくなる。
@@ -237,7 +237,7 @@ They are regarded by
 most hunters as a nuisance.
 They are found in most temperate
 enviroments during warmer seasons."
-0x16aac60@mhfdat-jp.bin,"集団行動をするランポスのリーダー。
+16,"集団行動をするランポスのリーダー。
 少し大柄で大きなトサカが特徴。
 テリトリーを見回って移動している。
 傷を負うと、一目散に逃げだし、
@@ -251,7 +251,7 @@ Velocidrome use their powerful
 legs and sharp claws to
 slash and leap at prey.
 They are common during warm seasons."
-0x16aac64@mhfdat-jp.bin,"ランポスとよく似た鳥竜種。
+17,"ランポスとよく似た鳥竜種。
 行動様式も似通っており、群れを
 作って生活する。
 緑とオレンジの縞模様が特徴で、
@@ -266,7 +266,7 @@ their yellow and green hides.
 Found in arid places, Genprey 
 use their fangs to administer
 a potent neurotoxin."
-0x16aac68@mhfdat-jp.bin,"集団行動をするゲネポスのリーダー。
+18,"集団行動をするゲネポスのリーダー。
 少し大柄で大きなトサカが特徴。
 主に砂漠をテリトリーにしている。
 大きく発達した牙や爪などに
@@ -277,7 +277,7 @@ by their larger crests.
 Found in arid places
 their venom glands house 
 especially potent neurotoxins."
-0x16aac6c@mhfdat-jp.bin,"鮮やかな赤色が特徴の鳥竜種。
+19,"鮮やかな赤色が特徴の鳥竜種。
 主に亜熱帯で、群れを形成して
 生息している。
 喉元の袋に毒液を分泌させ、それを
@@ -288,7 +288,7 @@ Specialized organs in their
 throats produce a potent
 toxin, which they spit
 at their prey."
-0x16aac70@mhfdat-jp.bin,"集団行動をするイーオスのリーダー。
+20,"集団行動をするイーオスのリーダー。
 少し大柄で大きなトサカが特徴。
 火山など亜熱帯を中心に、広範囲に
 生息している。
@@ -299,18 +299,13 @@ their brethren, they can
 also be identified by
 their more prominent crest.
 They are extremely venomous."
-0x16aac74@mhfdat-jp.bin,"長年ランポスの亜種と見なされていた、
+21,"長年ランポスの亜種と見なされていた、
 白い鱗が特徴の鳥竜種。
 その特異性から、新種として
 ≪ギアノス≫と呼称されるように
-なりました。","A pale white species
-of Bird Wyvern
-Endemic to cold areas
-Their white scales help
-them blend into their
-enviroment. They are known
-to spit icy fluids at hunters."
-0x16aac78@mhfdat-jp.bin,"顔の大部分を占める巨大なくちばしと、
+なりました。
+",
+22,"顔の大部分を占める巨大なくちばしと、
 怒ると開く大きな耳が特徴の鳥竜種。
 温暖で湿潤な地域を好む。
 聴覚に優れているが、近くで大きな音を
@@ -325,7 +320,7 @@ sensitive hearing and as
 a result, can be stunned by
 loud noises. When enraged
 they will use fire based attacks."
-0x16aac7c@mhfdat-jp.bin,"青い甲殻が特徴的な、
+23,"青い甲殻が特徴的な、
 イャンクックの亜種。
 通常のイャンクックと比べ、
 やや身体能力が高くなっている。
@@ -340,7 +335,7 @@ While they are just as
 susceptible to loud noises as 
 their pink brethren, they
  are faster and more vicious."
-0x16aac80@mhfdat-jp.bin,"黒く硬い甲殻と長いたてがみを
+24,"黒く硬い甲殻と長いたてがみを
 持つ姿から『黒狼鳥』と呼ばれる。
 イャンクックに似た姿をしているが、
 火球を撃ち出すことや
@@ -356,7 +351,7 @@ their cousins, in addition to fire
 based attacks, they wield
 a potent venom in their
 tails, and resistance to sonic bombs."
-0x16aac84@mhfdat-jp.bin,"頭のトサカが特徴的な鳥竜。
+25,"頭のトサカが特徴的な鳥竜。
 トサカを打ち合わせることで閃光を
 発し、外敵の目を眩ませる。
 ゴム質に近い皮膚は、打撃に強く、
@@ -372,7 +367,7 @@ and shock traps. Though
 timid, their saliva hides
 a vicious toxin. They prefer
 warm and marshy habitats."
-0x16aac88@mhfdat-jp.bin,"紫色の表皮をした、ゲリョスの亜種。
+26,"紫色の表皮をした、ゲリョスの亜種。
 通常のゲリョスと同様に、
 トサカを打ち合わせて閃光を
 発することはもちろん、外敵を
@@ -389,7 +384,7 @@ most poisons. Like their
 kin, they will attempt to
 steal hunter's items and
 can secrete a horrific venom."
-0x16aac8c@mhfdat-jp.bin,"主に砂漠や樹海で目撃される
+27,"主に砂漠や樹海で目撃される
 橙色の毛と美しい尾羽が特徴的な鳥竜。
 睡眠ガスを吐くことで、天敵や獲物を
 眠らせて生存を図ることから、性格は
@@ -406,7 +401,7 @@ they can emit a sleep-
 -inducing gas and kick
 hunters viciously with their
 powerful legs."
-0x16aac90@mhfdat-jp.bin,"繁殖期に入り、鮮やかな赤や青の羽毛に
+28,"繁殖期に入り、鮮やかな赤や青の羽毛に
 生え変わったヒプノック。
 求愛のために行動が活発化しており、
 自身の縄張りに侵入した者には
@@ -420,7 +415,7 @@ courtship displays. They also
 become extremely territorial
 and will viciously attack anything
 entering their territory."
-0x16aac94@mhfdat-jp.bin,"樹海頂部で発見された、蒼と純白の
+29,"樹海頂部で発見された、蒼と純白の
 羽毛に身を包んだヒプノックの希少種。
 その見た目から
 『蒼白眠鳥』とも呼ばれている。
@@ -435,7 +430,7 @@ Limited research conducted by
 these rare Wyverns behave
 differently compared to their
 kin, but more data is needed."
-0x16aac98@mhfdat-jp.bin,"蛍光色の羽毛が特徴的な新種の鳥竜。
+30,"蛍光色の羽毛が特徴的な新種の鳥竜。
 派手な外見は警告色でなく
 求愛行動のときにより派手な
 個体同士が惹かれあう習性が
@@ -443,33 +438,18 @@ kin, but more data is needed."
 その派手さは外敵から
 見つかりやすいという危険の裏に、
 派手さを維持する為に自然界を
-生き延びた強者の証でもある。","Closely related to Hypnocs
-these Wyverns possess
-extremely bright plumage, not
-to warn predators, but
-to attract potential mates.
-Naturally being highly visible 
-to potential threats, these
-Wyverns are quite capable
-of defending themselves and 
-are not to be taken lightly."
-0x16aac9c@mhfdat-jp.bin,"花畑に生息する大型の鳥竜。
+生き延びた強者の証でもある。
+",
+31,"花畑に生息する大型の鳥竜。
 花の蜜を主食としており
 湾曲した細長いクチバシは効率よく
 蜜を摂取する為の進化とされる。
 普段は憶病な性格で戦闘を好まないが
 花の蜜を吸うと好戦的な性格に変貌。
 翼や尾羽の色が変わっている時には
-注意が必要である。","Majestic Bird Wyverns native
-to the Flower Field.
-They possess a highly evolved
-beak, which allows them to
-feed from the various
-flowers in their habitat.
-Attention should be paid 
-to the color of their wings
-and tail feathers."
-0x16aaca0@mhfdat-jp.bin,"高地や峡谷で目撃の報告があげられて
+注意が必要である。
+",
+32,"高地や峡谷で目撃の報告があげられて
 いた鳥竜種。なわばり意識が強いため、
 侵入した相手には容赦なく襲いかかり、
 追い払おうとする。
@@ -486,7 +466,7 @@ unique feathers and scales
 they can gather sunlight
 and convert it into 
 deadly electrical attacks."
-0x16aaca4@mhfdat-jp.bin,"小型な分、飛行能力に優れた飛竜。
+33,"小型な分、飛行能力に優れた飛竜。
 ランポス程度の大きさで、上空を
 徘徊し、弱った生き物を見つけると
 積極的に襲いかかる。
@@ -500,7 +480,7 @@ wide variety of enviroments
 volcanos, they often accompany 
 Elder Dragons and are seen
 as omens of destruction."
-0x16aaca8@mhfdat-jp.bin,"巣を中心に生息する飛竜の雌。
+34,"巣を中心に生息する飛竜の雌。
 地上を中心に縄張りを守る。
 高い脚力を生かした突進と、猛毒を
 含んだ尻尾の針には注意が必要。
@@ -515,7 +495,7 @@ powerful predators and are
 especially dangerous during the breeding
 season. Legend holds there
 exists a rare golden varient."
-0x16aacac@mhfdat-jp.bin,"桜色の鱗が特徴の、リオレイアの亜種。
+35,"桜色の鱗が特徴の、リオレイアの亜種。
 鱗の色から『桜火竜』と
 呼ばれることもある。
 非常に攻撃的な性格で、
@@ -532,7 +512,7 @@ cousins and will incorporate
 their venomous tails into
 more attacks. They are 
 extremely aggressive."
-0x16aacb0@mhfdat-jp.bin,"金色に煌々と輝く鱗を持つ、
+36,"金色に煌々と輝く鱗を持つ、
 リオレイアの希少種。
 人が住まなくなった古塔を寝ぐらとして
 活動している姿が確認されているが、
@@ -548,7 +528,7 @@ known of this Wyvern's
 ecology, save for it's
 ability to dispatch unwary
  hunters with ease."
-0x16aacb4@mhfdat-jp.bin,"高い飛行能力を有する、飛竜の雄。
+37,"高い飛行能力を有する、飛竜の雄。
 塔や森丘、峡谷など
 様々な場所で生息が確認されている。
 勇壮と空を飛ぶ姿は、まさに
@@ -563,7 +543,7 @@ territories. Rathalos descend
 upon prey and foe alike
 from high altitudes, striking
 with poison talons and fire."
-0x16aacb8@mhfdat-jp.bin,"蒼い鱗から『蒼火竜』と呼ばれる
+38,"蒼い鱗から『蒼火竜』と呼ばれる
 リオレウスの亜種。
 優れた身体能力を有しており、
 通常のリオレウスには見られない、
@@ -580,7 +560,7 @@ noticable stronger and will
 attack with unmatched ferocity.
 The Guild urges great
 caution when hunting one."
-0x16aacbc@mhfdat-jp.bin,"鏡のような銀色の鱗を纏った、
+39,"鏡のような銀色の鱗を纏った、
 リオレウスの希少種。
 身体の鱗は非常に硬いため、
 翼膜や頭を狙った攻撃が有効だと、
@@ -597,7 +577,7 @@ known of their ecology, including
 the nature of their
 appearence. Their deadliness
 however, is well documented."
-0x16aacc0@mhfdat-jp.bin,"洞窟に好んで生息する不気味な飛竜。
+40,"洞窟に好んで生息する不気味な飛竜。
 温暖期や繁殖期は雪山に棲み、
 寒冷期には沼地に移動するといわれる。
 暗い所にいることが多いため、
@@ -612,7 +592,7 @@ Cold Season. Nearly blind
 they rely on scent to
 hunt prey, which they
 paralyze with electric attacks."
-0x16aacc4@mhfdat-jp.bin,"血のように赤い表皮をした、
+41,"血のように赤い表皮をした、
 フルフルの亜種。
 通常のフルフルより長く伸びる首を
 振り回すようにして攻撃する。
@@ -627,7 +607,7 @@ organs are also more
 developed and can deliver
 deadly shocks to careless
 hunters."
-0x16aacc8@mhfdat-jp.bin,"火山地帯に生息する大型の飛竜、
+42,"火山地帯に生息する大型の飛竜、
 グラビモスの幼体。鉱石のように
 硬質化した外殻が特徴。強烈な
 ダメージを与えるには岩をも砕く
@@ -641,7 +621,7 @@ shells are weak to
 explosives. They are also
 able to emit poisonous gas
 and are dormant during Cold Seasons"
-0x16aaccc@mhfdat-jp.bin,"主に火山地帯に生息する大型の飛竜。
+43,"主に火山地帯に生息する大型の飛竜。
 強力な高熱ブレスに加え、体から
 睡眠ガスを排出する。
 外殻として発達した骨は非常に堅く、
@@ -655,7 +635,7 @@ areas where they feed
  on various minerals for
  nutrients. They gather
 en masse during the Breeding Season."
-0x16aacd0@mhfdat-jp.bin,"体内に発生する熱が異常に多い個体が、
+44,"体内に発生する熱が異常に多い個体が、
 度重なる排熱により外殻が
 黒化した状態を亜種と呼んでいる。
 厳密には亜種ではなく、
@@ -669,7 +649,7 @@ can unleash even more
 powerful attacks, though they
 must constantly vent 
  excess heat as a result."
-0x16aacd4@mhfdat-jp.bin,"砂漠に生息する巨大な角をもつ飛竜。
+45,"砂漠に生息する巨大な角をもつ飛竜。
 １本とはいえ、その巨大な角の攻撃は
 強力。
 特殊なブレスこそ吐かないものの、
@@ -682,7 +662,7 @@ breath attack, they can
 shierk loud enough to shatter
  eardrums. Despite their appearence
  they are actually herbivorous."
-0x16aacd8@mhfdat-jp.bin,"白銀の角を持つ、モノブロスの亜種。
+46,"白銀の角を持つ、モノブロスの亜種。
 限られた地域のみに生息しており、
 目撃例が少ないモノブロスの中でも、
 さらに発見されることが稀。
@@ -696,7 +676,7 @@ without hesitation.
 They are capable of
 running at a great speed
  and are quite powerful."
-0x16aacdc@mhfdat-jp.bin,"砂漠に生息する巨大な２本の角を
+47,"砂漠に生息する巨大な２本の角を
 もつ飛竜。
 地面の砂をかき分けて地中にもぐる
 ことができ、獲物の足もとから
@@ -712,7 +692,7 @@ capable of burrowing through
 sand, as well as charging
 at high speed.
 Approach with caution."
-0x16aace0@mhfdat-jp.bin,"ディアブロスの雌が繁殖期に入り、
+48,"ディアブロスの雌が繁殖期に入り、
 黒く体色が変化した個体を亜種と呼ぶ。
 厳密には亜種ではなく、
 通常のディアブロスと同一種である。
@@ -729,7 +709,7 @@ to warn other creatures
 as they become incredibly
 violent and territorial, even
 for a Diablos."
-0x16aace4@mhfdat-jp.bin,"近年、雪山や砂漠で
+49,"近年、雪山や砂漠で
 頻繁に目撃されるようになった飛竜種。
 飛竜でありながら翼が未発達で、
 自力での飛行は困難な様子。
@@ -737,16 +717,9 @@ for a Diablos."
 解明されていない部分が多いが、
 現状の報告をまとめると
 強烈な咆哮、鋭利な爪、強靭な顎には
-充分な注意が必要との事。","A primitive looking Wyvern
-found in such disperate
-locations as the Desert
-and the Snowy Mountains.
-While their wings don't
-allow for great aerial
-agility, their powerful jaws 
-and legs allow them to
-easily overpower prey."
-0x16aace8@mhfdat-jp.bin,"全身に鋭い棘を有する飛竜種。
+充分な注意が必要との事。
+",
+50,"全身に鋭い棘を有する飛竜種。
 樹海にて生息が確認されており、
 その特異な姿から『棘竜』と呼ばれて
 いる。
@@ -754,17 +727,9 @@ easily overpower prey."
 身の危険を感じた際の気性は荒く、
 好戦的。
 棘には毒があり、近づく者の体を
-容赦なく苦しめる。","Large, passive Wyverns who
-sleep for large portions of 
-the day. Their scales
-are covered in numerous
-poison-laced spikes leading
-to the nickname of
-""Thorn Wyvern""
-Once angered, Espinas can 
-become incredibly violent.
-"
-0x16aacec@mhfdat-jp.bin,"甲殻が茶色に変色した
+容赦なく苦しめる。
+",
+51,"甲殻が茶色に変色した
 エスピナスの亜種。
 樹海に住む通常のエスピナスとは
 異なり、主に塔や峡谷に
@@ -779,7 +744,7 @@ While just as passive as
 normal Espinas, they possess
 acidic saliva that can
 rapidly corrode armour."
-0x16aacf0@mhfdat-jp.bin,"白色の体に紫の棘を持つ、
+52,"白色の体に紫の棘を持つ、
 エスピナスの希少種。
 樹海頂部にて巣が確認されているが、
 その他の場所での目撃情報は
@@ -796,7 +761,7 @@ fly into a rage if awakened
 from sleep. They can
 produce enormous toxic
 fireballs while attacking."
-0x16aacf4@mhfdat-jp.bin,"最近まで、存在するのかさえも
+53,"最近まで、存在するのかさえも
 定かではなかった、多くの謎に
 包まれた竜。
 ギルドに入ってきた数少ない情報を
@@ -813,7 +778,7 @@ cultures refer to this
 creature as the ""Black God""
 however its official
 Guild name is Akantor."
-0x16aacf8@mhfdat-jp.bin,"優雅に中空を飛び、時に放電の閃光と
+54,"優雅に中空を飛び、時に放電の閃光と
 共に狩りを行う、華麗な飛竜。
 これまで無価値と見られた峡谷に生息
 していたため、一般的ではなかったが、
@@ -830,7 +795,7 @@ however it has been
 claimed that if sufficiently
 injured, they may lose
 control of their electrical organs."
-0x16aacfc@mhfdat-jp.bin,"過酷な雪山の環境に適応した、
+55,"過酷な雪山の環境に適応した、
 ベルキュロスの亜種。
 黒色の雷を放つことから
 『冥雷竜』と呼ばれている。
@@ -847,7 +812,7 @@ adept with ground combat
 as they are aerial.
 Their Dragon Element attacks
 can also paralyze hunters."
-0x16aad00@mhfdat-jp.bin,"絶えず腹を空かせており、呑むように
+56,"絶えず腹を空かせており、呑むように
 物を食うことから、呑竜とも呼ばれる
 大食いのモンスター。とりわけ「肉」
 を求める傾向があり、好みにうるさい。
@@ -864,7 +829,7 @@ meat of certain types near
 these beasts, causing them
 to over eat and vomit
 rare materials they've eaten."
-0x16aad04@mhfdat-jp.bin,"塔にて生息が確認された飛竜種。
+57,"塔にて生息が確認された飛竜種。
 興奮すると体の一部が凍ることから
 『氷狐竜』と呼ばれている。
 目撃したハンターたちの証言によれば
@@ -881,67 +846,40 @@ cloak themselves in an armour
 of frost when engraged.
 It is also said to
 despise loud noises."
-0x16aad08@mhfdat-jp.bin,"頭に特徴的な角を持つ飛竜。
+58,"頭に特徴的な角を持つ飛竜。
 独特な縄張り意識を持ち
 大人しい草食獣と共存しているが
 獰猛なモンスターに対しては好戦的。
 「悪天候時に異常な凶暴性が現れる」
 との報告が相次いでおり、その姿を
 目撃したものからは『蛮竜』と呼ばれ
-恐れられている。","Also known as ""Barbarian
-Wyverns"", these large, horned
-creatures are famously brutal.
-Interestingly though, reports
-indicate they guide and 
-protect herds of Burukku in
-their native range, defending
-them from any 
- potential threat."
-0x16aad0c@mhfdat-jp.bin,"砂漠の地で「紅の楼閣」と
+恐れられている。
+",
+59,"砂漠の地で「紅の楼閣」と
 言い伝えられた、山と見紛うばかりの
 巨大な体躯の竜。
 非常に大食らいで、辺り一帯の
 鉱物・生物を見境無く捕食する。
 個体数が少なく、その他は依然
-謎のままである。","Hulking relatives of Akantor
-found in desert regions,
-their shells are often
-mistaken for mountains. Voracious
-predators, that will consume 
-any smaller creature within reach
-little else is known
-of their biology."
-0x16aad10@mhfdat-jp.bin,"全身に鋭利な針毛を生やした飛竜。
+謎のままである。
+",
+60,"全身に鋭利な針毛を生やした飛竜。
 性格は狡猾で、見つけた獲物を
 逃がさないよう針を飛ばして
 退路を狭め、袋小路に追い込んで
 から確実に仕留める。
 針は体内から分泌される油脂に
 よって毛が硬化したものであるため
-発火しやすいようだが…。","Cunning predators that utilize
-their many spines as
-projectiles to wound and
-trap prey.
-Capable of secreting a variety
-of neurotoxins from their 
-skin, their oily fur 
-is extremely vulnerable to
- fire based attacks."
-0x16aad14@mhfdat-jp.bin,"極海に生息する、鋸状の鼻を持つ飛竜。
+発火しやすいようだが…。
+",
+61,"極海に生息する、鋸状の鼻を持つ飛竜。
 その特徴的な鼻から『暴鋸竜』と
 呼ばれている。
 鼻と同じように鋭利な甲殻は外敵から
 身を守る事と、泳ぐ際に氷を削りやすく
-するために役立つ。","Flying Wyverns adapted to
-life in cold, marine
-enviroments.
-They utilize their strange
-barbed snouts and body
-spikes for traversal
- as well as offense.
- They are also able to
-expel a freezing substance."
-0x16aad18@mhfdat-jp.bin,"古塔の頂部に日が射し込めたときに
+するために役立つ。
+",
+62,"古塔の頂部に日が射し込めたときに
 現れる純白の鱗と明滅する甲殻を
 纏った新種のリオレウス。
 輝く翼で天空を舞う姿から「輝界竜」と
@@ -958,7 +896,7 @@ cultures describe them as
 everything from divine
 messengers, to unholy envoys
 of death and suffering."
-0x16aad1c@mhfdat-jp.bin,"堅い黒色の甲殻と黄金の棘を持つ竜。
+63,"堅い黒色の甲殻と黄金の棘を持つ竜。
 メラギナスは化石でのみ知られ、
 太古に絶滅したと考えられていたが
 潮島の洞窟を調査していたギルド員が
@@ -973,22 +911,16 @@ These black and gold
 Wyverns are seemingly blind
 and navigate their underground
 territories through sound."
-0x16aad20@mhfdat-jp.bin,"樹海頂部にて発見された
+64,"樹海頂部にて発見された
 青色の外殻を身に纏う飛竜。
 体内に発電器官を持ち
 雷を自在に操ることから
 『雷轟竜』と呼ばれている。
 性格は極めて凶暴。
 外敵を発見すると辺り一帯を
-焦土と化すまで暴れつくす。","Despite appearences, these 
-Wyverns are not actually
-blue, but rather use
-magnetic organs to attach
-ores to themselves as
-armour. Like their cousin
-the Tigrex they are brutally
-aggressive predators."
-0x16aad24@mhfdat-jp.bin,"高地にて新種のモンスターを確認した。
+焦土と化すまで暴れつくす。
+",
+65,"高地にて新種のモンスターを確認した。
 ギルドの調査によると、モンスターの
 鳴き声を聞いた調査員が、急に笑い出し
 たり踊り出したりしたとの報告がある。
@@ -1005,7 +937,7 @@ driving hunters to madness.
 These voracious beasts can
 emit sounds with odd
 properties from various organs."
-0x16aad28@mhfdat-jp.bin,"火山地帯を探索中のハンターから、
+66,"火山地帯を探索中のハンターから、
 新種の飛竜を目撃したと報告があった。
 報告によると、この地域にのみ生息する
 珍しいサボテンを持ち帰ろうとした
@@ -1022,7 +954,7 @@ hypothesized that its flames
 are the result of
 it consuming a unique
 type of thermophilic cactus."
-0x16aad2c@mhfdat-jp.bin,"砂漠を調査中のハンターから、新種の
+67,"砂漠を調査中のハンターから、新種の
 モンスターを発見したと報告を受けた。
 詳しい調査の結果、火山地帯に生息する
 グラビモスの祖先にあたるモンスター
@@ -1039,7 +971,7 @@ from which they can
 eject water at deadly speeds.
 Research on these
 creatures is ongoing."
-0x16aad30@mhfdat-jp.bin,"『氷牙竜』の異名を持つ飛竜種。
+68,"『氷牙竜』の異名を持つ飛竜種。
 体内に低温の液体を生成する特別な器官
 を持ち、これを使って超低温のブレスを
 吐き出すことができる。
@@ -1056,23 +988,16 @@ surfaces. They are skilled
 predators and will dispatch
 trapped prey with their
 large amber tusks."
-0x16aad34@mhfdat-jp.bin,"木々の生い茂る樹海を棲家とする
+69,"木々の生い茂る樹海を棲家とする
 独特の進化を遂げた飛竜。
 暗がりに身を潜め、
 恐るべき素早さで執拗かつ狡猾に
 獲物を狙い、追い詰める。
 戦うための武器として発達した尻尾は、
 中型のモンスターを一撃で倒すほどの
-威力を持つ。","Flying Wyverns that have
-evolved to live in densely
-wooded areas. These sly
-beasts stalk their prey from
-the shadows with ferocious
-speed. Their massive tails
-are extremely deadly and
-can kill small monsters
-with a single strike."
-0x16aad38@mhfdat-jp.bin,"近年発見された彩の滝に生息する飛竜。
+威力を持つ。
+",
+70,"近年発見された彩の滝に生息する飛竜。
 全体的に鋭利な体つきが特徴で、
 『裂水竜』とも呼称される。両翼から
 伸びている「垂刃」と呼ばれる部位は
@@ -1090,7 +1015,7 @@ attacks, their claws are
 capable of cutting stone. Parts
 of their bodies turn
 red enraged."
-0x16aad3c@mhfdat-jp.bin,"近年、その姿が確認された飛竜。
+71,"近年、その姿が確認された飛竜。
 黄金に輝きを放つ無数の鱗を松かさの
 ように逆立て、鋭い刃として自在に
 操り獲物を切りつけるさまから、
@@ -1106,7 +1031,7 @@ and can launch their razor
 sharp scales at prey
 before shredding it with 
 their talons."
-0x16aad40@mhfdat-jp.bin,"水辺や水溜りのある場所を好む飛竜。
+72,"水辺や水溜りのある場所を好む飛竜。
 最近になって白湖や彩の滝でその姿が
 確認された。体内で可燃性の高いガス
 を発生させ、各部位の噴出口から霧状
@@ -1123,7 +1048,7 @@ organs to kill potential
 prey. Despite their lack
 of agility, they are
 stubborn, vicious predators."
-0x16aad44@mhfdat-jp.bin,"砂漠に群れて生息する魚竜。
+73,"砂漠に群れて生息する魚竜。
 一見、ガノトトスと似た進化形態を
 しているが、彼らは砂中に潜り、
 砂漠を泳ぐ。
@@ -1136,7 +1061,7 @@ of water. They locate
 prey through sound, and
 are sensitive to Sonic
 Bombs as a result."
-0x16aad48@mhfdat-jp.bin,"砂漠を泳ぐ魚竜・ガレオスのリーダー。
+74,"砂漠を泳ぐ魚竜・ガレオスのリーダー。
 ガレオスよりも、ひとまわり大きな
 体格と、黒く硬化した鱗を持ち、
 リーダーの風格にあふれている。
@@ -1147,7 +1072,7 @@ than their kin and
 with darker scales, these
 beasts possess enhanced paralytic
 saliva."
-0x16aad4c@mhfdat-jp.bin,"川や湖に生息する巨大な魚竜。
+75,"川や湖に生息する巨大な魚竜。
 羽はヒレの様に変態しており、
 飛行する能力はない。
 魚のような外見に反し、
@@ -1162,7 +1087,7 @@ into powerful fins. Despite
 appearences, Plesioth are
 as deadly on land as
 they are in water."
-0x16aad50@mhfdat-jp.bin,"翠色の鱗が特徴的な、
+76,"翠色の鱗が特徴的な、
 ガノトトスの亜種。
 その透き通るような鱗の色から
 『翠水竜』とも呼ばれている。
@@ -1177,7 +1102,7 @@ individuals are much more
 aggressive and are much
 more accurate with their
 water beam attacks."
-0x16aad54@mhfdat-jp.bin,"溶岩の中を棲み処とする魚竜。
+77,"溶岩の中を棲み処とする魚竜。
 鱗の表面には冷え固まった溶岩が幾層
 にも重なり、強固な鎧の役割を果たし
 ている。
@@ -1191,7 +1116,7 @@ of their time immersed
 in molten rock, making
 them a favourite research
 target for scholars."
-0x16aad58@mhfdat-jp.bin,"紅の鎧を身に纏った、
+78,"紅の鎧を身に纏った、
 ヴォルガノスの亜種。
 体表に付着している溶岩には
 希少な鉱石が多分に含まれており、冷え
@@ -1207,7 +1132,7 @@ cooled. A more developed
 lava-storage organ
 allows them to utilize
  additional attacks."
-0x16aad5c@mhfdat-jp.bin,"堅い殻を持つ小型の甲殻種。
+79,"堅い殻を持つ小型の甲殻種。
 温暖期の密林の浜辺など、温暖な
 砂地に多く生息している。
 地中に潜んでいる場合もあるため、
@@ -1221,7 +1146,7 @@ warmer months where they
  will often ambush prey 
 from undrground. Their brains
  are a prized delicacy."
-0x16aad60@mhfdat-jp.bin,"巨大なモンスターの頭骨を背負う
+80,"巨大なモンスターの頭骨を背負う
 大型の甲殻種。
 砂地に好んで生息しており、主に砂漠、
 温暖期には密林の水辺でも目撃される。
@@ -1237,7 +1162,7 @@ breath and their
 massive, rock-hard pincers.
 They will also use
 their pincers for defense."
-0x16aad64@mhfdat-jp.bin,"他の生物の殻を背負う甲殻種の幼体。
+81,"他の生物の殻を背負う甲殻種の幼体。
 成体になると巨大なモンスターの
 頭骨を背負うようになる。
 非常に攻撃的で、小型ながらも
@@ -1249,7 +1174,7 @@ their original shell falls
 off and is rplaced by a
 large monster's skull.
 Common in volcanic areas."
-0x16aad68@mhfdat-jp.bin,"巨大なモンスターの頭骨を背負う
+82,"巨大なモンスターの頭骨を背負う
 大型の甲殻種。
 鋭利で長い鋏を持ち、その刃は堅い
 火山の岩盤も容易にえぐり、天井を
@@ -1265,7 +1190,7 @@ ceilings. They are native to
 marshy and volcanic areas and
 occasionally they develop a
 precious, rare pearl."
-0x16aad6c@mhfdat-jp.bin,"超大型の甲殻種。そのサイズに見合う、
+83,"超大型の甲殻種。そのサイズに見合う、
 超巨大なモンスターの頭骨を背負う。
 その甲殻は、もはや生物のものとは
 思えないほどの硬度を持つ。
@@ -1281,7 +1206,7 @@ towns must be alerted
 to its movements or
 potentially face total
 annihilation."
-0x16aad70@mhfdat-jp.bin,"堅い黒褐色の外殻を全身に纏う甲殻種。
+84,"堅い黒褐色の外殻を全身に纏う甲殻種。
 栄養の豊富な発光体液を全身に循環させ
 ており、その配分によって自らの体質を
 変化させる能力を持つ。
@@ -1296,7 +1221,7 @@ in response to their mood.
 Highly aggressive and opportunistic
 predators, they attack with a
 unique crystallizing body fluid."
-0x16aad74@mhfdat-jp.bin,"灰色の甲殻から『灰晶蠍』と呼ばれる、
+85,"灰色の甲殻から『灰晶蠍』と呼ばれる、
 アクラ・ヴァシムの亜種。
 主に沼地の洞窟に生息しており、
 尻尾の結晶部分だけを地面に露出させて
@@ -1313,7 +1238,7 @@ that if their tails are
 injured, they will use
 their crystalizing fluid to
 patch the wound."
-0x16aad78@mhfdat-jp.bin,"潮島の洞窟内で発見された甲殻種。
+86,"潮島の洞窟内で発見された甲殻種。
 コナマキダケなどの菌類と共生しており
 岩と同化したかのような見た目のため
 発見することは非常に困難。
@@ -1328,7 +1253,7 @@ claws, these Carapaceons can both
 slash and crush foes
 with ease. Hunt with
 caution."
-0x16aad7c@mhfdat-jp.bin,"白湖に生息する小型の甲殻種。
+87,"白湖に生息する小型の甲殻種。
 普段は砂の下でひっそりと生活している
 が、獲物が自らの隠れている場所を通る
 と地中から這い出してきて、どこまでも
@@ -1343,7 +1268,7 @@ they detect potential prey.
 Their tails possess a well
 developed venom gland, allowing 
 them to easily dispatch prey."
-0x16aad80@mhfdat-jp.bin,"大型の野生のイノシシ。気が荒く、
+88,"大型の野生のイノシシ。気が荒く、
 ハンターを見つけると突進してくる。
 その威力は強力なので注意！
 肉は主に食料とされていて、癖のある
@@ -1356,7 +1281,7 @@ Fertile and with a huge
 range, they often form 
 large herds. Their meat
 is beloved by hunters."
-0x16aad84@mhfdat-jp.bin,"野生のイノシシ、ブルファンゴの
+89,"野生のイノシシ、ブルファンゴの
 リーダー。大柄で巨大な牙が特徴。
 ブルファンゴより攻撃的で、
 その攻撃は突進が主だが、ハンターを
@@ -1371,7 +1296,7 @@ normally found in warm
 regions, they will migrate
 to the Snowy Mountains
 during warmer months."
-0x16aad88@mhfdat-jp.bin,"ピンクの毛並みをもつ牙獣。
+90,"ピンクの毛並みをもつ牙獣。
 大規模な群れは形成せず、少数で
 生活することが多い。
 キノコが大好物で、うかつにそれを
@@ -1385,7 +1310,7 @@ in small troups. Particularly
 fond of mushrooms, they can
 be found in warm
 humid areas."
-0x16aad8c@mhfdat-jp.bin,"ピンクの毛並みをもつ大型の牙獣。
+91,"ピンクの毛並みをもつ大型の牙獣。
 密林や沼地などでの目撃例が多い。
 食欲が旺盛で、特にキノコ類には
 目がなく、非常食として持ち歩く事も。
@@ -1402,7 +1327,7 @@ the type of mushroom they
 consume can affect the type
 of breath attack they utilize.
 They can be very pungent."
-0x16aad90@mhfdat-jp.bin,"真っ白な毛並みをもつ牙獣。
+92,"真っ白な毛並みをもつ牙獣。
 群れで行動し、多くはリーダーである
 ドドブランゴに率いられている。
 その統制力は非常に高く、リーダーの
@@ -1415,7 +1340,7 @@ under the direction of a
 Blongonga Leader and will
 answer its call whenevr it
 may come."
-0x16aad94@mhfdat-jp.bin,"群れで行動するブランゴのリーダー。
+93,"群れで行動するブランゴのリーダー。
 大きな牙と髭が特徴で、ブランゴの
 倍近い体格をもつ。
 常にブランゴを従え、雪中の集団行動
@@ -1430,8 +1355,8 @@ its pack to attack any trespassers.
 Its jumping power allows it 
  great mobility in its home
 range of the snowy mountains."
-0x16aad98@mhfdat-jp.bin,全ては謎につつまれている。,No information is documented.
-0x16aad9c@mhfdat-jp.bin,"潮島で発見された牙獣。
+94,全ては謎につつまれている。,No information is documented.
+95,"潮島で発見された牙獣。
 まだら模様の毛並みに鋭い鉤爪
 長い尻尾が特徴的。糸を用いた独特の
 跳ぶような動きには警戒が必要である。
@@ -1446,7 +1371,7 @@ They secret a unique webbing
 like substance to aid in 
 movement and often carry their
 young on their backs."
-0x16aada0@mhfdat-jp.bin,"超攻撃的生物。
+96,"超攻撃的生物。
 目撃例の少なさは、その異常な攻撃性
 による。その姿を見て、無事生き延び
 た者は極めて希である。
@@ -1460,7 +1385,7 @@ s said to be a loner
 and this isolated life has made 
 it difficult to pin down its 
 territorial leanings."
-0x16aada4@mhfdat-jp.bin,"響狼と呼ばれる狼の雄。
+97,"響狼と呼ばれる狼の雄。
 雄は灰色の毛並を持つ。
 雌と共に行動し、噛みつきなどの
 肉弾攻撃を主軸としている。
@@ -1475,7 +1400,7 @@ Research shows these beasts
 have advanced respiratory systems
 allowing them to unleash
 deadly wind-based attacks."
-0x16aada8@mhfdat-jp.bin,"響狼と呼ばれる狼の雌。
+98,"響狼と呼ばれる狼の雌。
 雌は白色の毛並を持つ。
 雄と共に行動し、素早い動きを
 主体とした肉弾攻撃を得意としている。
@@ -1492,7 +1417,7 @@ may use caves to amplify
 their calls, allowing them to
 summon their mates from great 
 distances."
-0x16aadac@mhfdat-jp.bin,"雄のオルガロンの亜種。
+99,"雄のオルガロンの亜種。
 たてがみや一部の毛先が緋色に染まり
 通常のオルガロンよりも一回り大きな
 体躯をしているのが特徴。
@@ -1500,17 +1425,9 @@ distances."
 火山での生息にも適応した身体と
 なっている。
 繁殖期になると雌のオルガロンを求め
-雄同士が激しい争いを繰り広げる。","Rare and violent variants of
-Kamu Orugaron, known to inhabit
-volcanic regions. Unlike their standard 
-cousins, they are solitary hunters
-and have been know to
-even harrass Nono Orugaron during
-the breeding season.
-Their bright orange fur
-is highly fire-resistant.
-"
-0x16aadb0@mhfdat-jp.bin,"峡谷にて発見された二頭の牙獣。
+雄同士が激しい争いを繰り広げる。
+",
+100,"峡谷にて発見された二頭の牙獣。
 赤色と青色の個体が存在するが
 これは性別によって色が違う訳では
 なく、遺伝による身体的特徴の一つ
@@ -1518,16 +1435,9 @@ is highly fire-resistant.
 微弱ながら磁力を纏うことが可能。
 一頭での磁力はそれほど強くはないが
 二頭の磁力を合わせることで古龍に
-匹敵する力を発生させる。","Social creatures always observed
-as a pair. The colour 
-difference often seen between
-them isn't sexual dimorphism as 
-originally thought, but rather 
-simple genetic variation, with 
-the red variety being more
-common. They fight as a team
-and can generate magnetic fields."
-0x16aadb4@mhfdat-jp.bin,"火山地帯の奥地で発見された牙獣種。
+匹敵する力を発生させる。
+",
+101,"火山地帯の奥地で発見された牙獣種。
 腕の着火石を擦り合わせて着火し、攻撃
 に利用する。怒り出すと業火をまとう様
 子から『紅蓮獅子』と名付けられた。
@@ -1544,7 +1454,7 @@ Research indicates these beasts
 are closely related to 
 Rajang, but their exact
 relationship is still unknown."
-0x16aadb8@mhfdat-jp.bin,"古龍種に属するが、その生態は
+102,"古龍種に属するが、その生態は
 ほとんど知られていない、幻の生物。
 個体数が非常に少なく、生息地域も
 広範囲にわたるため、
@@ -1559,7 +1469,7 @@ their parts fetch.
 They are said to control
 lightning itself, enrobing themselves
 in it during battle."
-0x16aadbc@mhfdat-jp.bin,"金属質の外殻が特徴的な龍。
+103,"金属質の外殻が特徴的な龍。
 風をまとい嵐を呼ぶといわれ、
 実際目撃情報は暴風雨の日に多い。
 一説には、毒状態になると、風を
@@ -1574,7 +1484,7 @@ cities within its extensive
 territory have been documented.
  It has been sighted everywhere
  from deserts to polar regions."
-0x16aadc0@mhfdat-jp.bin,"脱皮が近づき、
+104,"脱皮が近づき、
 体表の鱗が錆びついたクシャルダオラ。
 この時期のクシャルダオラは気性が
 荒く、街などを襲うことも少なくない。
@@ -1591,7 +1501,7 @@ and may target human settlments.
 While their shed husks are
 common on mountain peaks no
 one has witnessed a molt in person."
-0x16aadc4@mhfdat-jp.bin,"目撃数が極端に少ない古龍。
+105,"目撃数が極端に少ない古龍。
 その所以は、姿を自在に消すことが
 できる能力によるともいわれるが、
 詳細は不明。
@@ -1607,7 +1517,7 @@ that shocking it may make
 it reappear. When sightings do
 occur they are generally in 
  warm, humid regions."
-0x16aadc8@mhfdat-jp.bin,"灼熱の息を吐き、炎をまとう古龍。
+106,"灼熱の息を吐き、炎をまとう古龍。
 忘れ去られた伝説上の古塔の頂上に
 住まうといわれていたが、近年砂漠や
 火山での目撃情報も報告されている。
@@ -1622,7 +1532,7 @@ on its head, but this has
 not been officially confirmed.
  Often sighted near Volcanoes and
 ancient ruins."
-0x16aadcc@mhfdat-jp.bin,"灼熱の息を吐き、炎をまとう古龍。
+107,"灼熱の息を吐き、炎をまとう古龍。
 非常に強暴で、近づく者は例外なく
 その業火に身を晒すことになる。
 砂漠、沼地、火山などで目撃され、
@@ -1637,7 +1547,7 @@ approaches is subject to fire and
 brimstone. Known to attack cities,
 the Guild attentively documents
 all of their movements."
-0x16aadd0@mhfdat-jp.bin,"これまでに幾度かの目撃が報告されて
+108,"これまでに幾度かの目撃が報告されて
 いる巨大な龍。
 周期的に生息区域を徘徊し、
 その被害は天災に匹敵する。
@@ -1649,7 +1559,7 @@ it wreaks havoc on all in its
 path. The Guild has built a
 fortress to repel the beast, but
 will it hold?"
-0x16aadd4@mhfdat-jp.bin,"巨大な古龍、ラオシャンロンの亜種。
+109,"巨大な古龍、ラオシャンロンの亜種。
 灰色の外殻と山のような体躯から
 『岩山龍』とも呼ばれている。
 通常のラオシャンロンと同様に
@@ -1665,7 +1575,7 @@ hardened ash from years of
 dwelling in a volcanic area.
 The Guild believes something has
 driven it from its native range."
-0x16aadd8@mhfdat-jp.bin,"空に浮かぶ巨大な古龍。
+110,"空に浮かぶ巨大な古龍。
 大地を喰らい、森を一呑みにすると
 いわれ、肥沃な土地を求めて天空を
 さまよう。
@@ -1681,7 +1591,7 @@ Ancient trees grow thick on its
 back like on a mountain. It’s
  rumored to live near a forlorn
 remote tower."
-0x16aaddc@mhfdat-jp.bin,"光り輝く翼を持つ古龍。
+111,"光り輝く翼を持つ古龍。
 伝承で存在は確認されていたが、
 近年になって各地で目撃情報が
 報告され、古龍に認定された。
@@ -1694,23 +1604,16 @@ it appeared and began attacking
 settlments, was it officially 
 documented. It is reported to
 possess a strange power."
-0x16aade0@mhfdat-jp.bin,"迎撃拠点に突如現れた紫色の外殻と
+112,"迎撃拠点に突如現れた紫色の外殻と
 金色の翼膜を持つ古龍。
 ルコディオラに非常に酷似した
 外見に加え、磁力を扱うことから
 ルコディオラの亜種であると
 推測される。視認できるほどの
 強力な雷を操り、その脅威性は
-ルコディオラをも凌駕する。","A powerful dragon clad in
-purple scales and shining
-wings. It's origin is unknown
-but scholars believe it may
-be a Sub-Species of Rukodiora.
-It is able to generate 
-far more powerful magnetic
-fields than its relative.
-"
-0x16aade4@mhfdat-jp.bin,"この地で古くから語り継がれている
+ルコディオラをも凌駕する。
+",
+113,"この地で古くから語り継がれている
 伝説の黒龍。
 凄腕のハンター達が幾度も闘いを
 挑んだというが…。
@@ -1721,23 +1624,16 @@ Many skilled hunters have sought
 to challenge it, but none
 ever return. A monster shrouded
 in mystery..."
-0x16aade8@mhfdat-jp.bin,"他の竜種が生息する空域よりも
+114,"他の竜種が生息する空域よりも
 遙か上空を翔る龍として、
 古くから伝説や御伽話の中で
 語り継がれてきた古龍。
 実在するのかさえ定かではなかったが
 此度の大型探査船による
 大規模な生態調査によって
-その存在が確認された。","An elusive Elder Dragon previously
-known only from ancient
-legends. It dwells high in the
-atmosphere, far above most
-other creatures, but will 
-rarely descend to ground level.
-It was classified by the Guild
-after its discovery by the
-Large Exploration Ship."
-0x16aadec@mhfdat-jp.bin,"生物が存在することができないと
+その存在が確認された。
+",
+115,"生物が存在することができないと
 いわれていた、「最果ての地」で
 目撃された古龍。
 各地に僅かに残っている資料から
@@ -1745,33 +1641,18 @@ Large Exploration Ship."
 あると推測される。
 この古龍に関しての資料は全くと
 言って良い程残っておらず、
-詳しい生態は分かっていない。","Mysterious, yet overwhelmingly
-powerful, this dragon dwells
-in an area dubbed the
-""World's End"", which was
-previously thought to be
-incapable of supporting life.
-Ominously, no records of
-this beast exist and its
-ecology is a mystery.
-"
-0x16aadf0@mhfdat-jp.bin,"大型探査船での調査中に遭遇した古龍。
+詳しい生態は分かっていない。
+",
+116,"大型探査船での調査中に遭遇した古龍。
 全身が黄金色の鱗と殻に覆われ、さらに
 至る所に結晶の様なものが生えている。
 詳しい調査から、この地域に住み着いた
 鋼龍クシャルダオラが、砂金を多く含む
 川の水や特殊な鉱石を、長年にわたり
 摂取し続けたことで、このような進化を
-遂げたと推測される。","A shimmering dragon of
-golden scale and precious crystal,
-its existance was revealed rather
-recently. While its natural habitat 
-is currently unknown, research
-indicates it may be descended
-from Kushala Daora that ingested
-gold-bearing minerals over
-many years."
-0x16aadf4@mhfdat-jp.bin,"威厳に満ちた雰囲気と特殊な形をした
+遂げたと推測される。
+",
+117,"威厳に満ちた雰囲気と特殊な形をした
 尻尾、そして頑強な鱗を持つ古龍。
 大陸の東方にある竹林奥部を調査中に
 発見されたこの古龍は、攻撃を受け
@@ -1779,16 +1660,9 @@ many years."
 硬化し、負傷部位を覆うように甲殻を
 生成するという特徴があるようだ。
 また、睡眠ガスによる攻撃なども多く
-十分に注意が必要との報告もある。","A dignified and powerful dragon
-with an unmistakable tail.
-Found in Bamboo forests to the
-east, it is reported to
-possess a strange symbiotic
-relationship with the Bamboo,
-which it is seemingly able to
-manipulate at will. It also
-reportedly produces Sleep-gas."
-0x16aadf8@mhfdat-jp.bin,"鏡面のように煌く金属を全身にまとった
+十分に注意が必要との報告もある。
+",
+118,"鏡面のように煌く金属を全身にまとった
 古龍。身体にある複数の「操核」の力で
 流体金属を操ることから『司銀龍』とも
 呼ばれている。
@@ -1796,18 +1670,10 @@ reportedly produces Sleep-gas."
 自らに害なす者だと知るや、
 流体金属を操って攻撃を仕掛ける。
 金属を司るため、一部の鍛冶職人からは
-信仰の対象ともされている。","Often enrobed in a strange
-liquid metal, which it is
-seemingly able to control at
-a whim; this dragon
-is a curious beast. First hand
-accounts claim it is highly
-intelligent, being able to
-learn and counter a hunters
-combat techniques with ease.
-"
-0x16aadfc@mhfdat-jp.bin,全ては謎につつまれている。,
-0x16aae00@mhfdat-jp.bin,"別名『浮峰龍』とも呼ばれる古龍。
+信仰の対象ともされている。
+",
+119,全ては謎につつまれている。,
+120,"別名『浮峰龍』とも呼ばれる古龍。
 ヤマツカミと酷似した外見を持つが、
 詳細は明らかになっておらず、ギルドで
 引き続き調査が進められている。
@@ -1824,7 +1690,7 @@ research is still ongoing.
  It's body is home to
 a veritable ecosystem of 
 unique and dangerous flora."
-0x16aae04@mhfdat-jp.bin,"猛吹雪の日に山中深くや極寒の地で
+121,"猛吹雪の日に山中深くや極寒の地で
 存在が確認された古龍。
 王者のように威風堂々とした姿をして
 いることから『凍王龍』とも呼ばれる。
@@ -1841,7 +1707,7 @@ Lunastra. While much of it's
 biology is still unknown, it
 is speculated to be the
 source of some intense blizzards."
-0x16aae08@mhfdat-jp.bin,"正体不明の砦『雲見砦』に巣くう古龍。
+122,"正体不明の砦『雲見砦』に巣くう古龍。
 複数の小型飛竜を従えており、
 使役することで様々な攻撃を行う。
 また、他とは比べ物にならないほど
@@ -1856,7 +1722,7 @@ an entourage of Egyurasu
 It's claws spawn tremors
 and its breath immolates
 everything before it."
-0x16aae0c@mhfdat-jp.bin,"突如として出現した大型古龍。
+123,"突如として出現した大型古龍。
 特定の部位に熱を蓄積させる特異な体質
 と、山岳を彷彿とさせる隆々とした体躯
 から『焔嶽龍』と呼ばれる。
@@ -1864,17 +1730,9 @@ everything before it."
 際、放熱のため超高熱・高密度の火炎を
 放射する行動が確認されている。
 想像を絶する程の甚大な被害が予見され
-ており、非常に危険な存在である。","Enormous and incredibly violent
-the immense stature and magma
-like heat produced by this
-Elder Dragon have earned it
-the moniker of ""living
-volcano"". The Guild fears the
-incredible destruction this beast
-could wreak, should it 
-destroy the Inteceptor's Base.
-"
-0x16aae10@mhfdat-jp.bin,"黒蝕竜が成長した後の姿であり、特徴
+ており、非常に危険な存在である。
+",
+124,"黒蝕竜が成長した後の姿であり、特徴
 的な輝きを放つ『天廻龍』と言われてい
 る。黒蝕竜の特徴であった鱗粉もさら
 に強力になっている。
@@ -1889,7 +1747,7 @@ Shagaru Magala was the ""foul
  wind that withered a mountain,"" 
 a calamity spoken of in ancient
 texts."
-0x16aae14@mhfdat-jp.bin,"塔の頂上で異変が発生し、緊急調査を行
+125,"塔の頂上で異変が発生し、緊急調査を行
 った際に存在が認識された古龍。決して
 併存する事のない炎と氷を纏う姿から
 『灼零龍』とも呼ばれる。燃え盛る焔と
@@ -1907,7 +1765,7 @@ control over ice and fire, it
 segregates control over each
 element to one side of it's
 body. A fascinating creature."
-0x16aae18@mhfdat-jp.bin,"渓流の奥深く、「霊峰」に舞い降りた
+126,"渓流の奥深く、「霊峰」に舞い降りた
 伝説の古龍。大嵐と共に姿を現し、
 集落を無残に滅ぼすさまから、嵐の化身
 として風聞が広く浸透している。
@@ -1921,7 +1779,7 @@ is accompanied by furious cyclones
 and horrific storms. Its fearsome
 power is said to outscale
 that of natural disasters."
-0x16aae1c@mhfdat-jp.bin,"刃に似た形状の尻尾を自在に操る獣竜。
+127,"刃に似た形状の尻尾を自在に操る獣竜。
 一度狙いをつけた獲物を執拗に追い続け
 ることから、『獰竜』と呼称されるよう
 になった。興奮するほど背中の筋肉は
@@ -1936,23 +1794,16 @@ will flush with blood to
 further intimidate their foes.
 They are known to possess
 extremely acidic saliva."
-0x16aae20@mhfdat-jp.bin,"寒冷地でのみ生息するアビオルグの
+128,"寒冷地でのみ生息するアビオルグの
 亜種。
 寒冷地という過酷な食糧環境の中で
 生き抜いた個体がギアオルグであり、
 より多くの食料を求めて新天地を
 渡り歩き、そのたび気温や地形に
 よって少しずつ変異を繰り返した
-個体がアビオルグとされている。","Closely related to Abiorugu
- they inhabit freezing enviroments
-such as the Polar Sea,
-where they utilize ice to
-increase the power of their
-attacks. They are able to 
-shoot beams of pressurized
-ice water at targets.
-"
-0x16aae24@mhfdat-jp.bin,"白湖の探索中に発見された獣竜種。かつ
+個体がアビオルグとされている。
+",
+129,"白湖の探索中に発見された獣竜種。かつ
 ては水生であったが、湖が干上がり現在
 の形になると、陸生に適応した。普段は
 目立たない外見をしているが、外敵の
@@ -1969,7 +1820,7 @@ to re-adapt to terrestrial life.
 They are able to store
 lagre quantities of poison
 gained from their prey."
-0x16aae28@mhfdat-jp.bin,"獣竜種の中でも一際大きな体躯と、高い
+130,"獣竜種の中でも一際大きな体躯と、高い
 体温を維持するために大量の食料を必要
 とする。その貪欲な食性により、生息域
 一帯のモンスターを喰らい尽くし生態系
@@ -1986,7 +1837,7 @@ their extremely high metabolism
 they can easily hunt nearby
 animals to extinction. Hunt with
 extreme caution."
-0x16aae2c@mhfdat-jp.bin,"『砕竜』と呼ばれる獣竜種。
+131,"『砕竜』と呼ばれる獣竜種。
 非常に攻撃的な気性をもち、外敵に
 対する攻撃手段として、発達した前脚と
 爆発性の粘菌による追撃を得意とする。
@@ -2003,7 +1854,7 @@ the Brachydios's own saliva. Note
 that these crafty creatures
  can also deliver powerful foreleg 
 strikes. Fond of volcanic areas."
-0x16aae30@mhfdat-jp.bin,"巨大な獣竜種。頑強な顎で岩盤を細かく
+132,"巨大な獣竜種。頑強な顎で岩盤を細かく
 砕き、主食である鉱石を摂取する。
 身を覆う甲殻は非常に硬く、
 並大抵の武器では太刀打ちできない。
@@ -2020,23 +1871,16 @@ spread them about, using
 vibrations to make them explode.
 They are also capable of
 releasing seering hot gases."
-0x16aae34@mhfdat-jp.bin,"高地で発見された海竜。
+133,"高地で発見された海竜。
 非常に用心深く、普段は地中深くに
 隠れているため発見は困難を極める。
 身体に極めて特徴的な水晶を持つこと
 から『晶竜』とも呼ばれる。
 地表に撒かれる水晶は脅威の一言。
 狩猟をする際にその水晶を利用する
-狩人もいるというが…。","Leviathans adapted to terrestrial
-life, they are rather cautious
-preferring to scatter some of
-the many dangerous crystals covering 
-their bodies to harm unwary
-attackers. The organic crystals
-they grow also allow them to
-harness sunlight and lightning
-depending on the weather."
-0x16aae38@mhfdat-jp.bin,"極海に群れで生息する凍海獣の雌。
+狩人もいるというが…。
+",
+134,"極海に群れで生息する凍海獣の雌。
 身体の大きさは雄の半分以下で、
 個体によるばらつきも少ない。
 雄と違い牙が短いが、これは外敵に
@@ -2044,33 +1888,18 @@ depending on the weather."
 形状になっているためである。
 群れの中での役割は子育てであるが、
 外敵に襲われた場合は雄と共に
-立ち向かう。","Female Leviathans found in the 
-Polar Sea. Roughly half
-the size of their male
-counterparts, they also possess
-smaller fangs, more suited
-to catching fish than for
-display. If their children or
-mate is threatened, they will
-attack ferociously.
-"
-0x16aae3c@mhfdat-jp.bin,"極海に群れで生息する凍海獣の雄。
+立ち向かう。
+",
+135,"極海に群れで生息する凍海獣の雄。
 雌よりも圧倒的に数が少なく、
 巨大な身体が特徴的。
 性格は温厚で、雪や氷を使って遊んで
 いる様子を見られることがある。
 ただし縄張りへの侵入者や、群れを
 強襲するものに対しては容赦なく
-襲いかかる。","Male Leviathans native to the
-Polar Sea. Twice the size
-of their female counterparts
-they possess massive fangs
-used to intimidate rivals and
-predators alike. Though aggressive towards
-percieved threats, they are
-known to play with their
-mates and offspring."
-0x16aae40@mhfdat-jp.bin,"血が抜き取られたモンスターの死体を
+襲いかかる。
+",
+136,"血が抜き取られたモンスターの死体を
 ハンターズギルドが調査した結果、
 存在が確認された海竜。
 生息範囲は広く、水辺を好み、海を
@@ -2078,16 +1907,9 @@ mates and offspring."
 自身より小柄な生物なら、手当り次第
 に吸血することから非常に好戦的な
 性格だと思われているが、自身を守る
-ための過剰な防衛行為という説もある。","A foreign Leviathan which was 
-discovered following reports of
-a large number of montsers
-drained of blood. They seem
-to prefer areas near the
-ocean or underground, where
-they stalk and overpower any
-creature smaller than themselves
-before draining them of blood."
-0x16aae44@mhfdat-jp.bin,"険しい山林の奥地に生息する牙竜種。
+ための過剰な防衛行為という説もある。
+",
+137,"険しい山林の奥地に生息する牙竜種。
 強靭な体躯と膂力に加え、体表を覆う
 蓄電殻と呼ばれる甲殻から電気を発生
 させ、それを蓄電毛と呼ばれる体毛に
@@ -2104,7 +1926,7 @@ Thunderbugs to boost their power
 and enter a supercharged state.
 They house their Thunderbugs
 within their dorsal shells."
-0x16aae48@mhfdat-jp.bin,"雪山や塔の秘境などに出没するジンオウ
+138,"雪山や塔の秘境などに出没するジンオウ
 ガの亜種。龍殺しの実を好む『蝕龍蟲』
 と言う甲虫を集めており、そこから取り
 込んだ龍属性エネルギーを用いる。力を
@@ -2121,22 +1943,15 @@ its power. Perhaps this is
 why it can survive in such
 varied enviroments as the Snowy
 Mountains and ancient towers."
-0x16aae4c@mhfdat-jp.bin,全ては謎につつまれている。,
-0x16aae50@mhfdat-jp.bin,"漆黒の甲殻を纏う謎の飛竜。
+139,全ては謎につつまれている。,
+140,"漆黒の甲殻を纏う謎の飛竜。
 古塔に生息しているようだが、
 この竜を見た者は極めて少ない。
 モンスターの特徴も目撃者によって
 異なっており、詳しい生態は
-現在調査中である。","A Wyvern with pitch-black
-scales and crimson talons
-occasionally seen at ancient
-towers. The abilities of
-this Wyvern seems to
-vary between witnesses and
-so little is known of 
-it's biology, that it has yet
-to be officially named."
-0x16aae54@mhfdat-jp.bin,"その漆黒の姿から『黒蝕竜』と言われ
+現在調査中である。
+",
+141,"その漆黒の姿から『黒蝕竜』と言われ
 る。最近になって世界各地で存在が
 確認されるようになった。特徴的な
 翼膜を持ち、外敵を察知した際は周囲に

@@ -102,13 +102,16 @@ def main() -> None:
         applied = 0
         for csv in csvs:
             rel = csv.relative_to(trans_root.parent.parent)
-            print(f"  applying {rel}")
+            # xpath = path under translations/<lang>/, sans .csv
+            xpath = str(csv.relative_to(trans_root).with_suffix("")).replace("\\", "/")
+            print(f"  applying {rel}  (xpath={xpath})")
             result = import_from_csv(
                 input_file=str(csv),
                 output_file=str(working),
                 output_path=str(working),  # write back to the same file
                 compress=False,            # keep raw during intermediate steps
                 encrypt=False,             # single compress+encrypt pass at the end
+                xpath=xpath,
                 headers_path=str(headers_json),
             )
             if result is not None:

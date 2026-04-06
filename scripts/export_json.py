@@ -6,7 +6,7 @@ Output format:
 {
   "fr": {
     "dat/armors/head": [
-      {"location": "0x46e000@mhfdat-jp.bin", "source": "装備無し", "target": "Casque"},
+      {"index": "0", "source": "装備無し", "target": "Casque"},
       ...
     ],
     ...
@@ -34,7 +34,7 @@ def load_section(path: str) -> list[dict]:
         reader = csv.DictReader(f)
         for row in reader:
             rows.append({
-                "location": row["location"],
+                "index": row["index"],
                 "source": row["source"],
                 "target": row["target"],
             })

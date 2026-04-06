@@ -1,0 +1,299 @@
+index,source,target
+0,None,
+1,Disables wind pressure.,
+2,"モンスターの一部咆哮を
+無効にする。無効不可の
+場合怯み時間を短縮する。",
+3,攻撃力が上昇する。,
+4,防御力が上昇する。,
+5,会心率が上昇する。,
+6,火耐性値が上昇する。,
+7,水耐性値が上昇する。,
+8,氷耐性値が上昇する。,
+9,雷耐性値が上昇する。,
+10,龍耐性値が上昇する。,
+11,特定の震動を無効にする。,
+12,"毒状態にならない、または
+毒状態のダメージ進行速度
+を遅らせる。",
+13,"睡眠状態にならない、また
+は睡眠状態になった場合の
+持続時間を短くする。",
+14,"麻痺状態にならない、また
+は麻痺状態になった場合の
+持続時間を短くする。",
+15,"気絶状態にならない、また
+は気絶状態への耐性を
+強化する。",
+16,"鬼人笛を吹くようになる。
+また、鬼人笛を吹いた時の
+効果が向上する。",
+17,"回復笛を吹くようになる。
+また、回復笛を吹いた時の
+効果が向上する。",
+18,"硬化笛を吹くようになる。
+また、硬化笛を吹いた時の
+効果が向上する。",
+19,"シビレ罠を設置するように
+なる。また、シビレ罠の
+設置回数が増加する。",
+20,"ブーメラン攻撃が多段
+ヒットするようになるが、
+１回あたりの威力が下がる。",
+21,"ブーメランが大きくなり、
+ブーメラン攻撃の威力が
+上昇する。",
+22,"近接攻撃、ブーメラン攻撃、
+爆弾攻撃に麻痺属性が
+付与される。",
+23,"近接攻撃、ブーメラン攻撃、
+爆弾攻撃に毒属性が
+付与される。",
+24,"近接攻撃、ブーメラン攻撃、
+爆弾攻撃に睡眠属性が
+付与される。",
+25,爆弾攻撃の威力が上昇する。,
+26,パニックをおこさなくなる。,
+27,各耐性値が上昇する。,
+28,"近接攻撃が１度で２回
+ヒットするようになる。",
+29,"弾かれモーションを
+無効にする。",
+30,"モンスターから攻撃を
+ガードした時、周囲に
+攻撃判定を出現させる。",
+31,火属性攻撃値が上昇する。,
+32,水属性攻撃値が上昇する。,
+33,氷属性攻撃値が上昇する。,
+34,雷属性攻撃値が上昇する。,
+35,龍属性攻撃値が上昇する。,
+36,度胸が上昇する。,
+37,体力の最大値が増加する。,
+38,反射神経が上昇する。,
+39,"戦闘に復帰するまでの
+時間が短くなる。",
+40,"プレイヤーの攻撃を受けて
+ステータスが一時上昇する。
+怒り状態になることもある。",
+41,運が上昇する。,
+42,"主人プレイヤーと
+パートニャーの攻撃力と
+防御力が上昇する。",
+43,"吹く笛の効果が向上し、
+主人プレイヤーの回避性能
+と気絶耐性が上昇する。",
+44,移動速度が上昇する。,
+45,"状態異常攻撃の属性値を
+強化する。",
+46,"パートニャーが採取した
+素材の分のＣＰを
+主人プレイヤーが獲得する。",
+47,"パートニャーの採取速度が
+速くなる。また、持ち帰る
+採取素材の量が増加する。",
+48,"地図常備と自動マーキング
+の効果を主人プレイヤーに
+付与する。",
+49,"一定範囲内にいる主人に
+回復速度+2、状態異常無効
+絶倫の効果等を付与する。",
+50,"パートニャーが一定時間
+状態異常を無効にする
+笛を吹くようになる。",
+51,"パートニャーが一定時間
+スタミナの減少を無効に
+する笛を吹くようになる。",
+52,"パートニャーが一定時間
+属性攻撃を強化する
+笛を吹くようになる。",
+53,"パートニャーが一定時間
+会心率を上昇させる
+笛を吹くようになる。",
+54,"パートニャーが一定時間
+まれに受けるダメージ量を
+減らす笛を吹くようになる。",
+55,"パートニャーが吹く
+「○○の調べ」系の笛の
+効果時間が延長される。",
+56,None,
+57,Wind Pressure,
+58,Hearing Res,
+59,Attack,
+60,Defense,
+61,Affinity,
+62,Fire Res,
+63,Water Res,
+64,Ice Res,
+65,Thunder Res,
+66,Dragon Res,
+67,Quake Res,
+68,Poison,
+69,Sleep,
+70,Para,
+71,Stun,
+72,Demon Horn,
+73,Recovery horn,
+74,Armour Horn,
+75,Shock Trap,
+76,Pierce Boomerang,
+77,Huge Boomerang,
+78,Para Attack,
+79,Poison Attack,
+80,Sleep Attack,
+81,Bomb Boost,
+82,Rocksteady,
+83,All Res,
+84,Fencing,
+85,Mind's Eye,
+86,Reflect,
+87,Fire Attack,
+88,Water Attack,
+89,Ice Attack,
+90,Thunder Attack,
+91,Dragon Attack,
+92,Courage,
+93,Health,
+94,Deflection,
+95,Revival Time,
+96,Inspiration,
+97,Luck,
+98,Bond,
+99,Encourage,
+100,Movement Speed,
+101,Status Attack,
+102,Contributor,
+103,Gatherer,
+104,Explorer,
+105,Assistance,
+106,Health Horn,
+107,Stamina Horn,
+108,Elemental Horn,
+109,Affinity Horn,
+110,Protection Horn,
+111,Flute Expert,
+112,No Skill,
+113,Wind Pressure,
+114,Wind Pressure,
+115,Dragon Wind Breaker,
+116,Violent Wind Breaker,
+117,Soundproof [Small],
+118,Soundproof [Medium],
+119,Soundproof [Large],
+120,Attack [Small],
+121,Attack [Medium],
+122,Attack [Large],
+123,Attack [Very Large],
+124,Attack [Extreme],
+125,Defence [Small],
+126,Defence [Medium],
+127,Defence [Large],
+128,Defence [Very Large],
+129,Defence [Extreme],
+130,Affinity [Small],
+131,Affinity [Medium],
+132,Affinity [Large],
+133,Affinity [Very Large],
+134,Affinity [Extreme],
+135,Fire Res [Small],
+136,Fire Res [Medium],
+137,Fire Res [Large],
+138,Water Res [Small],
+139,Water Res [Medium],
+140,Water Res [Large],
+141,Ice Res [Small],
+142,Ice Res [Medium],
+143,Ice Res [Large],
+144,Thunder Res [Small],
+145,Thunder Res [Medium],
+146,Thunder Res [Large],
+147,Dragon Res [Small],
+148,Dragon Res [Medium],
+149,Dragon Res [Large],
+150,Quake Res [Small],
+151,Quake Res [Large],
+152,Poison Res [Small],
+153,Poison Res [Large],
+154,Sleep Res [Small],
+155,Sleep Res [Large],
+156,Para Res [Small],
+157,Para Res [Large],
+158,Stun Res [Small],
+159,Stun Res [Large],
+160,Demon Horn +1,
+161,Demon Horn +2,
+162,Recovery Horn +1,
+163,Recovery Horn +2,
+164,Armour Horn +1,
+165,Armour Horn +2,
+166,Trapper +1,
+167,Trapper +2,
+168,Pierce Boomerang,
+169,Huge Boomerang,
+170,Para Attack [Small],
+171,Para Attack [Medium],
+172,Para Attack [Large],
+173,Poison Attack [Small],
+174,Poison Attack [Medium],
+175,Poison Attack [Large],
+176,Sleep Attack [Small],
+177,Sleep Attack [Medium],
+178,Sleep Attack [Large],
+179,Blast Boost [Small],
+180,Blast Boost [Medium],
+181,Blast Boost [Large],
+182,Steady Nerves,
+183,All Res [Small],
+184,All Res [Medium],
+185,All Res [Large],
+186,Fencing+1,
+187,Fencing+2,
+188,Mind's Eye,
+189,Reflect +1,
+190,Reflect +2,
+191,Fire Attack Up [Small],
+192,Fire Attack Up [Large],
+193,Water Attack Up [Small],
+194,Water Attack Up [Large],
+195,Ice Attack Up [Small],
+196,Ice Attack Up [Large],
+197,Thunder Attack Up [Small],
+198,Thunder Attack Up [Large],
+199,Dragon Attack Up [Small],
+200,Dragon Attack Up [Large],
+201,Courage Up [Small],
+202,Courage Up [Large],
+203,Health Up [Small],
+204,Health Up [Medium],
+205,Health Up [Large],
+206,Health Up [Very Large],
+207,Health Up [Extreme],
+208,Deflection Up [Small],
+209,Deflection Up [Large],
+210,Revival [Small],
+211,Revival [Large],
+212,Negative Reinforcement [Small],
+213,Negative Reinforcement [Large],
+214,Luck Up [Small],
+215,Luck Up [Large],
+216,Bond,
+217,Encourage +1,
+218,Encourage +2,
+219,Movement Speed Up [Small],
+220,Movement Speed Up [Large],
+221,Status Attack Up,
+222,Contributions [Small],
+223,Contributions [Large],
+224,Gathering Boost,
+225,Gathering Master,
+226,Explorer,
+227,Assistance,
+228,Health Horn,
+229,Health Horn,
+230,Stamina Horn [Small],
+231,Stamina Horn [Large],
+232,Elemental Horn,
+233,Affinity Horn [Small],
+234,Affinity Horn [Large],
+235,Protection Horn [Small],
+236,Protection Horn [Large],
+237,Flute Expert,

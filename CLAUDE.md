@@ -9,6 +9,19 @@ Per-section CSV translations of Monster Hunter Frontier text, organized as
 [FrontierTextHandler](../../tools/FrontierTextHandler) (see sibling
 `mhfrontier/tools/FrontierTextHandler/CLAUDE.md`).
 
+## CSV format
+
+`index,source,target` where `index` is the slot number in the section's
+pointer table (FTH `--with-index` output). Indexes are stable across
+upstream string-length changes that used to shift raw byte offsets.
+
+The legacy `location,source,target` format (with `0xHEX@file.bin` keys) was
+retired in April 2026. Importing an index-keyed CSV with FTH **requires
+`--xpath`** so the importer can resolve indexes against the live pointer
+table; in this repo the xpath is implicit from the file path
+(`translations/fr/dat/armors/head.csv` → `dat/armors/head`). `build_bins.py`
+derives it automatically.
+
 ## Copyright posture on Japanese source text
 
 The original Japanese strings in the `source` column belong to Capcom, but
@@ -38,49 +51,42 @@ commit messages where they'd be indexed without context.
 
 ```
 translations/
-  fr/                 ← French (primary)
-  en/                 ← English (bootstrapped from polluted source rows)
+  fr/                 ← French (primary; currently empty post-migration)
+  en/                 ← English (~74% coverage, carried from legacy bootstrap)
 scripts/
-  validate.py         ← CSV format check
+  validate.py         ← CSV format check (header + index + uniqueness)
   stats.py            ← coverage report → stats.json
-  export_json.py      ← bundle for FrontierTextHandler --merge-json
-  migrate.py          ← import a monolithic Weblate CSV
-  cleanup.py          ← classify rows, bootstrap translations/en/
+  export_json.py      ← bundle as translations.json
+  migrate_to_index.py ← one-shot: rewrite legacy location-keyed CSVs as index-keyed
+  build_bins.py       ← apply translations and produce game-ready binaries
 ```
 
 ## Known data quality issues
 
-1. **English-as-source pollution**: the PC binary used for extraction had
-   been partially patched by an older English fan-translation, leaving English
-   in the `source` column for ~799 rows in `pac/text_*` and `jmp/menu/*`.
-   FTH's `data/mhf*-jp.bin` reference files are themselves contaminated
-   (3,188 English-source rows). **Partially fixed** by cracking the v2064 Wii U
-   dump (`mhfrontier/client/wiiu/Monster Hunter Frontier G [0005000E1014DA00]
-   (v2064)/`) with `cdecrypt`, extracting via FTH, and row-index matching
-   sections with identical row counts — see `scripts/fix_pollution.py`. This
-   recovered 130 rows across 17 sections. The remaining ~669 polluted rows
-   live in 8 sections whose row counts differ between PC and Wii U
-   (`pac/text_34`, `pac/text_40`, `dat/items/name`, etc.) and would need
-   sequence alignment or a fresh unpatched PC JP dump.
-2. **Dummy rows** (1,348 in fr/, 1,211 confirmed in `dat/items/source.csv`):
-   literal `dummy` strings embedded in the binary at fixed offsets. Confirmed
-   as **real unimplemented item-source slots**: they appear identically in
-   every PC binary extracted (contaminated and "JP" reference), so they are
-   not an extraction artifact. The game keeps a fixed-size offset table for
-   item-source descriptions and pads unused entries with `dummy`. Safe to
-   leave with empty target — they don't render in-game.
-3. **Control-code rows** (~6,643): `<join at=...>` glue and color codes — not
-   translatable on their own.
-
-Run `python scripts/cleanup.py --audit` for the current breakdown.
+1. **English-as-source pollution**: the PC `mhfdat-jp.bin` shipped with FTH
+   was partially patched by an older English fan-translation, so some
+   `pac/text_*`, `jmp/menu/*`, and `dat/items/*` rows still have English
+   text in `source` instead of Japanese. The legacy fix used row-index
+   matching against the v2064 Wii U dump (cracked with `cdecrypt`) and
+   recovered ~130 rows. The remaining ~669 rows in 8 sections with
+   mismatched row counts would need sequence alignment or a fresh
+   unpatched PC JP dump. After the index-format migration, any future fix
+   should re-extract with `--with-index` and run `migrate_to_index.py`.
+2. **Dummy rows** (1,211 in `dat/items/source`): literal `dummy` strings in
+   the binary. Confirmed as real unimplemented item-source slots — fixed-
+   size pointer table padded with `dummy` for unused entries. Safe to leave
+   with empty target; they don't render in-game.
+3. **Control-code rows** (~6,643): `<join at=...>` glue and color codes —
+   not translatable on their own.
 
 ## Workflows
 
 ```bash
 python scripts/validate.py                       # validate all CSVs
 python scripts/stats.py                          # regenerate stats.json
-python scripts/cleanup.py --audit                # classify rows
-python scripts/cleanup.py --bootstrap-en         # mirror fr/ → en/
-python scripts/migrate.py --extracted-dir <FTH-output> \
-    --translated <weblate.csv> --lang fr         # import Weblate dump
+python scripts/export_json.py                    # bundle → translations.json
+
+# One-shot legacy migration (from a fork keyed by location)
+python scripts/migrate_to_index.py \
+    --fth-output ../../tools/FrontierTextHandler/output
 ```

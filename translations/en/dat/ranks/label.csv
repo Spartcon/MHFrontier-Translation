@@ -1,18 +1,18 @@
-location,source,target
-0x18ef7c0@mhfdat-jp.bin,未設定,Not Set
-0x18ef7d4@mhfdat-jp.bin,なし,None
-0x18ef7e8@mhfdat-jp.bin,HR1以上,HR1+
-0x18ef7fc@mhfdat-jp.bin,HR2以上,HR2+
-0x18ef810@mhfdat-jp.bin,HR3以上,HR3+
-0x18ef824@mhfdat-jp.bin,HR4以上,HR4+
-0x18ef838@mhfdat-jp.bin,HR5以上,HR5+
-0x18ef84c@mhfdat-jp.bin,HR6以上,HR6+
-0x18ef860@mhfdat-jp.bin,HR7以上,HR7+
-0x18ef874@mhfdat-jp.bin,GR1以上,GR1+
-0x18ef888@mhfdat-jp.bin,GR100以上,GR100+
-0x18ef89c@mhfdat-jp.bin,GR200以上,GR200+
-0x18ef8b0@mhfdat-jp.bin,GR400以上,GR400+
-0x18ef8c4@mhfdat-jp.bin,GR600以上,GR600+
-0x18ef8d8@mhfdat-jp.bin,GR800以上,GR800+
-0x18ef8ec@mhfdat-jp.bin,GR999,
-0x18ef900@mhfdat-jp.bin,不明,Unknown
+index,source,target
+0,未設定,Not Set
+1,なし,None
+2,HR1以上,HR1+
+3,HR2以上,HR2+
+4,HR3以上,HR3+
+5,HR4以上,HR4+
+6,HR5以上,HR5+
+7,HR6以上,HR6+
+8,HR7以上,HR7+
+9,GR1以上,GR1+
+10,GR100以上,GR100+
+11,GR200以上,GR200+
+12,GR400以上,GR400+
+13,GR600以上,GR600+
+14,GR800以上,GR800+
+15,GR999,
+16,不明,Unknown

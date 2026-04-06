@@ -1,7 +1,7 @@
-location,source,target
-0x178920@mhfpac.bin,フロンティアタイプ,
-0x178930@mhfpac.bin,クラシックタイプ,
-0x178940@mhfpac.bin,テンキー有りタイプ,
-0x178950@mhfpac.bin,テンキー無しタイプ,
-0x178960@mhfpac.bin,パッド無しタイプ,
-0x178970@mhfpac.bin,チャット専用タイプ,
+index,source,target
+0,Frontier Type,
+1,Classic Type,
+2,Numpad Type,
+3,No Numpad Type,
+4,Padless Type,
+5,Chat-Only Type,

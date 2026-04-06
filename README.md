@@ -18,10 +18,11 @@ translations/
   en/                        ← English translations (contribute via PR)
     ...
 scripts/
-  migrate.py                 ← split a monolithic Weblate CSV into per-section files
+  migrate_to_index.py        ← rewrite legacy location-keyed CSVs as index-keyed
   validate.py                ← check CSV format (run locally or in CI)
   export_json.py             ← generate translations.json for downstream tools
   stats.py                   ← generate stats.json (coverage per file/language)
+  build_bins.py              ← apply translations and produce game-ready binaries
 docs/
   index.html                 ← GitHub Pages translation dashboard (fetches stats.json)
 ```
@@ -29,14 +30,22 @@ docs/
 Each CSV has three columns:
 
 ```
-location,source,target
-3328544,革兜,Casque en cuir
-3328560,軽い素材で作られた頭用装備。,Équipement de tête en matériaux légers.
+index,source,target
+0,革兜,Casque en cuir
+1,軽い素材で作られた頭用装備。,Équipement de tête en matériaux légers.
 ```
 
-- **location** — integer byte offset in the game binary (from FrontierTextHandler)
+- **index** — stable slot number in the section's pointer table (from FrontierTextHandler `--with-index`)
 - **source** — original Japanese text (do not edit)
 - **target** — your translation (fill this in)
+
+> **Format note (April 2026):** this repo migrated from raw byte offsets
+> (`location,source,target`) to stable pointer-table indexes
+> (`index,source,target`). Indexes survive upstream string-length changes
+> that used to shift every offset and break re-extracted diffs. The legacy
+> format is no longer supported; if you have a fork keyed by `location`,
+> re-run `scripts/migrate_to_index.py` against a fresh
+> `FrontierTextHandler --extract-all --with-index` output.
 
 ## Contributing
 
@@ -55,7 +64,7 @@ If your language directory doesn't exist yet, copy `translations/fr/` and rename
 
 The `source` column contains the original Japanese strings extracted from the
 game binary. **Do not edit it** — translators rely on it as the canonical
-reference, and the import tooling matches rows by `location`, not by source.
+reference, and the import tooling matches rows by `index`, not by source.
 
 These strings are Capcom's, but hosting them here is consistent with
 established community practice for Monster Hunter fan translations on GitHub:
@@ -87,10 +96,11 @@ You need [FrontierTextHandler](https://github.com/Houmgaor/FrontierTextHandler) 
 git clone https://github.com/Houmgaor/MHFrontier-Translation
 cd MHFrontier-Translation
 
-# 2. Apply one section
+# 2. Apply one section (--xpath required for index-keyed CSVs)
 python path/to/FrontierTextHandler/main.py \
     --csv-to-bin translations/fr/dat/items/name.csv \
     path/to/mhfdat.bin \
+    --xpath=dat/items/name \
     --compress --encrypt
 
 # Or apply all sections using the pre-built release JSON
@@ -98,21 +108,20 @@ python path/to/FrontierTextHandler/main.py \
 #   → FrontierTextHandler --merge-json translations-translated.json data/mhfdat.bin
 ```
 
-### I want to migrate existing Weblate translations
+### I want to migrate a legacy `location`-keyed fork
 
-If you have a monolithic CSV from a previous Weblate export, run:
+If you have a fork of this repo from before the index-format migration, run:
 
 ```bash
-# 1. Extract all sections from your game files
+# 1. Re-extract everything with the new index format
 cd path/to/FrontierTextHandler
-python main.py --extract-all          # writes to output/
+python main.py --extract-all --with-index   # writes to output/
 
-# 2. Run the migration script
+# 2. Rewrite each translations/<lang>/*.csv as index,source,target,
+#    carrying over targets where source still matches
 cd path/to/MHFrontier-Translation
-python scripts/migrate.py \
-    --extracted-dir path/to/FrontierTextHandler/output \
-    --translated    path/to/mhfdat-all-fr.csv \
-    --lang fr
+python scripts/migrate_to_index.py \
+    --fth-output path/to/FrontierTextHandler/output
 ```
 
 ### Validate locally

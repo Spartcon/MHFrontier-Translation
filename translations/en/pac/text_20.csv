@@ -1,4 +1,4 @@
-location,source,target
-0x1814c0@mhfpac.bin,"捨てる<join at=""1548740"">入れ替え<join at=""1548744"">送る",
-0x1814cc@mhfpac.bin,"‾C10捨てる<join at=""1548752"">入れ替え<join at=""1548756"">送る",
-0x1814d8@mhfpac.bin,"捨てる<join at=""1548764"">入れ替え<join at=""1548768"">‾C10送る",
+index,source,target
+0,"Discard<join at=""1578180"">Swap<join at=""1578184"">Send",
+1,"‾C10Discard<join at=""1578192"">Swap<join at=""1578196"">Send",
+2,"Discard<join at=""1578204"">Swap<join at=""1578208"">‾C10Send",

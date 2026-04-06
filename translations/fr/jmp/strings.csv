@@ -1,8 +1,8 @@
-location,source,target
-0x680@mhfjmp.bin,-----,
-0x684@mhfjmp.bin,移動メニュー,
-0x688@mhfjmp.bin,{k345} 移動先,
-0x68c@mhfjmp.bin,"簡易ジャンプ機能の移動メニューが
-新規追加されました。
-是非ご利用ください！",
-0x690@mhfjmp.bin,{i131} 移動メニュー,
+index,source,target
+0,-----,
+1,Jump Menu,
+2,{k345} Target,
+3,"A movement function was
+added to the Jump Menu.
+Use it well!",
+4,{i131} Jump Menu,

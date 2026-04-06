@@ -3,10 +3,10 @@
 Validate translation CSV files.
 
 Checks:
-  - Header is exactly: location,source,target
-  - location is non-empty (accepts integers or FrontierTextHandler format: 0x1a2b@file.bin)
+  - Header is exactly: index,source,target
+  - index is a non-negative integer
   - source is non-empty
-  - No duplicate locations within a file
+  - No duplicate indexes within a file
 
 Usage:
     python scripts/validate.py translations/fr/dat/armors/head.csv
@@ -20,12 +20,12 @@ import os
 import subprocess
 import sys
 
-REQUIRED_HEADER = ["location", "source", "target"]
+REQUIRED_HEADER = ["index", "source", "target"]
 
 
 def validate_file(path: str) -> list[str]:
     errors = []
-    seen_locations: set[str] = set()
+    seen_indexes: set[str] = set()
 
     try:
         with open(path, encoding="utf-8", newline="") as f:
@@ -43,23 +43,21 @@ def validate_file(path: str) -> list[str]:
                     errors.append(f"{path}:{lineno}: expected 3 columns, got {len(row)}")
                     continue
 
-                loc, source, target = row
+                idx, source, target = row
 
-                if not loc.strip():
-                    errors.append(f"{path}:{lineno}: empty location")
+                if not idx.strip():
+                    errors.append(f"{path}:{lineno}: empty index")
                     continue
 
-                # Accept plain integers or FrontierTextHandler hex format: 0x1a2b@file.bin
-                if not (loc.lstrip("-").isdigit() or
-                        (loc.startswith("0x") and "@" in loc)):
-                    errors.append(f"{path}:{lineno}: invalid location format: {loc!r}")
+                if not idx.isdigit():
+                    errors.append(f"{path}:{lineno}: invalid index format: {idx!r}")
 
-                if not source.strip():
-                    errors.append(f"{path}:{lineno}: empty source (location {loc})")
+                # empty source is allowed: some pointer slots are intentionally
+                # empty placeholders in the binary
 
-                if loc in seen_locations:
-                    errors.append(f"{path}:{lineno}: duplicate location {loc!r}")
-                seen_locations.add(loc)
+                if idx in seen_indexes:
+                    errors.append(f"{path}:{lineno}: duplicate index {idx!r}")
+                seen_indexes.add(idx)
 
     except UnicodeDecodeError as e:
         errors.append(f"{path}: encoding error (must be UTF-8): {e}")
