@@ -23,11 +23,16 @@ jobs:
       - name: Validate all CSVs
         run: python scripts/validate.py translations/
 
-      - name: Export JSON (all strings)
+      - name: Export JSON (full, all languages — for inspection)
         run: python scripts/export_json.py --out translations.json
 
-      - name: Export JSON (translated only)
-        run: python scripts/export_json.py --out translations-translated.json --only-translated
+      - name: Export per-language launcher payloads (translated, no source, gzipped)
+        run: |
+          for lang in fr en; do
+            python scripts/export_json.py \
+              --out "translations-${lang}.json" \
+              --lang "$lang" --only-translated --no-source --gzip
+          done
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
@@ -35,7 +40,8 @@ jobs:
           name: translations
           path: |
             translations.json
-            translations-translated.json
+            translations-fr.json.gz
+            translations-en.json.gz
 
       - name: Create rolling release (main pushes)
         if: github.ref_type == 'branch'
@@ -46,20 +52,27 @@ jobs:
           body: |
             Auto-generated translation files, updated on every push to `main`.
 
-            - `translations.json` — all strings (source + target, 42 MB)
-            - `translations-translated.json` — translated strings only (small)
+            **Launcher payloads (small, gzipped, no `source` field):**
+            - `translations-fr.json.gz` — French, translated rows only
+            - `translations-en.json.gz` — English, translated rows only
+
+            **Full export (for inspection / tooling):**
+            - `translations.json` — all strings, all languages, with source
 
             These files contain **only translated text** — no original game data.
 
             ### Apply with mhf-outpost + FrontierTextHandler
 
             ```bash
-            # 1. Download the JSON into your game directory
+            # 1. Download the per-language gzipped payload into your game dir
             mhf-outpost translate --path ~/mhf --lang fr
 
-            # 2. Apply to your game files (requires FrontierTextHandler ≥ 1.5.0)
+            # 2. Decompress (FTH currently expects plain JSON)
+            gunzip ~/mhf/translations-fr.json.gz
+
+            # 3. Apply to your game files (requires FrontierTextHandler ≥ 1.5.0)
             cd FrontierTextHandler
-            python main.py ~/mhf/translations-translated.json \
+            python main.py ~/mhf/translations-fr.json \
               --apply-translations --lang fr --game-dir ~/mhf \
               --compress --encrypt
             ```
@@ -67,7 +80,8 @@ jobs:
             Or use `scripts/build_bins.py` locally for a full rebuild from CSVs.
           files: |
             translations.json
-            translations-translated.json
+            translations-fr.json.gz
+            translations-en.json.gz
           make_latest: true
 
       - name: Create tagged release (v* tags)
@@ -80,11 +94,12 @@ jobs:
           body: |
             Immutable tagged release built from `${{ github.sha }}`.
 
-            - `translations.json` — all strings (source + target)
-            - `translations-translated.json` — translated strings only
+            - `translations-fr.json.gz` / `translations-en.json.gz` — per-language launcher payloads (translated rows only, no source, gzipped)
+            - `translations.json` — full export with source, all languages
 
             Requires [FrontierTextHandler](https://github.com/Houmgaor/FrontierTextHandler) ≥ 1.5.0 (index-keyed CSV format).
           files: |
             translations.json
-            translations-translated.json
+            translations-fr.json.gz
+            translations-en.json.gz
           make_latest: false

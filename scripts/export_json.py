@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Export all translation CSVs to a single JSON file for downstream consumers.
+Export translation CSVs to JSON for downstream consumers.
 
 Output format:
 {
@@ -13,35 +13,52 @@ Output format:
   }
 }
 
-With --only-translated, only entries with a non-empty target are included.
-Sections with no qualifying entries are omitted entirely.
+Flags:
+  --only-translated   Omit rows where target is empty (sections with no
+                      qualifying rows are dropped entirely).
+  --no-source         Drop the ``source`` field from each row. The
+                      FrontierTextHandler importer resolves rows by
+                      ``index``, so launchers don't need it. Combined with
+                      ``--only-translated --gzip``, this is the smallest
+                      payload suitable for ``mhf-outpost``.
+  --gzip              Compress the output with gzip. The output filename
+                      gets a ``.gz`` suffix appended automatically.
+  --lang CODE         Export a single language (default: all).
 
 Usage:
     python scripts/export_json.py --out translations.json
-    python scripts/export_json.py --out translations.json --lang fr
-    python scripts/export_json.py --out translations.json --only-translated
+    python scripts/export_json.py --out translations-fr.json \\
+        --lang fr --only-translated --no-source --gzip
 """
 
 import argparse
 import csv
+import gzip
 import json
 import os
+import sys
+
+csv.field_size_limit(sys.maxsize)
 
 
-def load_section(path: str) -> list[dict]:
+def load_section(path: str, *, drop_source: bool) -> list[dict]:
     rows = []
     with open(path, encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            rows.append({
-                "index": row["index"],
-                "source": row["source"],
-                "target": row["target"],
-            })
+            entry = {"index": row["index"], "target": row["target"]}
+            if not drop_source:
+                entry["source"] = row["source"]
+            rows.append(entry)
     return rows
 
 
-def build_output(translations_dir: str, lang_filter: str | None, only_translated: bool) -> dict:
+def build_output(
+    translations_dir: str,
+    lang_filter: str | None,
+    only_translated: bool,
+    drop_source: bool,
+) -> dict:
     result = {}
     if not os.path.isdir(translations_dir):
         return result
@@ -60,7 +77,7 @@ def build_output(translations_dir: str, lang_filter: str | None, only_translated
                     continue
                 full_path = os.path.join(root, fname)
                 xpath = os.path.relpath(full_path, lang_dir).replace(os.sep, "/")[:-4]
-                rows = load_section(full_path)
+                rows = load_section(full_path, drop_source=drop_source)
                 if only_translated:
                     rows = [r for r in rows if r["target"]]
                 if rows:
@@ -72,6 +89,19 @@ def build_output(translations_dir: str, lang_filter: str | None, only_translated
     return result
 
 
+def write_json(data: dict, path: str, *, compress: bool) -> str:
+    payload = json.dumps(data, ensure_ascii=False, indent=2).encode("utf-8")
+    if compress:
+        if not path.endswith(".gz"):
+            path += ".gz"
+        with gzip.open(path, "wb", compresslevel=9) as f:
+            f.write(payload)
+    else:
+        with open(path, "wb") as f:
+            f.write(payload)
+    return path
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--translations-dir", default="translations",
@@ -81,9 +111,18 @@ def main():
     parser.add_argument("--lang", help="Only export a specific language (e.g. fr)")
     parser.add_argument("--only-translated", action="store_true",
                         help="Omit strings where target is empty")
+    parser.add_argument("--no-source", action="store_true",
+                        help="Drop the source field (smaller payload for launchers)")
+    parser.add_argument("--gzip", action="store_true",
+                        help="Compress output with gzip; appends .gz to --out")
     args = parser.parse_args()
 
-    data = build_output(args.translations_dir, args.lang, args.only_translated)
+    data = build_output(
+        args.translations_dir,
+        args.lang,
+        args.only_translated,
+        args.no_source,
+    )
 
     total = sum(len(rows) for lang in data.values() for rows in lang.values())
     translated = sum(
@@ -91,10 +130,12 @@ def main():
         for lang in data.values() for rows in lang.values()
     )
 
-    with open(args.out, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-    print(f"Wrote {args.out}: {translated}/{total} strings translated across {len(data)} language(s)")
+    out_path = write_json(data, args.out, compress=args.gzip)
+    size = os.path.getsize(out_path)
+    print(
+        f"Wrote {out_path} ({size:,} bytes): {translated}/{total} strings "
+        f"translated across {len(data)} language(s)"
+    )
 
 
 if __name__ == "__main__":
