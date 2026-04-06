@@ -43,13 +43,25 @@ scripts/
 
 ## Known data quality issues
 
-1. **English-as-source pollution** (~799 rows, mostly `pac/text_*` and
-   `jmp/menu/*`): the binary used for extraction had been partially patched by
-   an older English fan-translation. The "source" for those offsets is English,
-   not Japanese. Re-extract from a clean unpatched JP `mhfdat.bin` to fix.
-2. **Dummy rows** (~1,348, mostly `dat/items/source.csv`): literal `dummy`
-   strings in the binary. Believed to be unused/unimplemented item slots.
-   Cross-reference with the untranslated Wii U build before deciding to drop.
+1. **English-as-source pollution**: the PC binary used for extraction had
+   been partially patched by an older English fan-translation, leaving English
+   in the `source` column for ~799 rows in `pac/text_*` and `jmp/menu/*`.
+   FTH's `data/mhf*-jp.bin` reference files are themselves contaminated
+   (3,188 English-source rows). **Partially fixed** by cracking the v2064 Wii U
+   dump (`mhfrontier/client/wiiu/Monster Hunter Frontier G [0005000E1014DA00]
+   (v2064)/`) with `cdecrypt`, extracting via FTH, and row-index matching
+   sections with identical row counts — see `scripts/fix_pollution.py`. This
+   recovered 130 rows across 17 sections. The remaining ~669 polluted rows
+   live in 8 sections whose row counts differ between PC and Wii U
+   (`pac/text_34`, `pac/text_40`, `dat/items/name`, etc.) and would need
+   sequence alignment or a fresh unpatched PC JP dump.
+2. **Dummy rows** (1,348 in fr/, 1,211 confirmed in `dat/items/source.csv`):
+   literal `dummy` strings embedded in the binary at fixed offsets. Confirmed
+   as **real unimplemented item-source slots**: they appear identically in
+   every PC binary extracted (contaminated and "JP" reference), so they are
+   not an extraction artifact. The game keeps a fixed-size offset table for
+   item-source descriptions and pads unused entries with `dummy`. Safe to
+   leave with empty target — they don't render in-game.
 3. **Control-code rows** (~6,643): `<join at=...>` glue and color codes — not
    translatable on their own.
 

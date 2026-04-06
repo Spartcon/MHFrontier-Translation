@@ -1,41 +1,45 @@
 location,source,target
-0x7d4@mhfjmp.bin,"Jump to another Land
-in the same World.",
-0x80c@mhfjmp.bin,Jump to another Mezeporta World.,
-0x844@mhfjmp.bin,Jump to Quest Board.,
-0x87c@mhfjmp.bin,Jump to Bounty Board.,
-0x8b4@mhfjmp.bin,Jump to your Clan Hall.,
-0x8ec@mhfjmp.bin,Jump to House.,
-0x924@mhfjmp.bin,"Jump to Workshop.
-（Cannot be used during Mission）",
-0x95c@mhfjmp.bin,"Jump to Harisen Felyne (Workshop).
-（Cannot be used during Mission）",
-0x994@mhfjmp.bin,Jump to Mezeporta Square.,
-0x9cc@mhfjmp.bin,"Jump to Pallone Caravan.
-（Unavailable in Novice World）
-（Unlocked at HR2）",
-0xa04@mhfjmp.bin,"Jump to Gallery.
-（Unavailable in Novice World）",
-0xa3c@mhfjmp.bin,Jump to Garden.,
-0xa74@mhfjmp.bin,"Jump to Tore.
-（Unlocked at HR4）",
-0xaac@mhfjmp.bin,"Jump to Support.
-（Unavailable on another's
-　Facilities）",
-0xae4@mhfjmp.bin,"Jump to Missions.
-（Unlocked at HR5）",
-0xb1c@mhfjmp.bin,"Jump to Public Bar.
-（Public Bar―My Facilities Only）",
-0xb54@mhfjmp.bin,"Jump to Exchange Bar.
-（Exchange Bar―My Facilities Only）",
-0xb8c@mhfjmp.bin,"Jump to Public Bar Entrance.
-（Tavern World Only）",
-0xbc4@mhfjmp.bin,"Jump to Exchange Bar Entrance.
-（Cities World Only）",
-0xbfc@mhfjmp.bin,Jump to Quest Board.,
-0xc34@mhfjmp.bin,Jump to Boss Kiel.,
-0xc6c@mhfjmp.bin,"Jump to another Mezeporta Fest
-in the same World.",
-0xca4@mhfjmp.bin,"Jump to another Land
-in the same World.",
-0xcdc@mhfjmp.bin,Jump to another Mezeporta World.,
+0x7d4@mhfjmp.bin,"同じ区の他のメゼポルタ広場に
+移動します。",
+0x80c@mhfjmp.bin,別の区のメゼポルタ広場に移動します。,
+0x844@mhfjmp.bin,クエストボードの手前に移動します。,
+0x87c@mhfjmp.bin,求人板の手前に移動します。,
+0x8b4@mhfjmp.bin,"自分の所属している猟団の
+猟団部屋へ移動します。",
+0x8ec@mhfjmp.bin,マイハウスへ移動します。,
+0x924@mhfjmp.bin,"武具工房へ移動します。
+（ミッション中は使用できません）",
+0x95c@mhfjmp.bin,"くじを引きに武具工房へ移動します。
+（ミッション中は使用できません）",
+0x994@mhfjmp.bin,メゼポルタ広場に移動します。,
+0x9cc@mhfjmp.bin,"パローネ＝キャラバンに移動します。
+（求人区では使用不可）
+（HR2以上から使用可能）",
+0xa04@mhfjmp.bin,"マイギャラリーに移動します。
+（入門区では使用不可）",
+0xa3c@mhfjmp.bin,マイガーデンに移動します。,
+0xa74@mhfjmp.bin,"マイトレに移動します。
+（HR4から使用可能）",
+0xaac@mhfjmp.bin,"マイサポートに移動します。
+（他人のマイシリーズ入室中は
+　使用不可）",
+0xae4@mhfjmp.bin,"マイミッションに移動します。
+（HR5から使用可能）",
+0xb1c@mhfjmp.bin,"大衆酒場に移動します。
+（大衆酒場からマイシリーズに入った
+　場合のみ使用可能）",
+0xb54@mhfjmp.bin,"交流酒場に移動します。
+（交流酒場からマイシリーズに入った
+　場合のみ使用可能）",
+0xb8c@mhfjmp.bin,"大衆酒場の入口に移動します。
+（求人区のみ使用可能）",
+0xbc4@mhfjmp.bin,"交流酒場の入口に移動します。
+（交流区のみ使用可能）",
+0xbfc@mhfjmp.bin,クエストボードの手前に移動します。,
+0xc34@mhfjmp.bin,カシラのキエルの手前に移動します。,
+0xc6c@mhfjmp.bin,"猟団部屋に移動します。
+（猟団部屋からマイシリーズに入った
+　場合のみ使用可能）",
+0xca4@mhfjmp.bin,"同じ区の他のメゼポルタフェスタ広場に
+移動します。",
+0xcdc@mhfjmp.bin,別の区のメゼポルタ広場に移動します。,

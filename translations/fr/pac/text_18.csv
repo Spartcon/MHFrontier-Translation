@@ -1,7 +1,7 @@
 location,source,target
-0x181620@mhfpac.bin,"Discard<join at=""1578532"">Give<join at=""1578536"">Swap<join at=""1578540"">Bind F Key",
-0x181630@mhfpac.bin,"Discard<join at=""1578548"">‾C10Give<join at=""1578552"">‾C00Swap<join at=""1578556"">Bind F Key",
-0x181640@mhfpac.bin,"‾C10Discard<join at=""1578564"">Give<join at=""1578568"">Swap<join at=""1578572"">Bind F Key",
-0x181650@mhfpac.bin,"Discard<join at=""1578580"">Give<join at=""1578584"">Swap<join at=""1578588"">‾C10F Key Bind",
-0x181660@mhfpac.bin,"Discard<join at=""1578596"">‾C10Give<join at=""1578600"">‾C00Swap<join at=""1578604"">‾C10F Key Bind",
-0x181670@mhfpac.bin,"‾C10Discard<join at=""1578612"">Give<join at=""1578616"">Swap<join at=""1578620"">‾C10F Key Bind",
+0x181620@mhfpac.bin,"捨てる<join at=""1549092"">渡す<join at=""1549096"">入れ替え<join at=""1549100"">Ｆキー登録",
+0x181630@mhfpac.bin,"捨てる<join at=""1549108"">‾C10渡す<join at=""1549112"">‾C00入れ替え<join at=""1549116"">Ｆキー登録",
+0x181640@mhfpac.bin,"‾C10捨てる<join at=""1549124"">渡す<join at=""1549128"">入れ替え<join at=""1549132"">Ｆキー登録",
+0x181650@mhfpac.bin,"捨てる<join at=""1549140"">渡す<join at=""1549144"">入れ替え<join at=""1549148"">‾C10Ｆキー登録",
+0x181660@mhfpac.bin,"捨てる<join at=""1549156"">‾C10渡す<join at=""1549160"">‾C00入れ替え<join at=""1549164"">‾C10Ｆキー登録",
+0x181670@mhfpac.bin,"‾C10捨てる<join at=""1549172"">渡す<join at=""1549176"">入れ替え<join at=""1549180"">‾C10Ｆキー登録",
