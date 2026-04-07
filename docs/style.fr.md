@@ -24,38 +24,37 @@ S'applique à tout `target` dans `translations/fr/**/*.csv`.
   descriptions longues si la place le permet.
 - Majuscules accentuées : **À É È** sont OK et préférables.
 
-### 2bis. Encodage Shift-JIS — pièges pour les accents
+### 2bis. Accents : règle pour ce repo, et limitation actuelle du jeu
 
-Les binaires du jeu sont encodés en **Shift-JIS** (CP932), pas en
-UTF-8. La pipeline FrontierTextHandler gère la conversion, mais
-plusieurs pièges subsistent côté contributeur :
+**Règle pour les CSV de ce repo : écrire le français avec ses
+accents normaux** (é è ê à â ô ù û î ç œ « »). Les CSV sont la
+**source de vérité** et doivent rester en français propre, lisible,
+et indépendant des limitations actuelles du moteur. Toujours éditer
+en **UTF-8** (par défaut sur VS Code, Python, etc. ; **éviter
+Excel** qui corrompt silencieusement les accents).
 
-- **Tous les caractères latins accentués FR existent en Shift-JIS**
-  (é è ê à â ô ù û î ç œ Œ æ « »), encodés sur 2 octets via le
-  bloc « extensions latines » de CP932. Les utiliser librement.
-- **MAIS** : si une chaîne FR transite par un outil intermédiaire
-  qui suppose de l'ASCII ou du Latin-1 (un éditeur mal configuré,
-  un script `sed`, un copier-coller via un terminal en mauvais
-  locale), les octets accentués peuvent être réinterprétés et
-  produire du **mojibake** (`Ã©` au lieu de `é`, `â€¦` au lieu de
-  `…`). Une fois injecté dans le `.bin`, c'est invisible jusqu'au
-  test en jeu.
-- **Toujours éditer les CSV en UTF-8** (paramètre par défaut de
-  Python, VS Code, etc.). Les scripts du repo lisent et écrivent
-  en UTF-8 ; la conversion vers Shift-JIS se fait **uniquement**
-  au moment de `build_bins.py` / `--csv-to-bin`.
-- **Ne jamais ouvrir un CSV avec Excel** sans passer par
-  l'assistant d'import (Excel devine mal l'encodage et corrompt
-  silencieusement les accents au prochain enregistrement).
-- **Caractères à éviter** car absents de Shift-JIS ou rendus
-  différemment : tirets cadratins fantaisie (`—` est OK, `⸺`
-  ne l'est pas), guillemets « courbes » anglais `“ ”` (préférer
-  `« »`), apostrophe typographique `'` (préférer `'` droite —
-  voir plus haut), espaces fines/insécables Unicode exotiques.
-- En cas de doute, après `build_bins.py`, **`grep` le binaire
-  produit pour la chaîne FR** (en Shift-JIS via
-  `iconv -f utf-8 -t shift_jis`) et vérifier qu'elle apparaît
-  sans corruption.
+**Limitation à connaître** (ne change pas la règle ci-dessus) :
+au moment où ces lignes sont écrites, le jeu utilise des **fontes
+custom** qui n'embarquent pas les glyphes latins accentués FR — les
+accents écrits tels quels dans le binaire s'affichent en glyphe
+manquant ou cassé. Cette limitation est **côté outils en aval**
+(FrontierTextHandler pour l'import binaire, mhf-outpost pour les
+payloads du launcher) et n'a pas à polluer ce repo. Deux pistes
+pour la lever, à traiter dans les projets concernés et non ici :
+
+1. **Pliage ASCII au moment de l'application** (court terme) :
+   l'outil qui injecte les CSV dans le `.bin` rabat les caractères
+   accentués sur leur équivalent ASCII (`é`→`e`, `œ`→`oe`, `«`→`"`,
+   etc.) avant l'écriture. C'est lossy mais désactivable.
+2. **Extension des fontes custom** (cible long terme) : ajouter les
+   glyphes manquants à la fonte du jeu, ce qui rend le pliage
+   inutile. Demande du travail de RE sur le format de fonte.
+
+En attendant, **le contributeur traduction n'a rien à faire de
+spécial** : il écrit du français correct dans le CSV, et c'est aux
+outils en aval de décider quoi en faire au moment du build. Si ton
+test en jeu montre des glyphes cassés, **c'est un bug à remonter
+sur l'outil de build, pas une raison d'éditer le CSV.**
 
 ## 3. Longueur & contraintes UI
 
