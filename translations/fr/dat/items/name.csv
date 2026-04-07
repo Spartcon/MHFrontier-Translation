@@ -5,114 +5,114 @@ index,source,target
 3,調合書③中級編,Tome de combos 3
 4,調合書④上級編,Tome de combos 4
 5,調合書⑤達人編,Tome de combos 5
-6,調合書Ｇ・錬金編, Tome de combos G
-7,回復薬,
-8,回復薬グレート,Mega potion
+6,調合書Ｇ・錬金編,Tome de combos G
+7,回復薬,Potion
+8,回復薬グレート,Méga potion
 9,栄養剤,Nutriments
-10,栄養剤グレート,Mega nutriments
-11,解毒薬,
+10,栄養剤グレート,Méga nutriments
+11,解毒薬,Antidote
 12,活力剤,Immunisateur
-13,強走薬,Jus de vitalite
-14,強走薬グレート,Mega jus
-15,鬼人薬,Potion du demon
-16,鬼人薬グレート,Potion du demon+
-17,怪力の丸薬,Philtre du diable
-18,硬化薬,Potion de pierre
-19,硬化薬グレート,Potion de pierre+
-20,忍耐の丸薬,Philtre de pierre
-21,クーラードリンク,Boisson fraiche
+13,強走薬,Boisson tonique
+14,強走薬グレート,Méga boisson tonique
+15,鬼人薬,Drogue du démon
+16,鬼人薬グレート,Méga drogue du démon
+17,怪力の丸薬,Pilule de force
+18,硬化薬,Pilule armure
+19,硬化薬グレート,Méga pilule armure
+20,忍耐の丸薬,Pilule d'endurance
+21,クーラードリンク,Boisson fraîche
 22,ホットドリンク,Boisson chaude
-23,千里眼の薬,Serum psy
+23,千里眼の薬,Sérum psychique
 24,モンスターの体液,Fluide de monstre
 25,モンスターの濃汁,Bouillon de monstre
-26,漢方薬,Herbe medicinale
-27,秘薬,Potion secrete
+26,漢方薬,Remède d'herbes
+27,秘薬,Potion secrète
 28,いにしえの秘薬,Potion ancestrale
 29,増強剤,Catalyseur
-30,元気ドリンコ,Boisson energisante
+30,元気ドリンコ,Boisson d'énergie
 31,（ダミー）,
-32,爆薬,Poudre a canon
+32,爆薬,Poudre à canon
 33,生命の粉,Cristaux de vie
 34,生命の粉塵,Poudre de vie
-35,力の護符,Talisman force
-36,力の爪,Griffe force
-37,守りの護符,Talisman acier
-38,守りの爪,Griffe acier
+35,力の護符,Charme de force
+36,力の爪,Talon de force
+37,守りの護符,Charme d'armure
+38,守りの爪,Talon d'armure
 39,捕獲用麻酔薬,Tranquillisant
 40,生肉,Viande crue
-41,調理肉,Viande cuite
-42,スパイシー生肉,Viande epicee
-43,クール生肉,Viande fraiche
-44,毒生肉,Viande empoisonnee
+41,調理肉,Viande huilée
+42,スパイシー生肉,Viande épicée
+43,クール生肉,Viande crue glacée
+44,毒生肉,Viande empoisonnée
 45,シビレ生肉,Viande paralysante
-46,眠り生肉,Viande somnifere
+46,眠り生肉,Viande somnifère
 47,生焼け肉,Steak saignant
-48,こんがり肉,Steak a point
+48,こんがり肉,Steak bien cuit
 49,こんがり肉Ｇ,Steak gourmet
-50,コゲ肉,Viande brulee
-51,ホットミート,Viande chaude
-52,ホットミートＧ,Viande chaude G
-53,クーラーミート,Viande froide
-54,クーラーミートＧ,Viande froide G
+50,コゲ肉,Viande brûlée
+51,ホットミート,Viande brûlante
+52,ホットミートＧ,Viande brûlante+
+53,クーラーミート,Viande glacée
+54,クーラーミートＧ,Viande glacée+
 55,解毒ミート,Viande antidote
-56,解毒ミートＧ,Viande antidote G
+56,解毒ミートＧ,Viande antidote+
 57,生焼け魚,Poisson saignant
-58,こんがり魚,Poisson a point
-59,こんがり魚ドス,Poisson a point+
+58,こんがり魚,Poisson bien cuit
+59,こんがり魚ドス,Poisson bien cuit Dos
 60,こんがり魚Ｇ,Poisson gourmet
-61,こんがり魚ドスＧ,Poisson gourmet+
-62,コゲ魚,Poisson brule
+61,こんがり魚ドスＧ,Poisson gourmet Dos
+62,コゲ魚,Poisson brûlé
 63,（ダミー）,
-64,ブーメラン,
-65,投げナイフ,Cteau de lancer
-66,毒投げナイフ,Cteau poison
-67,眠り投げナイフ,Cteau sommeil
-68,麻痺投げナイフ,Cteau para
-69,捕獲用麻酔ナイフ,Cteau tranq
+64,ブーメラン,Boomerang
+65,投げナイフ,Couteau de lancer
+66,毒投げナイフ,Couteau poison
+67,眠り投げナイフ,Couteau sommeil
+68,麻痺投げナイフ,Couteau paralysie
+69,捕獲用麻酔ナイフ,Couteau tranq.
 70,素材玉,Comp. bombe
-71,ペイントボール,Marqueur
-72,閃光玉,Bombe flash
+71,ペイントボール,Bombe peinture
+72,閃光玉,Bombe éclair
 73,音爆弾,Bombe sonique
-74,モンスターのフン,Merde
-75,こやし玉,Bombe a merde
-76,けむり玉,Fumigene
-77,毒けむり玉,Bombe poison
-78,モドリ玉,Transporteur
-79,消臭玉,
-80,捕獲用麻酔玉,Bombe tranq
-81,クモの巣,Toile
+74,モンスターのフン,Excrément
+75,こやし玉,Bombe puante
+76,けむり玉,Bombe fumigène
+77,毒けむり玉,Bombe fum. poison
+78,モドリ玉,Sphère de retour
+79,消臭玉,Désodorisant
+80,捕獲用麻酔玉,Bombe tranq.
+81,クモの巣,Toile d'araignée
 82,ネット,Filet
-83,トラップツール,Comp. piege
-84,落とし穴,Piege a fosse
-85,シビレ罠,Piege a choc
+83,トラップツール,Comp. piège
+84,落とし穴,Piège à fosse
+85,シビレ罠,Piège à choc
 86,爆雷針,Paratonnerre
 87,（ダミー）,
-88,タルの蓋,Couvercle baril
+88,タルの蓋,Couvercle de baril
 89,小タル,Petit baril
 90,大タル,Grand baril
-91,小タル爆弾,Ptt bombe baril
-92,小タル爆弾Ｇ,Ptt bombe baril+
-93,大タル爆弾,Grd bombe baril
-94,大タル爆弾Ｇ,grd bombe baril+
-95,打上げタル爆弾,Bombe rebond.
-96,打上げタル爆弾Ｇ,Bombe rebond.+
-97,対巨龍爆弾,Bombe anti-drag.
-98,イベント爆弾,Bombe evenement.
+91,小タル爆弾,Bombe baril P
+92,小タル爆弾Ｇ,Bombe baril P+
+93,大タル爆弾,Bombe baril G
+94,大タル爆弾Ｇ,Bombe baril G+
+95,打上げタル爆弾,Bombe rebond
+96,打上げタル爆弾Ｇ,Bombe rebond+
+97,対巨龍爆弾,Bombe antidragon
+98,イベント爆弾,Bombe événement
 99,カラの実,Baie-coque
-100,カラ骨【小】,Coque d'os [P]
-101,カラ骨【大】,Coque d'os [G]
-102,LV1 通常弾,Normal Nv1
-103,LV2 通常弾,Normal Nv2
-104,LV3 通常弾,Normal Nv3
-105,LV1 貫通弾,Percant Nv1
-106,LV2 貫通弾,Percant Nv2
-107,LV3 貫通弾,Percant Nv3
+100,カラ骨【小】,Os creux [P]
+101,カラ骨【大】,Os creux [G]
+102,LV1 通常弾,Norm. Nv1
+103,LV2 通常弾,Norm. Nv2
+104,LV3 通常弾,Norm. Nv3
+105,LV1 貫通弾,Perç. Nv1
+106,LV2 貫通弾,Perç. Nv2
+107,LV3 貫通弾,Perç. Nv3
 108,LV1 散弾,Plomb Nv1
 109,LV2 散弾,Plomb Nv2
 110,LV3 散弾,Plomb Nv3
-111,LV1 徹甲榴弾,Antiblind. Nv1
-112,LV2 徹甲榴弾,Antiblind. Nv2
-113,LV3 徹甲榴弾,Antiblind. Nv3
+111,LV1 徹甲榴弾,Antibl. Nv1
+112,LV2 徹甲榴弾,Antibl. Nv2
+113,LV3 徹甲榴弾,Antibl. Nv3
 114,LV1 拡散弾,Frag Nv1
 115,LV2 拡散弾,Frag Nv2
 116,LV3 拡散弾,Frag Nv3
@@ -123,38 +123,38 @@ index,source,target
 121,滅龍弾,Mun. Dragon
 122,LV1 回復弾,Mun. Soin Nv1
 123,LV2 回復弾,Mun. Soin Nv2
-124,LV1 毒弾,Mun. Pois Nv1
-125,LV2 毒弾,Mun. Pois Nv2
+124,LV1 毒弾,Mun. Pois. Nv1
+125,LV2 毒弾,Mun. Pois. Nv2
 126,LV1 麻痺弾,Mun. Para Nv1
 127,LV2 麻痺弾,Mun. Para Nv2
-128,LV1 睡眠弾,Mun. Som Nv1
-129,LV2 睡眠弾,Mun. Som Nv2
-130,捕獲用麻酔弾,Mun. Tranq
-131,ペイント弾,Mun. Marq
-132,鬼人弾,Mun. Demon
-133,硬化弾,Mun. Pierre
+128,LV1 睡眠弾,Mun. Som. Nv1
+129,LV2 睡眠弾,Mun. Som. Nv2
+130,捕獲用麻酔弾,Mun. tranq.
+131,ペイント弾,Mun. marq.
+132,鬼人弾,Mun. démon
+133,硬化弾,Mun. armure
 134,（ダミー）,
 135,ビン無し,Aucun enduit
 136,空きビン,Bouteille vide
-137,強撃ビン,Enduit Force
-138,毒ビン,Enduit Poison
-139,麻痺ビン,Enduit Para
-140,睡眠ビン,Enduit Sommeil
+137,強撃ビン,Enduit force
+138,毒ビン,Enduit poison
+139,麻痺ビン,Enduit para
+140,睡眠ビン,Enduit sommeil
 141,（ダミー）,
 142,釣りバッタ,Criquet
-143,釣りミミズ,Ver 
+143,釣りミミズ,Ver de terre
 144,釣りホタル,Luciole
 145,釣りカエル,Grenouille
-146,マグダンゴ,Appat thon
-147,アロダンゴ,Appat arrowana
-148,黄金ダンゴ,Appat poisson d'or
-149,釣りフィーバエ,Mega-mouche
+146,マグダンゴ,Appât thon
+147,アロダンゴ,Appât arowana
+148,黄金ダンゴ,Appât poisson d'or
+149,釣りフィーバエ,Méga-mouche
 150,ボロピッケル,Vieille pioche
 151,ピッケル,Pioche en fer
-152,ピッケルグレート,Mega pioche
+152,ピッケルグレート,Méga pioche
 153,ボロ虫あみ,Vieux filinsecte
 154,虫あみ,Filinsecte
-155,虫あみグレート,Mega filinsecte
+155,虫あみグレート,Méga filinsecte
 156,肉焼きセット,Broche BBQ
 157,高速肉焼きセット,Broche BBQ rpd
 158,男の肉焼きセット,Broche BBQ Homme
@@ -173,12 +173,12 @@ index,source,target
 171,（ダミー）,
 172,砥石,Aiguisoir
 173,双眼鏡,Jumelles
-174,もえないゴミ,Dechet
+174,もえないゴミ,Déchet
 175,角笛,
-176,回復笛,Flute de vie
-177,解毒笛,Flute antidote
-178,鬼人笛,Flute du demon
-179,硬化笛,Flute de pierre
+176,回復笛,Flûte de vie
+177,解毒笛,Flûte antidote
+178,鬼人笛,Flûte du demon
+179,硬化笛,Flûte de pierre
 180,ハチミツ,Miel
 181,太陽草,Herbe du jour
 182,落陽草,Herbe du soir
@@ -187,21 +187,21 @@ index,source,target
 185,火薬草,Herbe de feu
 186,ツタの葉,Lierre
 187,ネムリ草,Herbe sommeil
-188,ネンチャク草,Plante a seve
+188,ネンチャク草,Plante à sève
 189,マタタビ,
 190,サボテンの花,Fleur de cactus
-191,百花サボテン,Cactus a 100 fleurs
+191,百花サボテン,Cactus à 100 fleurs
 192,トウガラシ,Piment fort
-193,特産キノコ,Champi special
+193,特産キノコ,Champi spécial
 194,厳選キノコ,Champi parfait
 195,熟成キノコ,Champi ancien
 196,アオキノコ,Champi bleu
 197,ニトロダケ,Champinitro
 198,マヒダケ,Champipara
-199,毒テングダケ,Champi veneneux
+199,毒テングダケ,Champi véneneux
 200,ドキドキノコ,Champexciteur
 201,マンドラゴラ,Mandragore
-202,特産キノコキムチ,Champi epice
+202,特産キノコキムチ,Champi épice
 203,ゲキレツ毒テング,Trompette poison
 204,七色たんぽぽ,Dandelion prisme
 205,ペイントの実,Baie-peinture
@@ -224,13 +224,13 @@ index,source,target
 222,紅蓮石,Pierre de feu
 223,（ダミー）,
 224,燃石炭,Charbon
-225,ライトクリスタル,Cristal lumiere
+225,ライトクリスタル,Cristal lumière
 226,ノヴァクリスタル,Cristal nova
 227,抗菌石,Pierre antiseptique
 228,氷結晶,Cristal de glace
 229,（ダミー）,
 230,ドスビスカス,
-231,エールナッツ,Noix fermentee
+231,エールナッツ,Noix fermentée
 232,アンバル鉱石,Minerai ambre
 233,秘密のポーチ,Poche secrete
 234,キレアジ,Poissaiguiseur
@@ -1081,7 +1081,7 @@ index,source,target
 1079,ポルタ輝石【透】,
 1080,ポルタ輝石【紫】,
 1081,ポルタ輝石【虹】,
-1082,感謝の証,Merci
+1082,感謝の証,Ticket Remerciement
 1083,戯曲の生産券,Tck Drama
 1084,Ｓエッジの生産券,
 1085,古の建材,Vieux Mat. Construction
