@@ -24,17 +24,71 @@ S'applique à tout `target` dans `translations/fr/**/*.csv`.
   descriptions longues si la place le permet.
 - Majuscules accentuées : **À É È** sont OK et préférables.
 
+### 2bis. Encodage Shift-JIS — pièges pour les accents
+
+Les binaires du jeu sont encodés en **Shift-JIS** (CP932), pas en
+UTF-8. La pipeline FrontierTextHandler gère la conversion, mais
+plusieurs pièges subsistent côté contributeur :
+
+- **Tous les caractères latins accentués FR existent en Shift-JIS**
+  (é è ê à â ô ù û î ç œ Œ æ « »), encodés sur 2 octets via le
+  bloc « extensions latines » de CP932. Les utiliser librement.
+- **MAIS** : si une chaîne FR transite par un outil intermédiaire
+  qui suppose de l'ASCII ou du Latin-1 (un éditeur mal configuré,
+  un script `sed`, un copier-coller via un terminal en mauvais
+  locale), les octets accentués peuvent être réinterprétés et
+  produire du **mojibake** (`Ã©` au lieu de `é`, `â€¦` au lieu de
+  `…`). Une fois injecté dans le `.bin`, c'est invisible jusqu'au
+  test en jeu.
+- **Toujours éditer les CSV en UTF-8** (paramètre par défaut de
+  Python, VS Code, etc.). Les scripts du repo lisent et écrivent
+  en UTF-8 ; la conversion vers Shift-JIS se fait **uniquement**
+  au moment de `build_bins.py` / `--csv-to-bin`.
+- **Ne jamais ouvrir un CSV avec Excel** sans passer par
+  l'assistant d'import (Excel devine mal l'encodage et corrompt
+  silencieusement les accents au prochain enregistrement).
+- **Caractères à éviter** car absents de Shift-JIS ou rendus
+  différemment : tirets cadratins fantaisie (`—` est OK, `⸺`
+  ne l'est pas), guillemets « courbes » anglais `“ ”` (préférer
+  `« »`), apostrophe typographique `'` (préférer `'` droite —
+  voir plus haut), espaces fines/insécables Unicode exotiques.
+- En cas de doute, après `build_bins.py`, **`grep` le binaire
+  produit pour la chaîne FR** (en Shift-JIS via
+  `iconv -f utf-8 -t shift_jis`) et vérifier qu'elle apparaît
+  sans corruption.
+
 ## 3. Longueur & contraintes UI
 
-- Les chaînes courtes (noms d'items, libellés de menu, noms d'armes)
-  doivent rester **proches de la longueur de la source japonaise/
-  anglaise**. Le moteur tronque silencieusement.
-- Règle empirique : ne pas dépasser 1.3× la longueur de la version
-  EN si elle existe. En cas de dépassement nécessaire, abréger
-  intelligemment plutôt que tronquer (« Méga potion » plutôt que
-  « Potion méga-puissante »).
+Le jeu a été conçu pour du texte japonais : un caractère JP occupe
+visuellement la place d'environ deux caractères latins. Les boîtes
+de l'UI (menus, items, boutons, infobulles) sont **dimensionnées
+pour la version JP**. Quand une chaîne dépasse, le moteur **ne
+tronque pas et ne renvoie pas à la ligne** : le texte **déborde**
+hors de sa boîte et chevauche les éléments voisins (autres
+libellés, bordures, icônes). Le résultat est lisible mais visuellement
+cassé, et il n'y a aucun avertissement à la compilation.
+
+Conséquences pratiques pour le traducteur :
+
+- **Compter les caractères source, pas les mots.** Une chaîne JP
+  de 8 caractères = ~16 caractères latins maximum, pas davantage.
+- **Règle empirique** : ne pas dépasser **1.3× la longueur EN** si
+  une version EN existe (l'EN a déjà subi la même contrainte et
+  sert de plafond raisonnable). Sans EN, viser **≤ 2× le nombre
+  de caractères JP**.
+- **Abréger plutôt que laisser déborder.** « Méga potion » plutôt
+  que « Potion méga-puissante » ; « Fusarb. léger » est acceptable
+  dans une infobulle si « Fusarbalète léger » déborde sur l'élément
+  voisin.
+- **Tester en jeu** les chaînes à forte visibilité (noms d'armes,
+  menus principaux) avant de figer la traduction — c'est le seul
+  moyen fiable de repérer un débordement qui chevauche un libellé
+  ou une icône adjacente.
 - Pour les descriptions multi-lignes, **respecter le nombre de
   segments** délimités par les balises `<join at="...">` (voir §5).
+  Chaque segment correspond à une ligne à l'écran avec sa propre
+  largeur maximale — ne pas « rééquilibrer » en déplaçant du texte
+  d'un segment à l'autre.
 
 ## 4. Casse des noms propres et objets
 
