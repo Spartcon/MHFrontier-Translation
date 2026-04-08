@@ -10,8 +10,35 @@ Usage:
 import csv
 import json
 import argparse
+import re
 from datetime import datetime, timezone
 from pathlib import Path
+
+# A row is "translatable" only if its source contains at least one CJK
+# character. This single rule excludes:
+#   - control-code-only rows (e.g. `<join at="…"><join at="…">` padding slots
+#     in pointer tables that share data with other slots),
+#   - `dummy` placeholders in fixed-size pointer tables,
+#   - numeric/empty placeholders like "0" for unused slots,
+#   - English-as-source pollution rows from the partially-patched JP binary
+#     (and any bulk-imported targets in another language attached to them).
+# See translations/MHFrontier-Translation/CLAUDE.md "Known data quality issues".
+_CJK_RE = re.compile(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
+
+
+def _is_translatable(source: str) -> bool:
+    return bool(_CJK_RE.search(source or ""))
+
+
+def _is_translated(target: str) -> bool:
+    # A target only counts as translated if it's non-empty AND contains no
+    # leftover CJK characters. This filters out partial pass-throughs like
+    # "忍の Kote・陽" where only one word was Romanized — common in the
+    # legacy English bootstrap.
+    t = (target or "").strip()
+    if not t:
+        return False
+    return not _CJK_RE.search(t)
 
 
 def stats_for_file(csv_path: Path) -> dict:
@@ -20,8 +47,10 @@ def stats_for_file(csv_path: Path) -> dict:
         with open(csv_path, encoding="utf-8", newline="") as f:
             reader = csv.DictReader(f)
             for row in reader:
+                if not _is_translatable(row.get("source", "")):
+                    continue
                 total += 1
-                if row.get("target", "").strip():
+                if _is_translated(row.get("target", "")):
                     translated += 1
     except Exception as e:
         print(f"Warning: could not read {csv_path}: {e}", flush=True)
