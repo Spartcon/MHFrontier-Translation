@@ -70,7 +70,7 @@ jobs:
             # 2. Decompress (FTH currently expects plain JSON)
             gunzip ~/mhf/translations-fr.json.gz
 
-            # 3. Apply to your game files (requires FrontierTextHandler ≥ 1.5.1)
+            # 3. Apply to your game files (requires FrontierTextHandler ≥ 1.6.0)
             cd FrontierTextHandler
             python main.py ~/mhf/translations-fr.json \
               --apply-translations --lang fr --game-dir ~/mhf \
@@ -97,7 +97,7 @@ jobs:
             - `translations-fr.json.gz` / `translations-en.json.gz` — per-language launcher payloads (translated rows only, no source, gzipped)
             - `translations.json` — full export with source, all languages
 
-            Requires [FrontierTextHandler](https://github.com/Houmgaor/FrontierTextHandler) ≥ 1.5.1 (index-keyed CSV format with live `<join>` offset rewriting).
+            Requires [FrontierTextHandler](https://github.com/Houmgaor/FrontierTextHandler) ≥ 1.6.0 (index-keyed CSV with `{j}` join markers and `{cNN}/{/c}` color codes).
           files: |
             translations.json
             translations-fr.json.gz
