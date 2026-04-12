@@ -1,7 +1,7 @@
 index,source,target
-0,"Discard<join at=""1578532"">Give<join at=""1578536"">Swap<join at=""1578540"">Bind F Key",
-1,"Discard<join at=""1578548"">{c10}Give<join at=""1578552"">{/c}Swap<join at=""1578556"">Bind F Key",
-2,"{c10}Discard<join at=""1578564"">Give<join at=""1578568"">Swap<join at=""1578572"">Bind F Key",
-3,"Discard<join at=""1578580"">Give<join at=""1578584"">Swap<join at=""1578588"">{c10}F Key Bind",
-4,"Discard<join at=""1578596"">{c10}Give<join at=""1578600"">{/c}Swap<join at=""1578604"">{c10}F Key Bind",
-5,"{c10}Discard<join at=""1578612"">Give<join at=""1578616"">Swap<join at=""1578620"">{c10}F Key Bind",
+0,Discard{j}Give{j}Swap{j}Bind F Key,
+1,Discard{j}{c10}Give{j}{/c}Swap{j}Bind F Key,
+2,{c10}Discard{j}Give{j}Swap{j}Bind F Key,
+3,Discard{j}Give{j}Swap{j}{c10}F Key Bind,
+4,Discard{j}{c10}Give{j}{/c}Swap{j}{c10}F Key Bind,
+5,{c10}Discard{j}Give{j}Swap{j}{c10}F Key Bind,

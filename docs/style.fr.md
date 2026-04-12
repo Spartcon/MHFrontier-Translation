@@ -84,7 +84,7 @@ Conséquences pratiques pour le traducteur :
   moyen fiable de repérer un débordement qui chevauche un libellé
   ou une icône adjacente.
 - Pour les descriptions multi-lignes, **respecter le nombre de
-  segments** délimités par les balises `<join at="...">` (voir §5).
+  segments** délimités par les marqueurs `{j}` (voir §5).
   Chaque segment correspond à une ligne à l'écran avec sa propre
   largeur maximale — ne pas « rééquilibrer » en déplaçant du texte
   d'un segment à l'autre.
@@ -99,16 +99,17 @@ Conséquences pratiques pour le traducteur :
 
 ## 5. Codes de contrôle — RÈGLE CRITIQUE
 
-Les balises `<join at="NNNN">`, `<color …>`, `<icon …>` et autres
-codes binaires intégrés au texte **ne doivent JAMAIS être traduits,
-supprimés, ni réordonnés**. FTH ≥ 1.5.1 réécrit les offsets `at=…`
-au moment de l'application, mais le **nombre** et l'**ordre** des
-balises doivent rester identiques à la source.
+Les marqueurs `{j}` (saut de ligne), `{cNN}` / `{/c}` (couleur),
+`{K...}`, `{i...}`, `{u...}` et autres codes binaires intégrés au
+texte **ne doivent JAMAIS être traduits, supprimés, ni réordonnés**.
+FTH ≥ 1.6.0 reconstruit les offsets binaires au moment de
+l'application à partir du nombre et de l'ordre des marqueurs — le
+**nombre** et l'**ordre** doivent rester identiques à la source.
 
-- Copier les balises telles quelles depuis la colonne `source`.
-- Le texte FR s'insère **entre** les balises, en respectant la
-  segmentation visuelle (chaque segment = une ligne à l'écran).
-- Ne pas ajouter de balises absentes de la source.
+- Copier les marqueurs tels quels depuis la colonne `source`.
+- Le texte FR s'insère **entre** les marqueurs, en respectant la
+  segmentation visuelle (chaque `{j}` = un saut de ligne à l'écran).
+- Ne pas ajouter de marqueurs absents de la source.
 - Les lignes contenant **uniquement** des codes de contrôle
   (~6 643 lignes recensées) doivent rester avec `target` vide.
 

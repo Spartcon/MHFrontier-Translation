@@ -16,8 +16,8 @@ from pathlib import Path
 
 # A row is "translatable" only if its source contains at least one CJK
 # character. This single rule excludes:
-#   - control-code-only rows (e.g. `<join at="…"><join at="…">` padding slots
-#     in pointer tables that share data with other slots),
+#   - control-code-only rows (e.g. `{j}{j}` padding slots in pointer
+#     tables that share data with other slots),
 #   - `dummy` placeholders in fixed-size pointer tables,
 #   - numeric/empty placeholders like "0" for unused slots,
 #   - English-as-source pollution rows from the partially-patched JP binary

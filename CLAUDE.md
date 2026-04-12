@@ -15,11 +15,11 @@ Per-section CSV translations of Monster Hunter Frontier text, organized as
 pointer table (FTH `--with-index` output). Indexes are stable across
 upstream string-length changes that used to shift raw byte offsets.
 
-**Required FTH version: ≥ 1.5.1** (`--with-index` and the index-aware
-importer landed in 1.5.0; 1.5.1 rewrites `<join at=...>` offsets live at
-apply time, so stale offsets carried in the `source` column no longer
-mis-glue strings). Earlier releases will reject these CSVs or apply join
-glue at the wrong byte offsets.
+**Required FTH version: ≥ 1.6.0** (index-keyed format is now the default;
+join markers use `{j}` instead of `<join at="NNN">`; color codes use
+`{cNN}/{/c}` instead of `‾CNN`; untranslated rows have empty `target`
+instead of copying `source`). Earlier releases will not understand the
+`{j}` and `{cNN}` placeholders.
 
 The legacy `location,source,target` format (with `0xHEX@file.bin` keys) was
 retired in April 2026. Importing an index-keyed CSV with FTH **requires
@@ -63,8 +63,9 @@ scripts/
   validate.py         ← CSV format check (header + index + uniqueness)
   stats.py            ← coverage report → stats.json
   export_json.py      ← bundle as translations.json
-  migrate_to_index.py ← one-shot: rewrite legacy location-keyed CSVs as index-keyed
-  build_bins.py       ← apply translations and produce game-ready binaries
+  migrate_to_index.py      ← one-shot: rewrite legacy location-keyed CSVs as index-keyed
+  migrate_join_markers.py  ← one-shot: rewrite <join at="…"> → {j} for FTH 1.6.0
+  build_bins.py            ← apply translations and produce game-ready binaries
 ```
 
 ## Known data quality issues
@@ -82,8 +83,8 @@ scripts/
    the binary. Confirmed as real unimplemented item-source slots — fixed-
    size pointer table padded with `dummy` for unused entries. Safe to leave
    with empty target; they don't render in-game.
-3. **Control-code rows** (~6,643): `<join at=...>` glue and color codes —
-   not translatable on their own.
+3. **Control-code rows** (~6,643): `{j}` join glue and `{cNN}/{/c}`
+   color codes — not translatable on their own.
 
 ## Translation guidelines
 
@@ -94,7 +95,7 @@ Before translating any French CSV, read:
   Extend it whenever a recurring term is missing.
 - [`docs/style.fr.md`](docs/style.fr.md) — tone (tutoiement),
   typography (« » œ), length constraints, and the **critical rule**
-  on preserving `<join at="…">` and other control codes verbatim.
+  on preserving `{j}`, `{cNN}/{/c}`, and other control codes verbatim.
 
 Recommended flow: pick **one** CSV section, pre-fill exact-match
 `target` values from sibling CSVs (translation memory), translate

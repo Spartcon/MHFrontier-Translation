@@ -1,4 +1,4 @@
 index,source,target
-0,"Discard<join at=""1578180"">Swap<join at=""1578184"">Send",
-1,"{c10}Discard<join at=""1578192"">Swap<join at=""1578196"">Send",
-2,"Discard<join at=""1578204"">Swap<join at=""1578208"">{c10}Send",
+0,Discard{j}Swap{j}Send,
+1,{c10}Discard{j}Swap{j}Send,
+2,Discard{j}Swap{j}{c10}Send,
