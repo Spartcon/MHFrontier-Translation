@@ -6,9 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com/).
 Versioning: **MAJOR** = breaking format change, **MINOR** = new translations
 or sections, **PATCH** = fixes to existing translations.
 
-## [0.1.0] - 2026-04-12
+## [0.2.0] - 2026-04-12
 
-First tagged release. Requires **FrontierTextHandler >= 1.6.0**.
+**Breaking**: requires **FrontierTextHandler >= 1.6.0** (join markers
+changed from `<join at="NNN">` to `{j}`, color codes from `‾CNN` to
+`{cNN}/{/c}`).
 
 ### Format
 
